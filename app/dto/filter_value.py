@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class FilterValueResponse(BaseModel):
+class FilterValue(BaseModel):
     name: str
     values: list[str]
 
@@ -16,7 +16,7 @@ class FilterValueResponse(BaseModel):
                     "Rat",
                     "Zebrafish",
                     "Fruit fly",
-                    "Nematode"
+                    "Nematode",
                     "Yeast"
                 ]
             }
