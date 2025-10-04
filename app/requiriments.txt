@@ -1,0 +1,11 @@
+fastapi~=0.115.12
+uvicorn
+motor~=3.7.1
+python-dotenv~=1.1.0
+beanie
+bcrypt
+requests
+pydantic~=2.11.5
+pydantic[email]
+pymongo~=4.13.0
+passlib~=1.7.4
