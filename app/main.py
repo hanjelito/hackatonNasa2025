@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes.paper_route import paper_router
+from routes.paper_route import paper_router
 
 app = FastAPI()
 

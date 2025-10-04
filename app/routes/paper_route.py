@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 
-from app.dto.filter_value import FilterValue
-from app.dto.search_papers_request import SearchPapersRequest
-from app.services.paper_service import search_papers_similars, obtain_paper_filters_values
+from dto.filter_value import FilterValue
+from dto.search_papers_request import SearchPapersRequest
+from services.paper_service import search_papers_similars, obtain_paper_filters_values
 
 paper_router = APIRouter(
     prefix="/paper",
