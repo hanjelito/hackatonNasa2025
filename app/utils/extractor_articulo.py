@@ -244,11 +244,11 @@ class ExtractorArticulo:
         
         # Extraer componentes
         resultado = {
-            'titulo': self.extraer_titulo(soup),
+            'title': self.extraer_titulo(soup),
             'abstract': self.extraer_abstract(soup),
-            'contenido': self.extraer_contenido_principal(soup),
-            'metadatos': self.extraer_metadatos(soup),
-            'fuente': fuente
+            'content': self.extraer_contenido_principal(soup),
+            'metadata': self.extraer_metadatos(soup),
+            'source': fuente
         }
         
         return resultado
@@ -262,74 +262,50 @@ class ExtractorArticulo:
             script_dir = Path(__file__).parent
             assets_dir = script_dir / "assets"
             
-            # Modificar el nombre del archivo de salida para incluir el DOI
-            doi = resultado['metadatos'].get('doi', 'articulo_sin_doi').replace('/', '_')
-            archivo_salida = assets_dir / f"{doi}.txt"
+            # Crear nombre de archivo usando DOI o título
+            metadata = resultado.get('metadata', {})
+            doi = metadata.get('doi', '')
+            if doi:
+                nombre_archivo = doi.replace('/', '_').replace(':', '_')
+            else:
+                # Usar parte del título como nombre de archivo
+                title = resultado.get('title', 'article_without_title')
+                nombre_archivo = re.sub(r'[^\w\s-]', '', title)[:50].replace(' ', '_')
+            
+            archivo_salida = assets_dir / f"{nombre_archivo}.txt"
             
             # Crear el directorio si no existe
             Path(archivo_salida).parent.mkdir(parents=True, exist_ok=True)
             
             with open(archivo_salida, 'w', encoding='utf-8') as f:
-                f.write(f"## Titulo\n\n")
-                f.write(f"{resultado['titulo']}\n\n")
+                # Escribir título
+                f.write("## Title\n\n")
+                f.write(f"{resultado.get('title', 'No title')}\n\n")
                 
-                if resultado['abstract']:
+                # Escribir abstract si existe
+                abstract = resultado.get('abstract', '')
+                if abstract and abstract.strip():
                     f.write("## Abstract\n\n")
-                    f.write(f"{resultado['abstract']}\n\n")
+                    f.write(f"{abstract}\n\n")
                 
-                if resultado['metadatos']:
-                    f.write("## Metadatos\n\n")
-                    for clave, valor in resultado['metadatos'].items():
-                        if isinstance(valor, list):
-                            valor = ', '.join(valor)
-                        f.write(f"**{clave.title()}:** {valor}\n\n")
+                # Escribir metadatos si existen
+                if metadata:
+                    f.write("## Metadata\n\n")
+                    for key, value in metadata.items():
+                        if isinstance(value, list):
+                            value = ', '.join(str(v) for v in value)
+                        f.write(f"**{key.title()}:** {value}\n\n")
                 
-                f.write("## Contenido\n\n")
-                f.write(resultado['contenido'])
+                # Escribir contenido principal
+                f.write("## Content\n\n")
+                content = resultado.get('content', 'No content extracted')
+                f.write(content)
                 
-            print(f"Texto extraído guardado en: {archivo_salida}")
-            return True
+            print(f"✅ Texto extraído guardado en: {archivo_salida}")
+            return archivo_salida
             
         except Exception as e:
-            print(f"Error al guardar archivo: {e}")
+            print(f"❌ Error al guardar archivo: {e}")
+            import traceback
+            traceback.print_exc()
             return False
-
-
-def main():
-    """
-    Función principal para probar el extractor
-    """
-    extractor = ExtractorArticulo()
-    
-    # Archivo de ejemplo en el proyecto
-    archivo_html = r"c:\Users\David\buscar_curro\hackathon\hackatonNasa2025\PMC4379453_fuente.html"
-    
-    print("Extrayendo contenido del artículo...")
-    resultado = extractor.extraer_articulo_completo(archivo_html, es_archivo=True)
-    
-    if resultado:
-        print(f"\n--- TÍTULO ---")
-        print(resultado['titulo'])
-        
-        print(f"\n--- ABSTRACT (primeros 300 chars) ---")
-        print(resultado['abstract'][:300] + "..." if len(resultado['abstract']) > 300 else resultado['abstract'])
-        
-        print(f"\n--- METADATOS ---")
-        for clave, valor in resultado['metadatos'].items():
-            if isinstance(valor, list):
-                valor = ', '.join(valor[:3]) + ('...' if len(valor) > 3 else '')
-            print(f"{clave}: {valor}")
-        
-        print(f"\n--- CONTENIDO (primeros 500 chars) ---")
-        print(resultado['contenido'][:500] + "..." if len(resultado['contenido']) > 500 else resultado['contenido'])
-        
-        # Guardar resultado completo
-        extractor.guardar_texto_extraido(resultado)
-        
-        print(f"\n✅ Extracción completada. Total de caracteres: {len(resultado['contenido'])}")
-    else:
-        print("❌ Error al extraer el contenido del artículo")
-
-
-if __name__ == "__main__":
-    main()
