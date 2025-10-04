@@ -3,26 +3,26 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./app
-      dockerfile: ../docker/docker-app/Dockerfile
+      context: .
+      dockerfile: docker/backend/Dockerfile
     container_name: nasa-backend
     ports:
       - "8000:8000"
     env_file:
-      - ./docker/docker-app/.env
+      - ./docker/backend/.env
     volumes:
-      - ./app:/app
+      - ./backend:/app
     command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
   frontend:
     build:
-      context: ./frontend
-      dockerfile: ../docker/docker-frontend/Dockerfile
+      context: .
+      dockerfile: docker/frontend/Dockerfile
     container_name: nasa-frontend
     ports:
       - "5173:5173"
     env_file:
-      - ./docker/docker-frontend/.env
+      - ./docker/frontend/.env
     volumes:
       - ./frontend:/app
       - node_modules:/app/node_modules
