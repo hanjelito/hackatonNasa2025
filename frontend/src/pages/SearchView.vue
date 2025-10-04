@@ -244,10 +244,10 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
 }
 
 .search-content {
-  background-color: #1a1a1a;
-  border-radius: 8px;
-  padding: 2rem;
-  border: 1px solid #2a2a2a;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
 }
 
 .search-input-row {
@@ -263,12 +263,12 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
 
 .filter-toggle-btn {
   padding: 0.5rem;
-  background-color: #2a2a2a;
-  border: 2px solid #2a2a2a;
+  background-color: #f5f5f5;
+  border: 2px solid #e0e0e0;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s;
-  color: #959599;
+  color: #58585b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,25 +278,26 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
 }
 
 .filter-toggle-btn:hover {
-  border-color: #288bff;
-  color: #288bff;
-  background-color: rgba(40, 139, 255, 0.1);
+  border-color: #0b3d91;
+  color: #0b3d91;
+  background-color: #e8f4ff;
 }
 
 .filter-toggle-btn.active {
-  border-color: #288bff;
-  background-color: #288bff;
+  border-color: #0b3d91;
+  background-color: #0b3d91;
   color: white;
 }
 
 .selected-info {
   margin-top: 1.5rem;
   padding: 1rem;
-  background-color: rgba(40, 139, 255, 0.1);
-  border: 1px solid #288bff;
+  background-color: #e8f4ff;
+  border: 1px solid #0b3d91;
   border-radius: 6px;
-  color: #288bff;
+  color: #0056b3;
   font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .filters-row {

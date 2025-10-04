@@ -6,7 +6,7 @@
 .no-results {
   text-align: center;
   padding: 3rem 2rem;
-  color: #959599;
+  color: #58585b;
   font-size: 1rem;
 }
 
@@ -16,23 +16,23 @@
   align-items: center;
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #2a2a2a;
+  border-bottom: 2px solid #e0e0e0;
 }
 
 .list-header h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #d1d1d1;
+  color: #2e2e32;
 }
 
 .selected-info {
-  background-color: rgba(40, 139, 255, 0.15);
-  color: #288bff;
+  background-color: rgba(11, 61, 145, 0.15);
+  color: #0b3d91;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   font-size: 0.875rem;
   font-weight: 600;
-  border: 1px solid rgba(40, 139, 255, 0.3);
+  border: 1px solid rgba(11, 61, 145, 0.3);
 }
 
 .articles-container {

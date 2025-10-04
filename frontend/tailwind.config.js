@@ -8,8 +8,7 @@ export default {
     extend: {
       colors: {
         nasa: {
-          blue: '#288bff',
-          'dark-blue': '#0b3d91',
+          blue: '#0b3d91',
           red: '#af1108',
           black: '#000000',
           'gray-dark': '#1a1a1a',

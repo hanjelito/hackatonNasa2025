@@ -1,9 +1,9 @@
 .active-filters {
   margin-bottom: 1.5rem;
   padding: 1.25rem;
-  background-color: rgba(42, 42, 42, 0.5);
+  background-color: #f5f5f5;
   border-radius: 8px;
-  border: 1px solid #2a2a2a;
+  border: 1px solid #e0e0e0;
 }
 
 .filters-header {
@@ -16,7 +16,7 @@
 .filters-header h3 {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #959599;
+  color: #58585b;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -56,9 +56,9 @@
 }
 
 .filter-chip.year {
-  background-color: rgba(40, 139, 255, 0.15);
-  color: #288bff;
-  border-color: rgba(40, 139, 255, 0.3);
+  background-color: rgba(11, 61, 145, 0.15);
+  color: #0b3d91;
+  border-color: rgba(11, 61, 145, 0.3);
 }
 
 .filter-chip.organism {
@@ -92,7 +92,7 @@
 }
 
 .filter-chip.year .remove-btn:hover {
-  background-color: rgba(40, 139, 255, 0.3);
+  background-color: rgba(11, 61, 145, 0.3);
 }
 
 .filter-chip.organism .remove-btn:hover {

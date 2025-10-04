@@ -1,6 +1,6 @@
 .search-button {
   width: 100%;
-  background-color: #288bff;
+  background-color: #0b3d91;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -16,7 +16,7 @@
 .search-button:hover {
   background-color: #0b3d91;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(40, 139, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(11, 61, 145, 0.3);
 }
 
 .search-button:active {

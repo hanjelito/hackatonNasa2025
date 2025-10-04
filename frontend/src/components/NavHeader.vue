@@ -76,12 +76,12 @@
 }
 
 .nav-link:hover {
-  color: #288bff;
-  background-color: rgba(40, 139, 255, 0.1);
+  color: #0b3d91;
+  background-color: rgba(11, 61, 145, 0.1);
 }
 
 .nav-link.router-link-active {
-  color: #288bff;
+  color: #0b3d91;
 }
 
 @media (max-width: 768px) {

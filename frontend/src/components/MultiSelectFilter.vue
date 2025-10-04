@@ -116,31 +116,35 @@ onUnmounted(() => {
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 1rem;
-  border: 2px solid #2a2a2a;
-  border-radius: 6px;
-  background: #2a2a2a;
-  color: #d1d1d1;
+  border: 1px solid rgba(11, 61, 145, 0.25);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #2e2e32;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .selected-items:hover {
-  border-color: #288bff;
-  background: #1a1a1a;
+  border-color: #0b3d91;
+  background: rgba(255, 255, 255, 0.7);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(11, 61, 145, 0.2);
 }
 
 .placeholder {
-  color: #959599;
+  color: #58585b;
 }
 
 .selected-count {
-  color: #288bff;
+  color: #0b3d91;
   font-weight: 600;
 }
 
 .dropdown-arrow {
   font-size: 0.75rem;
-  color: #959599;
+  color: #0b3d91;
   transition: transform 0.2s;
 }
 
@@ -152,11 +156,31 @@ onUnmounted(() => {
   margin-top: 0.5rem;
   max-height: 240px;
   overflow-y: auto;
-  background: #1a1a1a;
-  border: 1px solid #2a2a2a;
-  border-radius: 6px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(30px) saturate(150%);
+  -webkit-backdrop-filter: blur(30px) saturate(150%);
+  border: 1px solid rgba(11, 61, 145, 0.25);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(11, 61, 145, 0.15);
   z-index: 10;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background: rgba(11, 61, 145, 0.1);
+  border-radius: 4px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background: rgba(11, 61, 145, 0.4);
+  border-radius: 4px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background: #0b3d91;
 }
 
 .dropdown-item {
@@ -164,18 +188,18 @@ onUnmounted(() => {
   align-items: center;
   gap: 0.75rem;
   padding: 0.75rem 1rem;
-  color: #d1d1d1;
+  color: #2e2e32;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 .dropdown-item:hover {
-  background-color: rgba(40, 139, 255, 0.1);
+  background-color: rgba(11, 61, 145, 0.1);
 }
 
 .dropdown-item input[type="checkbox"] {
   cursor: pointer;
-  accent-color: #288bff;
+  accent-color: #0b3d91;
   width: 1.125rem;
   height: 1.125rem;
 }

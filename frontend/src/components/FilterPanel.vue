@@ -1,4 +1,5 @@
 <template>
+  <div v-if="isOpen" class="filter-overlay" @click="$emit('close')"></div>
   <div class="filter-panel" :class="{ 'is-open': isOpen }">
     <div class="panel-header">
       <h3>Advanced Filters</h3>

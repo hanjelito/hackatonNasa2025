@@ -11,17 +11,17 @@
 
 .filter-tag:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(40, 139, 255, 0.2);
+  box-shadow: 0 4px 8px rgba(11, 61, 145, 0.2);
 }
 
 .filter-tag.year {
-  background-color: rgba(40, 139, 255, 0.15);
-  color: #288bff;
-  border-color: rgba(40, 139, 255, 0.3);
+  background-color: rgba(11, 61, 145, 0.15);
+  color: #0b3d91;
+  border-color: rgba(11, 61, 145, 0.3);
 }
 
 .filter-tag.year:hover {
-  background-color: rgba(40, 139, 255, 0.25);
+  background-color: rgba(11, 61, 145, 0.25);
 }
 
 .filter-tag.organism {

@@ -105,9 +105,9 @@ const removeTag = (tag: FilterTag) => {
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 1rem;
-  background-color: rgba(40, 139, 255, 0.15);
-  color: #288bff;
-  border: 1px solid rgba(40, 139, 255, 0.3);
+  background-color: rgba(11, 61, 145, 0.15);
+  color: #0b3d91;
+  border: 1px solid rgba(11, 61, 145, 0.3);
   border-radius: 6px;
   font-size: 0.875rem;
   font-weight: 600;
@@ -116,7 +116,7 @@ const removeTag = (tag: FilterTag) => {
 .remove-tag {
   background: none;
   border: none;
-  color: #288bff;
+  color: #0b3d91;
   cursor: pointer;
   font-size: 1.25rem;
   line-height: 1;
@@ -132,6 +132,6 @@ const removeTag = (tag: FilterTag) => {
 }
 
 .remove-tag:hover {
-  background-color: rgba(40, 139, 255, 0.3);
+  background-color: rgba(11, 61, 145, 0.3);
 }
 </style>

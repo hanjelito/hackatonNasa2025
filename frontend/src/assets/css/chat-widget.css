@@ -10,21 +10,21 @@
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
-  background: #288bff;
+  background: #0b3d91;
   color: white;
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(40, 139, 255, 0.4);
+  box-shadow: 0 4px 12px rgba(11, 61, 145, 0.4);
   transition: all 0.3s;
 }
 
 .chat-fab:hover {
   transform: scale(1.1);
   background: #0b3d91;
-  box-shadow: 0 6px 20px rgba(40, 139, 255, 0.6);
+  box-shadow: 0 6px 20px rgba(11, 61, 145, 0.6);
 }
 
 /* Chat minimizado */
@@ -42,8 +42,8 @@
 }
 
 .chat-minimized:hover {
-  box-shadow: 0 6px 20px rgba(40, 139, 255, 0.3);
-  border-color: #288bff;
+  box-shadow: 0 6px 20px rgba(11, 61, 145, 0.3);
+  border-color: #0b3d91;
 }
 
 .chat-minimized-header {
@@ -56,7 +56,7 @@
 }
 
 .chat-minimized-header svg {
-  color: #288bff;
+  color: #0b3d91;
 }
 
 .unread-badge {
@@ -115,7 +115,7 @@
 }
 
 .chat-header {
-  background: #288bff;
+  background: #0b3d91;
   color: white;
   padding: 1rem 1.25rem;
   display: flex;
@@ -214,7 +214,7 @@
 }
 
 .message.user .message-content {
-  background: #288bff;
+  background: #0b3d91;
   color: white;
   border-radius: 1rem 1rem 0 1rem;
   border: none;
@@ -258,7 +258,7 @@
 }
 
 .chat-input:focus {
-  border-color: #288bff;
+  border-color: #0b3d91;
   background-color: #0f0f0f;
 }
 
@@ -270,7 +270,7 @@
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background: #288bff;
+  background: #0b3d91;
   border: none;
   color: white;
   cursor: pointer;
@@ -283,7 +283,7 @@
 
 .send-btn:hover:not(:disabled) {
   background: #0b3d91;
-  box-shadow: 0 4px 12px rgba(40, 139, 255, 0.4);
+  box-shadow: 0 4px 12px rgba(11, 61, 145, 0.4);
   transform: scale(1.05);
 }
 
