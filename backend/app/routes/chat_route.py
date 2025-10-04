@@ -10,7 +10,7 @@ chat_router = APIRouter(
 )
 
 
-@chat_router.post("/", response_model=ChatMessage)
+@chat_router.post("", response_model=ChatMessage)
 async def chat_endpoint(chat_request: ChatRequest):
     return await chat(chat_request)
 
