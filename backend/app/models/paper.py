@@ -17,7 +17,7 @@ class Paper(Document):
         name = "papers"
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "id": "1",
                 "title": "Mars Rover Discovers Ancient Water Evidence",

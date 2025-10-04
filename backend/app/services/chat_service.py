@@ -1,26 +1,30 @@
 from app.dto.chat_request import ChatRequest
 from app.dto.chat_message import ChatMessage
+from app.config.vertexai_client import VertexAIClient
+from app.config.settings import settings
+from google.genai import types
+from fastapi import HTTPException
 
 
 async def chat(request: ChatRequest) -> ChatMessage:
-    """Genera la siguiente respuesta del asistente dado el historial de chat.
+    client = VertexAIClient().client
 
-    TODO: Integrar llamada al modelo de lenguaje (Vertex AI u otro) usando el paper_id
-    para contextualizar la respuesta con el contenido del paper.
-    """
-    # Estrategia provisional: responder eco-resumen del último mensaje del usuario
-    last_user_msg = None
-    for m in reversed(request.messages):
-        if m.role == "user":
-            last_user_msg = m
-            break
+    # Construye los contenidos usando los objetos oficiales de la SDK (types.Content/Part)
+    contents = [
+        types.Content(
+            role=m.role,
+            parts=[types.Part.from_text(text=m.content)],
+        )
+        for m in request.messages
+    ]
 
-    content = (
-        "He recibido tu mensaje. (stub)\n\n"
-        f"paper_id: {request.paper_id}\n"
-        f"ultimo_mensaje_usuario: {last_user_msg.content if last_user_msg else 'N/A'}\n\n"
-        "TODO: llamar al modelo para generar una respuesta contextualizada."
+    response = client.models.generate_content(
+        model=settings.VERTEXAI_MODEL_NAME,
+        contents=contents,
     )
 
-    return ChatMessage(role="model", content=content)
+    content = getattr(response, "text", None)
+    if not content or not str(content).strip():
+        raise HTTPException(status_code=502, detail="Vertex AI no devolvió contenido.")
 
+    return ChatMessage(role="model", content=content)

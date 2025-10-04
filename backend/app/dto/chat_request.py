@@ -31,4 +31,3 @@ class ChatRequest(BaseModel):
             }
         }
         from_attributes = True
-
