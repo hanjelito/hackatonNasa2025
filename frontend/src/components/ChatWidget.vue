@@ -49,9 +49,16 @@
             <span v-if="message.type === 'user'">👤</span>
             <span v-else>🤖</span>
           </div>
-          <div class="message-content">
-            <p>{{ message.text }}</p>
-            <span class="message-time">{{ formatTime(message.timestamp) }}</span>
+          <div class="message-content" :class="{ typing: message.text === '...' }">
+            <template v-if="message.text === '...'">
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+            </template>
+            <template v-else>
+              <p>{{ message.text }}</p>
+              <span class="message-time">{{ formatTime(message.timestamp) }}</span>
+            </template>
           </div>
         </div>
       </div>
@@ -142,15 +149,32 @@ const sendMessage = async () => {
   inputMessage.value = ''
   nextTick(() => scrollToBottom())
 
+  // Agregar mensaje de "escribiendo..."
+  const typingMessageId = messageIdCounter++
+  messages.value.push({
+    id: typingMessageId,
+    type: 'model',
+    text: '...',
+    timestamp: new Date()
+  })
+  nextTick(() => scrollToBottom())
+
   try {
     // Preparar mensajes para el backend
-    const messagesForBackend = messages.value.map((msg: Message) => ({
-      role: msg.type,
-      content: msg.text
-    }))
+    const messagesForBackend = messages.value
+      .filter((msg: Message) => msg.id !== typingMessageId) // Excluir mensaje de "escribiendo"
+      .map((msg: Message) => ({
+        role: msg.type,
+        content: msg.text
+      }))
+
+    console.log('📤 Sending to backend:', {
+      messages: messagesForBackend,
+      paper_id: props.paperId
+    })
 
     // Llamar al backend
-    const response = await fetch('/api/chat/', {
+    const response = await fetch('/api/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -161,11 +185,20 @@ const sendMessage = async () => {
       })
     })
 
+    console.log('📥 Response status:', response.status)
+
     if (!response.ok) {
       throw new Error('Failed to get response from chat')
     }
 
     const data = await response.json()
+    console.log('📥 Response data:', data)
+
+    // Remover mensaje de "escribiendo..."
+    const typingIndex = messages.value.findIndex(msg => msg.id === typingMessageId)
+    if (typingIndex !== -1) {
+      messages.value.splice(typingIndex, 1)
+    }
 
     // Agregar respuesta del modelo
     messages.value.push({
@@ -181,7 +214,14 @@ const sendMessage = async () => {
 
     nextTick(() => scrollToBottom())
   } catch (error) {
-    console.error('Error sending message:', error)
+    console.error('❌ Error sending message:', error)
+
+    // Remover mensaje de "escribiendo..."
+    const typingIndex = messages.value.findIndex(msg => msg.id === typingMessageId)
+    if (typingIndex !== -1) {
+      messages.value.splice(typingIndex, 1)
+    }
+
     messages.value.push({
       id: messageIdCounter++,
       type: 'model',
