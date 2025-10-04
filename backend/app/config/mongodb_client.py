@@ -1,13 +1,12 @@
-from typing import Type
 from pymongo import AsyncMongoClient
-from beanie import init_beanie, Document
+from beanie import init_beanie
 from app.models.paper import Paper
 from app.config.settings import settings
 
 
-class MongoDbClient:
+class MongoDbClient: 
     def __init__(self, database_name: str = "hackaton_nasa_db"):
-        self.models: list[Type[Document]] = [Paper]
+        self.models = [Paper]
         self.client = AsyncMongoClient(settings.MONGODB_URL)
         self.database_name = database_name
 

@@ -1,8 +1,7 @@
 import asyncio
 from app.dto.search_papers_request import SearchPapersRequest
 from app.dto.filter_value import FilterValue
-from app.config.mongodb_client import MongoDbClient
-
+from app.models.paper import Paper
 
 def search_papers_similars(search_filters: SearchPapersRequest):
 
@@ -24,6 +23,8 @@ def search_papers_similars(search_filters: SearchPapersRequest):
 
 async def obtain_paper_filters_values():
     await asyncio.sleep(0)
+    paper = Paper(prueba="prueba")
+    await paper.insert()
     # Respuesta de ejemplo con la misma forma que el DTO FilterValue
     example_filters: list[FilterValue] = [
         FilterValue(
