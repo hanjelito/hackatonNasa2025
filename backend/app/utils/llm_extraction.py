@@ -4,9 +4,7 @@ from app.config.settings import settings
 from app.utils.extractor_articulo import ExtractorArticulo
 from google.genai.types import GenerateContentConfig
 
-vertex_ai_client = VertexAIClient(
-    api_key=settings.API_KEY_VERTEXAI,
-)
+vertex_ai_client = VertexAIClient()
 
 # Prompt para estructurar datos del artículo científico
 EXTRACTION_PROMPT = """
@@ -40,7 +38,7 @@ def extract_text_from_html(html_content: str) -> str:
         str: Texto completo extraído y limpio
     """
     from bs4 import BeautifulSoup
-    
+
     extractor = ExtractorArticulo()
     soup = BeautifulSoup(html_content, 'html.parser')
     
