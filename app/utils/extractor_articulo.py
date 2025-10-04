@@ -258,9 +258,13 @@ class ExtractorArticulo:
         Guarda el texto extraído en un archivo, creando el directorio si no existe.
         """
         try:
+            # Crear ruta relativa al archivo actual
+            script_dir = Path(__file__).parent
+            assets_dir = script_dir / "assets"
+            
             # Modificar el nombre del archivo de salida para incluir el DOI
             doi = resultado['metadatos'].get('doi', 'articulo_sin_doi').replace('/', '_')
-            archivo_salida = f"assets/{doi}.txt"
+            archivo_salida = assets_dir / f"{doi}.txt"
             
             # Crear el directorio si no existe
             Path(archivo_salida).parent.mkdir(parents=True, exist_ok=True)
@@ -320,8 +324,7 @@ def main():
         print(resultado['contenido'][:500] + "..." if len(resultado['contenido']) > 500 else resultado['contenido'])
         
         # Guardar resultado completo
-        archivo_salida = "articulo_extraido.txt"
-        extractor.guardar_texto_extraido(resultado, archivo_salida)
+        extractor.guardar_texto_extraido(resultado)
         
         print(f"\n✅ Extracción completada. Total de caracteres: {len(resultado['contenido'])}")
     else:
