@@ -20,6 +20,18 @@ export interface SearchFilters {
   query?: string
   year?: number
   organism?: string
+  organisms?: string[]
+  years?: number[]
+  sources?: string[]
+}
+
+export interface FilterOption {
+  name: string
+  values: (string | number)[]
+}
+
+export interface FiltersConfig {
+  filters: FilterOption[]
 }
 
 export interface SelectedArticle {

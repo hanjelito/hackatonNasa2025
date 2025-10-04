@@ -2,9 +2,6 @@ import type { Article, SearchResponse, SearchFilters } from '../types/article'
 import mockData from '../data/mockArticles.json'
 
 export const searchArticles = async (filters: SearchFilters): Promise<SearchResponse> => {
-  // Log del query para el API
-  console.log('🔍 API Query:', JSON.stringify(filters, null, 2))
-
   // Simular un delay de red
   await new Promise(resolve => setTimeout(resolve, 500))
 

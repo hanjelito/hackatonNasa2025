@@ -6,32 +6,25 @@
     </div>
 
     <div class="panel-content">
-      <AutocompleteInput
-        id="year-filter"
-        label="Year"
-        placeholder="Type at least 3 characters..."
-        :options="yearOptions"
-        :model-value="filters.year"
-        :min-chars="3"
-        @update:model-value="handleYearChange"
-      />
+      <div v-if="loading" class="loading-message">Loading filters...</div>
 
-      <AutocompleteInput
-        id="organism-filter"
-        label="Organization"
-        placeholder="Type at least 2 characters..."
-        :options="organismOptions"
-        :model-value="filters.organism"
-        :min-chars="1"
-        @update:model-value="handleOrganismChange"
-      />
+      <div v-else-if="error" class="error-message">{{ error }}</div>
+
+      <template v-else>
+        <MultiSelectFilter
+          v-for="filter in dynamicFilters"
+          :key="filter.name"
+          :id="`${filter.name}-filter`"
+          :label="filter.name"
+          :options="filter.values"
+          :model-value="localFilters[filter.name] || []"
+          @update:model-value="handleFilterChange(filter.name, $event)"
+        />
+      </template>
 
       <div class="panel-actions">
-        <button @click="handleApply" class="apply-btn">
-          Apply Filters
-        </button>
         <button @click="handleClear" class="clear-btn">
-          Clear
+          Clear All Filters
         </button>
       </div>
     </div>
@@ -39,51 +32,82 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from 'vue'
-import AutocompleteInput from './AutocompleteInput.vue'
-import type { SearchFilters } from '../types/article'
+import { ref, watch, onMounted, reactive } from 'vue'
+import MultiSelectFilter from './MultiSelectFilter.vue'
+import type { SearchFilters, FilterOption } from '../types/article'
 
 const props = defineProps<{
   isOpen: boolean
   filters: SearchFilters
-  yearOptions: number[]
-  organismOptions: string[]
 }>()
 
 const emit = defineEmits<{
   'close': []
-  'apply': [filters: SearchFilters]
+  'update:filters': [filters: SearchFilters]
 }>()
 
-const localYear = ref<number | undefined>(props.filters.year)
-const localOrganism = ref<string | undefined>(props.filters.organism)
+const dynamicFilters = ref<FilterOption[]>([])
+const loading = ref(false)
+const error = ref<string | null>(null)
+const localFilters = reactive<Record<string, (string | number)[]>>({})
 
-watch(() => props.filters, (newFilters) => {
-  localYear.value = newFilters.year
-  localOrganism.value = newFilters.organism
+const loadFilters = async () => {
+  loading.value = true
+  error.value = null
+
+  try {
+    const response = await fetch('/src/data/filters.json')
+    if (!response.ok) {
+      throw new Error('Failed to load filters')
+    }
+    const data = await response.json()
+    dynamicFilters.value = data.filters
+
+    // Initialize local filters
+    data.filters.forEach((filter: FilterOption) => {
+      localFilters[filter.name] = props.filters[filter.name as keyof SearchFilters] as (string | number)[] || []
+    })
+  } catch (err) {
+    error.value = 'Error loading filters. Please try again.'
+    console.error('Error loading filters:', err)
+  } finally {
+    loading.value = false
+  }
+}
+
+watch(() => props.filters, (newFilters: SearchFilters) => {
+  dynamicFilters.value.forEach((filter: FilterOption) => {
+    localFilters[filter.name] = newFilters[filter.name as keyof SearchFilters] as (string | number)[] || []
+  })
 }, { deep: true })
 
-const handleYearChange = (value: string | number | undefined) => {
-  localYear.value = typeof value === 'string' ? parseInt(value) : value
-}
+const handleFilterChange = (filterName: string, values: (string | number)[]) => {
+  localFilters[filterName] = values
 
-const handleOrganismChange = (value: string | number | undefined) => {
-  localOrganism.value = value?.toString()
-}
-
-const handleApply = () => {
-  emit('apply', {
+  // Emit updated filters immediately
+  emit('update:filters', {
     ...props.filters,
-    year: localYear.value,
-    organism: localOrganism.value
+    ...localFilters
   })
-  emit('close')
 }
 
 const handleClear = () => {
-  localYear.value = undefined
-  localOrganism.value = undefined
+  dynamicFilters.value.forEach((filter: FilterOption) => {
+    localFilters[filter.name] = []
+  })
+
+  // Emit cleared filters
+  emit('update:filters', {
+    ...props.filters,
+    organisms: undefined,
+    years: undefined,
+    sources: undefined
+  })
 }
+
+onMounted(() => {
+  loadFilters()
+})
 </script>
 
 <style scoped>

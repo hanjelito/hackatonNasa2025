@@ -1,0 +1,34 @@
+{
+  "filters": [
+    {
+      "name": "organisms",
+      "values": [
+        "NASA",
+        "ESA",
+        "SpaceX",
+        "CNSA"
+      ]
+    },
+    {
+      "name": "years",
+      "values": [
+        "2023",
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "name": "sources",
+      "values": [
+        "NASA Mars Exploration",
+        "NASA Webb Telescope",
+        "NASA ISS Program",
+        "NASA Artemis Program",
+        "NASA Exoplanet Exploration",
+        "ESA Mars Exploration",
+        "SpaceX",
+        "CNSA"
+      ]
+    }
+  ]
+}
