@@ -40,9 +40,12 @@ async def main():
     txt_files = list(articles_dir.glob("*.txt"))
     
     # Límite hardcodeado de 5 archivos
-    txt_files = txt_files[:5]
+    txt_files = txt_files[:1]
     
     print(f"Encontrados {len(txt_files)} archivos (límite: 5)")
+    
+    # Lista para almacenar todos los resultados
+    all_results = []
     
     for i, file_path in enumerate(txt_files, 1):
         print(f"\n--- Procesando {i}/{len(txt_files)}: {file_path.name} ---")
@@ -56,12 +59,23 @@ async def main():
         
         print(f"✅ Resultado: {result}")
         
-        # Guardar directamente en txt
-        output_file = project_root / f"resultado_{file_path.stem}.json"
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write(str(result))
-        
-        print(f"💾 Guardado en: {output_file}")
+        # Agregar al array de resultados
+        all_results.append({
+            "file_name": file_path.name,
+            "result": result
+        })
+    
+    # Crear directorio docs/json si no existe
+    json_dir = project_root / "docs" / "json"
+    json_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Guardar todo en un solo JSON
+    output_file = json_dir / "resultados_extraccion_llm.json"
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(all_results, f, indent=2, ensure_ascii=False)
+    
+    print(f"\n💾 Todos los resultados guardados en: {output_file}")
+    print(f"📊 Total procesados: {len(all_results)}")
         
 
 
