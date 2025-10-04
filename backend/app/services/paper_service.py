@@ -23,8 +23,6 @@ def search_papers_similars(search_filters: SearchPapersRequest):
 
 async def obtain_paper_filters_values():
     await asyncio.sleep(0)
-    paper = Paper(prueba="prueba")
-    await paper.insert()
     # Respuesta de ejemplo con la misma forma que el DTO FilterValue
     example_filters: list[FilterValue] = [
         FilterValue(
