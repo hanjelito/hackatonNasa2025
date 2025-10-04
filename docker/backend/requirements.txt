@@ -1,6 +1,13 @@
+# API
 fastapi[standard]
 uvicorn
-python-dotenv
+# For MongoDB
 beanie
+# .env
+python-dotenv
 pydantic-settings
+# Generative AI
 google-genai
+# For web scraping
+beautifulsoup4
+requests
