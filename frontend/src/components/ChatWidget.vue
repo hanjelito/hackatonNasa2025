@@ -80,10 +80,11 @@ import { ref, computed, nextTick } from 'vue'
 
 const props = defineProps<{
   articleTitle: string
+  paperId: string
 }>()
 
 type ChatState = 'closed' | 'minimized' | 'open'
-type MessageType = 'user' | 'bot'
+type MessageType = 'user' | 'model'
 
 interface Message {
   id: number
@@ -97,7 +98,7 @@ const inputMessage = ref('')
 const messages = ref<Message[]>([
   {
     id: 1,
-    type: 'bot',
+    type: 'model',
     text: `Hi! I'm here to help you understand more about "${props.articleTitle}". What would you like to know?`,
     timestamp: new Date()
   }
@@ -126,7 +127,7 @@ const closeChat = () => {
   chatState.value = 'closed'
 }
 
-const sendMessage = () => {
+const sendMessage = async () => {
   if (!inputMessage.value.trim()) return
 
   // Agregar mensaje del usuario
@@ -139,13 +140,38 @@ const sendMessage = () => {
 
   const userQuestion = inputMessage.value
   inputMessage.value = ''
+  nextTick(() => scrollToBottom())
 
-  // Simular respuesta del bot
-  setTimeout(() => {
+  try {
+    // Preparar mensajes para el backend
+    const messagesForBackend = messages.value.map((msg: Message) => ({
+      role: msg.type,
+      content: msg.text
+    }))
+
+    // Llamar al backend
+    const response = await fetch('/api/chat/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        messages: messagesForBackend,
+        paper_id: props.paperId
+      })
+    })
+
+    if (!response.ok) {
+      throw new Error('Failed to get response from chat')
+    }
+
+    const data = await response.json()
+
+    // Agregar respuesta del modelo
     messages.value.push({
       id: messageIdCounter++,
-      type: 'bot',
-      text: `That's an interesting question about "${props.articleTitle}". In a real implementation, I would use AI to provide detailed insights about the article content.`,
+      type: 'model',
+      text: data.content || data.response || 'Sorry, I could not process that request.',
       timestamp: new Date()
     })
 
@@ -154,9 +180,16 @@ const sendMessage = () => {
     }
 
     nextTick(() => scrollToBottom())
-  }, 1000)
-
-  nextTick(() => scrollToBottom())
+  } catch (error) {
+    console.error('Error sending message:', error)
+    messages.value.push({
+      id: messageIdCounter++,
+      type: 'model',
+      text: 'Sorry, there was an error processing your request. Please try again.',
+      timestamp: new Date()
+    })
+    nextTick(() => scrollToBottom())
+  }
 }
 
 const scrollToBottom = () => {

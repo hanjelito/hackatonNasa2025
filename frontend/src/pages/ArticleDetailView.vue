@@ -77,7 +77,7 @@
       </div>
     </div>
 
-    <ChatWidget v-if="article" :article-title="article.title" />
+    <ChatWidget v-if="article" :article-title="article.title" :paper-id="article.id" />
   </div>
 </template>
 

@@ -56,15 +56,15 @@ const loadFilters = async () => {
   error.value = null
 
   try {
-    const response = await fetch('/src/data/filters.json')
+    const response = await fetch('/api/paper/search/filters')
     if (!response.ok) {
       throw new Error('Failed to load filters')
     }
     const data = await response.json()
-    dynamicFilters.value = data.filters
+    dynamicFilters.value = data
 
     // Initialize local filters
-    data.filters.forEach((filter: FilterOption) => {
+    data.forEach((filter: FilterOption) => {
       localFilters[filter.name] = props.filters[filter.name as keyof SearchFilters] as (string | number)[] || []
     })
   } catch (err) {
