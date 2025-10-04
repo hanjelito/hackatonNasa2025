@@ -1,0 +1,29 @@
+{
+    "document_title": "Spatial Characterization of Microbial Communities on Multi-Species Leafy Greens Grown Simultaneously in the Vegetable Production Systems on the International Space Station",
+    "summary_full": "This study investigated the microbial communities on leafy greens (red romaine lettuce, mizuna mustard, and green leaf lettuce) grown in the Veggie system on the International Space Station (ISS). Using both culture-based and molecular methods, researchers characterized bacteria and fungi on plant leaves, roots, pillow components, and Veggie chamber surfaces across three technology demonstrations (VEG-03D, E, and F). Culture-based screening confirmed the leafy greens were safe for consumption, with low counts of bacteria and fungi on surfaces. Molecular analysis revealed higher microbial diversity in roots and substrate compared to leaves and wicks. The study found that while plant type had a minor influence, the experimental run (tech demo) and sample location within the Veggie system significantly impacted microbial community composition. Dominant genera like Burkholderia and Pseudomonas were identified across various samples, with some genera potentially originating from ISS water sources. The findings provide crucial data for understanding plant microbiomes in closed environments and ensuring food safety for long-duration space missions.",
+    "key_findings": [
+        "Leafy greens grown on the ISS were microbiologically safe for consumption, with no detected foodborne pathogens.",
+        "Microbial diversity was significantly higher in plant roots and the growth substrate (arcillite) compared to leaf surfaces and wicks.",
+        "The experimental run (tech demo) had a greater influence on microbial community composition than the specific plant type.",
+        "Genera such as Burkholderia and Pseudomonas were prevalent across plant tissues, pillow components, and Veggie facility surfaces.",
+        "Certain microbial genera, like Burkholderia and Ralstonia, found in the Veggie system, are also commonly detected in ISS potable water.",
+        "Fungal contamination, particularly Fusarium oxysporum, was observed in later harvests and potentially linked to increased humidity."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the role of specific microbial genera (e.g., Burkholderia, Pseudomonas) in plant health and growth in microgravity.",
+        "Developing strategies to manage and potentially inoculate plant growth systems with beneficial microbes for enhanced crop production.",
+        "Further characterization of microbial transfer pathways within the Veggie system and the broader ISS environment.",
+        "Genomic analysis to trace the origins of microbial communities and identify potential sources of contamination or beneficial microbes.",
+        "Long-term studies on the impact of mixed-species cropping on plant microbiomes and crop yield in space."
+    ],
+    "related_papers": [
+        "Khodadad C.L.M. et al. Microbiological and Nutritional Analysis of Lettuce Crops Grown on the International Space Station. Front. Plant Sci. 2020.",
+        "Schuerger A.C. et al. Fusarium oxysporum as an Opportunistic Fungal Pathogen on Zinnia hybrida Plants Grown on board the International Space Station. Astrobiology. 2021.",
+        "Singh N.K. et al. Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces. Microbiome. 2018.",
+        "Sielaff A.C. et al. Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces. Microbiome. 2019.",
+        "Wheeler R.M. Agriculture for Space: People and Places Paving the Way. Open Agric. 2017."
+    ],
+    "conclusions": "The study successfully characterized the microbial communities associated with multi-species leafy greens grown in the ISS Veggie system, confirming the safety of the crops for consumption. While plant type had a limited effect, the location within the Veggie system and the specific experimental run influenced microbial composition. The presence of common ISS microbes in the Veggie system highlights potential sources of contamination and the need for continued monitoring and management strategies for sustainable space agriculture.",
+    "impact_statement": "This research provides critical insights into the plant microbiome within space-based agricultural systems, informing the development of safe and sustainable food production for future long-duration space missions."
+}

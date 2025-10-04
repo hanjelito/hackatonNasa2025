@@ -1,0 +1,26 @@
+{
+    "document_title": "Antiviral screening of natural, anti-inflammatory compound library against African swine fever virus",
+    "summary_full": "African swine fever virus (ASFV) poses a significant threat to pig production due to the lack of effective vaccines. This study screened a library of 297 natural, anti-inflammatory compounds to identify agents that could protect cells from ASFV infection and reduce inflammation. The screening identified five compounds, with tetrandrine and berbamine showing the most potent antiviral activity against ASFV in both Vero cells and porcine macrophages. Mechanistic studies revealed that these compounds inhibit early stages of ASFV infection, specifically by disrupting viral entry (attachment and internalization). Furthermore, both tetrandrine and berbamine demonstrated significant anti-inflammatory effects by reducing the production of pro-inflammatory cytokines (TNF-α, IL-1β, IL-6) in ASFV-infected macrophages, with tetrandrine showing a more pronounced and sustained effect. These dual-acting compounds show promise as potential preventative and therapeutic agents against ASFV.",
+    "key_findings": [
+        "Screening of 297 natural, anti-inflammatory compounds identified five candidates with anti-ASFV activity.",
+        "Tetrandrine and berbamine exhibited potent antiviral effects against ASFV in Vero cells and porcine macrophages.",
+        "Both compounds inhibit early stages of ASFV infection, primarily by disrupting viral entry (attachment and internalization).",
+        "Tetrandrine and berbamine significantly reduced pro-inflammatory cytokine production (TNF-α, IL-1β, IL-6) in ASFV-infected macrophages.",
+        "Tetrandrine demonstrated a superior anti-inflammatory effect compared to berbamine, with a greater and more sustained reduction in cytokine production."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the precise molecular mechanisms by which tetrandrine and berbamine disrupt ASFV entry, potentially involving endosomal Ca2+ channels.",
+        "Developing tetrandrine and berbamine as preventative and therapeutic agents for African swine fever.",
+        "Exploring the broad-spectrum antiviral and anti-inflammatory potential of these compounds against other porcine viruses.",
+        "Conducting in vivo studies to evaluate the efficacy and safety of tetrandrine and berbamine in pigs challenged with virulent ASFV."
+    ],
+    "related_papers": [
+        "Apigenin inhibits African swine fever virus infection in vitro (Hakobyan et al., 2016)",
+        "Inhibition of African swine fever virus infection by genkwanin (Hakobyan et al., 2019)",
+        "Berbamine hydrochloride inhibits African swine fever virus infection in vitro (Zhu et al., 2022)",
+        "Tetrandrine (TET) inhibits African swine fever virus entry into cells by blocking the PI3K/Akt pathway (Qian et al., 2024)"
+    ],
+    "conclusions": "Tetrandrine and berbamine possess dual antiviral and anti-inflammatory properties against African swine fever virus. They effectively inhibit viral replication by disrupting viral entry mechanisms and significantly reduce the production of pro-inflammatory cytokines, thereby mitigating disease pathogenesis. Tetrandrine, in particular, shows strong potential as a preventative and therapeutic agent for ASFV infection.",
+    "impact_statement": "This study identifies natural compounds, tetrandrine and berbamine, that can simultaneously inhibit African swine fever virus replication and reduce harmful inflammation, offering promising avenues for novel antiviral therapies against this devastating swine disease."
+}

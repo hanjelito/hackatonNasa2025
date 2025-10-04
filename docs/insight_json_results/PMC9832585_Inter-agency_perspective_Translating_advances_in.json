@@ -1,0 +1,34 @@
+{
+    "document_title": "Inter-agency perspective: Translating advances in biomarker discovery and medical countermeasures development between terrestrial and space radiation environments",
+    "summary_full": "This paper discusses the collaborative efforts between the National Cancer Institute (NCI), the National Institute of Allergy and Infectious Diseases (NIAID), and the National Aeronautics and Space Administration (NASA) to develop medical countermeasures (MCMs) and biomarkers for radiation-induced biological effects. These agencies share overlapping research interests due to the need to protect cancer patients undergoing radiotherapy, civilian populations from radiological incidents, and astronauts from space radiation. The article highlights the synergies in research funding, shared expertise, and the development of preclinical models and data analysis tools. It reviews various classes of potential MCMs, including antioxidants, anti-inflammatories, anti-apoptotics, senotherapeutics, statins, ACE inhibitors, and antibiotics, many of which are already licensed or in development for terrestrial applications. The paper also touches upon regulatory considerations for product approval by the FDA and NASA's unique pathway for MCMs in spaceflight. The conclusion emphasizes the importance of continued inter-agency collaboration to leverage research investments and accelerate the development of countermeasures for diverse human populations exposed to radiation.",
+    "key_findings": [
+        "NCI, NIAID, and NASA are collaborating to develop medical countermeasures and biomarkers for radiation protection.",
+        "Terrestrial radiation research, particularly in cancer therapy and radiological incidents, provides a foundation for space radiation countermeasure development.",
+        "Several classes of MCMs, including antioxidants, anti-inflammatories, and antibiotics, show promise for both terrestrial and space radiation environments.",
+        "Biomarker identification is crucial for predicting radiation injury, determining MCM administration timing, and assessing individual sensitivity.",
+        "Preclinical models, such as tissue chips and microphysiological systems, are being advanced for testing MCMs in both terrestrial and space-relevant conditions.",
+        "Repurposing existing licensed drugs is a key strategy for NASA to minimize payload mass and accelerate MCM development for space missions."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Development of novel MCMs with multi-use potential for spaceflight.",
+        "Validation of biomarkers for predicting and monitoring radiation effects in astronauts.",
+        "Long-term studies on the efficacy and safety of MCMs for chronic, low-dose radiation exposure.",
+        "Integration of data from various sources (e.g., NASA GeneLab, NCI Cancer Research Data Commons, NIAID ImmPort) for advanced analytics in radiation research.",
+        "Further investigation into the role of senolytics and other emerging therapeutic classes for radiation mitigation.",
+        "Addressing sex and race-specific differences in radiation risk for future space missions and terrestrial applications."
+    ],
+    "related_papers": [
+        "Carnell et al., 2017",
+        "Yoo et al., 2014",
+        "Prasanna et al., 2012",
+        "Simonsen et al., 2020",
+        "National Aeronautics and Space Administration 2016",
+        "Robb et al., 2016",
+        "Califf, 2018",
+        "Chang et al., 2016",
+        "Food and Drug Administration, 2015"
+    ],
+    "conclusions": "Continued inter-agency collaboration between NASA, NCI, and NIAID is essential to leverage existing research and funding to accelerate the development of medical countermeasures and biomarkers for radiation-induced injuries. These efforts will benefit cancer patients, civilian populations, and astronauts by providing effective protection against diverse radiation environments.",
+    "impact_statement": "This paper outlines a critical inter-agency strategy to translate radiation countermeasure research from terrestrial applications to spaceflight, safeguarding human health in diverse radiation environments."
+}

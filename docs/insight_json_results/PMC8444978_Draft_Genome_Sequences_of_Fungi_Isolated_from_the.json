@@ -1,0 +1,27 @@
+{
+    "document_title": "Draft Genome Sequences of Fungi Isolated from the International Space Station during the Microbial Tracking-2 Experiment",
+    "summary_full": "This study reports the draft genome sequences of 94 fungal strains isolated from surfaces on the International Space Station (ISS) as part of the Microbial Tracking-2 study. The fungi represent 10 ascomycetous and 1 basidiomycetous species, including common environmental and opportunistic pathogens like Aspergillus, Aureobasidium, Cladosporium, Fusarium, Penicillium, and Rhodotorula. The genome characterization aims to assess fungal adaptation to microgravity, evaluate risks to human health and spacecraft integrity, and explore potential biotechnological applications. The methodology involved sample collection from ISS surfaces, DNA extraction, whole-genome shotgun sequencing, and subsequent quality filtering, assembly, and quality assessment. The data is publicly available in GenBank and the NASA GeneLab system.",
+    "key_findings": [
+        "Generated draft genome sequences for 94 fungal strains isolated from the International Space Station.",
+        "Identified 11 different fungal species, including common genera like Aspergillus, Fusarium, Penicillium, and Rhodotorula.",
+        "Provided genomic data to facilitate studies on microgravity adaptation, human health risks, and biotechnological potential of ISS-associated fungi.",
+        "Deposited all raw data and assembled genomes in public repositories (GenBank and NASA GeneLab) for accessibility."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating specific genes and pathways related to microgravity adaptation in ISS fungi.",
+        "Assessing the pathogenic potential and biofouling capabilities of these fungal isolates in space environments.",
+        "Exploring the production of valuable biomolecules or enzymes from these fungi for space applications.",
+        "Comparative genomics to understand the evolutionary adaptations of fungi in the unique ISS environment."
+    ],
+    "related_papers": [
+        "Microbial Tracking-2 Experiment",
+        "Aspergillus nidulans genomics in space",
+        "Fungi on MIR station",
+        "Cladosporium species in indoor environments",
+        "Fusarium oxysporum on ISS",
+        "Rhodotorula mucilaginosa genome sequences from ISS"
+    ],
+    "conclusions": "The generation of draft genome sequences for 94 fungal strains isolated from the ISS provides a foundational resource for understanding fungal behavior in space. This data will enable future research into microgravity adaptation, potential health and operational risks, and the exploitation of fungi for biotechnological purposes during long-duration space missions.",
+    "impact_statement": "This work provides essential genomic data for fungi found on the ISS, crucial for ensuring astronaut health, spacecraft safety, and enabling future bio-applications in space exploration."
+}

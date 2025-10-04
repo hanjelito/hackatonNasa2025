@@ -1,0 +1,28 @@
+{
+    "document_title": "In situ monitoring of barrier function on-chip via automated, non-invasive luminescence sensing",
+    "summary_full": "This paper introduces a novel fiber optic-based sensing platform for automated, non-invasive, and real-time monitoring of barrier function in organs-on-a-chip (OOCs). The platform addresses the limitations of current characterization methods, which often require manual intervention and yield only endpoint data. The system uses fiber optics to deliver excitation light and collect emitted luminescence from on-chip cultures, enabling continuous tracking of paracellular transport. It was validated using Caco-2 epithelial and HUVEC endothelial cell models under induced inflammation, demonstrating its ability to detect changes in barrier integrity with high temporal resolution. The platform also showed versatility in multiplexed sensing, allowing for simultaneous measurement of different fluorescently labeled dextrans to assess size- and charge-dependent transport. This technology offers a more efficient and robust approach for characterizing OOCs, potentially accelerating their adoption in drug development and disease modeling.",
+    "key_findings": [
+        "Developed an automated, non-invasive fiber optic-based luminescence sensing platform for real-time monitoring of barrier function in organs-on-a-chip.",
+        "The platform achieved a resolution of at least 1 μM and tracked paracellular transport in situ for up to 9 days.",
+        "Successfully validated the platform by monitoring epithelial (Caco-2) and endothelial (HUVEC) barrier function under cytokine-induced inflammation.",
+        "Demonstrated improved temporal resolution compared to traditional effluent sampling methods, detecting barrier permeability changes earlier.",
+        "Showcased the platform's versatility through multiplexed sensing of different sized and charged dextrans, enabling assessment of transport kinetics.",
+        "The system is adaptable to various cell types and OOC designs, offering a reusable and cost-effective sensing solution."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "High-throughput screening applications of the sensing platform for drug discovery.",
+        "Integration of the platform with other sensing modalities for multi-parametric OOC analysis.",
+        "Application of the platform to more complex multi-organ or multi-tissue OOC models.",
+        "Development of advanced data analysis algorithms for real-time interpretation of complex luminescence signals.",
+        "Exploration of the platform for sensing other biological processes beyond barrier function, such as metabolic activity or protein expression."
+    ],
+    "related_papers": [
+        "Huh D. et al. Reconstituting organ-level lung functions on a chip. Science. 2010.",
+        "Kim H. J. et al. Human gut-on-a-chip inhabited by microbial flora that experiences intestinal peristalsis-like motions and flow. Lab Chip. 2012.",
+        "van der Helm M. W. et al. Non-invasive sensing of transepithelial barrier function and tissue differentiation in organs-on-chips using impedance spectroscopy. Lab Chip. 2019.",
+        "Zhang Y. S. et al. Multisensor-integrated organs-on-chips platform for automated and continual in situ monitoring of organoid behaviors. Proc. Natl. Acad. Sci. U. S. A. 2017."
+    ],
+    "conclusions": "The developed fiber optic-based luminescence sensing platform provides an automated, non-invasive, and high-resolution method for real-time monitoring of barrier function in organs-on-a-chip. This technology overcomes limitations of existing methods, offering improved temporal resolution and versatility for various cell types and transport assays, thereby facilitating the advancement and adoption of organ-on-a-chip technology.",
+    "impact_statement": "This work presents a significant advancement in organ-on-a-chip technology by enabling automated, real-time monitoring of barrier function, which is crucial for disease modeling and drug development."
+}

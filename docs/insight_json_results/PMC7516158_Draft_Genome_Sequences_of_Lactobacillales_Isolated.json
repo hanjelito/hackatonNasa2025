@@ -1,0 +1,30 @@
+{
+    "document_title": "Draft Genome Sequences of Lactobacillales Isolated from the International Space Station",
+    "summary_full": "This study reports the whole-genome sequencing (WGS) of nineteen strains from the order Lactobacillales, isolated from the International Space Station (ISS) and a commercial resupply vehicle. The isolated bacteria include Enterococcus faecalis, Enterococcus faecium, and Aerococcus urinaeequi, some of which are known to possess pathogenicity characteristics like antibiotic resistance. The WGS data were generated using Illumina Nextera Flex protocol and NovaSeq 6000 platform, with subsequent quality control, assembly, and annotation. The aim is to characterize these bacteria adapting to the extreme space environment, which could inform the development of countermeasures against potential health risks for astronauts. The genome sequences have been deposited in public databases.",
+    "key_findings": [
+        "Whole-genome sequences of 19 Lactobacillales strains (Enterococcus faecalis, Enterococcus faecium, Aerococcus urinaeequi) isolated from the ISS and a commercial resupply vehicle have been generated.",
+        "The study provides genomic data for bacteria adapting to the space environment, which may have implications for astronaut health.",
+        "Some isolated strains, particularly Enterococcus species, are known to harbor antibiotic resistance genes, posing potential health concerns.",
+        "The genome statistics, including size, number of contigs, and N50 values, for each strain are provided.",
+        "The WGS data are publicly available in DDBJ/ENA/GenBank."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Further characterization of virulence genes within these ISS environmental strains.",
+        "Confirmation of potential pathogenicity in animal models.",
+        "Development of countermeasures and mitigation strategies for bacterial risks in spaceflight.",
+        "Comparative genomic analyses to understand adaptation mechanisms in the space environment."
+    ],
+    "related_papers": [
+        "Ludwig W, Schleifer KH, Whitman WB. 2009. Order II. Lactobacillales ord. nov.",
+        "Christoff AP, Sereia AFR, Cruz GNF, et al. 2020. One year cross-sectional study in adult and neonatal intensive care units reveals the bacterial and antimicrobial resistance genes profiles in patients and hospital surfaces.",
+        "Felis GE, Torriani S, Dellaglio F. 2005. Reclassification of Pediococcus urinaeequi (ex Mees 1934) Garvie 1988 as Aerococcus urinaeequi comb. nov.",
+        "Taylor PW. 2015. Impact of space flight on bacterial virulence and antibiotic susceptibility.",
+        "Agudelo Higuita NI, Huycke MM. 2014. Enterococcal disease, epidemiology, and implications for treatment.",
+        "Zhou W, Niu D, Zhang Z, et al. 2014. Vancomycin resistance due to vanA in an Aerococcus viridans isolate.",
+        "Checinska Sielaff A, Urbaniak C, Mohan GBM, et al. 2019. Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces.",
+        "Singh NK, Bezdan D, Checinska Sielaff A, et al. 2018. Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains."
+    ],
+    "conclusions": "The generation of whole-genome sequences for Lactobacillales strains isolated from the ISS and a commercial resupply vehicle provides a foundational resource for understanding their adaptation to the space environment and potential implications for astronaut health. Further investigation into virulence factors and pathogenicity is warranted.",
+    "impact_statement": "This study provides crucial genomic data for bacteria found on the International Space Station, aiding in the assessment and mitigation of potential health risks to astronauts during long-duration space missions."
+}

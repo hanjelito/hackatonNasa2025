@@ -1,0 +1,27 @@
+{
+    "document_title": "Fungal diversity differences in the indoor dust microbiome from built environments on earth and in space",
+    "summary_full": "This study compares the fungal and bacterial communities found in dust collected from Earth-based residential homes and the International Space Station (ISS). It reveals significant differences between the two environments, with Earth-based homes exhibiting higher microbial diversity (465 fungal OTUs, 237 bacterial ASVs) compared to the ISS (102 fungal OTUs, 102 bacterial ASVs). When exposed to elevated moisture conditions, fungal communities in ISS dust changed more rapidly, with Aspergillus dominating, while Earth-based communities remained relatively stable. These findings highlight the impact of unique spaceflight conditions on microbial communities and can inform future spacecraft design to promote healthier indoor environments for astronauts.",
+    "key_findings": [
+        "Earth-based homes have significantly higher fungal and bacterial diversity in dust compared to the ISS.",
+        "Fungal communities in ISS dust are more sensitive to elevated moisture, with Aspergillus becoming dominant.",
+        "Earth-based fungal communities are dominated by genera like Epicoccum, Alternaria, Pseudopithomyces, and Cladosporium, while ISS dust shows a higher abundance of Aspergillus, Cyberlindnera, Rhodotorula, and Candida.",
+        "Bacterial communities also differ between Earth and ISS dust, with Earth samples showing higher richness.",
+        "Elevated moisture conditions lead to significant changes in fungal community composition in both environments, but more rapidly in ISS dust."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating microbial community changes under microgravity and other spaceflight-specific conditions.",
+        "Evaluating the impact of different spacecraft materials and ventilation systems on indoor microbiomes.",
+        "Developing strategies for maintaining healthy and resilient indoor microbiomes in future long-duration space missions.",
+        "Assessing the viability and health impacts of specific microbial species found in spacecraft dust."
+    ],
+    "related_papers": [
+        "Lang JM, Coil DA, Neches RY, Brown WE, Cavalier D, Severance M, et al. A microbial survey of the International Space Station (ISS). PeerJ. 2017;5:e4029.",
+        "Avila-Herrera A, Thissen J, Urbaniak C, Be NA, Smith DJ, Karouia F, et al. Crewmember microbiome may influence microbial composition of ISS habitable surfaces. PLoS ONE. 2020;15:e0231838.",
+        "Dannemiller KC, Weschler CJ, Peccia J. Fungal and bacterial growth in floor dust at elevated relative humidity levels. Indoor Air. 2017;27:354-363.",
+        "Haines SR, Siegel JA, Dannemiller KC. Modeling microbial growth in carpet dust exposed to diurnal variations in relative humidity using the “Time-of-Wetness” framework. Indoor Air. 2020;30:978-992.",
+        "Checinska A, Probst AJ, Vaishampayan P, White JR, Kumar D, Stepanov VG, et al. Microbiomes of the dust particles collected from the international space station and spacecraft assembly facilities. Microbiome. 2015;3:50."
+    ],
+    "conclusions": "Dust from Earth-based residential homes is significantly more diverse in both fungal and bacterial communities compared to dust from the International Space Station. Exposure to elevated moisture conditions leads to changes in fungal community composition, with a more rapid and pronounced shift observed in ISS dust, characterized by the dominance of Aspergillus. These findings underscore the distinct microbial profiles of Earth and space environments and have implications for designing healthier indoor spaces for future space missions.",
+    "impact_statement": "This study reveals critical differences in the dust microbiome between Earth and the ISS, informing strategies for maintaining crew health and spacecraft integrity in future space habitats."
+}

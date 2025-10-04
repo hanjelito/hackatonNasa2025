@@ -1,0 +1,15 @@
+{
+    "document_title": "Correction to: The Evolution of Temperature and Desiccation-Related Protein Families in Tardigrada Reveals a Complex Acquisition of Extremotolerance",
+    "summary_full": "This document is a correction to a previously published article in Genome Biology and Evolution. The correction addresses errors in the caption of Figure 7. The original caption incorrectly assigned colors to different protein families (CAHS, MAHS, SAHS, EtAHS alpha, EtAHS beta, and MRE11). The corrected caption provides the accurate color representation for each protein family.",
+    "key_findings": [
+        "Correction of color assignments for protein families in Figure 7 of the original article.",
+        "Accurate representation of CAHS (red), MAHS (purple), SAHS (green), EtAHS alpha (yellow), EtAHS beta (pink), and MRE11 (blue) in the figure caption."
+    ],
+    "reproducibility_level": null,
+    "future_research_fields": [],
+    "related_papers": [
+        "10.1093/gbe/evad217"
+    ],
+    "conclusions": "The correction ensures the accurate visual representation of protein families in Figure 7, which is crucial for understanding the evolutionary context of extremotolerance in Tardigrada.",
+    "impact_statement": "This correction ensures the accurate interpretation of data related to extremotolerance mechanisms in tardigrades, vital for research in astrobiology and cryopreservation."
+}

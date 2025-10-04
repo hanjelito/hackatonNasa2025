@@ -1,0 +1,28 @@
+{
+    "document_title": "Routine omics collection is a golden opportunity for European human research in space and analog environments",
+    "summary_full": "This paper proposes the establishment of a routine omics data collection program for European astronauts and spaceflight participants (SFPs) in both space and analog environments. The authors argue that leveraging advancements in omics technologies, similar to their impact on molecular medicine on Earth, can provide crucial mechanistic insights into human physiological changes during spaceflight. This data resource, collected longitudinally and standardized, would enable AI-driven analyses for improved occupational health, personalized medicine approaches, and better risk quantification for future deep-space missions. The paper discusses practical considerations such as data types (genomics, transcriptomics, proteomics, metabolomics, metagenomics), sampling methods (blood, urine, stool, saliva, swabs, hair, breath), and optimal time points for data collection. It also critically appraises the ethical and legal challenges, particularly concerning the General Data Protection Regulation (GDPR) and the need for robust data governance, informed consent, and secure data sharing mechanisms. The authors advocate for a cohesive European approach, potentially through an ESA topical team or workshop, to standardize practices and policies, thereby unlocking the full scientific potential of human space omics research.",
+    "key_findings": [
+        "Routine omics collection in spaceflight and analog environments presents a significant opportunity to advance human space medicine.",
+        "Standardized, longitudinal omics data can enable AI-driven analyses for personalized medicine and improved occupational health for astronauts.",
+        "Various sampling methods (blood, urine, stool, saliva, swabs, hair, breath) and omic data types are feasible for spaceflight research.",
+        "Ethical and legal frameworks, particularly GDPR, must be addressed to ensure responsible data collection, processing, and sharing.",
+        "Harmonizing data collection and analysis methods across Europe and internationally is crucial for maximizing scientific return."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Development of standardized protocols for omics data and metadata collection in spaceflight.",
+        "Investigation of AI and machine learning applications for analyzing astronaut omics data.",
+        "Establishment of robust ethical and legal frameworks for human space omics research.",
+        "Exploration of novel sampling and processing techniques for in-flight omics data generation.",
+        "Integration of omics data with other physiological and environmental data for comprehensive astronaut health monitoring.",
+        "Application of spaceflight-derived omics insights to terrestrial health challenges, such as physical inactivity."
+    ],
+    "related_papers": [
+        "The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight (Science, 2019)",
+        "Private spaceflight: a new landscape for dealing with medical risk (Life Sci. Space Res., 2022)",
+        "Fundamental biological features of spaceflight: advancing the field to enable deep-space exploration (Cell, 2020)",
+        "A new era for space life science: international standards for space omics processing (Patterns, 2020)"
+    ],
+    "conclusions": "A routine omics collection program for European astronauts and spaceflight participants in space and analog environments is a critical opportunity to advance human space medicine. Addressing challenges in data standardization, AI readiness, ethical governance, and data sharing is essential to unlock the potential of these big data approaches for personalized medicine and improved occupational health in space.",
+    "impact_statement": "This research proposes a framework for routine omics data collection in spaceflight to significantly enhance astronaut health monitoring, personalized medicine, and our understanding of human adaptation to space, with potential benefits for terrestrial health."
+}

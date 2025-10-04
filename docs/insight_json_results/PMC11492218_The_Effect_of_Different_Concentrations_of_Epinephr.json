@@ -1,0 +1,25 @@
+{
+    "document_title": "The Effect of Different Concentrations of Epinephrine in Otoendoscopic Surgery on Surgical Field Clarity: A Double-Blind, Randomized Study",
+    "summary_full": "This double-blind, randomized controlled trial investigated the optimal concentration of epinephrine/physiological saline for subcutaneous injection into the external auditory canal (EAC) during otoendoscopic surgery under general anesthesia. The study aimed to balance surgical field clarity with hemodynamic stability. 168 patients were randomized into four groups receiving epinephrine concentrations of 1:5000, 1:10,000, 1:20,000, or 1:40,000. Results showed no statistically significant differences in surgical field clarity grade or tympanic membrane flap flipping time among the groups. However, higher epinephrine concentrations (1:5000 and 1:10,000) led to more significant and prolonged increases in hemodynamic parameters (blood pressure, heart rate) compared to lower concentrations (1:20,000 and 1:40,000), which allowed these parameters to return to baseline levels more quickly. The study concluded that while all tested concentrations provide similar surgical field clarity, lower concentrations (1:20,000 to 1:40,000) are preferable due to their minimal impact on patient hemodynamics.",
+    "key_findings": [
+        "Different concentrations of topical epinephrine (1:5000, 1:10,000, 1:20,000, 1:40,000) in otoendoscopic surgery yield equivalent surgical field clarity.",
+        "Higher epinephrine concentrations (1:5000, 1:10,000) cause more significant and longer-lasting hemodynamic changes (increased blood pressure and heart rate) compared to lower concentrations.",
+        "Lower epinephrine concentrations (1:20,000, 1:40,000) allow hemodynamic parameters to return to baseline levels within 30 minutes post-injection.",
+        "A higher incidence of antihypertensive intervention was observed in the higher epinephrine concentration groups."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the long-term cardiovascular effects of different epinephrine concentrations in otoendoscopic surgery.",
+        "Exploring alternative vasoconstrictors with improved hemodynamic profiles for otoendoscopic procedures.",
+        "Conducting multi-center trials to validate these findings across diverse patient populations and surgical settings.",
+        "Developing patient-specific protocols for epinephrine use based on individual hemodynamic risk factors."
+    ],
+    "related_papers": [
+        "Pollak N. Endoscopic and minimally-invasive ear surgery: a path to better outcomes. World J Otorhinolaryngol Head Neck Surg. 2017;3(3):129-135.",
+        "Moshaver A, Lin D, Pinto R, Witterick IJ. The hemostatic and hemodynamic effects of epinephrine during endoscopic sinus surgery: a randomized clinical trial. Arch Otolaryngol Head Neck Surg. 2009;135(10):1005-1009.",
+        "List MA, Dirain CO, Haberman RS, Antonelli PJ. Efficacy of topical epinephrine in tympanoplasty. Laryngoscope. 2021;131(10):2319-2322.",
+        "Yim MT, Ahmed OG, Takashima M. Evaluating real-time effects of topical 1:1000 epinephrine in endoscopic sinus and skull-base surgery on hemodynamic parameters through intraoperative arterial line monitoring. Int Forum Allergy Rhinol. 2017;7(11):1065-1069."
+    ],
+    "conclusions": "All tested concentrations of topical epinephrine injection in otoendoscopic surgery provide similar surgical field clarity. For optimal patient hemodynamic stability, concentrations ranging from 1:20,000 to 1:40,000 are recommended due to their minimal impact on cardiovascular parameters.",
+    "impact_statement": "This study provides evidence-based guidance for selecting epinephrine concentrations in otoendoscopic surgery to optimize surgical visualization while minimizing adverse hemodynamic effects on patients."
+}

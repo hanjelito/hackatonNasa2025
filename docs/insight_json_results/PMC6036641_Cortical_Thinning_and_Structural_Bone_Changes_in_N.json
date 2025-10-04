@@ -1,0 +1,29 @@
+{
+    "document_title": "Cortical Thinning and Structural Bone Changes in Non-human Primates Following Single Fraction Whole Chest Radiation",
+    "summary_full": "This study investigated the effects of a single 10 Gy dose of whole chest radiation on bone structure in 16 male rhesus macaques. The researchers measured bone mineral density (BMD) and cortical thickness (Ct.Th) in thoracic (T9) and lumbar (L2, L4) vertebrae at various time points post-irradiation. They found that younger primates (<50 months at irradiation) experienced greater mortality due to pulmonary toxicity and exhibited significant loss of both Ct.Th and BMD in all measured vertebrae, even those outside the radiation field. Older primates (>50 months) showed rapid loss of Ct.Th and BMD in the irradiated T9 vertebra, but only BMD loss in the out-of-field vertebrae. Histological analysis revealed increased porosity in areas of cortical thinning. The findings suggest that bone is sensitive to high-dose radiation, leading to rapid structural deterioration and potentially increasing fracture risk, with younger individuals being more susceptible.",
+    "key_findings": [
+        "Single fraction whole chest irradiation (10 Gy) caused rapid cortical thinning and bone mineral density loss in non-human primate vertebrae.",
+        "Younger primates (<50 months at irradiation) showed greater mortality from pulmonary toxicity and more extensive bone loss (Ct.Th and BMD) in both in-field and out-of-field vertebrae.",
+        "Older primates (>50 months) exhibited significant Ct.Th loss in the irradiated T9 vertebra and BMD loss in both in-field and out-of-field vertebrae.",
+        "Cortical thinning in CT scans correlated with increased histological porosity.",
+        "Bone mineral density loss was observed as early as 4-6 months post-irradiation.",
+        "The study suggests bone is a radiosensitive tissue, and rapid bone loss could facilitate fractures."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the role of osteoclast activity in radiation-induced bone loss.",
+        "Exploring therapeutic interventions, such as osteoclast inhibitory therapies, to prevent radiation-induced bone fractures.",
+        "Translating the cortical thickness dose mapping approach to clinical practice for risk assessment in human patients.",
+        "Further studies on the age-dependent sensitivity of bone to radiation.",
+        "Examining the long-term effects of radiation on bone structure and fracture risk in humans."
+    ],
+    "related_papers": [
+        "10.1667/RR15007.1",
+        "PMC6036641",
+        "Okoukoni C, Lynch SK, McTyre ER, Randolph DM, Weaver AA, Blackstock AW, et al. A cortical thickness and radiation dose mapping approach identifies early thinning of ribs after stereotactic body radiation therapy. Radiotherapy and oncology: journal of the European Society for Therapeutic Radiology and Oncology. 2016;119(3):449-53.",
+        "Wei RL, Jung BC, Manzano W, Sehgal V, Klempner SJ, Lee SP, et al. Bone mineral density loss in thoracic and lumbar vertebrae following radiation for abdominal cancers. Radiotherapy and oncology: journal of the European Society for Therapeutic Radiology and Oncology. 2016;118(3):430-6.",
+        "Willey JS, Livingston EW, Robbins ME, Bourland JD, Tirado-Lee L, Smith-Sielicki H, et al. Risedronate prevents early radiation-induced osteoporosis in mice at multiple skeletal locations. Bone. 2010;46(1):101-11."
+    ],
+    "conclusions": "High-dose, single-fraction whole chest irradiation in non-human primates leads to rapid cortical thinning and bone mineral density loss, particularly in younger animals. These structural changes suggest that bone is radiosensitive and susceptible to fracture following radiation therapy. The findings highlight the importance of considering age at irradiation and the potential for early osteoclast activation in mitigating radiation-induced bone damage.",
+    "impact_statement": "This study demonstrates that high-dose radiation significantly damages bone structure in non-human primates, suggesting a need for strategies to protect bone in cancer patients undergoing radiation therapy, especially younger individuals."
+}

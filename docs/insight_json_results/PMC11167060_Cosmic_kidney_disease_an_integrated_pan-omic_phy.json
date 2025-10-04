@@ -1,0 +1,27 @@
+{
+    "document_title": "Cosmic kidney disease: an integrated pan-omic, physiological and morphological study into spaceflight-induced renal dysfunction",
+    "summary_full": "This study investigates the health consequences of spaceflight, specifically microgravity and galactic cosmic radiation (GCR), on the kidney, an organ largely unexplored in the context of long-duration missions. Using a comprehensive pan-omic approach (epigenomic, transcriptomic, proteomic, epiproteomic, metabolomic, metagenomic) combined with clinical chemistry and morphometry from multiple human and rodent spaceflight missions and simulations, the research reveals significant kidney alterations. Key findings include dephosphorylation of renal transporters, suggesting a primary renal contribution to nephrolithiasis risk beyond bone loss. The study also identified nephron remodeling, characterized by enlarged distal convoluted tubules and reduced overall tubule density. Furthermore, exposure to simulated GCR equivalent to a Mars roundtrip dose induced renal damage and dysfunction. These findings highlight the critical need for countermeasures to protect kidney health during deep space exploration.",
+    "key_findings": [
+        "Spaceflight induces dephosphorylation of renal transporters (e.g., NCC, NKCC2), potentially indicating a primary renal mechanism contributing to the increased risk of nephrolithiasis in astronauts.",
+        "Spaceflight causes structural remodeling of the nephron, leading to an increase in distal convoluted tubule size and a decrease in overall tubule density.",
+        "Exposure to simulated Galactic Cosmic Radiation (GCR) at a dose equivalent to a Mars roundtrip induces renal damage and dysfunction, including microvascular pathology and thrombotic microangiopathy.",
+        "Multi-omic analyses revealed convergent disease pathways, including amyloidosis, nephrotic syndrome, and chronic kidney disease, associated with spaceflight and GCR exposure.",
+        "Simulated microgravity and microgravity combined with GCR exposure resulted in significantly increased kidney weights relative to body weight in rodent models."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Development of targeted therapies (e.g., thiazides, calcilytics) to mitigate spaceflight-induced hypercalciuria and bone loss.",
+        "Investigating the role of prostaglandin transporters (PGT) and their interaction with aquaporins in regulating water homeostasis during spaceflight.",
+        "Further research into the long-term effects of chronic, low-dose GCR exposure on kidney health, including fibrosis and calcification.",
+        "Exploring synergistic effects of microgravity and GCR on kidney function and potential countermeasures.",
+        "Investigating sex-specific differences in kidney response to spaceflight stressors."
+    ],
+    "related_papers": [
+        "Elger M, Bankir L, Kriz W. Morphometric analysis of kidney hypertrophy in rats after chronic potassium depletion. Am. J. Physiol. Ren. Physiol. 1992;262:F656-F667.",
+        "Saritas T, et al. Optical Clearing in the Kidney Reveals Potassium-Mediated Tubule Remodeling. Cell Rep. 2018;25:2668-2675.e3.",
+        "Cohen EP, Robbins MEC. Radiation nephropathy. Semin. Nephrol. 2003;23:486-499.",
+        "Malkani S, et al. Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development. Cell Rep. 2020;33:108448."
+    ],
+    "conclusions": "Spaceflight, encompassing both microgravity and GCR, induces significant structural and functional changes in the kidney, including transporter dephosphorylation and nephron remodeling, which likely contribute to the increased risk of kidney stone formation. Simulated GCR exposure causes acute and chronic renal damage, particularly affecting the vasculature and tubules. These findings underscore the critical need for countermeasures to protect kidney health for long-duration space missions.",
+    "impact_statement": "This study provides crucial insights into the detrimental effects of spaceflight on kidney health, identifying specific molecular and structural changes that increase risks for astronauts and informing the development of essential countermeasures for future deep space missions."
+}

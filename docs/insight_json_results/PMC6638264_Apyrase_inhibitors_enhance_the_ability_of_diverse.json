@@ -1,0 +1,26 @@
+{
+    "document_title": "Apyrase inhibitors enhance the ability of diverse fungicides to inhibit the growth of different plant‐pathogenic fungi",
+    "summary_full": "This study investigates the potential of apyrase inhibitors to enhance the efficacy of fungicides against plant-pathogenic fungi. Building on previous work showing apyrase inhibitors increase plant sensitivity to herbicides, researchers found that four specific apyrase inhibitors (AI.1, AI.10, AI.13, AI.15) significantly potentiated the growth-inhibitory effects of three common fungicides (copper octanoate, myclobutanil, and propiconazole) against five different fungal pathogens (Botrytis cinerea, Colletotrichum graminicola, Fusarium oxysporum, Sclerotinia sclerotiorum, and Verticillium dahliae). The inhibitors alone did not affect fungal growth. In 53 out of 60 tested combinations, apyrase inhibitors significantly increased fungal sensitivity to fungicides. Mass spectrometry revealed that inhibitors increased fungicide retention within fungal cells, suggesting a blockage of efflux transporters. Apyrase activity was detected in fungal growth media and suppressed by the inhibitors, leading to increased extracellular ATP levels. The findings suggest a conserved mechanism across plants and fungi where apyrase inhibition impacts efflux transporter activity, potentially leading to more potent and effective fungicide formulations for crop protection.",
+    "key_findings": [
+        "Apyrase inhibitors significantly enhance the growth-inhibitory effects of copper octanoate, myclobutanil, and propiconazole against five plant-pathogenic fungi.",
+        "In 53 out of 60 tested combinations, apyrase inhibitors increased fungal sensitivity to fungicides, with Sclerotinia sclerotiorum being the most sensitive pathogen.",
+        "Apyrase inhibitors increased the retention of propiconazole within fungal cells by approximately two-fold, suggesting inhibition of efflux transporters.",
+        "Apyrase inhibitors suppressed apyrase activity released by fungi into growth media, leading to increased extracellular ATP levels.",
+        "The mechanism of action appears conserved between plants and fungi, linking apyrase activity to efflux transporter function."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Field trials to assess the efficacy of apyrase inhibitor-fungicide mixtures in greenhouse and field conditions.",
+        "Development of advanced fungicide formulations incorporating apyrase inhibitors for enhanced crop protection.",
+        "Further investigation into the specific molecular mechanisms by which apyrase inhibitors affect fungal efflux transporters.",
+        "Exploration of the role of intracellular apyrases and other phosphatases in fungal resistance and their inhibition by these compounds.",
+        "Testing the effectiveness of apyrase inhibitors against a broader range of fungal pathogens and fungicide classes."
+    ],
+    "related_papers": [
+        "Windsor et al., 2003: Overexpression of AtPgp1 and apyrase confers multiherbicide tolerance in Arabidopsis thaliana.",
+        "Long et al., 2015: NTPDase specific inhibitors suppress rice infection by Magnaporthe oryzae.",
+        "Reimann and Deising, 2005: Inhibition of efflux transporter-mediated fungicide resistance in Pyrenophora tritici-repentis by a derivative of 4′-hydroxyflavone and enhancement of fungicide activity."
+    ],
+    "conclusions": "Apyrase inhibitors can significantly potentiate the fungicidal activity of common fungicides against a range of plant-pathogenic fungi. This enhancement is likely due to the inhibition of efflux transporters, leading to increased fungicide retention within fungal cells. The findings suggest a conserved functional link between apyrases and efflux transporters in both plants and fungi, offering a promising strategy for developing more effective fungicide formulations to combat crop losses.",
+    "impact_statement": "This research presents a novel strategy to enhance fungicide efficacy by using apyrase inhibitors, potentially leading to more effective disease control in agriculture and reduced crop losses."
+}

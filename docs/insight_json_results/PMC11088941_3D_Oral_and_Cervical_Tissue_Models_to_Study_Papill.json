@@ -1,0 +1,28 @@
+{
+    "document_title": "3D Oral and Cervical Tissue Models to Study Papillomavirus Host-Pathogen Interactions",
+    "summary_full": "This protocol describes two complementary methods for generating 3D epithelial tissue models that mimic oral and cervical tissues, crucial for studying human papillomavirus (HPV) interactions. The first method involves growing primary human epithelial cells on a dermal equivalent (collagen and fibroblasts) at an air-liquid interface to achieve stratification. The second method utilizes a rotating wall vessel (RWV) bioreactor, where cells self-assemble into 3D aggregates on collagen-coated microbeads in a low-shear microgravity environment. Both methods are applied to HPV-positive and -negative oral and cervical cells. The protocol details procedures for cell isolation, monolayer culture, HPV screening, 3D tissue generation (organotypic raft and RWV), and subsequent characterization using microscopy (histology, SEM, immunofluorescence) and omics studies (RNA extraction, RT-qPCR). These models aim to provide insights into epithelial biology, the HPV life cycle, and host-pathogen interactions.",
+    "key_findings": [
+        "Two distinct methods (organotypic raft and RWV bioreactor) can successfully generate 3D epithelial tissue models mimicking oral and cervical tissues.",
+        "These 3D models recapitulate key morphological and biochemical aspects of in vivo tissues, including stratification and cellular polarity.",
+        "The developed protocols allow for the isolation, culture, and characterization of primary human epithelial cells from oral and cervical sites.",
+        "The 3D tissue models are suitable for microscopic visualization, electron microscopy, and omics studies to investigate HPV life cycle and host-pathogen interactions.",
+        "The protocols provide detailed steps for establishing and analyzing these complex tissue models, facilitating research into HPV-related diseases."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating HPV infection dynamics and pathogenesis in more physiologically relevant 3D models.",
+        "Studying the role of tissue microenvironment in HPV tropism and disease progression.",
+        "Developing and testing antiviral therapies using these advanced in vitro models.",
+        "Exploring host-pathogen interactions for other epithelial-infecting viruses or microbes.",
+        "Comparative studies of HPV interactions across different anatomical sites (oral vs. cervical) using these models."
+    ],
+    "related_papers": [
+        "10.1002/cpmc.129",
+        "Rheinwald & Green, 1975b",
+        "Manos et al., 1989",
+        "Dollard et al., 1992",
+        "Unsworth & Lelkes, 1998"
+    ],
+    "conclusions": "The study presents detailed protocols for establishing and analyzing two types of 3D epithelial tissue models (organotypic raft and RWV bioreactor) that accurately mimic oral and cervical tissues. These models are essential for studying the differentiation-dependent life cycle of HPV and host-pathogen interactions, offering a more physiologically relevant alternative to traditional 2D cultures and potentially complementing animal models.",
+    "impact_statement": "This work provides standardized, reproducible protocols for creating advanced 3D tissue models, significantly advancing the study of HPV pathogenesis and host-pathogen interactions in epithelial tissues."
+}

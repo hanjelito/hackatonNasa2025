@@ -1,0 +1,28 @@
+{
+    "document_title": "Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures",
+    "summary_full": "This paper introduces Rad-Bio-App, a web-accessible database designed to help biologists explore radiation metadata from NASA's GeneLab data repository. Spaceflight exposes organisms to unique ionizing radiation environments that differ significantly from Earth's. Accessing and understanding this complex radiation data has been a challenge, hindering research into its effects on biological systems in space. Rad-Bio-App addresses this by importing radiation metadata and allowing users to visualize, filter, and compare experiments based on radiation exposure and other experimental factors. It integrates data from various sources including spaceflight missions, ground-based simulations, and extraterrestrial measurements (Moon, Mars). The app provides an intuitive, graphically-driven interface for both radiation biologists and non-specialists to understand the impact of space radiation on diverse biological systems. A test case demonstrates its utility in identifying relevant datasets for studying lunar surface radiation effects on biology.",
+    "key_findings": [
+        "Development of Rad-Bio-App, a user-friendly, web-accessible database for exploring spaceflight radiation metadata from NASA's GeneLab.",
+        "Integration of diverse radiation data sources, including spaceflight, ground simulations, and extraterrestrial measurements (Moon, Mars).",
+        "Enables filtering and comparison of experiments based on detailed radiation characteristics (dose, LET, particle type, energy).",
+        "Facilitates identification of omics datasets relevant to specific space radiation scenarios, aiding in the assessment of biological risks.",
+        "Demonstrates utility in identifying potential radiation-responsive genes in mouse models exposed to lunar surface radiation conditions."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Further development and expansion of Rad-Bio-App with new datasets from upcoming space missions (e.g., Artemis, Lunar Gateway, BioSentinel).",
+        "In-depth analysis of identified radiation-responsive genes and pathways to understand biological mechanisms of space radiation.",
+        "Comparative studies of radiation effects across different species and biological systems within the context of spaceflight.",
+        "Identification of novel space radiation conditions not currently simulated on Earth for improved ground-based analog experiments.",
+        "Integration of microgravity effects with radiation exposure data for a more comprehensive understanding of spaceflight biology."
+    ],
+    "related_papers": [
+        "GeneLab: Omics database for spaceflight experiments (Ray et al., 2019)",
+        "NASA GeneLab project: bridging space radiation omics with ground studies (Beheshti et al., 2018)",
+        "Mars’ surface radiation environment measured with the Mars science laboratory’s curiosity rover (Hassler et al., 2014)",
+        "Measurements of energetic particle radiation in transit to Mars on the Mars Science Laboratory (Zeitlin et al., 2013)",
+        "TOAST: A discovery environment to explore multiple plant biology spaceflight experiments (Barker et al., 2020)"
+    ],
+    "conclusions": "Rad-Bio-App is a valuable tool that significantly enhances the accessibility and usability of spaceflight radiation data. By enabling rapid identification and comparison of relevant omics datasets, it empowers researchers to better understand the biological effects of space radiation and accelerate the assessment of risks for future space exploration missions. As more data becomes available, Rad-Bio-App will continue to be a crucial resource for the space biology community.",
+    "impact_statement": "Rad-Bio-App democratizes access to complex space radiation data, enabling biologists to better understand and mitigate the health risks associated with long-duration spaceflight."
+}

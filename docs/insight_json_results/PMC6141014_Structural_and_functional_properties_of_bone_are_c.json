@@ -1,0 +1,26 @@
+{
+    "document_title": "Structural and functional properties of bone are compromised in amyotrophic lateral sclerosis mice",
+    "summary_full": "Amyotrophic lateral sclerosis (ALS) is associated with an increased incidence of skeletal fractures, in addition to muscle weakness. This study investigated the functional, or biomechanical, properties of the skeleton in the SOD1G93A mouse model of ALS, which is known to exhibit decreased bone mass. Researchers examined bone microarchitecture, stiffness, strength, fracture toughness, and cortical bone matrix properties in end-stage SOD1G93A female mice and control littermates. The results showed significantly lower trabecular bone mass, thinner trabeculae, and decreased cortical bone thickness and area in ALS mice. Consequently, these mice exhibited significantly lower femoral bending stiffness and failure moment, along with decreased fracture toughness. The study concludes that the skeleton's functional properties are compromised in end-stage ALS mice, implying multiple mechanisms for increased skeletal fragility and fracture risk in human ALS patients. The findings provide a rationale for interventions to reduce fracture risk in advanced ALS.",
+    "key_findings": [
+        "SOD1G93A mice showed a 54% decrease in trabecular bone mass and a 41% decrease in trabecular thickness.",
+        "Cortical bone thickness and area were reduced by 17% and 18% respectively in ALS mice.",
+        "Femoral bending stiffness was 27% lower, and failure moment was 41% lower in ALS mice.",
+        "Fracture toughness, a measure of resistance to crack growth, was 18% lower in ALS mice.",
+        "Intrinsic bone material properties (effective modulus) and cortical micromechanical properties were not significantly different between groups."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating bone functional assessments in male ALS mice.",
+        "Examining bone functional properties at earlier time points in ALS mouse models.",
+        "Studying bone functional properties in other ALS mouse models with different genetic mutations (e.g., C9orf72, TDP-43).",
+        "Developing and testing targeted therapies to prevent skeletal fractures in ALS patients."
+    ],
+    "related_papers": [
+        "Impaired bone homeostasis in amyotrophic lateral sclerosis mice with muscle atrophy. J Biol Chem. 2015",
+        "Association of fractures with the incidence of amyotrophic lateral sclerosis. Amyotroph Lateral Scler Frontotemporal Degener. 2017",
+        "Amyotrophic Lateral Sclerosis. N Engl J Med. 2017",
+        "Guidelines for assessment of bone microstructure in rodents using micro-computed tomography. J Bone Miner Res. 2010"
+    ],
+    "conclusions": "This study is the first to demonstrate functional deficits in the skeleton of end-stage ALS SOD1G93A mice, showing reduced femoral bending properties and fracture toughness compared to controls. These findings suggest that skeletal fragility in ALS is likely due to a combination of reduced mechanical loading from muscle atrophy and potentially altered bone cell homeostasis due to the SOD1 mutation. The results underscore the importance of considering skeletal health and fracture prevention strategies for ALS patients, particularly those with advanced disease.",
+    "impact_statement": "This research reveals compromised bone strength in ALS mice, highlighting a critical need for interventions to reduce fracture risk in ALS patients, thereby improving their quality of life."
+}

@@ -1,0 +1,27 @@
+{
+    "document_title": "Preservation of Multiple Mammalian Tissues to Maximize Science Return from Ground Based and Spaceflight Experiments",
+    "summary_full": "This study aimed to optimize tissue preservation methods for rodent experiments, particularly for spaceflight, to maximize scientific return. Researchers investigated the impact of post-euthanasia harvest time, preservation methods (RNAlater and freezing), and storage duration at -80°C on RNA quality (measured by RIN) and enzyme activity in liver and spleen. They also explored dissecting tissues from frozen carcasses. Results showed that fresh tissues stored up to 11 months at -80°C had minimal impact on RNA quality. Spleens preserved in RNAlater maintained high RNA quality even when collected up to 100 minutes post-euthanasia. Liver RNA quality declined after 65 minutes. Tissues dissected from frozen carcasses showed variable results; liver, heart, and kidneys retained good RNA quality after 6-7 months, while small intestine, bone, and bone marrow degraded significantly. The study concludes that protocols for on-orbit dissections can yield high-quality samples despite delayed preservation, and that many tissues can be recovered from frozen carcasses for gene expression analysis.",
+    "key_findings": [
+        "High-quality RNA (RIN > 8) can be obtained from fresh spleen and liver tissues collected up to 25 minutes post-euthanasia and stored at -80°C for at least 4.5 months.",
+        "Spleens preserved in RNAlater maintained high RNA quality (RIN > 7.5) even when collected up to 100 minutes post-euthanasia.",
+        "Liver RNA quality significantly declined after 65 minutes post-euthanasia.",
+        "Fresh liver and spleen tissues stored at -80°C for up to 11 months showed minimal adverse effects on RNA quality.",
+        "Tissues dissected from frozen carcasses stored for 6-7 months at -80°C retained good RNA quality in liver, heart, and kidneys, but showed degradation in small intestine, bone, and bone marrow.",
+        "Enzyme activities in liver tissues were largely unaffected by delayed collection times or storage at -80°C for 1 month."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Optimization of preservation methods for tissues prone to rapid RNA degradation (e.g., small intestine, bone marrow).",
+        "Investigating the impact of different storage temperatures and durations on various tissue types.",
+        "Developing standardized protocols for on-orbit tissue dissection and preservation for spaceflight experiments.",
+        "Exploring the utility of RNA from partially degraded tissues for specific downstream analyses (e.g., qPCR with short amplicons).",
+        "Expanding the range of tissues analyzed from frozen carcasses for gene expression studies."
+    ],
+    "related_papers": [
+        "Gupta V, Holets-Bondar L, Roby KF, Enders G, Tash JS. A tissue retrieval and postharvest processing regimen for rodent reproductive tissues compatible with long-term storage on the international space station and postflight biospecimen sharing program. BioMed research international. 2015;2015:475935.",
+        "Paul AL, Levine HG, McLamb W, Norwood KL, Reed D, Stutte GW, et al. Plant molecular biology in the space station era: utilization of KSC fixation tubes with RNAlater. Acta astronautica. 2005;56(6):623-8.",
+        "Ferl RJ, Koh J, Denison F, Paul AL. Spaceflight induces specific alterations in the proteomes of Arabidopsis. Astrobiology. 2015;15(1):32-56."
+    ],
+    "conclusions": "High-quality RNA can be obtained from most mammalian tissues even with delayed preservation post-euthanasia (up to 1 hour for spleen, up to 65 minutes for liver) and prolonged storage at -80°C (up to 11 months). Tissues dissected from frozen carcasses can also yield high-quality RNA for gene expression analysis, although this varies by tissue type. These findings support the feasibility of collecting valuable biological samples from both ground-based and spaceflight experiments under resource-constrained conditions.",
+    "impact_statement": "This study provides crucial protocols for preserving mammalian tissues, enabling high-quality molecular analysis from challenging experimental conditions like spaceflight and resource-limited ground studies."
+}

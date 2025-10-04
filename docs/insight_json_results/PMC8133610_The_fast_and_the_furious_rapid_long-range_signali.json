@@ -1,0 +1,27 @@
+{
+    "document_title": "The fast and the furious: rapid long-range signaling in plants",
+    "summary_full": "Plants possess a sophisticated systemic signaling system that allows local stimuli to elicit rapid, plant-wide responses. This communication network involves not only chemical messengers like RNAs, peptides, hormones, and metabolites but also a faster system utilizing electrical, Ca2+, and reactive oxygen species (ROS) signals. These rapid signals can propagate across many cells per second, with researchers identifying key molecular components such as NADPH oxidases and various ion channels (two pore, glutamate receptor-like, cyclic nucleotide gated) involved in their transmission. Upon reaching distant targets, these signals trigger responses including hormone production, metabolic shifts, and changes in gene expression, all occurring within seconds to minutes. This enables plants to mount preemptive defenses, such as against insect herbivory, even before the threat fully spreads.",
+    "key_findings": [
+        "Plants utilize a rapid signaling system involving electrical, Ca2+, and ROS signals that propagate at speeds of over 1 mm/s, much faster than traditional chemical signaling.",
+        "Key molecular players in this rapid signaling include NADPH oxidases and ion channels like glutamate receptor-like (GLRs) and cyclic nucleotide-gated channels (CNGCs).",
+        "Wound-induced variation potentials (VPs) and action potentials (APs) are crucial for rapid systemic signaling, with GLRs playing a significant role in VP propagation.",
+        "ROS waves, often linked to RBOHD and RBOHF, are integral to systemic signaling and may act as a central integrator of responses.",
+        "Systemic signals trigger diverse downstream responses, including changes in hormone levels (e.g., jasmonic acid), metabolites, and gene expression, enabling rapid plant-wide defense."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Elucidating the precise molecular machineries (channels, pumps, transporters) underlying AP and VP generation and propagation.",
+        "Investigating the relative roles of plasma membrane versus organellar membranes in systemic signal transmission and their communication.",
+        "Determining how specific information is encoded within Ca2+/ROS or electrical signals, or if they primarily prime tissues for other signaling molecules.",
+        "Assessing the role of hydraulic changes propagating through the vasculature in carrying specific systemic information.",
+        "Understanding the interplay between different signaling networks (electrical, ionic, ROS, hydraulic) and how they are tuned to specific stimuli."
+    ],
+    "related_papers": [
+        "10.1093/plphys/kiaa098",
+        "10.1038/nature13963",
+        "10.1126/science.aao3100",
+        "10.1038/nature12940"
+    ],
+    "conclusions": "Plants possess a sophisticated and rapid systemic signaling network that integrates environmental stimuli and coordinates plant-wide responses. This network relies on electrical, Ca2+, and ROS signals, mediated by specific ion channels and oxidases, enabling swift communication across tissues. While significant progress has been made in identifying key molecular components, many questions remain regarding the precise mechanisms, information encoding, and interplay of these signaling pathways.",
+    "impact_statement": "This research reveals the rapid, plant-wide communication systems that allow plants to quickly sense and respond to environmental threats, crucial for survival and defense."
+}

@@ -1,0 +1,28 @@
+{
+    "document_title": "Three-dimensional organotypic co-culture model of intestinal epithelial cells and macrophages to study Salmonella enterica colonization patterns",
+    "summary_full": "This study developed and validated a novel three-dimensional (3-D) co-culture model of human intestinal epithelial cells (HT-29) and macrophages (U937) using a NASA Rotating Wall Vessel bioreactor. The model mimics in vivo intestinal microenvironments, exhibiting structural and functional characteristics like apical-basolateral polarity, tight junctions, and functional macrophages. The model was used to study the colonization patterns of different Salmonella enterica pathovars (Typhimurium strains SL1344 and D23580, and Typhi strain Ty2) under aerobic and microaerobic conditions. Results showed that the presence of macrophages significantly decreased Salmonella colonization compared to an epithelial-only model, indicating antimicrobial function. Pathovar-specific differences in adherence, invasion, and intracellular survival were observed, with D23580 showing enhanced replication/survival. The study highlights the importance of host multicellular complexity and environmental factors like oxygen availability in regulating Salmonella infection.",
+    "key_findings": [
+        "Developed a novel 3-D co-culture model of intestinal epithelial cells and macrophages using a NASA RWV bioreactor, mimicking in vivo intestinal microenvironments.",
+        "The co-culture model demonstrated functional macrophages with phagocytic activity and antimicrobial properties against Salmonella.",
+        "All tested Salmonella strains exhibited decreased colonization in the co-culture model compared to an epithelial-only model, indicating macrophage-mediated inhibition.",
+        "Salmonella Typhi strain Ty2 showed significantly reduced adherence in the co-culture model compared to Typhimurium strains, suggesting pathovar-specific interactions with macrophages.",
+        "Salmonella Typhimurium ST313 strain D23580 exhibited enhanced replication/survival within the 3-D models after invasion, despite lower initial invasion levels compared to SL1344.",
+        "Oxygen availability influenced Salmonella invasion, with microaerobic conditions enhancing D23580 invasion in the co-culture model, but not in the epithelial-only model."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the specific molecular mechanisms by which macrophages inhibit Salmonella colonization.",
+        "Exploring the role of other immune cell types (e.g., dendritic cells, T cells) in the 3-D intestinal model for a more comprehensive understanding of host-pathogen interactions.",
+        "Utilizing primary human intestinal cells to further enhance the physiological relevance of the 3-D co-culture model.",
+        "Studying the impact of different environmental parameters, beyond oxygen, on Salmonella pathogenesis in the 3-D model.",
+        "Investigating the distinct dissemination strategies of Salmonella pathovars within human tissues using advanced imaging and the 3-D model."
+    ],
+    "related_papers": [
+        "Barrila J, et al. Organotypic 3D cell culture models: using the rotating wall vessel to study host-pathogen interactions. Nat Rev Microbiol. 2010;8(11):791-801.",
+        "Radtke AL, Wilson JW, Sarker S, Nickerson CA. Analysis of interactions of Salmonella type three secretion mutants with 3-D intestinal epithelial cells. PLoS One. 2010;5(11):e15750.",
+        "Honer zu Bentrup K, et al. Three-dimensional organotypic models of human colonic epithelium to study the early stages of enteric salmonellosis. Microb Infect. 2006;8(7):1813-1825.",
+        "Crabbe A, et al. Alveolar epithelium protects macrophages from quorum sensing-induced cytotoxicity in a three-dimensional co-culture model. Cell Microbiol. 2011;13(3):469-481."
+    ],
+    "conclusions": "The developed 3-D co-culture model of intestinal epithelium and macrophages represents a significant advancement for studying enteric diseases. It recapitulates key in vivo features and allows for the assessment of synergistic contributions of different cell types during infection. The model successfully differentiated Salmonella pathovar colonization patterns influenced by host multicellular complexity and oxygen availability, providing a more physiologically relevant context for understanding host-pathogen interactions and identifying potential therapeutic targets.",
+    "impact_statement": "This study introduces a more physiologically relevant 3-D intestinal co-culture model incorporating macrophages, offering a powerful new tool to study Salmonella pathogenesis and potentially uncover novel therapeutic targets for enteric infections."
+}

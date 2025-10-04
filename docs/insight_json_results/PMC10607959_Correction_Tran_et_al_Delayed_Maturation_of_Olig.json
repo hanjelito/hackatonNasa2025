@@ -1,0 +1,17 @@
+{
+    "document_title": "Correction: Tran et al. Delayed Maturation of Oligodendrocyte Progenitors by Microgravity: Implications for Multiple Sclerosis and Space Flight. Life 2022, 12, 797",
+    "summary_full": "This document is a correction to a previously published paper in the journal Life. The correction pertains to Figure 10, specifically a bar graph within the figure. The authors state that the wrong legend version was uploaded, mistakenly using 'Fer' for ferritin instead of 'Tf' for transferrin. This error made the graph nonsensical as the section focuses on transferrin (Tf) and GPDH. The authors confirm that swapping the legend will correct the information without altering the underlying data, content, or caption. The corrected figure and its caption are provided, detailing the expression of Tf and GPDH in GC-OLPs and SPC-OLPs. The authors assert that this correction does not affect the scientific conclusions of the original paper.",
+    "key_findings": [
+        "A correction was issued for Figure 10 in the original publication.",
+        "The error involved using 'Fer' (ferritin) instead of 'Tf' (transferrin) in a bar graph legend.",
+        "The scientific conclusions of the original paper remain unaffected by this correction.",
+        "The corrected figure illustrates the expression of transferrin (Tf) and GPDH in oligodendrocyte progenitor cells (OLPs) under different conditions."
+    ],
+    "reproducibility_level": null,
+    "future_research_fields": [],
+    "related_papers": [
+        "Tran V., Carpo N., Shaka S., Zamudio J., Choi S., Cepeda C., Espinosa-Jeffrey A. Delayed Maturation of Oligodendrocyte Progenitors by Microgravity: Implications for Multiple Sclerosis and Space Flight. Life. 2022;12:797. doi: 10.3390/life12060797."
+    ],
+    "conclusions": "The authors have corrected an error in Figure 10 of their publication regarding the legend for transferrin (Tf). This correction clarifies the data presented without changing the scientific conclusions of the study.",
+    "impact_statement": "This correction ensures the accurate representation of data related to oligodendrocyte progenitor cell maturation markers, which is relevant for understanding the effects of microgravity on neurological health, particularly in the context of space flight and diseases like Multiple Sclerosis."
+}

@@ -1,0 +1,27 @@
+{
+    "document_title": "Spaceflight alters expression of microRNA during T-cell activation",
+    "summary_full": "This study investigated the hypothesis that spaceflight alters microRNA (miRNA) expression, contributing to altered immune function observed in astronauts. Human leukocytes were stimulated with mitogens on the International Space Station (ISS) using an onboard normal gravity control. Results showed that miR-21 was significantly up-regulated during early T-cell activation in normal gravity, but its expression was suppressed under microgravity. This was confirmed by quantitative real-time PCR. Global microarray analysis revealed significant suppression of 85 genes under microgravity compared to normal gravity. Several biologically confirmed miR-21 target genes, including EGR3, FASLG, BTG2, SPRY2, and TAGAP, were co-up-regulated with miR-21 and share common promoter regions with pre-miR-21. The findings suggest that gravity regulates T-cell activation not only through transcriptional promotion but also by blocking translation via noncoding RNA mechanisms, indicating a self-limiting induction process for T-cell activation mediated by miR-21.",
+    "key_findings": [
+        "Spaceflight (microgravity) suppresses miR-21 expression during early T-cell activation.",
+        "Microgravity leads to the suppression of 85 genes involved in T-cell activation.",
+        "Several miR-21 target genes (e.g., EGR3, FASLG, BTG2, SPRY2, TAGAP) are co-up-regulated with miR-21 and show altered expression under microgravity.",
+        "Gravity regulates T-cell activation through both transcriptional and translational mechanisms involving noncoding RNAs.",
+        "T-cell activation may involve a self-limiting induction process mediated by miR-21."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the precise mechanisms of miR-21-mediated translational repression in T-cell activation.",
+        "Exploring the role of gravity in other immune cell functions and activation pathways.",
+        "Developing countermeasures for spaceflight-induced immune dysregulation.",
+        "Examining the potential link between dysregulated self-limiting induction mechanisms and diseases like cancer.",
+        "Further analysis of the impact of fractional gravity on immune responses."
+    ],
+    "related_papers": [
+        "Spaceflight and simulated microgravity cause a significant reduction of key gene expression in early T-cell activation. Am. J. Physiol. Regul. Integr. Comp. Physiol. 308, R480-R488",
+        "MicroRNA targeting specificity in mammals: determinants beyond seed pairing. Mol. Cell 27, 91-105",
+        "DIANA-TarBase v7.0: indexing more than half a million experimentally supported miRNA:mRNA interactions. Nucleic Acids Res. 43, D153-D159",
+        "MicroRNAs in inflammation and immune responses. Leukemia 26, 404-413"
+    ],
+    "conclusions": "Spaceflight significantly alters microRNA expression, specifically suppressing miR-21 during T-cell activation. This suppression, along with the altered expression of miR-21 target genes, suggests that gravity plays a crucial role in regulating T-cell activation through both transcriptional and translational mechanisms. The study proposes a novel self-limiting induction mechanism for T-cell activation mediated by miR-21, which may have broader implications for understanding immune regulation and disease.",
+    "impact_statement": "This study reveals a novel mechanism by which microgravity affects the human immune system at the molecular level, highlighting the critical role of microRNAs in T-cell activation and suggesting potential targets for mitigating immune dysfunction during space exploration."
+}

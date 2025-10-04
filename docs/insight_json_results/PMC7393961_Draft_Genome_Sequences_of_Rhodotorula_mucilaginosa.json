@@ -1,0 +1,24 @@
+{
+    "document_title": "Draft Genome Sequences of Rhodotorula mucilaginosa Strains Isolated from the International Space Station",
+    "summary_full": "This study presents the whole-genome sequences (WGS) of 28 Rhodotorula mucilaginosa isolates obtained from the International Space Station (ISS). R. mucilaginosa is a pigmented yeast known for producing carotenoids, which have biological benefits and pharmaceutical potential. It is also an emerging human pathogen capable of forming biofilms. Given the harsh conditions on the ISS (microgravity and radiation) can enhance antimicrobial resistance and biofilm formation, characterizing these ISS strains is crucial for developing countermeasures against this potential threat to life support systems. The WGS were generated using Illumina Nextera Flex protocol and sequenced on a NovaSeq 6000 platform. Quality control and assembly were performed using fastp and SPAdes, with assembly quality assessed by QUAST. The generated genome statistics are detailed in Table 1, and the WGS data has been deposited in DDBJ/ENA/GenBank.",
+    "key_findings": [
+        "Generated whole-genome sequences for 28 Rhodotorula mucilaginosa strains isolated from the International Space Station.",
+        "Provided detailed genome statistics including number of contigs, genome size, N50, and median coverage for each isolate.",
+        "Established a genomic resource for R. mucilaginosa strains found in the unique environment of the ISS, which may possess enhanced resistance or biofilm formation capabilities.",
+        "The WGS enable the identification of genes responsible for synthesizing compounds with biological implications, such as carotenoids."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating genes responsible for carotenoid biosynthesis and other biologically active compounds in ISS R. mucilaginosa strains.",
+        "Comparative genomics to understand adaptations of R. mucilaginosa to the ISS environment (microgravity, radiation).",
+        "Developing countermeasures to eradicate R. mucilaginosa from ISS life support systems.",
+        "Further studies on the pathogenic potential and biofilm formation mechanisms of these specific ISS isolates."
+    ],
+    "related_papers": [
+        "Checinska Sielaff A, Urbaniak C, Mohan GBM, Stepanov VG, Tran Q, Wood JM, Minich J, McDonald D, Mayer T, Knight R, Karouia F, Fox GE, Venkateswaran K. 2019. Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces. Microbiome 7:50.",
+        "Vaishampayan A, Grohmann E. 2019. Multi-resistant biofilm-forming pathogens on the International Space Station. J Biosci 44:125.",
+        "Singh NK, Bezdan D, Checinska Sielaff A, Wheeler K, Mason CE, Venkateswaran K. 2018. Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains. BMC Microbiol 18:175."
+    ],
+    "conclusions": "The whole-genome sequences of 28 Rhodotorula mucilaginosa strains isolated from the ISS have been generated. This provides a valuable resource for understanding the genetic basis of their adaptation to the space environment and for developing strategies to manage this emerging pathogen in spacecraft.",
+    "impact_statement": "This study provides crucial genomic data for Rhodotorula mucilaginosa strains found on the ISS, aiding in the development of countermeasures against a potential health and life support system threat in space exploration."
+}

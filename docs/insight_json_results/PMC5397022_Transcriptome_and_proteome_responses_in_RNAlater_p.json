@@ -1,0 +1,29 @@
+{
+    "document_title": "Transcriptome and proteome responses in RNAlater preserved tissue of Arabidopsis thaliana",
+    "summary_full": "This study investigates the effectiveness of RNAlater, a chemical preservative, for preserving Arabidopsis thaliana tissues for RNA sequencing and LC-MS/MS protein analysis. While RNAlater successfully preserves plant material, it induces significant transcriptomic and proteomic responses. Specifically, 5770 gene transcripts, 84 soluble proteins, and 120 membrane-bound proteins showed differential expression. Post-translational modifications were also affected, with 21.3% of phosphorylated proteins showing altered abundance. The findings suggest that RNAlater, while convenient, can alter molecular profiles, warranting caution in its use for omics experiments.",
+    "key_findings": [
+        "RNAlater treatment resulted in differential expression of 5770 gene transcripts in Arabidopsis thaliana.",
+        "84 soluble and 120 membrane-bound proteins showed altered abundance after RNAlater preservation.",
+        "21.3% of phosphorylated proteins exhibited changes in abundance due to RNAlater treatment.",
+        "Transcriptomic changes were enriched for osmotic stress response categories, suggesting a cellular reaction to the preservative.",
+        "Proteomic changes, while less extensive than transcriptomic ones, indicated alterations in processes like nuclear import and RNA transport.",
+        "RNAlater is effective for preserving protein integrity for detection but induces molecular responses that must be considered."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the kinetics of RNAlater diffusion and cellular response in different plant tissues.",
+        "Developing optimized protocols for RNAlater use in plant omics studies to minimize artifactual changes.",
+        "Exploring the specific mechanisms by which RNAlater induces osmotic stress responses at the transcriptomic level.",
+        "Further characterization of the impact of RNAlater on various post-translational modifications in plants.",
+        "Comparative studies of alternative preservation methods for plant tissues in omics applications."
+    ],
+    "related_papers": [
+        "Use of RNAlater as a preservation method for parasitic coprology studies in wild-living chimpanzees. (DOI: 10.1016/j.exppara.2013.07.002)",
+        "Plant molecular biology in the space station era: Utilization of KSC fixation tubes with RNAlater. (DOI: 10.1016/j.actaastro.2004.07.009)",
+        "Comparing the proteome of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human tissue samples. (DOI: 10.1016/j.eup.2016.01.002)",
+        "Examination of microbial proteome preservation techniques applicable to autonomous environmental sample collection. (DOI: 10.3389/fmicb.2011.00215)",
+        "Proteome stability analysis of snap frozen, RNAlater preserved, and formalin-fixed paraffin-embedded human colon mucosal biopsies. (DOI: 10.1016/j.dib.2016.01.061)"
+    ],
+    "conclusions": "RNAlater is effective for preserving RNA and protein integrity in Arabidopsis thaliana tissues for omics analyses. However, the preservative induces significant transcriptomic and proteomic responses, including altered gene expression related to osmotic stress and changes in protein abundance and post-translational modifications. Researchers should exercise caution when using RNAlater for plant omics experiments, as these induced changes could potentially mask or mimic true biological responses.",
+    "impact_statement": "This study highlights the potential for chemical fixatives like RNAlater to introduce artifacts in transcriptomic and proteomic data from plant tissues, necessitating careful consideration of preservation methods in biological research."
+}

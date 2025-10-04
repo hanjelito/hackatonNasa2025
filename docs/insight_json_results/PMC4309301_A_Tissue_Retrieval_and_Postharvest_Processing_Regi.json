@@ -1,0 +1,40 @@
+{
+    "document_title": "A Tissue Retrieval and Postharvest Processing Regimen for Rodent Reproductive Tissues Compatible with Long-Term Storage on the International Space Station and Postflight Biospecimen Sharing Program",
+    "summary_full": "This study developed and validated a strategy for collecting and processing rodent reproductive tissues to preserve their quality for long-term storage on the International Space Station (ISS) and for postflight biospecimen sharing. The researchers determined optimal time windows for tissue harvest after euthanasia, ranging from 1 to 3 hours depending on the tissue and species, to maintain histological integrity. They also established methods for ISS-compatible long-term storage (10 months at -80°C) that successfully preserved high-quality mRNA and protein for downstream analysis, such as Western blotting. The protocol, focusing on reproductive tissues like testes, epididymides, ovaries, and uteri from mice and gerbils, is adaptable for other tissues and multi-investigator sharing programs.",
+    "key_findings": [
+        "Optimal post-euthanasia harvest windows for maintaining histological integrity of reproductive tissues (testis, epididymis, ovary, uterus) in mice and gerbils range from 1 to 3 hours, varying by tissue and species.",
+        "RNA quality is preserved in key reproductive tissues fixed in RNAlater up to 40 minutes after euthanasia.",
+        "Long-term storage (10 months at -80°C) of reproductive tissues in RNAlater yields high-quality mRNA and protein suitable for Western analysis.",
+        "Stepwise replacement of ethanol-phosphate-buffered saline-ethanol (ETOH-PBS-ETOH) during post-fixation processing results in less degradation of testicular and epididymal histology compared to rapid single-step changes.",
+        "Mongolian gerbil ovaries are more sensitive to post-euthanasia delay than mouse ovaries, requiring harvest within 1 hour.",
+        "The developed protocols allow for safe shipping of tissues by replacing traditional fixatives like Bouin's with 70% ethanol or PBS, accommodating international shipping regulations."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Adaptation of these tissue processing and storage protocols for other types of animal tissues.",
+        "Evaluation of longer-term storage durations beyond 10 months at -80°C.",
+        "Application of these methods to other space agencies and flight platforms for animal research.",
+        "Further investigation into the specific molecular mechanisms of tissue degradation post-euthanasia.",
+        "Comparative analysis of RNA and protein quality from flight versus ground control samples using these optimized protocols."
+    ],
+    "related_papers": [
+        "10.1016/j.actaastro.2004.10.001",
+        "10.1095/biolreprod.111.093864",
+        "10.1095/biolreprod.106.057810",
+        "10.1016/j.jbiotec.1996.07.007",
+        "10.1016/S0273-1177(99)00412-3",
+        "Preservation of samples during space experiments (ESA report)",
+        "10.1016/j.jmoldx.2011.11.002",
+        "10.1097/NEN.0b013e3181c7e32f",
+        "10.1097/nen.0b013e31815c196a",
+        "A Practical Guide for Making Post-Mortem Examinations",
+        "Medscape Drugs & Diseases (Postmortem changes)",
+        "10.1309/15FB-FLD1-408X-JQA3",
+        "10.1007/s00726-011-1212-8",
+        "10.1038/modpathol.3880267",
+        "10.1186/1471-2164-5-88",
+        "Histological and Histopathological Evaluation of the Testis"
+    ],
+    "conclusions": "The study successfully established and validated a comprehensive regimen for harvesting and processing rodent reproductive tissues that maintains histological integrity and molecular quality (RNA and protein) for up to 10 months of storage at -80°C. These methods are compatible with the constraints of spaceflight, such as on the ISS, and facilitate safe shipping of samples, making them suitable for multi-investigator biospecimen sharing programs.",
+    "impact_statement": "This research provides a critical framework for preserving biological samples from spaceflight animal experiments, enabling more robust and comprehensive studies of physiological changes in microgravity."
+}

@@ -1,0 +1,24 @@
+{
+    "document_title": "Draft Genome Sequence of a Clinical Isolate of Fusarium fujikuroi Isolated from a Male Patient with Acute Myeloid Leukemia",
+    "summary_full": "This paper presents the draft whole-genome sequence of Fusarium fujikuroi strain COH1152, isolated from a 68-year-old male patient with refractory acute myeloid leukemia who developed a skin lesion and neutropenic fever during chemotherapy. The isolate was identified as F. fujikuroi by morphology and confirmed through whole-genome sequencing. The genome was sequenced using Illumina HiSeq, resulting in 41 million reads. Reads were processed with Trimmomatic and assembled de novo using ABySS, yielding a genome size of 48 Mb with an N50 of 1,212,708 bp and 4,495 scaffolds. A second clinical isolate, COH1141, initially thought to be Fusarium, was identified as Aspergillus niger and its draft genome sequence is also provided. Both genome sequences have been deposited in public databases, including NASA GeneLab.",
+    "key_findings": [
+        "Draft whole-genome sequence of Fusarium fujikuroi strain COH1152, a clinical isolate from an acute myeloid leukemia patient, has been generated.",
+        "The F. fujikuroi genome assembly is 48 Mb in size with an N50 of 1,212,708 bp.",
+        "The study also provides the draft genome sequence of an Aspergillus niger isolate (COH1141) from another AML patient.",
+        "Genome sequences are publicly accessible via DDBL/EMBL/GenBank and NASA GeneLab."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the pathogenicity of F. fujikuroi clinical isolates in immunocompromised individuals.",
+        "Comparative genomics of F. fujikuroi strains to identify virulence factors.",
+        "Developing diagnostic tools for Fusarium infections in clinical settings.",
+        "Exploring the potential for F. fujikuroi to act as an opportunistic pathogen in spaceflight environments."
+    ],
+    "related_papers": [
+        "Gordon TR. 2017. Fusarium oxysporum and the fusarium wilt syndrome.",
+        "Al-Hatmi AMS, Hagen F, Menken SBJ, Meis JF, de Hoog GS. 2016. Global molecular epidemiology and genetic diversity of Fusarium, a significant emerging group of human opportunists from 1958 to 2015.",
+        "Simpson JT, Wong K, Jackman SD, Schein JE, Jones SJM, Birol İ. 2009. ABySS: a parallel assembler for short read sequence data."
+    ],
+    "conclusions": "The draft genome sequence of the clinical isolate Fusarium fujikuroi COH1152 provides a valuable resource for understanding the genetic basis of its pathogenicity and for future research into Fusarium infections, particularly in immunocompromised patients. The availability of this genome, along with that of the Aspergillus niger isolate, contributes to the growing genomic data for fungal pathogens.",
+    "impact_statement": "This study provides the first draft genome sequence of a clinical isolate of Fusarium fujikuroi, a significant emerging opportunistic human pathogen, which is crucial for understanding and combating fungal infections in vulnerable patient populations."
+}

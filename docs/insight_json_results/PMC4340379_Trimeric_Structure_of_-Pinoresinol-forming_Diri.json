@@ -1,0 +1,28 @@
+{
+    "document_title": "Trimeric Structure of (+)-Pinoresinol-forming Dirigent Protein at 1.95 Å Resolution with Three Isolated Active Sites",
+    "summary_full": "This study reports the three-dimensional structure of (+)-pinoresinol-forming dirigent protein (PsDRR206) at 1.95 Å resolution. PsDRR206 forms a tightly packed trimer, with each monomer adopting an eight-stranded β-barrel topology. The structure reveals three spatially separated putative substrate binding sites on the trimer surface, suggesting that monomer coupling occurs directly within each site rather than between sites on different monomers. Computational docking studies indicate that these sites can accommodate coniferyl alcohol radicals (CA•) and are positioned to facilitate stereoselective coupling. The research also identifies six differentially conserved residues between (+)- and (−)-pinoresinol-forming dirigent proteins, proposing their role in determining stereoselectivity. The findings provide new insights into the mechanism of monolignol radical-radical coupling in plants.",
+    "key_findings": [
+        "The crystal structure of (+)-pinoresinol-forming dirigent protein (PsDRR206) was determined at 1.95 Å resolution, revealing a trimeric structure.",
+        "Each monomer of PsDRR206 possesses an eight-stranded β-barrel fold.",
+        "The trimeric structure contains three isolated substrate binding sites, spatially distant from each other.",
+        "Computational docking suggests these sites can bind coniferyl alcohol radicals (CA•) and are oriented for stereoselective coupling.",
+        "Six differentially conserved residues are identified as potential determinants of stereoselectivity between (+)- and (−)-pinoresinol-forming dirigent proteins."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the precise roles of conserved residues (Asp40, Arg141, Thr163, and the six differentially conserved residues) in substrate binding and stereoselectivity through site-directed mutagenesis.",
+        "Structural characterization of dirigent proteins with substrate or product analogues to elucidate the detailed mechanism of binding, orientation, coupling, and product release.",
+        "Exploring the potential interaction sites for oxidases or other proteins on the conserved surface-exposed hydrophobic residues.",
+        "Further investigation into the functional roles of dirigent protein domains in lignification, beyond lignan biosynthesis."
+    ],
+    "related_papers": [
+        "PMID: 25411250",
+        "PDB code: 4REV",
+        "Pickel et al. (2012) FEBS J. 279, 1980-1993",
+        "Hofmann et al. (2006) Plant Cell 18, 3201-3217",
+        "Neumann et al. (2012) Plant Physiol. 160, 1251-1266",
+        "Davin et al. (1997) Science 275, 362-366"
+    ],
+    "conclusions": "The trimeric structure of (+)-pinoresinol-forming dirigent protein (PsDRR206) reveals three isolated active sites, suggesting that monomer coupling occurs within each site. The structure provides a basis for understanding the stereoselective coupling of monolignol radicals and highlights key residues potentially involved in determining the stereochemical outcome of pinoresinol formation.",
+    "impact_statement": "This structural study provides critical insights into the molecular mechanism of stereoselective monolignol coupling, a fundamental process in plant secondary metabolism with implications for lignan biosynthesis and potentially lignin formation."
+}

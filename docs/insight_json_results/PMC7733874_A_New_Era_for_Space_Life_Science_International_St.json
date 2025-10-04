@@ -1,0 +1,28 @@
+{
+    "document_title": "A New Era for Space Life Science: International Standards for Space Omics Processing",
+    "summary_full": "As human space exploration expands towards Mars, understanding the biological effects of space stressors like radiation, microgravity, and isolation is critical. \"Omics\" technologies are increasingly used to study these effects, but the precious and complex datasets generated require standardization for optimal scientific return. To address this, the International Standards for Space Omics Processing (ISSOP) consortium has been formed by scientists globally. This paper introduces ISSOP, discusses past lessons learned from space omics experiments using model organisms, and outlines future challenges. Key challenges include limitations in space, time, and finances for experiments; the need for specialized hardware and housing; inconsistencies in sample collection and preservation methods (e.g., slow freezing vs. snap-freezing, use of RNAlater); and the crucial role of comprehensive metadata for data curation and distribution. ISSOP aims to develop and share standardized guidelines for sample processing and metadata normalization to enhance data harmonization, reduce confounding factors, and accelerate scientific discovery in space biology, ultimately supporting safer human space exploration.",
+    "key_findings": [
+        "Spaceflight introduces unique stressors (radiation, microgravity, isolation) that significantly impact biological systems, necessitating robust research.",
+        "Current space omics experiments face challenges in experimental design, hardware, sample collection, preservation, and data curation, hindering optimal data interpretation.",
+        "Standardization of sample processing and metadata normalization is crucial for maximizing scientific insights from valuable space omics datasets.",
+        "The formation of the International Standards for Space Omics Processing (ISSOP) consortium addresses the need for global collaboration and standardized guidelines in space biology.",
+        "Lessons learned from model organism studies highlight critical issues such as the impact of hardware on gene expression and the confounding effects of sample preservation methods."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Development of standardized protocols for specific omics assays (proteomics, metabolomics, transcriptomics, etc.) in space.",
+        "Creation of best practices for various model organisms, considering limitations like sample size in space.",
+        "Integration of advanced technologies like laser microdissection and spatial transcriptomics into space omics workflows.",
+        "Development of a protocol decision tree algorithm for standardized recommendations based on organism and assay.",
+        "Application of standardized space omics data to human spaceflight, space telemedicine, and precision spaceflight medicine.",
+        "Establishing cell space atlases and precision spaceflight medicine for improved astronaut safety."
+    ],
+    "related_papers": [
+        "The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight. Science. 2019",
+        "NASA GeneLab database",
+        "The Cancer Genome Atlas (TCGA) project",
+        "Ontology for Biomedical Investigations (OBI)"
+    ],
+    "conclusions": "The increasing complexity and cost of space omics experiments necessitate international collaboration and standardization. The ISSOP consortium aims to provide these essential guidelines for sample processing and metadata normalization, thereby enhancing data harmonization, reducing confounding factors, and accelerating scientific discovery. This standardization is critical for understanding the effects of spaceflight on biological organisms and for ensuring the safety and success of future human space exploration missions, including those to Mars.",
+    "impact_statement": "This work establishes a framework for standardizing space omics data, which is crucial for advancing our understanding of space biology and ensuring the safety of future human space exploration missions."
+}

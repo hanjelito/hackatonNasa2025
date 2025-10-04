@@ -1,0 +1,51 @@
+{
+    "document_title": "Cultivation of Staphylococcus epidermidis in the Human Spaceflight Environment Leads to Alterations in the Frequency and Spectrum of Spontaneous Rifampicin-Resistance Mutations in the rpoB Gene",
+    "summary_full": "This study investigated the impact of the human spaceflight environment on the growth and antibiotic resistance mutation frequency of Staphylococcus epidermidis. Cultures were grown on the International Space Station (ISS) and compared to ground controls. S. epidermidis exhibited lower viable counts but significantly higher frequencies of mutation to rifampicin resistance in space compared to ground controls. Furthermore, the spectrum of mutations in the rpoB gene leading to rifampicin resistance was altered in space-cultivated isolates. These findings suggest that the spaceflight environment imposes unique physiological stresses on bacteria, leading to changes in their mutagenic potential.",
+    "key_findings": [
+        "Staphylococcus epidermidis showed significantly lower viable counts in the spaceflight environment compared to ground controls.",
+        "The frequency of spontaneous mutations conferring rifampicin resistance was significantly higher in S. epidermidis cultivated in space.",
+        "The spectrum of mutations within the rpoB gene leading to rifampicin resistance was altered in space-cultivated S. epidermidis.",
+        "Specific mutations (e.g., Q469L) were found in spaceflight samples but not in ground controls.",
+        "Two double mutations in the rpoB gene were identified in spaceflight samples, which were absent in ground controls."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the specific physiological stresses induced by the spaceflight environment on bacterial mutagenesis.",
+        "Analyzing global gene expression, proteomic, and metabolomic changes in bacteria exposed to spaceflight.",
+        "Determining the impact of novel spaceflight-induced rpoB mutations on bacterial physiology, virulence, and antibiotic resistance.",
+        "Exploring the mechanisms by which spaceflight radiation might contribute to altered mutation spectra.",
+        "Testing the applicability of Earth-based antibiotic resistance emergence models to the spaceflight environment."
+    ],
+    "related_papers": [
+        "10.1016/j.jbiotec.2014.11.024",
+        "10.2174/22115501113029990012",
+        "10.1016/S0092-8674(01)00286-0",
+        "10.1186/s40168-015-0116-3",
+        "10.1038/nrg3182",
+        "10.1016/j.bbi.2014.01.011",
+        "10.1016/j.mrfmmm.2010.11.003",
+        "10.1016/S0076-6879(05)09012-9",
+        "10.1080/10409230701648502",
+        "10.1189/jlb.0309167",
+        "10.1128/MMBR.00016-09",
+        "10.1016/j.actaastro.2005.01.009",
+        "10.1186/1471-2180-13-241",
+        "10.1016/j.tibtech.2006.01.008",
+        "10.1093/femsle/fnv213",
+        "10.1016/S0167-7012(03)00018-6",
+        "10.1128/MMBR.68.2.345-361.2004",
+        "10.1007/s00248-003-1055-2",
+        "10.1089/ast.2011.0696",
+        "10.1128/JB.190.3.807-814.2008",
+        "10.1089/ast.2007.0224",
+        "10.1007/s00411-014-0560-7",
+        "10.1016/j.zemedi.2008.06.015",
+        "10.1007/s00253-014-6025-8",
+        "10.2147/IDR.S67275",
+        "10.1016/j.ijantimicag.2005.06.002",
+        "10.1128/JB.184.17.4936-4940.2002",
+        "10.1016/S0027-5107(00)00069-5"
+    ],
+    "conclusions": "The human spaceflight environment significantly alters the growth characteristics and the frequency and spectrum of spontaneous mutations to rifampicin resistance in Staphylococcus epidermidis. Specifically, spaceflight leads to reduced viable cell counts but increased mutation rates and a shift in the types of mutations occurring in the rpoB gene. These findings highlight the unique stresses of spaceflight and their potential to influence bacterial evolution and antibiotic resistance.",
+    "impact_statement": "This study reveals that the spaceflight environment can increase the rate and alter the pattern of antibiotic resistance mutations in bacteria, posing potential risks for infectious diseases in astronauts and influencing strategies for microbial management in space habitats."
+}
