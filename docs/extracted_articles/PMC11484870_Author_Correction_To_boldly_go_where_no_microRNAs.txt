@@ -1,0 +1,15 @@
+# Author Correction: To boldly go where no microRNAs have gone before: spaceflight impact on risk for small-for-gestational-age infants
+
+**URL Original:** https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11484870/
+**Estado:** exitoso
+
+## Metadatos
+
+**Revista:** Communications Biology
+**Fecha_Publicacion:** 2024 Oct 16
+**Doi:** 10.1038/s42003-024-07022-7
+**Pmid:** 39414932
+
+## Contenido
+
+Correction to: Communications Biology 10.1038/s42003-024-06944-6, published online 05 October 2024 In the Acknowledgement section, the L.I.G. was supported by the US Army Medical Research Command (award W81XWH2110402) was omitted. The original article has been corrected.

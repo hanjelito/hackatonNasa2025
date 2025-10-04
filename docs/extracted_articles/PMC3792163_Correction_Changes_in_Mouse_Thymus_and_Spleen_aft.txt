@@ -1,0 +1,15 @@
+# Correction: Changes in Mouse Thymus and Spleen after Return from the STS-135 Mission in Space
+
+**URL Original:** https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3792163/
+**Estado:** exitoso
+
+## Metadatos
+
+**Revista:** PLoS ONE
+**Fecha_Publicacion:** 2013 Sep 27
+**Doi:** 10.1371/annotation/e66bdc4e-2409-4582-b163-7bc182db275e
+**Pmid:** 24116253
+
+## Contenido
+
+There was an error in the Funding statement. The correct version of the Funding statement is available below. The work was supported by NASA grant NNX10AJ31G and the LLUMC Department of Radiation Medicine. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. Footnotes Competing Interests: No competing interests declared.

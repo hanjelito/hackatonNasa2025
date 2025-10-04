@@ -44,4 +44,3 @@ docker-compose.override.yml
 logs/
 
 # Docs
-/docs/extracted_articles

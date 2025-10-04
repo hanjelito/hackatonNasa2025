@@ -1,0 +1,15 @@
+# Erratum to: Whole metagenome profiles of particulates collected from the International Space Station
+
+**URL Original:** https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5580210/
+**Estado:** exitoso
+
+## Metadatos
+
+**Revista:** Microbiome
+**Fecha_Publicacion:** 2017 Sep 1
+**Doi:** 10.1186/s40168-017-0330-2
+**Pmid:** 28863784
+
+## Contenido
+
+Erratum Following publication of the original article [1], the authors reported that the X-axis label was missing from Fig. 4. The new Fig. 4 is attached. Fig. 4. Open in a new tab Microbial gene pathways observed in the whole metagenomes of ISS and SAF samples. Reads matching microbial gene targets above an identity threshold of 0.9 were assigned to KEGG orthologies. KO number was used to assign a gene function category, shown along the vertical axis. Read abundance is graphically represented on a square-root scale. Absolute read counts are shown adjacent to each corresponding circle Footnotes The online version of the original article can be found under doi:10.1186/s40168-017-0292-4 Reference 1.Be NA, Avila-Herrera A, Allen JE, Singh N, Sielaff AC, Jaing C, Venkateswaran K. Microbiome. 2017;5:81. doi:10.1186/s40168-017-0292-4. [DOI] [PMC free article] [PubMed]
