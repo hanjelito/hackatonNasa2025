@@ -1,0 +1,33 @@
+.filter-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.filter-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-tag.year {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.filter-tag.year:hover {
+  background-color: #bfdbfe;
+}
+
+.filter-tag.organism {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.filter-tag.organism:hover {
+  background-color: #a7f3d0;
+}
