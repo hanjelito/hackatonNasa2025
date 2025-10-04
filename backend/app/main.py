@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from app.routes.paper_route import paper_router
 from app.config.mongodb_client import MongoDbClient
+from app.routes.chat_route import chat_router
+
 
 database = MongoDbClient()
 
@@ -16,5 +18,4 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 app.include_router(paper_router)
-# app.include_router(event_router)
-# app.include_router(ticket_route)
+app.include_router(chat_router)
