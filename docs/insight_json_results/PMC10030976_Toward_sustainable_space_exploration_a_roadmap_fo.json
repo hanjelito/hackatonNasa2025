@@ -1,0 +1,30 @@
+{
+    "document_title": "Toward sustainable space exploration: a roadmap for harnessing the power of microorganisms",
+    "summary_full": "This paper outlines the critical role of microbial biotechnologies in achieving sustainable human space exploration, focusing on in situ resource utilization (ISRU) and loop-closure to reduce reliance on Earth-based resources. It highlights applications such as habitat air bioremediation, human waste processing, food production, pharmaceutical synthesis, biomining, structural biomanufacturing, energy collection and storage, recycling of waste streams, and soil remediation. The authors emphasize that developing these microbial technologies for space will also yield significant benefits for terrestrial environmental issues, supporting the UN Sustainable Development Goals. The paper identifies key technological needs, including specialized bioreactors and a better understanding of microbial behavior in space environments, and calls for increased research and funding to advance these technologies.",
+    "key_findings": [
+        "Microbial biotechnologies are essential for enabling sustainable long-duration space missions and settlements by facilitating in situ resource utilization and closed-loop systems.",
+        "Applications range from life support (air, water, food) and waste recycling to resource extraction (biomining) and construction (bioconcrete, myco-architecture).",
+        "Space-based microbial research can lead to significant advancements in addressing terrestrial environmental challenges, aligning with UN Sustainable Development Goals.",
+        "Development of space-ready bioreactors and a deeper understanding of microbial responses to space conditions are crucial technological needs.",
+        "Pharmaceutical synthesis and waste stream recycling using microorganisms offer novel solutions for space exploration and Earth-based applications."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Development of space-ready bioreactors tailored for specific microbial processes.",
+        "Understanding and mitigating the effects of the space environment (radiation, microgravity) on microbial functions.",
+        "Engineering microorganisms for enhanced efficiency in ISRU and waste recycling.",
+        "Investigating biofilm control strategies for long-duration space missions.",
+        "Exploring the potential of microbial consortia for complex tasks in space.",
+        "Advancing technologies for automated, real-time monitoring of microbial processes in space."
+    ],
+    "related_papers": [
+        "Towards a biomanufactory on Mars. Front. Astron. Space Sci. 2021;8:1-14.",
+        "MELISSA: a loop of interconnected bioreactors to develop life support in Space. J. Biotechnol. 2002;99:319-330.",
+        "Biologically-based and physiochemical life support and in situ resource utilization for exploration of the solar system-reviewing the current state and defining future development needs. Life 2021;11:844.",
+        "The case for biotech on Mars. Nat. Biotechnol. 2020;38:401-407.",
+        "The smallest space miners: principles of space biomining. Extremophiles 2022;26:7.",
+        "Grand challenges in space synthetic biology. J. R. Soc. Interface 2015;12:20150803."
+    ],
+    "conclusions": "Microbial biotechnologies are indispensable for achieving sustainable human space exploration by enabling in situ resource utilization and closed-loop systems, thereby reducing Earth-based supply chain dependency. These technologies also offer significant potential for addressing terrestrial environmental issues and supporting UN Sustainable Development Goals. Further research and development, including the creation of specialized bioreactors and a deeper understanding of microbial behavior in space, are necessary to advance these applications.",
+    "impact_statement": "This work provides a roadmap for leveraging microbial biotechnologies to enable sustainable space exploration, with direct implications for resource management, waste reduction, and the development of self-sufficient off-world habitats, while also offering solutions to critical environmental challenges on Earth."
+}

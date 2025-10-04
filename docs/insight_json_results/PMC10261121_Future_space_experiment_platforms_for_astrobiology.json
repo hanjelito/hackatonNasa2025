@@ -1,0 +1,28 @@
+{
+    "document_title": "Future space experiment platforms for astrobiology and astrochemistry research",
+    "summary_full": "This perspective paper, developed by the European Space Agency (ESA) Topical Team Astrobiology and Astrochemistry, outlines key topics and recommendations for future space experiments in astrobiology and astrochemistry. Building on the success of the International Space Station (ISS), it highlights the potential of emerging platforms like CubeSats, SmallSats, and the Lunar Orbital Gateway. The paper discusses the importance of in situ measurements, experimental parameters, exposure scenarios, and orbits, while identifying knowledge gaps. It covers three main themes: understanding the origins of life, understanding habitability and the limits of life, and understanding the signs of life. The authors emphasize the necessity of space-based experiments to study the complex space environment, including radiation and microgravity, which cannot be fully replicated on Earth. They also provide an outlook for experiments on the Moon and Mars and their role in the search for exoplanets and biosignatures.",
+    "key_findings": [
+        "Future space platforms beyond the ISS, such as CubeSats, SmallSats, and the Lunar Orbital Gateway, offer new opportunities for astrobiology and astrochemistry research.",
+        "Space experiments are crucial for studying the combined effects of microgravity, radiation, and other space environmental factors on biological systems and molecules, which cannot be fully simulated on Earth.",
+        "Key research areas include understanding the origins of life, habitability limits, and the detection of biosignatures, both within our solar system and on exoplanets.",
+        "In situ measurements and sample return capabilities are essential for advancing scientific utilization of space platforms.",
+        "Miniaturization of technology and automation, including AI and machine learning, are critical for enabling more complex and cost-effective space experiments."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Development of advanced in situ analytical techniques for space missions.",
+        "Long-duration exposure experiments on CubeSats and SmallSats to study cumulative effects of space radiation.",
+        "Investigation of microbial communities and biofilms in space environments.",
+        "Simulation of early Earth and other planetary conditions for prebiotic chemistry studies.",
+        "Research on biosignature stability and detection under simulated exoplanetary conditions.",
+        "Studies on the effects of re-entry conditions on biological samples and biomolecules."
+    ],
+    "related_papers": [
+        "ESA SciSpacE Science Community White Paper for astrobiology and astrochemistry (2021)",
+        "Space as a tool for astrobiology: review and recommendations for experimentations in Earth orbit and beyond (Cottin et al., 2017)",
+        "Astrobiology and the possibility of life on earth and elsewhere… (Cottin et al., 2017)",
+        "Earth as a tool for astrobiology-a European perspective (Martins et al., 2017)"
+    ],
+    "conclusions": "The development and utilization of future space experiment platforms, including CubeSats, SmallSats, and the Lunar Orbital Gateway, are essential for advancing astrobiology and astrochemistry research. These platforms will enable critical in situ measurements and exposure experiments to address fundamental questions about the origin, habitability, and signs of life in the universe, complementing ground-based research and paving the way for future exploration missions.",
+    "impact_statement": "This paper provides a roadmap for leveraging new space platforms to significantly advance our understanding of life's origins, habitability, and potential existence beyond Earth, crucial for astrobiology and astrochemistry."
+}

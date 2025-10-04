@@ -1,0 +1,60 @@
+from json import loads
+from app.config.vertexai_client import VertexAIClient
+from google.genai.types import GenerateContentConfig
+from app.config.settings import settings
+
+
+vertex_ai_client = VertexAIClient()
+
+# Prompt para estructurar datos del artículo científico
+with open("C:/Users/David/buscar_curro/hackathon/hackatonNasa2025/backend/app/prompts/scientific_paper_extractor_prompt.md", "r") as f:
+    EXTRACTION_PROMPT = f.read()
+
+async def extract_structured_data(text: str) -> dict:
+    """
+    Usa LLM para extraer datos estructurados del texto del artículo
+    
+    Args:
+        text: Texto completo del artículo
+        
+    Returns:
+        dict: Datos estructurados del artículo
+    """
+
+    response = vertex_ai_client.client.models.generate_content(
+        model=settings.VERTEXAI_MODEL_NAME,
+        contents=text,
+        config=GenerateContentConfig(
+            system_instruction=EXTRACTION_PROMPT,
+            temperature=0,
+            response_mime_type="application/json",
+        )
+        ,
+    )
+
+    if not response.text:
+        raise Exception("Vertex AI Error: No response text received")
+
+    try:
+        # Parsear la respuesta JSON
+        structured_data = loads(response.text.strip())
+        return structured_data
+    except ValueError:
+        raise Exception(f"Error parsing JSON response: {response.text}")
+
+
+async def process_article(text: str) -> dict:
+    """
+    Función principal: extrae texto de HTML y lo estructura con LLM
+    
+    Args:
+        html_content: Contenido HTML del artículo
+        
+    Returns:
+        dict: Datos estructurados del artículo científico
+    """
+    
+    structured_data = await extract_structured_data(text)
+    
+    return structured_data
+
