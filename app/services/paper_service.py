@@ -1,5 +1,7 @@
+from app.dto.search_papers_request import SearchPapersRequest
 
-async def search_papers_similars(query: str):
+
+def search_papers_similars(search_filters: SearchPapersRequest):
 
     # Aquí iría la lógica para buscar papers en Atlas search
     # Por ahora, devolvemos una lista de ejemplo
@@ -16,7 +18,7 @@ async def search_papers_similars(query: str):
 
     return filtered_papers
 
-async def obtain_paper_filters_value():
+def obtain_paper_filters_values():
     # Aquí iría la lógica para obtener los filtros de papers desde la base de datos
     # Por ahora, devolvemos una lista de ejemplo
     example_filters = [
