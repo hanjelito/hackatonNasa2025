@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from app.config.mongodb_client import MongoDbClient
 from app.config.settings import settings
-from routes.paper_route import paper_router
+from app.routes.paper_route import paper_router
 
 
 @asynccontextmanager
