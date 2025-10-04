@@ -1,15 +1,18 @@
 from fastapi import APIRouter
-from app.services.paper_service import search_papers_similars, obtain_paper_filters
+
+from app.dto.filter_value import FilterValue
+from app.dto.search_papers_request import SearchPapersRequest
+from app.services.paper_service import search_papers_similars, obtain_paper_filters_values
 
 paper_router = APIRouter(
     prefix="/paper",
     tags=["Papers"],
 )
 
-@paper_router.get("/search", response_model=list[str])
-async def search_papers(query: str):
-    return await search_papers_similars(query)
+@paper_router.post("/search", response_model=list[str])
+async def search_papers(search_filters: SearchPapersRequest):
+    return await search_papers_similars(search_filters)
 
-@paper_router.get("/search/filters", response_model=list[str])
+@paper_router.get("/search/filters", response_model=list[FilterValue])
 async def obtain_filters_values():
     return await obtain_paper_filters_values()
