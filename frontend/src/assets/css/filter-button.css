@@ -1,0 +1,26 @@
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+.filter-button svg {
+  transition: transform 0.2s;
+}
+
+.filter-button:hover svg {
+  transform: scale(1.1);
+}
