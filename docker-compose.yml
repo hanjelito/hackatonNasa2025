@@ -25,7 +25,10 @@ services:
       - ./docker/docker-frontend/.env
     volumes:
       - ./frontend:/app
-      - /app/node_modules
+      - node_modules:/app/node_modules
     command: npm run dev -- --host
     depends_on:
       - backend
+
+volumes:
+  node_modules:
