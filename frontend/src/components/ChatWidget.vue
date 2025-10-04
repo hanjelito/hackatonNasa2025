@@ -70,7 +70,7 @@
               <span class="typing-dot"></span>
             </template>
             <template v-else>
-              <div v-html="renderMarkdown(message.text)" class="markdown-content"></div>
+              <div v-html="renderMarkdown(message.text)" class="markdown-body"></div>
               <span class="message-time">{{ formatTime(message.timestamp) }}</span>
             </template>
           </div>
@@ -100,6 +100,7 @@
 import { ref, computed, nextTick } from 'vue'
 import { marked } from 'marked'
 import DOMPurify from 'dompurify'
+import 'github-markdown-css/github-markdown-dark.css'
 
 const props = defineProps<{
   articleTitle: string
@@ -189,11 +190,6 @@ const sendMessage = async () => {
         content: msg.text
       }))
 
-    console.log('📤 Sending to backend:', {
-      messages: messagesForBackend,
-      paper_id: props.paperId
-    })
-
     // Llamar al backend
     const response = await fetch('/api/chat', {
       method: 'POST',
@@ -206,14 +202,11 @@ const sendMessage = async () => {
       })
     })
 
-    console.log('📥 Response status:', response.status)
-
     if (!response.ok) {
       throw new Error('Failed to get response from chat')
     }
 
     const data = await response.json()
-    console.log('📥 Response data:', data)
 
     // Remover mensaje de "escribiendo..."
     const typingIndex = messages.value.findIndex(msg => msg.id === typingMessageId)
@@ -235,7 +228,7 @@ const sendMessage = async () => {
 
     nextTick(() => scrollToBottom())
   } catch (error) {
-    console.error('❌ Error sending message:', error)
+    console.error('Error sending message:', error)
 
     // Remover mensaje de "escribiendo..."
     const typingIndex = messages.value.findIndex(msg => msg.id === typingMessageId)
@@ -263,9 +256,21 @@ const formatTime = (date: Date) => {
   return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
 }
 
+// Configurar marked
+marked.setOptions({
+  gfm: true,
+  breaks: true
+})
+
 const renderMarkdown = (text: string): string => {
   const rawHtml = marked(text) as string
-  return DOMPurify.sanitize(rawHtml)
+  const sanitized = DOMPurify.sanitize(rawHtml)
+
+  // Agregar bullets manualmente para sobrescribir reset de Tailwind
+  const withBullets = sanitized
+    .replace(/<li>/g, '<li style="display: list-item; margin-left: 1.5rem; list-style-type: disc; list-style-position: outside;">')
+
+  return withBullets
 }
 </script>
 
