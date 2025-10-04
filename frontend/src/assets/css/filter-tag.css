@@ -1,33 +1,35 @@
 .filter-tag {
   display: inline-block;
-  padding: 0.25rem 0.75rem;
+  padding: 0.375rem 1rem;
   font-size: 0.875rem;
-  font-weight: 500;
-  border-radius: 9999px;
+  font-weight: 600;
+  border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s;
-  border: none;
+  border: 1px solid transparent;
 }
 
 .filter-tag:hover {
   transform: translateY(-1px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(40, 139, 255, 0.2);
 }
 
 .filter-tag.year {
-  background-color: #dbeafe;
-  color: #1e40af;
+  background-color: rgba(40, 139, 255, 0.15);
+  color: #288bff;
+  border-color: rgba(40, 139, 255, 0.3);
 }
 
 .filter-tag.year:hover {
-  background-color: #bfdbfe;
+  background-color: rgba(40, 139, 255, 0.25);
 }
 
 .filter-tag.organism {
-  background-color: #d1fae5;
-  color: #065f46;
+  background-color: rgba(175, 17, 8, 0.15);
+  color: #af1108;
+  border-color: rgba(175, 17, 8, 0.3);
 }
 
 .filter-tag.organism:hover {
-  background-color: #a7f3d0;
+  background-color: rgba(175, 17, 8, 0.25);
 }

@@ -1,19 +1,24 @@
 .search-button {
   width: 100%;
-  background-color: #2563eb;
+  background-color: #288bff;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
-  font-weight: 500;
-  transition: background-color 0.2s;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s;
   border: none;
   cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .search-button:hover {
-  background-color: #1d4ed8;
+  background-color: #0b3d91;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(40, 139, 255, 0.3);
 }
 
 .search-button:active {
-  transform: translateY(1px);
+  transform: translateY(0);
 }

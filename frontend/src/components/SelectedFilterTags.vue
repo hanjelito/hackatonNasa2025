@@ -69,6 +69,18 @@ const filterTags = computed(() => {
     })
   }
 
+  // Process article_types
+  if (props.filters.article_types && props.filters.article_types.length > 0) {
+    props.filters.article_types.forEach(type => {
+      tags.push({
+        key: `article_types-${type}`,
+        label: 'Article Type',
+        value: type,
+        filterName: 'article_types'
+      })
+    })
+  }
+
   return tags
 })
 
@@ -83,7 +95,7 @@ const removeTag = (tag: FilterTag) => {
 .selected-filter-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.75rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -91,28 +103,35 @@ const removeTag = (tag: FilterTag) => {
 .tag {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
-  padding: 0.375rem 0.75rem;
-  background-color: #e6f0ff;
-  color: #0066cc;
-  border-radius: 9999px;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(40, 139, 255, 0.15);
+  color: #288bff;
+  border: 1px solid rgba(40, 139, 255, 0.3);
+  border-radius: 6px;
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .remove-tag {
   background: none;
   border: none;
-  color: #0066cc;
+  color: #288bff;
   cursor: pointer;
   font-size: 1.25rem;
   line-height: 1;
   padding: 0;
   margin-left: 0.25rem;
-  transition: color 0.2s;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
 }
 
 .remove-tag:hover {
-  color: #004499;
+  background-color: rgba(40, 139, 255, 0.3);
 }
 </style>

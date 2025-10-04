@@ -23,6 +23,7 @@ export interface SearchFilters {
   organisms?: string[]
   years?: number[]
   sources?: string[]
+  article_types?: string[]
 }
 
 export interface FilterOption {

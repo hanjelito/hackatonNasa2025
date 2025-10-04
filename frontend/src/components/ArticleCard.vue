@@ -30,8 +30,14 @@
       </h3>
       <p class="article-description">{{ article.description }}</p>
       <div class="article-meta">
-        <span class="article-date">{{ formatDate(article.date) }}</span>
-        <span class="article-source">{{ article.source }}</span>
+        <span class="article-date">
+          <CalendarIcon class="w-4 h-4" />
+          {{ formatDate(article.date) }}
+        </span>
+        <span class="article-source">
+          <BookmarkIcon class="w-4 h-4" />
+          {{ article.source }}
+        </span>
       </div>
     </div>
   </div>
@@ -40,6 +46,8 @@
 <script setup lang="ts">
 import type { Article } from '../types/article'
 import FilterTag from './FilterTag.vue'
+import CalendarIcon from './icons/CalendarIcon.vue'
+import BookmarkIcon from './icons/BookmarkIcon.vue'
 
 defineProps<{
   article: Article

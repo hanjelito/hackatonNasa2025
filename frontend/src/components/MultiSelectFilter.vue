@@ -50,6 +50,10 @@ const containerRef = ref<HTMLElement | null>(null)
 const selectedValues = computed(() => props.modelValue || [])
 
 const toggleDropdown = () => {
+  if (!isOpen.value) {
+    // Emit custom event to close other dropdowns
+    document.dispatchEvent(new CustomEvent('multiselect-open', { detail: { id: props.id } }))
+  }
   isOpen.value = !isOpen.value
 }
 
@@ -80,18 +84,27 @@ const handleClickOutside = (event: MouseEvent) => {
   }
 }
 
+const handleMultiselectOpen = (event: Event) => {
+  const customEvent = event as CustomEvent
+  if (customEvent.detail.id !== props.id) {
+    closeDropdown()
+  }
+}
+
 onMounted(() => {
   document.addEventListener('click', handleClickOutside)
+  document.addEventListener('multiselect-open', handleMultiselectOpen as EventListener)
 })
 
 onUnmounted(() => {
   document.removeEventListener('click', handleClickOutside)
+  document.removeEventListener('multiselect-open', handleMultiselectOpen as EventListener)
 })
 </script>
 
 <style scoped>
 .multiselect-filter {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .multiselect-container {
@@ -103,29 +116,32 @@ onUnmounted(() => {
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 1rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background: white;
+  border: 2px solid #2a2a2a;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #d1d1d1;
   cursor: pointer;
-  transition: border-color 0.2s;
+  transition: all 0.2s;
 }
 
 .selected-items:hover {
-  border-color: #0066cc;
+  border-color: #288bff;
+  background: #1a1a1a;
 }
 
 .placeholder {
-  color: #999;
+  color: #959599;
 }
 
 .selected-count {
-  color: #0066cc;
-  font-weight: 500;
+  color: #288bff;
+  font-weight: 600;
 }
 
 .dropdown-arrow {
   font-size: 0.75rem;
-  color: #666;
+  color: #959599;
+  transition: transform 0.2s;
 }
 
 .dropdown-menu {
@@ -133,30 +149,34 @@ onUnmounted(() => {
   top: 100%;
   left: 0;
   right: 0;
-  margin-top: 0.25rem;
-  max-height: 200px;
+  margin-top: 0.5rem;
+  max-height: 240px;
   overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
 
 .dropdown-item {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
   padding: 0.75rem 1rem;
+  color: #d1d1d1;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 .dropdown-item:hover {
-  background-color: #f5f5f5;
+  background-color: rgba(40, 139, 255, 0.1);
 }
 
 .dropdown-item input[type="checkbox"] {
   cursor: pointer;
+  accent-color: #288bff;
+  width: 1.125rem;
+  height: 1.125rem;
 }
 </style>

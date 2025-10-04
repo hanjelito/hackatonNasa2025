@@ -101,7 +101,8 @@ const handleClear = () => {
     ...props.filters,
     organisms: undefined,
     years: undefined,
-    sources: undefined
+    sources: undefined,
+    article_types: undefined
   })
 }
 

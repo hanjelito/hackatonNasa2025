@@ -1,9 +1,9 @@
 <template>
-  <div class="min-h-screen bg-gray-100 py-8 px-4">
-    <div class="max-w-4xl mx-auto">
-      <h1 class="text-4xl font-bold text-center mb-8 text-gray-800">NASA Challenge 2025</h1>
+  <div class="search-view">
+    <NavHeader />
 
-      <div class="bg-white rounded-lg shadow-md p-6">
+    <div class="search-container">
+      <div class="search-content">
         <div class="search-input-row">
           <SearchInput
             v-model="searchQuery"
@@ -11,27 +11,7 @@
             @search="handleSearch"
           />
           <button @click="toggleAdvancedFilters" class="filter-toggle-btn" :class="{ active: showAdvancedFilters }">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <line x1="4" y1="21" x2="4" y2="14"></line>
-              <line x1="4" y1="10" x2="4" y2="3"></line>
-              <line x1="12" y1="21" x2="12" y2="12"></line>
-              <line x1="12" y1="8" x2="12" y2="3"></line>
-              <line x1="20" y1="21" x2="20" y2="16"></line>
-              <line x1="20" y1="12" x2="20" y2="3"></line>
-              <line x1="1" y1="14" x2="7" y2="14"></line>
-              <line x1="9" y1="8" x2="15" y2="8"></line>
-              <line x1="17" y1="16" x2="23" y2="16"></line>
-            </svg>
+            <AdjustmentsHorizontalIcon class="w-5 h-5" />
           </button>
         </div>
 
@@ -60,8 +40,8 @@
           @filter-organism="handleFilterOrganism"
         />
 
-        <div v-if="selectedArticleIds.length > 0" class="mt-6 p-4 bg-blue-50 rounded-lg">
-          <p class="text-sm text-blue-800">
+        <div v-if="selectedArticleIds.length > 0" class="selected-info">
+          <p>
             You have selected {{ selectedArticleIds.length }} article{{ selectedArticleIds.length !== 1 ? 's' : '' }}
           </p>
         </div>
@@ -79,12 +59,14 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
+import NavHeader from '../components/NavHeader.vue'
 import SearchInput from '../components/SearchInput.vue'
 import SearchButton from '../components/SearchButton.vue'
 import ArticleList from '../components/ArticleList.vue'
 import ActiveFilters from '../components/ActiveFilters.vue'
 import FilterPanel from '../components/FilterPanel.vue'
 import SelectedFilterTags from '../components/SelectedFilterTags.vue'
+import AdjustmentsHorizontalIcon from '../components/icons/AdjustmentsHorizontalIcon.vue'
 import { searchArticles } from '../services/articleService'
 import type { Article, SearchFilters } from '../types/article'
 import mockData from '../data/mockArticles.json'
@@ -250,11 +232,29 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
 </script>
 
 <style scoped>
+.search-view {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.search-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.search-content {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid #2a2a2a;
+}
+
 .search-input-row {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.75rem;
   align-items: flex-end;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .search-input-row > :first-child {
@@ -263,30 +263,40 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
 
 .filter-toggle-btn {
   padding: 0.5rem;
-  background-color: white;
-  border: 2px solid #d1d5db;
+  background-color: #2a2a2a;
+  border: 2px solid #2a2a2a;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s;
-  color: #6b7280;
+  color: #959599;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2.75rem;
+  width: 2.75rem;
   flex-shrink: 0;
 }
 
 .filter-toggle-btn:hover {
-  border-color: #2563eb;
-  color: #2563eb;
-  background-color: #eff6ff;
+  border-color: #288bff;
+  color: #288bff;
+  background-color: rgba(40, 139, 255, 0.1);
 }
 
 .filter-toggle-btn.active {
-  border-color: #2563eb;
-  background-color: #2563eb;
+  border-color: #288bff;
+  background-color: #288bff;
   color: white;
+}
+
+.selected-info {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(40, 139, 255, 0.1);
+  border: 1px solid #288bff;
+  border-radius: 6px;
+  color: #288bff;
+  font-size: 0.9rem;
 }
 
 .filters-row {
@@ -308,13 +318,33 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
+  .search-container {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-container {
+    padding: 1rem;
+  }
+
+  .search-content {
+    padding: 1.5rem;
+  }
+
   .filters-row {
     grid-template-columns: 1fr;
   }
+}
 
+@media (max-width: 640px) {
   .search-input-row {
     flex-wrap: wrap;
+  }
+
+  .search-content {
+    padding: 1rem;
   }
 }
 </style>

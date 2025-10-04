@@ -1,18 +1,20 @@
 .search-input input {
   width: 100%;
-  padding: 0.5rem 1rem;
-  border: 1px solid #d1d5db;
+  padding: 0.75rem 1rem;
+  background-color: #2a2a2a;
+  border: 2px solid #2a2a2a;
   border-radius: 0.5rem;
   font-size: 1rem;
+  color: #d1d1d1;
   transition: all 0.2s;
 }
 
 .search-input input:focus {
   outline: none;
-  ring: 2px solid #3b82f6;
-  border-color: #3b82f6;
+  border-color: #288bff;
+  background-color: #1a1a1a;
 }
 
 .search-input input::placeholder {
-  color: #9ca3af;
+  color: #959599;
 }
