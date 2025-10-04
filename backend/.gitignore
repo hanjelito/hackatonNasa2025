@@ -1,0 +1,8 @@
+# Assets
+assets/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+# Python environment
+.venv/
+venv/
+.env
