@@ -3,4 +3,4 @@ uvicorn
 python-dotenv
 beanie
 pydantic-settings
-motor
+google-genai
