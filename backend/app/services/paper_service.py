@@ -1,7 +1,7 @@
 import asyncio
 from app.dto.search_papers_request import SearchPapersRequest
 from app.dto.filter_value import FilterValue
-from app.models.paper import Paper
+
 
 def search_papers_similars(search_filters: SearchPapersRequest):
 
