@@ -1,0 +1,46 @@
+{
+    "document_title": "Environmental cues and symbiont microbe-associated molecular patterns function in concert to drive the daily remodelling of the crypt-cell brush border of the Euprymna scolopes light organ",
+    "summary_full": "This study investigates how environmental cues and symbiont molecules interact to regulate the daily changes in the brush border of the Euprymna scolopes squid light organ. The research reveals that the effacement (reduction) of microvilli, which occurs daily around dawn, is triggered by an external light cue and is independent of symbiont colonization. In contrast, the subsequent regrowth and increased density of microvilli, which happens after dawn, requires the presence of Vibrio fischeri symbionts. This regrowth is specifically induced by phosphorylated lipid A, a component of the symbiont's cell wall, and not by the level of colonization or bacterial luminescence. The findings suggest a coordinated mechanism where light signals initiate brush border remodeling, while symbiont-derived molecules fine-tune its restoration, highlighting the interplay between host and symbiont in shaping tissue architecture.",
+    "key_findings": [
+        "Daily effacement of the crypt-cell brush border in juvenile E. scolopes is triggered by a dawn light cue and is independent of symbiont colonization.",
+        "Regrowth and increased density of microvilli post-effacement are symbiont-dependent.",
+        "Phosphorylated lipid A from Vibrio fischeri is the primary inducer of symbiont-mediated microvillar regrowth.",
+        "The induction of microvillar regrowth is not dependent on the level of symbiont colonization or bacterial luminescence.",
+        "Microbe-associated molecular patterns (MAMPs), specifically phosphorylated lipid A, play a crucial role in regulating brush border microarchitecture."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the specific signaling pathways activated by symbiont lipid A in host cells.",
+        "Exploring the role of circadian rhythms in shaping the brush border in more detail.",
+        "Determining the involvement of other symbiont features, such as pili, in MAMP presentation.",
+        "Examining if similar light-cued brush border remodeling processes occur in vertebrates.",
+        "Understanding the molecular mechanisms of MAMP delivery and recognition by host cells."
+    ],
+    "related_papers": [
+        "Cellular microbiology",
+        "10.1111/cmi.12602",
+        "27062511",
+        "Fraune and Bosch, 2010",
+        "Hooper, 2015",
+        "Celli et al., 2000",
+        "Cerezuela et al., 2012",
+        "Chichlowski et al., 2007",
+        "Kuhlwein et al., 2013",
+        "Lamarcq and McFall-Ngai, 1998",
+        "Ringø et al., 2007",
+        "Shukla et al., 2012",
+        "Shifrin et al., 2012",
+        "Heath-Heckman et al., 2013",
+        "Leone et al., 2015",
+        "Rosselot et al., 2016",
+        "Wier et al., 2010",
+        "Montgomery and McFall-Ngai, 1994",
+        "Visick et al., 2000",
+        "Graf and Ruby, 1998",
+        "Nyholm and McFall-Ngai, 1998",
+        "Bates et al., 2007",
+        "Rader et al., 2012"
+    ],
+    "conclusions": "The study concludes that the daily remodeling of the squid light organ's crypt-cell brush border is a complex process driven by the interplay of environmental light cues and symbiont-derived molecules. Light triggers the effacement of microvilli, while the subsequent regrowth is specifically mediated by phosphorylated lipid A from Vibrio fischeri. This highlights a dual-control mechanism where external environmental signals and internal microbial signals cooperate to regulate host tissue architecture.",
+    "impact_statement": "This research reveals a novel mechanism of host-microbe interaction where environmental light and microbial molecular patterns coordinate to regulate tissue structure, offering insights into fundamental biological processes conserved across species."
+}

@@ -1,0 +1,26 @@
+{
+    "document_title": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 1: Intracellular overdrive for SARS-CoV-2 infection",
+    "summary_full": "This review focuses on the SARS-CoV-2 virus's mechanism of infection and its ability to adapt and restructure the intracellular environment to support viral replication. It highlights current knowledge from viral, cellular, and clinical biology experts, aiming to explain the varied clinical observations in COVID-19 patients. The review details the virus's structure, its interaction with host cells via the ACE2 receptor, and the subsequent intracellular processes triggered. It discusses the impact of viral mutations on transmissibility and immune evasion, and the diverse cellular responses influenced by cell type, genetics, and clinical context. Key intracellular pathways affected include calcium signaling, innate immune responses (like NF-κB and interferon signaling), metabolic adaptations (particularly mitochondrial function and glycolysis), and ATP/nitric oxide signaling. The review emphasizes how SARS-CoV-2 hijacks host cell machinery for its replication, leading to significant cellular and systemic dysregulation.",
+    "key_findings": [
+        "SARS-CoV-2 infects various cell types by binding to the ACE2 receptor, leading to intracellular reprogramming for viral replication.",
+        "The virus manipulates host cell calcium homeostasis, viroporins (E and ORF3a), and intracellular signaling pathways (PI3K/AKT, interferon, NF-κB) to evade immune responses and promote replication.",
+        "SARS-CoV-2 significantly alters host cell metabolism, suppressing mitochondrial function and promoting glycolysis, which supports viral synthesis and pro-inflammatory cytokine production.",
+        "Viral proteins interact with host mitochondrial proteins, disrupting oxidative phosphorylation and contributing to cellular stress and dysfunction.",
+        "The virus impacts ATP and nitric oxide signaling, leading to cellular stress, endothelial dysfunction, and potentially contributing to disease severity."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Defining precise mechanisms of viral entry and critical protein/receptor interactions.",
+        "Elucidating how host protein machinery is captured and repurposed for viral replication in a cell-specific manner.",
+        "Understanding the influence of host genetics and environment on viral infectivity.",
+        "Investigating the impact of SARS-CoV-2 on glycolysis and oxidative phosphorylation.",
+        "Revealing how mitochondria adapt to shifts in cellular physiology during infection."
+    ],
+    "related_papers": [
+        "Dong E, Du H, Gardner L. An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis. 2020;20:533-4.",
+        "Gordon DE, Jang GM, Bouhaddou M, Xu J, Obernier K, White KM, et al. A SARS-CoV-2 protein interaction map reveals targets for drug repurposing. Nature. 2020;583:459-68.",
+        "Puelles VG, Lütgehetmann M, Lindenmeyer MT, Sperhake JP, Wong MN, Allweiss L, et al. Multiorgan and renal tropism of SARS-CoV-2. N. Engl J Med. 2020;383:590-2."
+    ],
+    "conclusions": "SARS-CoV-2 causes COVID-19 by entering host cells and reprogramming intracellular machinery, leading to widespread cellular and metabolic adaptations that favor viral replication. The virus manipulates various signaling pathways, including calcium, immune, and metabolic pathways, to evade host defenses and promote its own propagation. Understanding these intracellular processes is crucial for explaining the diverse clinical manifestations of COVID-19 and for developing effective therapeutic strategies.",
+    "impact_statement": "This review provides a foundational understanding of SARS-CoV-2's intracellular mechanisms of infection and host cell reprogramming, crucial for developing targeted therapies and interventions against COVID-19."
+}

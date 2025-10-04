@@ -1,0 +1,28 @@
+{
+    "document_title": "Telomere length assessments of muscle stem cells in rodent and human skeletal muscle sections",
+    "summary_full": "This paper describes a protocol called cryosection muscle quantitative fluorescent in situ hybridization (CRYO MuQ-FISH) for measuring telomere length in muscle stem cells (MuSCs) within their native skeletal muscle environment. This method uses cryosections of muscle tissue, preserving the MuSC niche, and employs a free software (Telometer) for single-cell level telomere length assessment based on fluorescence intensity. The protocol details steps for tissue preparation, cryosectioning, CRYO MuQ-FISH staining, image acquisition, and data analysis, including normalization methods. It is adaptable for archival samples and can be applied to rodent and human tissues, as well as other tissue types. The method was validated by comparing results with a previously established method using isolated MuSCs, showing similar patterns of telomere shortening in disease models.",
+    "key_findings": [
+        "Developed and validated a protocol (CRYO MuQ-FISH) to measure telomere length in muscle stem cells directly within skeletal muscle cryosections.",
+        "The protocol preserves the native MuSC niche and allows for single-cell telomere length quantification using free software (Telometer).",
+        "Telomere length measurements can be normalized to DAPI or centromere intensity for robust analysis.",
+        "The method is adaptable to archival samples and has been shown to be compatible with rodent, human, and other tissue types (e.g., spleen, liver, kidney, colon).",
+        "CRYO MuQ-FISH results are comparable to traditional methods using isolated MuSCs, demonstrating its validity for assessing telomere shortening in disease models like muscular dystrophy."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Application of CRYO MuQ-FISH to study telomere dynamics in various muscle-related diseases and aging.",
+        "Adaptation of the protocol for other resident cell types within skeletal muscle.",
+        "Further investigation into the use of CRYO MuQ-FISH for telomere length assessment in a wider range of non-muscle tissues.",
+        "Development of automated analysis pipelines for high-throughput telomere length assessment in skeletal muscle stem cells."
+    ],
+    "related_papers": [
+        "Tichy et al. (2021) Persistent NF-kappaB activation in muscle stem cells induces proliferation-independent telomere shortening.",
+        "Tichy et al. (2017) Single stem cell imaging and analysis reveals telomere length differences in diseased human and mouse skeletal muscles.",
+        "Sacco et al. (2010) Short telomeres and stem cell exhaustion model Duchenne muscular dystrophy in mdx/mTR mice.",
+        "Cawthon R.M. Telomere measurement by quantitative PCR. Nucleic Acids Res. 2002;30:e47.",
+        "Mender I., Shay J.W. Telomere restriction fragment (TRF) analysis. Bio Protoc. 2015;5:e1658.",
+        "Matthiesen S.H., Hansen C.M. Fast and non-toxic in situ hybridization without blocking of repetitive sequences. PLoS One. 2012;7:e40675."
+    ],
+    "conclusions": "The CRYO MuQ-FISH protocol provides a robust and adaptable method for assessing telomere length in muscle stem cells within their native tissue environment. This technique overcomes limitations of cell isolation methods and is suitable for analyzing archival samples and diverse species, offering valuable insights into cellular aging and disease pathogenesis.",
+    "impact_statement": "This protocol enables precise measurement of telomere length in muscle stem cells within intact tissue, advancing the study of muscle aging and disease by preserving the native cellular niche."
+}

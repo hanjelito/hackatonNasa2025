@@ -1,0 +1,27 @@
+{
+    "document_title": "Spatial omics technologies at multimodal and single cell/subcellular level",
+    "summary_full": "This review provides a comprehensive overview of current and prospective spatial omics technologies, focusing on those capable of single-cell and subcellular resolution. These technologies enable a deeper understanding of cellular organization and interactions within tissues by profiling transcript or protein abundance in situ. The review categorizes methods into targeted (probe- or antibody-based) and transcriptome-wide (NGS-based) approaches, detailing their spatial resolution, multiplexing capabilities, scale, and coverage. It discusses various platforms, including those using sequential imaging, mass spectrometry, and in situ sequencing, highlighting their technical specifications and applications. The paper also covers computational methodologies for analyzing spatial omics data, such as cell segmentation, dimensionality reduction, and spatial pattern identification, as well as strategies for integrating multi-modal data. Finally, it touches upon experimental design considerations and available reference databases, emphasizing the transformative potential of spatial omics for research and clinical applications.",
+    "key_findings": [
+        "Spatial omics technologies have advanced significantly, offering resolutions down to 50 nm and the ability to profile over 10,000 gene targets simultaneously.",
+        "Methods range from targeted approaches for specific molecules to transcriptome-wide sequencing, each with distinct advantages in resolution, throughput, and multiplexing.",
+        "Subcellular resolution allows for the investigation of organelle-specific transcript or protein quantification and cellular phenotypes.",
+        "Computational tools are rapidly developing to handle the complexity of spatial omics data, enabling cell segmentation, spatial pattern analysis, and multi-modal data integration.",
+        "The field is moving towards making spatial omics a more accessible and commonplace technique, similar to NGS in the past decade.",
+        "Future developments include 3D scanning, time-series data collection, and integration with other omics modalities to further unravel biological complexity."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Development of more robust and standardized analysis pipelines for diverse spatial omics technologies.",
+        "Integration of spatial omics with other modalities like epigenomics, metabolomics, and metagenomics.",
+        "Application of spatial omics to a wider range of biological questions, including infectious diseases, tumor oncology, and basic cell biology.",
+        "Advancements in 3D spatial omics, deep-slide scanning, and time-series data collection for dynamic biological processes.",
+        "Further refinement of subcellular resolution techniques to capture finer details of cellular organization and function."
+    ],
+    "related_papers": [
+        "Ståhl PL, Salmén F, Vickovic S, et al. Visualization and analysis of gene expression in tissue sections by spatial transcriptomics. Science. 2016;353:78-82.",
+        "Palla G, Fischer DS, Regev A, Theis FJ. Spatial components of molecular tissue biology. Nat Biotechnol. 2022;40:308-318.",
+        "Rao A, Barkley D, França GS, Yanai I. Exploring tissue architecture using spatial transcriptomics. Nature. 2021;596:211-220."
+    ],
+    "conclusions": "Spatial omics technologies have rapidly evolved, offering unprecedented resolution and multiplexing capabilities for analyzing molecular information within its native tissue context. These advancements are transforming biological research and hold significant promise for clinical applications, enabling a deeper understanding of cellular organization, interactions, and disease mechanisms. Continued development in technology, analysis tools, and data integration will further propel the field, leading to novel discoveries across various biological domains.",
+    "impact_statement": "Spatial omics technologies are revolutionizing our ability to study cellular organization and function in situ, paving the way for new insights into disease mechanisms and therapeutic strategies."
+}

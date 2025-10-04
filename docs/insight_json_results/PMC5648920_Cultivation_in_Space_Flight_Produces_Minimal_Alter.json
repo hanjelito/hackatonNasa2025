@@ -1,0 +1,25 @@
+{
+    "document_title": "Cultivation in Space Flight Produces Minimal Alterations in the Susceptibility of Bacillus subtilis Cells to 72 Different Antibiotics and Growth-Inhibiting Compounds",
+    "summary_full": "This study investigated whether space flight alters the antibiotic susceptibility of Bacillus subtilis. Cells were cultivated on the International Space Station (FL samples) and under matched ground control conditions (GC samples). Using phenotype microarray (PM) screening against 72 antibiotics and growth inhibitors, only 9 compounds showed significant differences between FL and GC samples. However, subsequent standard broth dilution assays did not reveal statistically significant differences in the 50% inhibitory concentrations (IC50s) for any of the tested compounds. The findings suggest that space flight causes minimal alterations in the susceptibility of B. subtilis to a broad range of antibiotics and growth inhibitors, contrary to some previous suggestions.",
+    "key_findings": [
+        "Phenotype microarray screening identified 9 out of 72 tested compounds that showed statistically significant differences in susceptibility between space-flown (FL) and ground control (GC) Bacillus subtilis samples.",
+        "Of the 9 compounds, FL samples showed increased resistance to 3 (enoxacin, 6-mercaptopurine, trifluoperazine) and decreased resistance (increased sensitivity) to 6 (lomefloxacin, nalidixic acid, penimepicycline, rolitetracycline, cesium chloride, manganese(II) chloride).",
+        "Standard broth dilution assays to determine 50% inhibitory concentrations (IC50s) for 10 selected antibiotics revealed no statistically significant differences between FL and GC samples.",
+        "The dramatic difference in resistance to enoxacin observed in PM screening was not replicated in broth dilution assays, suggesting potential assay-specific effects or minimal biological impact.",
+        "The study concludes that space flight causes minimal alterations in the phenotypic response of B. subtilis cells to antibiotic susceptibility."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating potential alterations in DNA supercoiling in space-flown bacteria.",
+        "Developing high-throughput antibiotic screening systems for direct use in space flight environments.",
+        "Exploring the interplay between host, microbe, and antibiotic in the context of space flight, considering factors beyond in vitro resistance."
+    ],
+    "related_papers": [
+        "Taylor PW. 2015. Impact of space flight on bacterial virulence and antibiotic susceptibility. Infect Drug Resist 8:249-262.",
+        "Fajardo-Cavazos P, Nicholson WL. 2016. Cultivation of Staphylococcus epidermidis in the human spaceflight environment leads to alterations in the frequency and spectrum of spontaneous rifampicin-resistance mutations in the rpoB gene. Front Microbiol 7:999.",
+        "Ricco AJ, Parra M, Niesel D, Piccini M, Ly D, McGinnis M, Kudlicki A, Hines JW, Timucin L, Beasley C, Ricks R, McIntyre M, Friedericks C, Henschke M, Leung R, Diaz-Aguado M, Kitts C, Mas I, Rasay M, Agasid E, Luzzi E, Ronzano K, Squires D, Yost B. 2011. PharmaSat: drug dose response in microgravity from a free-flying integrated biofluidic/optical culture-and-analysis satellite, abstract 7929. Proc SPIE, Microfluidics, BioMEMS, and Medical Microsystems IX, Bellingham, WA.",
+        "Wilson JW, Ott CM, Bentrup KHZ, Ramamurthy R, Quick L, Porwollik S, Cheng P, McClelland M, Tsaprailis G, Radabaugh T, Hunt A, Fernandez D, Richter E, Shah M, Kilcoyne M, Joshi L, Neiman-Gonzalez M, Hing S, Parra M, Dumars P, Norwood K, Bober R, Devich J, Ruggles A, Goulart C, Rupert M, Stodieck L, Stafford P, Catella L, Schurr MJ, Buchanan K, Morici L, McCracken J, Allen P, Baker-Coleman C, Hammond T, Vogel J, Nelson R, Pierson DL, Stefanyshyn-Piper HM, Nickerson CA. 2007. Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq. Proc Natl Acad Sci U S A 104:16299-16304."
+    ],
+    "conclusions": "The study indicates that space flight, under the conditions tested, does not significantly alter the antibiotic susceptibility of Bacillus subtilis. While some minor differences were detected by phenotype microarray screening, these were not confirmed by more rigorous broth dilution assays, suggesting that concerns about increased antibiotic resistance in bacteria during space missions may be overstated for this organism.",
+    "impact_statement": "This research addresses a critical concern for long-duration space missions by demonstrating that Bacillus subtilis does not develop significant antibiotic resistance when grown in space, potentially easing concerns for astronaut health."
+}

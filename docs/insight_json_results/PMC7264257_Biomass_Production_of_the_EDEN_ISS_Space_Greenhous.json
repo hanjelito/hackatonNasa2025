@@ -1,0 +1,31 @@
+{
+    "document_title": "Biomass Production of the EDEN ISS Space Greenhouse in Antarctica During the 2018 Experiment Phase",
+    "summary_full": "The EDEN ISS greenhouse, a space-analog test facility in Antarctica, conducted multidisciplinary research on plant cultivation for future space missions during its 2018 experiment phase. Over nine months, 26 different crops were grown on a 12.5 m² cultivation area, with a focus on lettuce, leafy greens, and fresh vegetables. The facility produced over 268 kg of edible biomass, with cucumbers, lettuces, leafy greens, and tomatoes being the most abundant. Environmental conditions were maintained at specific set points for light, temperature, humidity, and CO2. This paper details the edible and inedible biomass production data for each crop, providing valuable insights for simulation models, cultivar selection, and the Crop Readiness Level evaluation method for space greenhouses.",
+    "key_findings": [
+        "The EDEN ISS greenhouse produced over 268 kg of fresh edible biomass from 12.5 m² cultivation area during its 2018 experiment phase.",
+        "Overall yearly productivity was 27.4 kg/m², or 0.075 kg/(m²*d).",
+        "Cucumbers (67 kg), lettuces (56 kg), leafy greens (49 kg), and tomatoes (50 kg) were the most significant contributors to the edible biomass.",
+        "The facility successfully maintained controlled environmental conditions, though some deviations in temperature and humidity were noted.",
+        "Biomass production varied significantly among crop species and cultivars, with cucumbers and certain leafy greens showing high productivity.",
+        "The study provides detailed edible and inedible biomass data for 26 different crop species, useful for future space greenhouse modeling and planning."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Optimization of environmental control systems for improved humidity and temperature regulation.",
+        "Further investigation into cultivar selection for maximizing biomass production in space-analog environments.",
+        "Development of advanced monitoring systems for early detection of plant stress and issues.",
+        "Integration of CO2 removal systems to maintain optimal atmospheric conditions.",
+        "Long-term studies on resource consumption (water, nutrients, energy) and crew time requirements.",
+        "Comparative analysis of different cultivation techniques (e.g., aeroponics, hydroponics) for space applications."
+    ],
+    "related_papers": [
+        "NASA's Biomass Production Chamber (Wheeler et al., 2003; Dreschel et al., 2018)",
+        "Russian BIOS facilities (Gitelson et al., 2003)",
+        "Japanese Closed Ecology Experimental Facility (Nitta, 2005)",
+        "Chinese Lunar Palace 1 (Fu et al., 2016)",
+        "South Pole Food Growth Chamber (Patterson et al., 2008, 2012)",
+        "Crop Readiness Level evaluation method (Romeyn et al., 2019)"
+    ],
+    "conclusions": "The EDEN ISS greenhouse successfully demonstrated significant edible biomass production in an Antarctic analog environment during its 2018 experiment phase. The facility provided valuable data on the performance of various crops under controlled conditions, highlighting the potential for plant cultivation in future space missions. The study also identified areas for improvement in environmental control and crop management, contributing to the ongoing development of bio-regenerative life support systems.",
+    "impact_statement": "This research provides crucial data on biomass production in a space-analog greenhouse, informing the development of sustainable food systems for long-duration human space exploration."
+}

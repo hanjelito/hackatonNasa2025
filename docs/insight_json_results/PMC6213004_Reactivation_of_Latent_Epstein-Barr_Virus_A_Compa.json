@@ -1,0 +1,27 @@
+{
+    "document_title": "Reactivation of Latent Epstein-Barr Virus: A Comparison after Exposure to Gamma, Proton, Carbon, and Iron Radiation",
+    "summary_full": "This study investigated the effect of four types of radiation (gamma rays, protons, carbon ions, and iron ions) on the reactivation of latent Epstein-Barr virus (EBV) in the Akata cell line. The researchers exposed latently infected cells to doses ranging from 0.1 to 2.0 Gy and observed that all radiation types induced lytic gene transcription and significantly increased viral loads compared to controls, with effects detectable as early as four days post-exposure. While gamma rays generally showed higher initial reactivation rates, high-energy particles induced more sustained and later reactivation. The study also found that cell viability and size were variably affected by radiation, with no consistent trend across all types and doses. Importantly, these results demonstrate that radiation alone, independent of immune system changes, can trigger EBV reactivation, challenging the standard relative biological effectiveness (RBE) concept in radiobiology for this specific endpoint.",
+    "key_findings": [
+        "All tested radiation types (gamma, proton, carbon, iron) induced EBV lytic gene transcription and increased viral loads in latently infected cells.",
+        "EBV reactivation was observed as early as four days post-radiation exposure across all radiation types and doses.",
+        "Gamma rays were generally more effective at inducing initial EBV reactivation, while high-energy particles (carbon, iron) led to more sustained reactivation.",
+        "The study demonstrated that radiation can directly cause EBV reactivation in the absence of immune system modulation.",
+        "Observed differences in EBV reactivation between radiation types challenge the conventional relative biological effectiveness (RBE) concept used in radiobiology."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the molecular mechanisms underlying radiation-induced EBV reactivation.",
+        "Exploring the role of radiation track structure in determining the efficacy of viral reactivation.",
+        "Determining the biological consequences of late-phase EBV transcription observed after high-energy particle exposure.",
+        "Assessing the potential for radiation to reactivate other latent herpes viruses.",
+        "Evaluating the implications of radiation-induced viral reactivation for spaceflight safety and terrestrial radiotherapy."
+    ],
+    "related_papers": [
+        "Mehta S.K., Crucian B.E., Stowe R.P., Simpson R.J., Ott C.M., Sams C.F., Pierson D.L. Reactivation of latent viruses is associated with increased plasma cytokines in astronauts. Cytokine. 2013;61:205-209.",
+        "Mehta S.K., Laudenslager M.L., Stowe R.P., Crucian B.E., Sams C.F., Pierson D.L. Multiple latent viruses reactivate in astronauts during Space Shuttle missions. Brain Behav. Immun. 2014;41:210-217.",
+        "Paganetti H., Niemierko A., Ancukiewicz M., Gerweck L.E., Goitein M., Loeffler J.S., Suit H.D. Relative biological effectiveness (RBE) values for proton beam therapy. Int. J. Radiat. Oncol. Biol. Phys. 2002;53:407-421.",
+        "Takada K., Horinouchi K., Ono Y., Aya T., Osato T., Takahashi M., Hayasaka S. An Epstein-Barr virus-producer line Akata: Establishment of the cell line and analysis of viral DNA. Virus Genes. 1991;5:147-156."
+    ],
+    "conclusions": "Exposure to gamma rays, protons, carbon ions, and iron ions at doses of 0.1 to 2.0 Gy can induce EBV lytic gene transcription and reactivation in latently infected cells, independent of immune system factors. While gamma rays showed higher initial reactivation, high-energy particles induced more sustained reactivation. These findings suggest that radiation itself is a significant factor in viral reactivation and challenge the standard RBE concept for this biological endpoint.",
+    "impact_statement": "This research demonstrates that space radiation can directly reactivate latent viruses like EBV, posing a significant health risk to astronauts and highlighting the need for better radiation protection and understanding of viral reactivation mechanisms in space and during medical radiation treatments."
+}

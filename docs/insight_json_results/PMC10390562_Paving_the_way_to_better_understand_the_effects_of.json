@@ -1,0 +1,30 @@
+{
+    "document_title": "Paving the way to better understand the effects of prolonged spaceflight on operational performance and its neural bases",
+    "summary_full": "This paper outlines a roadmap for understanding and mitigating the neurobehavioral challenges of prolonged spaceflight, particularly for missions to the Moon and Mars. It identifies critical research gaps, including the effects of spaceflight on brain structure and function, the importance of considering sex as a biological variable, the utility of omics technologies for understanding underlying mechanisms, and the neural representation of gravity. The authors emphasize the need for targeted countermeasures and personalized administration schedules to maintain astronaut performance and well-being. The paper also highlights the potential for space research in neurocognitive science to yield significant benefits for the Earth's population.",
+    "key_findings": [
+        "Spaceflight is associated with structural changes in the brain, including gray and white matter alterations and ventricular volume expansions, with unclear implications for performance.",
+        "Cognitive performance effects of spaceflight are less clear than sensorimotor effects, with some studies showing stability or improvement during missions, while others indicate impairments upon return or delayed effects.",
+        "Sex-specific differences in neurobehavioral responses to spaceflight are largely unknown due to historical underrepresentation of women in astronaut corps, necessitating future research.",
+        "The neural representation of gravity and its impact on spatial cognition and performance during gravitational transitions (microgravity, hypergravity) are poorly understood.",
+        "Artificial gravity and individualized countermeasures are proposed as crucial strategies for mitigating neurobehavioral risks and maintaining operational performance during long-duration missions.",
+        "Research in neurocognitive science for space exploration can lead to terrestrial applications in areas such as aging, cognitive impairment, and rehabilitation."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the long-term effects of spaceflight on cognitive domains and their neural bases.",
+        "Elucidating sex-dependent vulnerabilities and adaptations to spaceflight stressors.",
+        "Developing and validating advanced neuroimaging and omics technologies for space research.",
+        "Understanding the brain's internal representation of gravity and its role in spatial cognition.",
+        "Designing and testing personalized neurobehavioral countermeasures, including artificial gravity and adaptive training.",
+        "Establishing international collaborations and data-sharing protocols to maximize research efficiency and impact."
+    ],
+    "related_papers": [
+        "Koppelmans V, Bloomberg JJ, Mulavara AP, Seidler RD. Brain structural plasticity with spaceflight. NPJ Microgravity. 2016;2:2.",
+        "Lee JK, et al. Spaceflight-associated brain white matter microstructural changes and intracranial fluid redistribution. JAMA Neurol. 2019;76:412.",
+        "Garrett-Bakelman FE, et al. The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight. Science. 2019;364:127-128.",
+        "White O, et al. Towards human exploration of space: the THESEUS review series on neurophysiology research priorities. Npj Microgravity. 2016;2:16023.",
+        "Seidler, R. D. et al. Future research directions to identify risks and mitigation strategies for neurostructural, ocular, and behavioral changes induced by human spaceflight: A NASA-ESA expert group consensus report. Front. Neural Circuits 16, 876789 (2022)."
+    ],
+    "conclusions": "Addressing the neurobehavioral challenges of prolonged spaceflight requires an integrative, transdisciplinary approach that considers individual differences, employs advanced technologies, and fosters international collaboration. Understanding the neural bases of behavior and performance in altered gravity is critical for future exploration missions and holds significant potential for terrestrial applications.",
+    "impact_statement": "This research provides a critical roadmap for ensuring astronaut cognitive and operational performance during long-duration space missions, with potential benefits for understanding and treating neurological conditions on Earth."
+}

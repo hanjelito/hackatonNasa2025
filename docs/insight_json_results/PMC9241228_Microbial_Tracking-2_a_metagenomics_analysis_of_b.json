@@ -1,0 +1,27 @@
+{
+    "document_title": "Microbial Tracking-2, a metagenomics analysis of bacteria and fungi onboard the International Space Station",
+    "summary_full": "The Microbial Tracking 2 (MT-2) project analyzed the surface microbiome of the International Space Station (ISS) over a 14-month period, building upon the previous MT-1 study. Using shotgun metagenomics on both total DNA and viable cells (PMA-treated), alongside culture methods, the study characterized bacterial and fungal communities across eight locations. Results showed that the ISS surface microbiome is dominated by human-associated organisms, primarily Staphylococcus and Malassezia species. While temporal changes in microbial populations were observed between sampling flights, no significant spatial differences were found across locations. The antimicrobial resistance gene profiles remained stable over the 5-year span of MT-1 and MT-2, with macrolide/lincosamide/streptogramin resistance being the most widespread. Metagenomic assembled genomes (MAGs) revealed a functional propensity for amino acid utilization over carbohydrate metabolism. Co-occurrence analyses indicated strong associations between bacterial and fungal genera, suggesting complex microbial interactions. The findings provide a comprehensive understanding of the ISS surface microbiome, informing policies for astronaut health and spacecraft integrity.",
+    "key_findings": [
+        "The ISS surface microbiome is predominantly composed of bacteria (82%) and fungi (10%), largely associated with human skin.",
+        "Staphylococcus and Malassezia species were the most abundant bacterial and fungal genera, respectively.",
+        "Significant temporal changes in microbial populations were detected across sampling flights, but no spatial differences were observed between ISS locations.",
+        "Antimicrobial resistance gene profiles were stable over a 5-year period (MT-1 and MT-2), with macrolide/lincosamide/streptogramin resistance being the most prevalent.",
+        "Functional analysis of metagenomic assembled genomes (MAGs) indicated a greater reliance on amino acid utilization compared to carbohydrate metabolism.",
+        "Strong positive co-occurrence associations were found between various bacterial and fungal genera, suggesting complex microbial interactions."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the impact of astronaut microbiomes on ISS surface microbial composition.",
+        "Tracking the dynamics of microbial exchange and persistence across ISS locations and between astronauts.",
+        "Exploring the functional implications of amino acid utilization in confined built environments like the ISS.",
+        "Further research into the synergistic effects of bacterial and fungal co-occurrences, particularly concerning mycotoxin production.",
+        "Developing strategies to manage the ISS microbiome to promote astronaut health and spacecraft integrity."
+    ],
+    "related_papers": [
+        "Checinska Sielaff A, Urbaniak C, Mohan GBM, Stepanov VG, Tran Q, Wood JM, et al. Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces. Microbiome. 2019;7(1):50.",
+        "Singh NK, Wood JM, Karouia F, Venkateswaran K. Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces. Microbiome. 2018;6(1):204.",
+        "Avila-Herrera A, Thissen J, Urbaniak C, Be NA, Smith DJ, Karouia F, et al. Crewmember microbiome may influence microbial composition of ISS habitable surfaces. PLoS One. 2020;15(4):e0231838."
+    ],
+    "conclusions": "This study provides a comprehensive analysis of the ISS surface microbiome using metagenomics and culture methods, detailing microbial burden, species prevalence, temporal and spatial dynamics, and functional capabilities. The findings highlight the stability of the ISS resistome and the complex interactions within the microbial community, offering crucial data to inform future mission policies for maintaining astronaut health and spacecraft integrity.",
+    "impact_statement": "This research offers critical insights into the microbial ecosystem of the International Space Station, essential for safeguarding astronaut health and ensuring the long-term viability of space missions."
+}

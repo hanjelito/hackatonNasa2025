@@ -1,0 +1,26 @@
+{
+    "document_title": "Altered Disc Compression in Children with Idiopathic Low Back Pain: An Upright MRI Backpack Study",
+    "summary_full": "This study investigated the lumbar spine's response to common backpack loads in children with idiopathic low back pain (ILBP) using upright MRI, comparing them to previously studied normal children. Fifteen ILBP children (mean age 13) were imaged supine and standing with 0, 4, and 8 kg backpacks. Results showed that in ILBP children, only the L5-S1 intervertebral disc (IVD) was compressed by backpack loads, unlike in normal children where all lumbar discs showed compression. ILBP children also experienced significantly less lumbar lordosis and more pain with increasing backpack loads compared to normal children. These findings suggest altered load tolerance mechanisms in ILBP children, potentially involving increased reliance on paraspinal musculature.",
+    "key_findings": [
+        "In children with idiopathic low back pain (ILBP), increasing backpack loads primarily compress the L5-S1 intervertebral disc (IVD).",
+        "Compared to normal children, ILBP children exhibit significantly less lumbar IVD compression across multiple levels (T12-L1 to L4-5) under backpack load.",
+        "ILBP children show reduced lumbar lordosis when carrying backpacks compared to normal children.",
+        "Children with ILBP report significantly higher pain levels with increasing backpack loads than their normal counterparts.",
+        "ILBP children could not tolerate an 8 kg backpack load (approximately 20% body weight) due to pain, with testing abandoned at 12 kg.",
+        "Lumbar asymmetry response to backpack load did not differ between ILBP and normal children."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the effectiveness of physical therapy focused on paraspinal muscle strengthening for alleviating backpack-related pain in ILBP children.",
+        "Exploring the long-term consequences of altered load distribution and pain mechanisms in pediatric low back pain.",
+        "Further research into the specific biomechanical adaptations and muscle recruitment patterns in children with ILBP under load.",
+        "Developing standardized grading systems for pediatric intervertebral disc health to better assess degeneration's role in pain."
+    ],
+    "related_papers": [
+        "The effect of backpacks on the lumbar spine in children: a standing magnetic resonance imaging study. (Neuschwander et al., 2010)",
+        "Back pain and backpacks in school children. (Skaggs et al., 2006)",
+        "The association of backpack use and back pain in adolescents. (Sheir-Neiss et al., 2003)"
+    ],
+    "conclusions": "In children with idiopathic low back pain, increasing backpack load selectively compresses the L5-S1 disc. Compared to normal children, these children experience less overall lumbar IVD compression, reduced lumbar lordosis, and increased pain with backpack loading, suggesting altered mechanisms for load tolerance. These findings may indicate a greater reliance on paraspinal musculature, which could be targeted by physical therapy.",
+    "impact_statement": "This study reveals distinct biomechanical responses to backpack loading in children with low back pain, suggesting potential therapeutic targets for managing pediatric back pain and improving load tolerance."
+}

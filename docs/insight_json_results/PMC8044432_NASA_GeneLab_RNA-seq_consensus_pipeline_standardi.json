@@ -1,0 +1,33 @@
+{
+    "document_title": "NASA GeneLab RNA-seq consensus pipeline: standardized processing of short-read RNA-seq data",
+    "summary_full": "This paper describes the NASA GeneLab RNA-seq Consensus Pipeline (RCP), a standardized workflow for analyzing short-read RNA sequencing data from spaceflight-related experiments. The pipeline addresses the challenges of data variability in spaceflight research by implementing consistent quality control, read trimming, mapping, and gene quantification steps. It utilizes tools such as FastQC, MultiQC, TrimGalore, STAR, RSEM, and DESeq2. The processed data and the pipeline details are made publicly available through the GeneLab database to promote transparency, reproducibility, and reusability of spaceflight omics data. The goal is to provide a template for future datasets and enable cross-analysis with other databases.",
+    "key_findings": [
+        "A standardized RNA-seq consensus pipeline (RCP) has been developed by NASA GeneLab to process short-read RNA-seq data from spaceflight experiments.",
+        "The pipeline integrates quality control, adapter and quality trimming, read mapping, gene quantification, and differential gene expression analysis.",
+        "Key tools used include FastQC, MultiQC, TrimGalore, STAR, RSEM, and DESeq2, with specific rationale provided for tool selection and parameter settings.",
+        "The pipeline is designed to handle datasets with or without ERCC spike-in controls, offering both normalization options.",
+        "Processed data and analysis scripts are publicly available via the GeneLab database and GitHub, promoting transparency and reproducibility.",
+        "The pipeline enables downstream analyses such as Principal Component Analysis (PCA), heatmap generation, and Gene Set Enrichment Analysis (GSEA)."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Development of pipelines for other transcriptomic data types, such as microarray and long-read RNA-seq.",
+        "Integration of transcriptomic data with proteomic and metabolomic data for a more comprehensive understanding of spaceflight effects.",
+        "Incorporation of unique molecular identifier (UMI) processing for improved accuracy in PCR duplicate removal.",
+        "Further refinement of normalization strategies and statistical methods for differential gene expression analysis.",
+        "Cross-dataset comparisons and meta-analyses of spaceflight-related omics data."
+    ],
+    "related_papers": [
+        "ENCODE Project Consortium et al., 2020. Perspectives on ENCODE.",
+        "Functional Genomics Data Society. MINSEQE: Minimum Information about a high-throughput SEQuencing Experiment. 2012.",
+        "Williams et al., 2016. Trimming of sequence reads alters RNA-seq gene expression estimates.",
+        "Yang et al., 2015. The impact of RNA-seq aligners on gene expression estimation.",
+        "Teng et al., 2016. A benchmark for RNA-seq quantification pipelines.",
+        "Costa-Silva et al. 2017. RNA-seq differential expression analysis: an extended review and a software tool.",
+        "Rutter et al., 2020. A new era for space Life science: International standards for space omics processing (ISSOP).",
+        "Berrios et al., 2020. NASA GeneLab: interfaces for the exploration of space omics data.",
+        "Scott et al., 2020. Advancing the integration of Biosciences data sharing to further enable space exploration."
+    ],
+    "conclusions": "The NASA GeneLab RNA-seq Consensus Pipeline (RCP) provides a standardized, transparent, and reproducible method for processing short-read RNA-seq data from spaceflight experiments. Its public availability and detailed documentation aim to facilitate data integration, cross-analysis, and advance our understanding of the biological effects of spaceflight.",
+    "impact_statement": "This pipeline standardizes RNA-seq data analysis for spaceflight research, enhancing the comparability and reusability of valuable omics data to better understand biological responses to space environments."
+}

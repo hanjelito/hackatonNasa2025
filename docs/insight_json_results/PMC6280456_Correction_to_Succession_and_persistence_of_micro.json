@@ -1,0 +1,17 @@
+{
+    "document_title": "Correction to: Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces",
+    "summary_full": "This document is a correction to a previously published article in Microbiome (2018) 6:204. The correction addresses a typographic error in the scientific notation for the number of sequencing reads. The corrected text clarifies that approximately 7.3 × 10^8 reads associated with microorganisms were generated after quality trimming from both PMA and non-PMA treated samples. All metagenomic reads were normalized to a total of 3.1 × 10^8, with 7.4 × 10^6 assigned to each sample, and this normalization did not affect the taxonomic diversity. The authors apologize for the error.",
+    "key_findings": [
+        "A typographic error in the number of sequencing reads has been corrected.",
+        "The corrected text specifies approximately 7.3 × 10^8 microbial reads were generated.",
+        "Normalized metagenomic reads totaled 3.1 × 10^8, with 7.4 × 10^6 per sample.",
+        "The read normalization did not impact taxonomic diversity."
+    ],
+    "reproducibility_level": null,
+    "future_research_fields": [],
+    "related_papers": [
+        "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces. Microbiome. 2018;6:204. doi: 10.1186/s40168-018-0585-2."
+    ],
+    "conclusions": "The correction clarifies a specific data point regarding sequencing read counts, ensuring accuracy in the reported microbial community analysis from ISS environmental surfaces.",
+    "impact_statement": "This correction ensures the accurate reporting of microbial sequencing data from the International Space Station, crucial for understanding microbial persistence and resistance gene dynamics in space environments."
+}

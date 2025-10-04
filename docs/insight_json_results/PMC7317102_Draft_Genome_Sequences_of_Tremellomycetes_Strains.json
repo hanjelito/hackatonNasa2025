@@ -1,0 +1,24 @@
+{
+    "document_title": "Draft Genome Sequences of Tremellomycetes Strains Isolated from the International Space Station",
+    "summary_full": "This study reports the draft genome assemblies of six eukaryotic microbial strains belonging to the class Tremellomycetes, which were isolated from the International Space Station (ISS). The strains include four non-neoformans Cryptococcus species: Naganishia adeliensis, Naganishia albida (two strains), and Naganishia sp., along with two strains of Papiliotrema laurentii. The genome sequencing was performed using Illumina NovaSeq 6000, and the data were assembled using SPAdes. The species were identified based on internal transcribed spacer (ITS) sequences. The isolation of these species from the ISS highlights their persistence in microgravity conditions, and their genome sequences will facilitate further research into their potential pathogenicity and adaptation to space environments.",
+    "key_findings": [
+        "Draft genome sequences of six Tremellomycetes strains (Naganishia adeliensis, Naganishia albida, Naganishia sp., Papiliotrema laurentii) isolated from the International Space Station have been assembled.",
+        "The study provides genome data for non-neoformans Cryptococcus species, which are increasingly recognized as human pathogens.",
+        "The genome assemblies enable future studies on the genetic determinants of pathogenicity and adaptation to microgravity.",
+        "The data is publicly available in GenBank (PRJNA623412) and NASA GeneLab (GLDS-290)."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the potential pathogenicity of these ISS-isolated Tremellomycetes strains.",
+        "Understanding the influence of microgravity on fungal gene expression and adaptation.",
+        "Comparative genomics to identify genetic factors related to survival and growth in space environments.",
+        "Taxonomic characterization of the novel Naganishia sp. strain IF7SW-B1."
+    ],
+    "related_papers": [
+        "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces. (DOI: 10.1186/s40168-019-0666-x)",
+        "Towards an integrated phylogenetic classification of the Tremellomycetes. (DOI: 10.1016/j.simyco.2015.12.001)",
+        "Catheter-related infection due to Papiliotrema laurentii in an oncologic patient: case report and systematic review. (DOI: 10.1016/j.bjid.2019.10.005)"
+    ],
+    "conclusions": "The draft genome sequences of six Tremellomycetes strains isolated from the ISS have been successfully assembled. This resource will be crucial for future investigations into the adaptation mechanisms and potential pathogenicity of these fungi in the unique conditions of spaceflight.",
+    "impact_statement": "This study provides essential genomic data for fungi isolated from the International Space Station, paving the way for understanding their survival and potential health implications in space environments."
+}

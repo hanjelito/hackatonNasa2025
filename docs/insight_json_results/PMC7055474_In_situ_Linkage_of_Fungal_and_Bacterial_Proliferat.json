@@ -1,0 +1,27 @@
+{
+    "document_title": "In situ Linkage of Fungal and Bacterial Proliferation to Microbiologically Influenced Corrosion in B20 Biodiesel Storage Tanks",
+    "summary_full": "This study investigated the link between microbial proliferation and microbiologically influenced corrosion (MIC) in operational B20 biodiesel storage tanks over a year. Researchers collected fuel and biofilm samples from two US Air Force bases, identifying microorganisms and measuring corrosion rates. Bacterial populations were diverse and location-specific, including Acetobacteraceae, Clostridiaceae, and Proteobacteria. However, abundant eukaryotic communities at both locations were dominated by a filamentous fungus (Trichocomaceae) and yeasts (Saccharomycetaceae). Increases in the fungal Trichocomaceae abundance correlated with significant fuel fouling and pitting corrosion, particularly at the bottom of the tanks. This is the first in situ study to integrate microbial community analysis with corrosion measurements in an active biodiesel storage environment, highlighting the role of specific fungi in fuel degradation and MIC.",
+    "key_findings": [
+        "Microbial proliferation, particularly of the filamentous fungus Trichocomaceae, in B20 biodiesel storage tanks is directly linked to significant fuel fouling and pitting corrosion.",
+        "Bacterial communities in the tanks were diverse and unique to each location, while eukaryotic communities were more homogenous, dominated by Trichocomaceae and Saccharomycetaceae.",
+        "Increased abundance of Trichocomaceae correlated with increased fouling and corrosion rates, especially at the fuel-water interface at the bottom of the tanks.",
+        "The study established the first in situ link between microbial communities and MIC in active biodiesel storage systems.",
+        "Corrosion rates were significantly higher in steel tanks compared to fiberglass tanks, and higher at the bottom of the tanks compared to the top."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Development of targeted mitigation strategies against dominant fungal species like Byssochlamys for preventing MIC in biodiesel storage.",
+        "Further characterization of the metabolic pathways of key microbial players (fungi and bacteria) involved in biodiesel degradation and acid production.",
+        "Investigation into the long-term effects of microbial contamination on various tank materials, including polymers.",
+        "Exploration of the role of environmental and operational factors in shaping microbial community composition within biodiesel storage tanks.",
+        "Development of improved monitoring techniques for early detection of microbial contamination and corrosion in fuel storage systems."
+    ],
+    "related_papers": [
+        "10.3389/fmicb.2020.00167",
+        "Int. Biodeterior. Biodegradation 108 122-126 (Ching et al., 2016)",
+        "Energy Fuels 29 2924-2928 (Aktas et al., 2010)",
+        "Biofouling 26 623-635 (Lee et al., 2010)"
+    ],
+    "conclusions": "This study demonstrates a direct in situ correlation between microbial fouling, specifically by filamentous fungi like Trichocomaceae, and microbiologically influenced corrosion in operational B20 biodiesel storage tanks. The findings highlight the susceptibility of biodiesel blends to microbial degradation and subsequent infrastructure damage, emphasizing the need for vigilant fuel quality management and proactive mitigation strategies to prevent microbial establishment and corrosion.",
+    "impact_statement": "This research provides critical insights into the microbial causes of corrosion in biodiesel storage, informing strategies to maintain fuel infrastructure integrity and ensure the reliable use of renewable fuels."
+}

@@ -1,0 +1,29 @@
+{
+    "document_title": "Exposure of Mycobacterium marinum to low-shear modeled microgravity: effect on growth, the transcriptome and survival under stress",
+    "summary_full": "This study investigated the physiological and transcriptomic changes in Mycobacterium marinum when exposed to low-shear modeled microgravity (LSMMG) using high aspect ratio vessels. M. marinum grown under LSMMG transitioned from exponential phase earlier and showed reduced growth compared to normal gravity (NG) controls. Transcriptome analysis revealed significant alterations in gene expression, including downregulation of translation and metabolism, increased lipid degradation, and enhanced chaperone and mycobactin expression. The sigma factor H (sigH) was consistently upregulated under LSMMG. These changes suggest that LSMMG may simulate a nutrient-deprived environment, similar to conditions within a macrophage during infection. While LSMMG-grown bacteria were more sensitive to hydrogen peroxide, their resistance to gamma radiation and acid remained unchanged. The findings implicate sigH in the LSMMG response and suggest potential implications for pathogenic mycobacteria in spacecraft environments.",
+    "key_findings": [
+        "Low-shear modeled microgravity (LSMMG) causes Mycobacterium marinum to transition from exponential growth earlier and exhibit slower growth rates compared to normal gravity.",
+        "LSMMG significantly alters the M. marinum transcriptome, with notable changes including reduced translation, downregulated metabolism, increased lipid degradation, and upregulated chaperone and mycobactin expression.",
+        "The sigma factor H (sigH) transcript is consistently induced by LSMMG in M. marinum under both short and long exposure times.",
+        "M. marinum grown under LSMMG show increased sensitivity to hydrogen peroxide but no change in resistance to gamma radiation or acid (pH 3.5).",
+        "Transcriptome data suggest that LSMMG may mimic a nutrient-deprived environment, similar to conditions encountered within host macrophages during infection.",
+        "There is a significant overlap in differentially regulated genes between M. marinum under LSMMG and other bacteria exposed to spaceflight or LSMMG, particularly in metabolic and stress response pathways."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the precise mechanisms by which LSMMG induces nutrient deprivation-like conditions in M. marinum.",
+        "Exploring the role of SigH in M. marinum's adaptation to microgravity and its implications for virulence.",
+        "Determining the impact of LSMMG-induced transcriptomic changes on the actual protein expression and cellular functions.",
+        "Assessing the virulence and survival of LSMMG-exposed M. marinum within host macrophages and in animal models.",
+        "Evaluating the potential risk of pathogenic mycobacteria contamination in spacecraft environments and developing countermeasures."
+    ],
+    "related_papers": [
+        "Microbial responses to microgravity and other low-shear environments. (DOI: 10.1128/MMBR.00039-03)",
+        "Response of Pseudomonas aeruginosa PAO1 to low shear modeled microgravity involves AlgU regulation. (DOI: 10.1111/j.1462-2920.2010.01178.x)",
+        "Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen. (DOI: 10.1128/AEM.00409-11)",
+        "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq. (DOI: 10.1073/pnas.0705224104)",
+        "The enduring hypoxic response of Mycobacterium tuberculosis. (DOI: 10.1371/journal.pone.0001502)"
+    ],
+    "conclusions": "Exposure to low-shear modeled microgravity (LSMMG) induces significant physiological and transcriptomic changes in Mycobacterium marinum, leading to altered growth patterns, increased sensitivity to oxidative stress (H2O2), and a transcriptome suggestive of nutrient deprivation. The upregulation of the sigma factor H (sigH) appears central to this response, potentially priming the bacteria for survival in host environments like macrophages. These findings highlight the complex adaptations of pathogenic mycobacteria to microgravity and suggest potential implications for astronaut health and spacecraft contamination.",
+    "impact_statement": "This study reveals how microgravity affects pathogenic bacteria, providing insights into potential health risks for astronauts and informing strategies for microbial control in space environments."
+}

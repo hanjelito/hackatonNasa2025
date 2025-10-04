@@ -1,0 +1,27 @@
+{
+    "document_title": "Establishment and characterization of DB-1: a leptin receptor-deficient murine macrophage cell line",
+    "summary_full": "This study describes the establishment and characterization of DB-1, a novel immortalized macrophage cell line derived from leptin receptor-deficient (db/db) mice. The aim was to create an in vitro tool to investigate the role of leptin and its receptor in immune responses, particularly in the context of obesity-associated inflammation. DB-1 cells were generated from bone marrow cells differentiated with M-CSF, spontaneously immortalized, and cloned. The resulting cell line is diploid, exhibits macrophage markers (MAC-2 positive, F4/80 low, CD11b absent, Ly6C intermediate), possesses phagocytic activity comparable to primary macrophages, and responds to interferon-gamma (IFN-γ) by increasing Nos2 transcript levels. Crucially, DB-1 cells are unresponsive to leptin and adipocyte-conditioned media (ACM) in migration assays, unlike wild-type macrophages, confirming their leptin receptor deficiency. This cell line provides a valuable resource for studying leptin's influence on innate immunity and macrophage function.",
+    "key_findings": [
+        "Established DB-1, a spontaneously immortalized, leptin receptor-deficient murine macrophage cell line.",
+        "DB-1 cells are diploid, possess macrophage lineage markers (MAC-2+, F4/80 low, CD11b-, Ly6C intermediate), and exhibit phagocytic activity similar to primary macrophages.",
+        "DB-1 cells are responsive to IFN-γ stimulation, showing increased Nos2 transcript levels and IL-6 secretion.",
+        "DB-1 cells are unresponsive to leptin and adipocyte-conditioned media in migration assays, confirming the absence of functional leptin receptors.",
+        "The cell line provides a tool to study the role of the leptin receptor in obesity-associated inflammation and immune dysregulation."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the specific role of the leptin receptor in macrophage-mediated inflammatory responses in obesity.",
+        "Studying leptin's impact on antigen processing and presentation by macrophages.",
+        "Exploring the potential of DB-1 cells in adoptive transfer studies for in vivo research.",
+        "Further characterization of the molecular mechanisms underlying leptin's influence on immune cell trafficking and function."
+    ],
+    "related_papers": [
+        "Leptin. Annu Rev Physiol. 2000;62:413-437.",
+        "The role of falling leptin levels in the neuroendocrine and metabolic adaptation to short-term starvation in healthy men. J Clin Invest. 2003;111:1409-1421.",
+        "Obesity is associated with macrophage accumulation in adipose tissue. J Clin Invest. 2003;112:1796-1808.",
+        "Leptin regulates proinflammatory immune responses. FASEB J. 1998;12:57-65.",
+        "Leptin receptor expression and signaling in lymphocytes: kinetics during lymphocyte activation, role in lymphocyte survival, and response to high fat diet in mice. J Immunol. 2006;176:7745-7752."
+    ],
+    "conclusions": "The establishment of the DB-1 cell line provides a valuable and dependable in vitro tool for investigating the specific roles of leptin and its receptor in innate immunity and obesity-associated inflammation. The cell line exhibits key macrophage characteristics and a confirmed deficiency in leptin receptor signaling, enabling focused research into these complex biological interactions.",
+    "impact_statement": "This study provides a novel leptin receptor-deficient macrophage cell line that can advance research into the immunological consequences of obesity and the role of leptin in immune system regulation."
+}

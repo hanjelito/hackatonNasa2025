@@ -1,0 +1,29 @@
+{
+    "document_title": "Turbidity matters: differential effect of a 2,4-D formulation on the structure of microbial communities from clear and turbid freshwater systems",
+    "summary_full": "This study investigated the impact of AsiMax 50®, a commercial 2,4-D herbicide formulation, on freshwater microbial communities from clear and turbid systems using microcosms. The herbicide was applied at various concentrations over a 7-day period. Results indicated that the turbid system was more affected by the herbicide. In turbid waters, micro + nano phytoplankton abundance increased at low herbicide concentrations, showing a humped-shaped response, while at high concentrations, species richness and abundance decreased in both clear and turbid systems. The study suggests 2,4-D may mimic hormonal functions, with some species exhibiting different responses based on water turbidity. The increase in photosynthetic picoplankton (PPP) in turbid systems was attributed to either increased PE-Pcy abundance or reduced competition from larger phytoplankton. The findings highlight the importance of community-scale approaches in ecotoxicological studies for predicting herbicide impacts on freshwater ecosystems, while cautioning against direct extrapolation from laboratory microcosms.",
+    "key_findings": [
+        "The impact of the 2,4-D formulation AsiMax 50® on freshwater microbial communities is significantly influenced by water turbidity.",
+        "In turbid systems, low concentrations of 2,4-D stimulated micro + nano phytoplankton abundance, exhibiting a humped-shaped dose-response curve.",
+        "High concentrations of 2,4-D led to decreased species richness and abundance of micro + nano phytoplankton in both clear and turbid systems.",
+        "Certain phytoplankton species (e.g., Ochromonas sp., Chlamydomonas sp.) showed differential responses to the herbicide depending on the water turbidity.",
+        "The photosynthetic picoplankton (PPP) fraction, particularly PE-Pcy, increased in abundance in turbid systems at higher herbicide concentrations, potentially due to reduced competition or auxin pathway mimicry.",
+        "Community-scale ecotoxicological studies are crucial for accurately predicting the effects of herbicides on freshwater ecosystems, as species responses can vary within a community context."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the specific auxin pathways in algae and cyanobacteria and their differential sensitivity to 2,4-D.",
+        "Comparing the effects of pure 2,4-D versus commercial formulations on freshwater microbial communities.",
+        "Elucidating the indirect effects of 2,4-D on microbial communities through ecological interactions like competition and facilitation.",
+        "Assessing the long-term impacts of 2,4-D on freshwater ecosystem dynamics and carbon fluxes.",
+        "Developing more realistic microcosm or mesocosm designs that better mimic natural freshwater environments for ecotoxicological assessments."
+    ],
+    "related_papers": [
+        "Pérez et al., 2007: Effects of the herbicide Roundup on freshwater microbial communities: a mesocosm study.",
+        "Pizarro et al., 2016: Glyphosate input modifies microbial community structure in clear and turbid freshwater systems.",
+        "Kobraei and White, 1996: Effects of 2, 4-dichlorophenoxyacetic acid on Kentucky algae: simultaneous laboratory and field toxicity testings.",
+        "Aguayo et al., 2014: Herbicides induce change in metabolic and genetic diversity of bacterial community from a cold oligotrophic lake.",
+        "De Lipthay et al., 2003: In situ exposure to low herbicide concentrations affects microbial population composition and catabolic gene frequency in an aerobic shallow aquifer."
+    ],
+    "conclusions": "The turbidity of freshwater systems significantly influences the response of microbial communities to the 2,4-D formulation AsiMax 50®. While high herbicide concentrations generally reduce phytoplankton richness and abundance, low concentrations can stimulate growth in turbid waters, suggesting a potential hormonal mimicry effect of 2,4-D. The study emphasizes the need for community-level ecotoxicological assessments over single-species assays to predict real-world environmental impacts.",
+    "impact_statement": "This research highlights how water turbidity alters the ecological impact of the widely used herbicide 2,4-D on freshwater microbial communities, underscoring the importance of considering environmental context in ecotoxicological risk assessments."
+}

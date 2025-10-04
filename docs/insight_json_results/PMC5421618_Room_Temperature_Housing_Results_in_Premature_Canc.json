@@ -1,0 +1,27 @@
+{
+    "document_title": "Room Temperature Housing Results in Premature Cancellous Bone Loss in Growing Female Mice: Implications for the Mouse as a Preclinical Model for Age-Related Bone Loss",
+    "summary_full": "This study investigated the impact of housing temperature on bone loss in growing female mice, a common preclinical model for osteoporosis. Mice housed at room temperature (22°C) exhibited significant premature cancellous bone loss, particularly in the distal femur, compared to those housed at thermoneutral temperature (32°C). Thermoneutral housing prevented this bone loss and was associated with increased bone marrow adiposity, higher rates of bone formation, and altered gene expression related to bone metabolism. The findings suggest that standard room temperature housing exacerbates bone loss in mice due to differences in thermoregulation between mice and humans, potentially confounding results in osteoporosis research. Thermoneutral housing is proposed as a strategy to improve the validity of mouse models for age-related bone loss.",
+    "key_findings": [
+        "Housing female mice at room temperature (22°C) leads to premature cancellous bone loss in the distal femur, unlike thermoneutral housing (32°C) which preserves or increases bone mass.",
+        "Thermoneutral housing in mice is associated with decreased Ucp1 gene expression in brown adipose tissue, increased bone marrow adiposity, and higher rates of bone formation.",
+        "The beneficial effects of thermoneutral housing on bone are observed in both C57BL/6J and C3H/HeJ mouse strains, indicating a generalizable effect.",
+        "Premature bone loss in room temperature-housed mice is linked to reduced bone formation and potentially increased bone resorption.",
+        "Housing temperature significantly influences gene expression related to osteoblast differentiation, bone signaling pathways (BMP, Wnt, FGF), and adipogenesis."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the precise molecular mechanisms linking thermoregulation and bone metabolism.",
+        "Determining the optimal thermoneutral housing temperature for different mouse strains and ages.",
+        "Evaluating the impact of housing temperature on the efficacy of osteoporosis treatments in mouse models.",
+        "Exploring the role of sympathetic nervous system signaling in temperature-induced bone changes.",
+        "Assessing whether similar temperature effects on bone occur in male mice or other species."
+    ],
+    "related_papers": [
+        "Iwaniec UT, Turner RT. Animal models for osteoporosis. In: Marcus R, Feldman D, Dempster D, Luckey M, Cauley JA, editors. Osteoporosis. Elsevier Academic press; New York: 2013. pp. 939-961.",
+        "Glatt V, Canalis E, Stadmeyer L, Bouxsein ML. Age-related changes in trabecular architecture differ in female and male C57BL/6J mice. Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research. 2007;22:1197-1207.",
+        "Serrat MA, King D, Lovejoy CO. Temperature regulates limb length in homeotherms by directly modulating cartilage growth. Proceedings of the National Academy of Sciences of the United States of America. 2008;105:19348-19353.",
+        "Kokolus KM, Capitano ML, Lee CT, et al. Baseline tumor growth and immune control in laboratory mice are significantly influenced by subthermoneutral housing temperature. Proceedings of the National Academy of Sciences of the United States of America. 2013;110:20176-20181."
+    ],
+    "conclusions": "Housing female mice at standard room temperature (22°C) induces premature cancellous bone loss, likely due to exaggerated thermoregulatory demands that alter energy metabolism and bone signaling pathways. This phenomenon can confound the interpretation of studies using mice as preclinical models for osteoporosis. Thermoneutral housing (32°C) mitigates this bone loss and may represent a more physiologically relevant condition for such research.",
+    "impact_statement": "This study highlights a critical, often overlooked, environmental factor (housing temperature) that significantly impacts bone health in mouse models, necessitating adjustments in experimental protocols to improve the translational relevance of preclinical osteoporosis research."
+}

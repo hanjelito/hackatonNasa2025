@@ -1,0 +1,28 @@
+{
+    "document_title": "Multi-analyte Biochip (MAB) Based on All-solid-state Ion-selective Electrodes (ASSISE) for Physiological Research",
+    "summary_full": "This paper describes the development and characterization of a Multi-analyte Biochip (MAB) that utilizes All-solid-state Ion-selective Electrodes (ASSISE) for monitoring physiological parameters. The MAB is designed for lab-on-a-chip applications in various research fields, including spaceflight, by employing poly(3,4-ethylenedioxythiophene) (PEDOT) as a conductive polymer transducer layer to enhance electrode stability and lifetime. The MAB can simultaneously quantify H+, Ca2+, and CO32- ions, with operational ranges of pH 4-9, 0.01 mM - 1 mM for CO32-, and 0.01 mM to 1 mM for Ca2+. The device demonstrated stable performance, including a near-Nernstian slope response for pH after one month of storage in algal medium. The MAB was successfully used to monitor the physiological activity, specifically photosynthesis, of the microalga Chlorella vulgaris by detecting changes in carbonate ion concentration under different light conditions. The compact size, versatility, and multiplexed sensing capabilities make the MAB suitable for confined monitoring environments on Earth and in space.",
+    "key_findings": [
+        "Developed a Multi-analyte Biochip (MAB) with All-solid-state Ion-selective Electrodes (ASSISE) for simultaneous H+, Ca2+, and CO32- ion detection.",
+        "Utilized poly(3,4-ethylenedioxythiophene) (PEDOT) as a conductive polymer transducer to improve electrode stability and working lifetime.",
+        "Demonstrated operational ranges of pH 4-9, 0.01 mM - 1 mM for CO32-, and 0.01 mM - 1 mM for Ca2+.",
+        "Achieved a near-Nernstian pH response after one month of storage in complex algal medium.",
+        "Successfully monitored the photosynthetic activity of Chlorella vulgaris by detecting changes in carbonate ion concentration under light and dark conditions."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Functionalization of conductive polymer conjugates with biomolecules for biosensor applications.",
+        "In-vivo biomedical research and long-term monitoring in complex biological media.",
+        "Application in drug screening and environmental monitoring.",
+        "Further exploration of the pH dependence of carbonate ion measurements in biological systems.",
+        "Enhancement of electrode effective surface area using nanomaterials."
+    ],
+    "related_papers": [
+        "Bobacka J. Conducting Polymer-based Solid-state Ion-selective Electrodes. Electroanalysis. 2006;18(1):7-18.",
+        "Bobacka J. Potential Stability of All-solid-state Ion-selective Electrodes using Conducting Polymers as Ion-to-electron Transducers. Anal. Chem. 1999;71:4932-4937.",
+        "Lee JH, Yoon IJ, Yoo CL, Pyun HJ, Cha GS, Nam H. Potentiometric Evaluation of Solvent Polymeric Carbonate-selective Membranes based on Molecular Tweezer-type Neutral Carriers. Anal. Chem. 2000;72:4694-4699.",
+        "Song F, Ha J, Park B, Kwak TH, Kim IT, Nam H, Cha GS. All-solid-state Carbonate Selective Electrode based on a Molecular Tweezer-type Neutral Carrier with Solvent-soluble Conducting Polymer Solid Contact. Talanta. 2002;57:263-270.",
+        "Claussen JC, Artiles MS, McLamore ES, Mohanty S, Shi J, Rickus J, Fisher TS, Porterfield DM. Electrochemical Glutamate Biosensing with Naanocube and Nanosphere Augmented Single-walled Carbon Nanotube Networks: A Comparative Study. J. Mater. Chem. 2011;21:11224-11231."
+    ],
+    "conclusions": "The developed Multi-analyte Biochip (MAB) utilizing all-solid-state ion-selective electrodes with a conductive polymer transducer offers a stable, miniaturized, and versatile platform for monitoring key physiological ions (H+, Ca2+, CO32-) in complex biological media. Its demonstrated performance in detecting algal photosynthetic activity highlights its potential for long-term monitoring applications in confined environments, including spaceflight.",
+    "impact_statement": "This biochip technology enables miniaturized, multi-analyte sensing for critical physiological research, with potential applications in space exploration, in-vivo monitoring, and drug screening."
+}

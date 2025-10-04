@@ -1,0 +1,30 @@
+{
+    "document_title": "Effects of spaceflight aboard the International Space Station on mouse estrous cycle and ovarian gene expression",
+    "summary_full": "This study investigated the impact of 37 days of spaceflight on the estrous cycle and ovarian gene expression in adult female mice. Mice were flown on the International Space Station (ISS) as part of the Rodent Research 1 mission, with control groups maintained on Earth. Ovarian tissues and vaginal wall tissues were collected for analysis. The proportion of mice in different estrous cycle stages did not significantly differ between flight and baseline/vivarium control groups, although habitat control mice showed more in diestrus. Ovarian progesterone levels were lower in habitat control and flight mice compared to baseline controls, while estradiol levels were similar across groups. Gene expression analysis of key steroidogenic enzymes showed no significant differences between flight and control groups, with a minor elevation of Cyp17a1 in habitat controls. The findings suggest that female mice can maintain estrous cyclicity during extended spaceflight, indicating potential for fertility. The study also highlights the importance of vaginal wall histology for estrous cycle classification in spaceflight experiments and provides logistical insights for tissue preservation.",
+    "key_findings": [
+        "Female mice maintained estrous cycle activity during 37 days of spaceflight, with flight animals observed in both estrus and metestrus stages.",
+        "Ovarian progesterone levels were significantly lower in mice exposed to spaceflight and habitat control conditions compared to baseline controls.",
+        "Estradiol levels and key ovarian steroidogenic gene expression were not significantly altered by spaceflight.",
+        "Vaginal wall histology is a reliable method for determining estrous cycle stage in spaceflight-flown mice.",
+        "The study provides critical logistical information on tissue preservation methods for future spaceflight research."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the direct impact of microgravity on female fertility and reproductive success in space.",
+        "Exploring the molecular mechanisms underlying the observed decrease in ovarian progesterone levels during spaceflight.",
+        "Developing improved tissue preservation techniques for dynamic organs like ovaries in spaceflight environments.",
+        "Utilizing in situ hybridization and immunohistochemistry to analyze cell-specific gene expression in ovarian tissues.",
+        "Testing the efficacy of countermeasures to mitigate potential negative effects of spaceflight on female reproductive health."
+    ],
+    "related_papers": [
+        "10.1038/s41526-021-00139-7",
+        "10.3389/fphys.2017.00547",
+        "10.1038/s41574-019-0267-6",
+        "10.1093/humupd/dml020",
+        "10.1055/s-0037-1603571",
+        "10.1038/s41598-020-58898-4",
+        "10.1038/s41598-019-40789-y"
+    ],
+    "conclusions": "Female mice exposed to 37 days of spaceflight aboard the ISS maintained estrous cyclicity, suggesting that ovarian function is largely preserved. While progesterone levels were reduced, key steroidogenic gene expression remained largely unaffected. These findings support the use of vaginal wall histology for estrous cycle classification in spaceflight and highlight the need for appropriate tissue preservation methods for future studies on reproductive health in space.",
+    "impact_statement": "This study demonstrates that female mice can maintain reproductive cyclicity during extended spaceflight, providing crucial insights for interpreting experiments using female rodents and planning for long-duration human space missions."
+}

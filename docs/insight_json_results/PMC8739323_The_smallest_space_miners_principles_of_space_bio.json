@@ -1,0 +1,31 @@
+{
+    "document_title": "The smallest space miners: principles of space biomining",
+    "summary_full": "This review explores the principles and feasibility of space biomining for in-situ resource utilization (ISRU) in the Moon, Mars, and asteroids. It highlights the potential of microbial-based biotechnologies to extract essential resources like metals, nutrients, water, and oxygen from extraterrestrial regolith and rocks. While terrestrial biomining techniques are established, direct application to space is challenging due to differences in environmental conditions (gravity, radiation, atmosphere, temperature) and rock composition. The paper discusses the need for research into organotrophic, cyanobacteria, and community-based bioleaching mechanisms, as well as anaerobic biomining and the use of synthetic biology to overcome space-specific limitations. It also considers the integration of biomining with biological life support systems (BLSS) and its potential for bioremediation and waste recycling. The review concludes that while the science is young, investing in research is crucial for developing sustainable space exploration and settlement.",
+    "key_findings": [
+        "Space biomining offers a promising approach for in-situ resource utilization (ISRU) on celestial bodies.",
+        "Terrestrial biomining techniques may not be directly applicable to space due to unique environmental conditions and resource availability.",
+        "Organotrophic, cyanobacteria, and community-based bioleaching mechanisms, along with anaerobic biomining, require further investigation for space applications.",
+        "Synthetic biology can be employed to engineer microorganisms for enhanced tolerance and efficiency in space environments.",
+        "Biomining can be integrated with biological life support systems (BLSS) for resource provision and waste recycling.",
+        "Bioremediation capabilities of biomining microorganisms can address toxic compounds found on extraterrestrial surfaces."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the effects of space conditions (gravity, radiation, atmosphere, temperature) on biomining and bioremediation processes.",
+        "Expanding knowledge on organotrophic, cyanobacteria, and community-based bioleaching mechanisms.",
+        "Developing and optimizing anaerobic biomining techniques for space applications.",
+        "Utilizing synthetic biology to engineer microorganisms for enhanced biomining capabilities in extraterrestrial environments.",
+        "Assessing the integration of biomining compartments within biological life support systems (BLSS).",
+        "Characterizing asteroid composition and identifying suitable biomining targets.",
+        "Developing robust biomining reactors and hardware for space operations."
+    ],
+    "related_papers": [
+        "NASA-ASEE 1992: Space resources: materials",
+        "Montague et al. 2012: The role of synthetic biology for in situ resource utilization (ISRU)",
+        "Verseux et al. 2016: Sustainable life support on Mars-the potential roles of cyanobacteria",
+        "Keller et al. 2021: Biologically-based and physiochemical life support and in situ resource utilization for exploration of the solar system-reviewing the current state and defining future development needs",
+        "Cockell et al. 2020: Space station biomining experiment demonstrates rare earth element extraction in microgravity and Mars gravity"
+    ],
+    "conclusions": "Space biomining holds significant potential for ISRU and sustainable extraterrestrial settlements, offering economic and environmental advantages. However, direct application of terrestrial methods is limited by unique space conditions and resource availability. Future research must focus on understanding space effects on biomining, exploring diverse microbial mechanisms (organotrophic, cyanobacteria, anaerobic), and leveraging synthetic biology to overcome challenges. Integration with life support systems and consideration of planetary protection are also crucial.",
+    "impact_statement": "This research is vital for enabling sustainable human presence beyond Earth by developing microbial technologies to extract essential resources from extraterrestrial environments."
+}

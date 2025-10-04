@@ -1,0 +1,30 @@
+{
+    "document_title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+    "summary_full": "This study comprehensively characterized the bacterial and fungal communities on International Space Station (ISS) surfaces using both culture-based and molecular methods. Samples were collected from eight locations over three flight missions spanning 14 months. The research aimed to differentiate between total and viable (intact cell membrane) microbial populations by employing propidium monoazide (PMA) treatment before DNA extraction. Results showed a diverse microbial community, with bacterial and fungal loads varying by location and changing over time, though spatial distribution remained relatively consistent. Dominant organisms were associated with the human microbiome, including potential opportunistic pathogens like Staphylococcus aureus and Pantoea species. Approximately 46% of viable bacteria and 40% of viable fungi could be cultured, a higher percentage than observed in Earth-based cleanrooms. The ISS microbiome showed similarities to other built environments on Earth, particularly animal skin surfaces, rather than soil. The findings highlight the importance of understanding the ISS microbiome for crew health and safety, and for developing effective microbial control strategies for long-duration space missions and terrestrial applications in controlled environments.",
+    "key_findings": [
+        "A diverse bacterial and fungal community exists on ISS surfaces, with populations changing over time but remaining similar across different locations.",
+        "Molecular methods (PMA-qPCR and amplicon sequencing) revealed a significant portion of the microbial DNA originated from intact/viable organisms.",
+        "Approximately 46% of viable bacteria and 40% of viable fungi on ISS surfaces could be cultured using standard laboratory methods.",
+        "Dominant bacterial genera included Staphylococcus and Pantoea, with Staphylococcus aureus identified as a common isolate, and fungal populations were dominated by Rhodotorula mucilaginosa and Penicillium chrysogenum.",
+        "The ISS surface microbiome composition is more similar to terrestrial built environments and animal skin surfaces than to soil microbiomes.",
+        "The study identified potential opportunistic pathogens, underscoring the need for continued monitoring and safety measures for crew health."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the functional roles and potential pathogenicity of ISS-associated microbes in the space environment.",
+        "Developing advanced molecular tools for real-time microbial monitoring onboard spacecraft.",
+        "Studying biofilm formation on ISS surfaces and its implications for crew health and infrastructure.",
+        "Comparative genomics of ISS isolates with terrestrial strains to understand adaptation to space conditions.",
+        "Assessing the transfer dynamics of microbes between crew members and ISS surfaces.",
+        "Exploring the impact of ISS microbial communities on human health and immune responses during long-duration missions."
+    ],
+    "related_papers": [
+        "Microbial monitoring of crewed habitats in space-current status and future perspectives (Yamaguchi et al., 2014)",
+        "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities (Checinska et al., 2015)",
+        "A microbial survey of the International Space Station (ISS) (Lang et al., 2017)",
+        "Four-year bacterial monitoring in the International Space Station-Japanese Experiment Module “Kibo” with culture-independent approach (Ichijo et al., 2016)",
+        "The biological observation matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome (McDonald et al., 2012)"
+    ],
+    "conclusions": "The ISS harbors a diverse and dynamic bacterial and fungal community on its surfaces, which changes over time but is spatially consistent. A significant portion of these microbes are viable, and many are associated with the human microbiome, including potential opportunistic pathogens. These findings provide a crucial baseline for understanding the ISS microbiome, informing the development of safety protocols for deep space habitation, and have implications for managing microbial contamination in terrestrial controlled environments.",
+    "impact_statement": "This study provides the first comprehensive catalog of viable bacteria and fungi on ISS surfaces, crucial for ensuring crew health and safety during long-duration space missions and informing microbial control strategies in critical terrestrial environments."
+}

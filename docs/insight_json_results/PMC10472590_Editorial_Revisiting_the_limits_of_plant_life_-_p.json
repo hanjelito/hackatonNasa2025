@@ -1,0 +1,34 @@
+{
+    "document_title": "Editorial: Revisiting the limits of plant life - plant adaptations to extreme terrestrial environments relating to astrobiology and space biology",
+    "summary_full": "This editorial discusses the remarkable adaptations of terrestrial plants to extreme environments and their relevance to astrobiology and space biology. It highlights how understanding these adaptations can aid in selecting plants for space missions, developing genetically engineered space food crops, and guiding the search for extraterrestrial life. The editorial summarizes key research presented in a special issue, including studies on plant resistance to cosmic radiation, the benefits of co-culturing crops with endophytic fungi from extreme environments for space cultivation, the challenges of seed germination in extraterrestrial regolith, and the photosynthetic capabilities of cyanobacteria under simulated M-dwarf star light. The overarching theme is the critical role of plant science in enabling long-duration human space exploration and the search for life beyond Earth.",
+    "key_findings": [
+        "Plants possess remarkable strategies to survive and thrive in harsh terrestrial environments, offering valuable insights for space exploration.",
+        "Terrestrial plants show resistance to cosmic ionizing radiation, suggesting potential roles in shielding or pharmaceutical countermeasures for space missions.",
+        "Co-culturing crops with endophytic fungi from extreme environments can enhance plant performance under simulated deep space conditions (high UV, low temperature, low water).",
+        "Seedling emergence in extraterrestrial regolith is influenced by its physical properties, with high porosity and low compactness being conducive.",
+        "Cyanobacteria can acclimate to simulated M-dwarf star light spectra, demonstrating the potential for photosynthesis in environments orbiting cool, dim stars, relevant for exoplanet habitability."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Developing plant-based shielding solutions against cosmic radiation for human space exploration.",
+        "Engineering space food plants with enhanced resilience using genetic modification and symbiotic relationships.",
+        "Investigating the long-term effects of extraterrestrial regolith on plant growth and development.",
+        "Exploring the potential for photosynthesis in diverse extraterrestrial light conditions.",
+        "Identifying and characterizing extremophilic organisms for bio-augmentation in space agriculture."
+    ],
+    "related_papers": [
+        "De Micco et al. (review on cosmic ionizing radiation hazards and plant mitigation)",
+        "Molina-Montenegro et al. (co-culturing crops with endophytic fungi for space environments)",
+        "Gong et al. (seedling germination in extraterrestrial regolith)",
+        "Battistuzzi et al. (photosynthesis in cyanobacteria under M-dwarf star light)",
+        "Kapoor et al., 2023 (evolution of terrestrial adaptation)",
+        "Huston and Smith, 1987 (plant succession)",
+        "Chapin et al., 1994 (post-glaciation succession)",
+        "Yuan et al., 2020 (post-fire succession)",
+        "Heim et al., 2021 (post-fire succession)",
+        "McKay, 2014 (limits for life in exoplanets)",
+        "Huwe et al., 2019 (mosses in low earth orbit)"
+    ],
+    "conclusions": "Understanding plant adaptations to extreme terrestrial environments is crucial for advancing human space exploration, enabling the selection and engineering of plants for space missions, and guiding the search for extraterrestrial life. The research presented highlights the potential of plants to mitigate radiation, thrive in challenging simulated space conditions, and the possibility of life existing under diverse stellar light spectra.",
+    "impact_statement": "This research bridges terrestrial plant science with astrobiology, providing critical insights for enabling long-term human space missions and the search for life beyond Earth."
+}

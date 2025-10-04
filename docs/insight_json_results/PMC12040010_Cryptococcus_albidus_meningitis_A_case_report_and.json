@@ -1,0 +1,25 @@
+{
+    "document_title": "Cryptococcus albidus meningitis: A case report and literature review",
+    "summary_full": "This paper reports the first case of successful and safe treatment of Cryptococcus albidus meningitis in a severely obese patient using liposomal-amphotericin B (liposomal-AmB) dosed by ideal body weight. The patient, a severely obese female with a history of glioma resection, presented with headache and intracranial lesions. C. albidus was identified in her cerebrospinal fluid. She was treated with liposomal-AmB and 5-fluorocytosine for six weeks, showing significant improvement and remaining asymptomatic at discharge. The study also includes a literature review of CNS infections caused by C. albidus and related species, highlighting risk factors, clinical presentations, diagnostic methods, and treatment outcomes. The review suggests that C. albidus CNS infections are rare but have high mortality rates, with leukemia and cancer being significant risk factors. Accurate species identification using methods like mass spectrometry and rRNA sequencing is crucial. Amphotericin B-based treatment is recommended, with liposomal formulations preferred for safety and efficacy.",
+    "key_findings": [
+        "Demonstrated the efficacy and safety of using ideal body weight to calculate liposomal-amphotericin B dosage for severely obese patients with C. albidus meningitis.",
+        "Identified C. albidus as a rare but high-mortality cause of CNS infections, with leukemia and cancer being significant risk factors.",
+        "Highlighted the importance of accurate species identification using mass spectrometry and rRNA sequencing for rare Cryptococcus species.",
+        "Recommended amphotericin B-based treatment, preferably liposomal formulations, for C. albidus CNS infections, guided by susceptibility testing."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Establishing evidence-based guidelines for the treatment of CNS infections caused by rare Cryptococcus species.",
+        "Investigating the pharmacokinetics and optimal dosing strategies of liposomal-amphotericin B in obese patient populations.",
+        "Further research into the risk factors and transmission routes of C. albidus CNS infections.",
+        "Developing standardized susceptibility testing protocols for rare Cryptococcus species."
+    ],
+    "related_papers": [
+        "Cryptococcus albidus fungemia in an immunosuppressed child: case report and systematic literature review. J. Pediatric Infect. Dis. Soc. 2020;9:100-5.",
+        "Clinical practice guidelines for the management of cryptococcal disease: 2010 update by the infectious diseases society of america. Clin Infect Dis. 2010;50:291-322.",
+        "Single-dose liposomal amphotericin B treatment for cryptococcal meningitis. N Engl J Med. 2022;386:1109-20.",
+        "Meningitis caused by Filobasidium uniguttulatum: case report and overview of the literature. Mycoses. 2012;55:105-9."
+    ],
+    "conclusions": "Central nervous system infections caused by Cryptococcus albidus are uncommon but carry a high mortality rate. The use of ideal body weight for calculating liposomal-amphotericin B dosage is effective and safe for severely obese patients. Accurate identification of rare Cryptococcus species is crucial, and amphotericin B-based therapy, guided by susceptibility testing, remains the primary treatment approach.",
+    "impact_statement": "This study provides critical insights into the management of rare fungal CNS infections, particularly in obese patients, and emphasizes the importance of precise dosing and accurate pathogen identification for improved patient outcomes."
+}

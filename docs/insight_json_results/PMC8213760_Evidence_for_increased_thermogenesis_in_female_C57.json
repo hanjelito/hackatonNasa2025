@@ -1,0 +1,26 @@
+{
+    "document_title": "Evidence for increased thermogenesis in female C57BL/6J mice housed aboard the international space station",
+    "summary_full": "This study investigated the effects of spaceflight on thermogenesis in female C57BL/6J mice. Mice were housed on the International Space Station (ISS) for 37 days, and their carcasses were returned to Earth for analysis. Gene expression in brown adipose tissue (BAT) and white adipose tissue (WAT) was examined. Results showed increased non-shivering thermogenesis in BAT and increased glucose uptake, metabolism, adipogenesis, and beta-oxidation in WAT. These findings suggest that spaceflight induces adaptive thermogenesis, which could confound results in spaceflight studies and impact the translatability of animal models to astronauts due to species-specific differences in thermoregulation.",
+    "key_findings": [
+        "Spaceflight for 37 days increased non-shivering thermogenesis in the brown adipose tissue (BAT) of female C57BL/6J mice, evidenced by a 1.5-fold increase in Ucp-1 gene expression.",
+        "White adipose tissue (WAT) showed differential gene expression consistent with increased glucose uptake and metabolism, adipogenesis, and beta-oxidation.",
+        "Activity levels, food, and water consumption were higher in spaceflight animals compared to ground controls, supporting increased adaptive thermogenesis.",
+        "The housing temperatures on the ISS (average 26.0-26.4 °C) were below thermoneutral for mice, likely contributing to the observed thermogenic adaptations."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the specific mechanisms by which spaceflight increases sympathetic signaling and thermogenesis.",
+        "Exploring the impact of increased thermogenesis on other physiological systems in spaceflight, such as bone density and immune function.",
+        "Determining the translatability of these findings to other species, including humans, considering differences in thermoregulation.",
+        "Developing strategies to mitigate or account for spaceflight-induced thermogenic changes in animal research."
+    ],
+    "related_papers": [
+        "10.1038/s41526-021-00150-y",
+        "10.1038/s41598-020-58898-4",
+        "10.1038/s41598-019-40789-y",
+        "10.1007/s00198-016-3634-3",
+        "10.1016/j.physbeh.2017.05.026"
+    ],
+    "conclusions": "Spaceflight induces increased adaptive thermogenesis in mice, as evidenced by changes in gene expression in brown and white adipose tissues. This heightened thermogenesis may confound spaceflight studies and has implications for the translatability of animal models to astronauts.",
+    "impact_statement": "This study reveals that spaceflight significantly alters energy metabolism in mice, potentially impacting research outcomes and highlighting differences in thermoregulation between mice and humans in space."
+}

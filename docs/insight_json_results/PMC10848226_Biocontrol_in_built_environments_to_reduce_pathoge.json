@@ -1,0 +1,29 @@
+{
+    "document_title": "Biocontrol in built environments to reduce pathogen exposure and infection risk",
+    "summary_full": "This review explores the potential of using microbial biocontrol agents, primarily Bacillus species, to combat antibiotic-resistant pathogens in built environments like hospitals and homes. Traditional cleaning methods are becoming less effective due to evolving pathogen resistance. The paper discusses current understanding of indoor microbiomes, the challenges in studying them, and proposes strategies for translating this knowledge into effective biocontrol. It highlights the use of Bacillus spores in cleaning products and printable materials, noting their ability to survive harsh conditions and potentially outcompete or inhibit pathogens. The review also covers advanced techniques like genome-scale metabolic modeling and multi-omics approaches to understand microbial interactions and inform biocontrol strategies. While promising, further research is needed to elucidate mechanisms of action, optimize application methods, and assess long-term impacts and public perception.",
+    "key_findings": [
+        "Antibiotic-resistant pathogens pose a growing threat in built environments, necessitating novel infection control strategies beyond traditional disinfectants.",
+        "Bacillus species, particularly in spore form, show promise as biocontrol agents due to their resilience and ability to potentially inhibit or outcompete pathogens.",
+        "Genome-scale metabolic modeling and multi-omics techniques are valuable tools for understanding microbial ecology and informing biocontrol strategy development.",
+        "Studies indicate that Bacillus-based cleaning products can significantly reduce antimicrobial resistance genes and healthcare-associated infections in hospitals.",
+        "The efficacy of biocontrol agents can be influenced by environmental factors, cleaning regimes, and the presence of harsh disinfectants like bleach."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Elucidating the precise mechanisms of action for Bacillus-based biocontrol in diverse built environments.",
+        "Optimizing application methods, concentrations, and combinations of biocontrol agents for maximum efficacy.",
+        "Investigating the long-term effects of biocontrol agents on microbial communities and the potential for pathogen adaptation.",
+        "Developing and testing novel building materials integrated with biocontrol microbes, potentially using 3D printing technologies.",
+        "Conducting sociological studies to understand public and healthcare worker perception and acceptance of biocontrol products.",
+        "Simulating transmission events from surfaces to humans to better understand the impact of biocontrol on infection risk."
+    ],
+    "related_papers": [
+        "The overlooked pandemic of antimicrobial resistance (Laxminarayan R, 2022)",
+        "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis (Murray CJL et al., 2022)",
+        "Bacterial colonization and succession in a newly opened hospital (Lax S et al., 2017)",
+        "Hard surface biocontrol in hospitals using microbial-based cleaning products (Vandini A et al., 2014)",
+        "Impact of a probiotic-based hospital sanitation on antimicrobial resistance and HAI-associated antimicrobial consumption and costs: a multicenter study (Caselli E et al., 2019)"
+    ],
+    "conclusions": "Microbial biocontrol, particularly using Bacillus species, offers a promising avenue to combat antibiotic-resistant pathogens in built environments. While initial studies show significant reductions in pathogens and AMR genes in healthcare settings, further research is crucial to understand the underlying ecological mechanisms, optimize application strategies, and address potential challenges like pathogen adaptation and public perception. Integrating advanced modeling and experimental techniques will be key to developing effective and sustainable biocontrol solutions for improved indoor health.",
+    "impact_statement": "This research proposes a novel approach using beneficial microbes to combat dangerous antibiotic-resistant pathogens in indoor environments, potentially revolutionizing infection control in hospitals and homes."
+}

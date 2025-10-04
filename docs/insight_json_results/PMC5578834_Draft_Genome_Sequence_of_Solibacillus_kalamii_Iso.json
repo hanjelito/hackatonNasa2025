@@ -1,0 +1,26 @@
+{
+    "document_title": "Draft Genome Sequence of Solibacillus kalamii, Isolated from an Air Filter Aboard the International Space Station",
+    "summary_full": "This paper reports the draft genome sequence of Solibacillus kalamii ISSFR-015, a novel bacterial species isolated from a high-energy particulate arrestance (HEPA) filter on the International Space Station (ISS). The bacterium was isolated from a filter that had been in service for 40 months. The draft genome sequence has a total size of 3,809,180 bp with a G+C content of 38.61%, and it contains 3,814 genes, including those potentially involved in resistance to oxidative stress, vancomycin, copper, hydrogen peroxide, and arsenic. These genes suggest mechanisms for survival in the high-stress environment of the ISS and during spacecraft cleaning procedures. The genome was sequenced using the Illumina MiSeq platform and assembled into 28 contigs.",
+    "key_findings": [
+        "Draft genome sequence of Solibacillus kalamii ISSFR-015, isolated from an ISS HEPA filter, has been determined.",
+        "The genome size is 3,809,180 bp with a G+C content of 38.61%.",
+        "The genome contains 3,814 genes, including those potentially conferring resistance to superoxide, vancomycin, copper, hydrogen peroxide, and arsenic.",
+        "These genetic features suggest adaptations for survival in the extreme environment of the ISS."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the specific functions of genes related to stress resistance in S. kalamii.",
+        "Exploring the role of S. kalamii in the microbial ecology of the ISS.",
+        "Comparative genomics of Solibacillus species to understand adaptation to different environments.",
+        "Assessing the potential biotechnological applications of S. kalamii's resistance mechanisms."
+    ],
+    "related_papers": [
+        "Krishnamurthi S, Chakrabarti T, Stackebrandt E. 2009. Re-examination of the taxonomic position of Bacillus silvestris Rheims et al. 1999 and proposal to transfer it to Solibacillus gen. nov. as Solibacillus silvestris comb. nov. Int J Syst Evol Microbiol 59:1054-1058.",
+        "Mual P, Singh NK, Verma A, Schumann P, Krishnamurthi S, Dastager S, Mayilraj S. 2016. Reclassification of Bacillus isronensis Shivaji et al. 2009 as Solibacillus isronensis comb. Nov. and emended description of genus Solibacillus Krishnamurthi et al. 2009. Int J Syst Evol Microbiol 66:2113-2120.",
+        "Kennedy V, Van Laar TA, Aleru O, Thomas M, Ganci M, Rawat M. 2016. Genome sequences of three spore-forming bacteria isolated from the feces of organically raised chickens. Genome Announc 4(5):e00880-16.",
+        "Morohoshi T, Tominaga Y, Someya N, Ikeda T. 2012. Complete genome sequence and characterization of the N-acylhomoserine lactone-degrading gene of the potato leaf-associated Solibacillus silvestris. J Biosci Bioeng 113:20-25.",
+        "Checinska Sielaff A, Kumar RM, Pal D, Mayilraj S, Venkateswaran K. 2017. Solibacillus kalamii sp. nov., isolated from a high-efficiency particulate arrestance filter system used in the International Space Station. Int J Syst Evol Microbiol 67:896-901."
+    ],
+    "conclusions": "The draft genome sequence of Solibacillus kalamii ISSFR-015 provides valuable genetic information that sheds light on the bacterium's ability to survive the harsh conditions encountered on the International Space Station, including oxidative stress and cleaning procedures. This genomic data is crucial for understanding microbial adaptation in space environments.",
+    "impact_statement": "This study provides the genomic blueprint of a bacterium isolated from the International Space Station, offering insights into microbial survival mechanisms in extreme extraterrestrial environments."
+}

@@ -1,0 +1,30 @@
+{
+    "document_title": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 2: host extracellular to systemic effects of SARS-CoV-2 infection",
+    "summary_full": "This review, the second in a three-part series, focuses on the biological effects of SARS-CoV-2 on post-acute COVID-19, specifically examining tissue and organ adaptations and damage. It synthesizes knowledge from virological, animal, and clinical studies to explain the mechanisms behind varied clinical presentations. The review details how SARS-CoV-2 infection impacts host metabolism, leading to altered circulating metabolites and systemic effects on tissue function and immune state. It also explores changes in humoral factors, including the renin-angiotensin system and endocrine functions, and discusses the role of exosomes in intercellular communication and disease progression. Furthermore, the review highlights the involvement of the non-coding transcriptome (miRNAs, lncRNAs, circRNAs) in regulating viral replication and host responses. Cardiovascular, neurological, gastrointestinal, and immune system adaptations are examined, along with their contribution to acute symptoms and long-term sequelae like Post-Acute Sequelae of SARS-CoV-2 (PASC) or long COVID-19. The review emphasizes the pleiotropic and dynamic nature of COVID-19, underscoring the need for further research into its complex mechanisms and potential therapeutic targets.",
+    "key_findings": [
+        "SARS-CoV-2 infection significantly alters host cellular metabolism, leading to changes in circulating metabolites that correlate with disease severity.",
+        "The virus interacts with and disrupts the renin-angiotensin system (RAS) and endocrine functions, affecting various organs.",
+        "Exosomes play a role in intercellular communication during infection, carrying viral components and influencing immune responses and inflammation.",
+        "The non-coding transcriptome, including miRNAs, lncRNAs, and circRNAs, is dysregulated by SARS-CoV-2 infection and contributes to disease pathogenesis and antiviral responses.",
+        "SARS-CoV-2 causes multi-organ dysfunction, affecting the cardiovascular, neurological, gastrointestinal, and immune systems, leading to both acute symptoms and long-term sequelae (PASC).",
+        "Immune system dysregulation, including cytokine storms and impaired T-cell responses, is a hallmark of severe COVID-19 and contributes to organ damage."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the specific roles of exosomes in SARS-CoV-2 pathogenesis and host defense.",
+        "Elucidating the precise mechanisms by which non-coding RNAs regulate viral infection and host responses.",
+        "Developing biomarkers for predicting COVID-19 severity and long-term outcomes.",
+        "Exploring therapeutic strategies targeting metabolic pathways, humoral factors, and the non-coding transcriptome.",
+        "Understanding the long-term neurological and psychiatric manifestations of COVID-19.",
+        "Investigating the impact of SARS-CoV-2 on endocrine organ function and potential interventions."
+    ],
+    "related_papers": [
+        "A comprehensive SARS-CoV-2 and COVID-19 review, Part 1: Intracellular overdrive for SARS-CoV-2 infection. Eur J Hum Genet. 2022;30:889-98.",
+        "The radically unequal distribution of Covid-19 vaccinations: a predictable yet avoidable symptom of the fundamental causes of inequality. Humanit Soc Sci Commun. 2022;9:1-16.",
+        "Increased household transmission and immune escape of the SARS-CoV-2 Omicron compared to Delta variants. Nat Commun. 2022;13:5706.",
+        "Proteomic and metabolomic characterization of COVID-19 patient sera. Cell. 2020;182:59-72.",
+        "Endothelial cell infection and endotheliitis in COVID-19. Lancet. 2020;395:1417-8."
+    ],
+    "conclusions": "SARS-CoV-2 infection leads to a complex, multi-faceted disease (COVID-19) with significant acute and chronic impacts, including Post-Acute Sequelae of SARS-CoV-2 (PASC). The virus profoundly affects host metabolism, humoral factors, the non-coding transcriptome, and multiple organ systems. Understanding these intricate interactions and physiological adaptations is crucial for developing effective treatments and improving patient outcomes, highlighting the need for continued research into the biochemical pathways and systemic effects of the virus.",
+    "impact_statement": "This review provides a comprehensive overview of the systemic and organ-level effects of SARS-CoV-2 infection, crucial for understanding the pathogenesis of COVID-19 and its long-term consequences, thereby guiding future research and therapeutic development."
+}

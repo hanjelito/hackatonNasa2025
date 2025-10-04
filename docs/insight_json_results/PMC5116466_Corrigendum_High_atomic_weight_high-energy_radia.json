@@ -1,0 +1,14 @@
+{
+    "document_title": "Corrigendum: High atomic weight, high-energy radiation (HZE) induces transcriptional responses shared with conventional stresses in addition to a core “DSB” response specific to clastogenic treatments",
+    "summary_full": "This corrigendum addresses an oversight in the original publication regarding the microarray dataset accession number. The correct accession number for the Gene Expression Omnibus (GEO) is GSE61484. The authors apologize for this error, stating that it does not affect the scientific conclusions of the article. A conflict of interest statement is also included, declaring no commercial or financial relationships that could be construed as a potential conflict of interest.",
+    "key_findings": [
+        "The microarray dataset is available under accession number GSE61484 in the Gene Expression Omnibus.",
+        "The oversight in the accession number does not impact the scientific conclusions of the original study.",
+        "The authors declare no conflicts of interest related to the research."
+    ],
+    "reproducibility_level": null,
+    "future_research_fields": [],
+    "related_papers": [],
+    "conclusions": "The primary conclusion is that the previously published scientific findings remain valid despite an error in reporting the microarray dataset's accession number. The authors confirm the absence of conflicts of interest.",
+    "impact_statement": "This corrigendum ensures the proper accessibility of the microarray data, supporting the reproducibility of research on the transcriptional responses to high atomic weight, high-energy radiation (HZE)."
+}

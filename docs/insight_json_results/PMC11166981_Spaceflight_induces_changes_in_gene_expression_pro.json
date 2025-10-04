@@ -1,0 +1,29 @@
+{
+    "document_title": "Spaceflight induces changes in gene expression profiles linked to insulin and estrogen",
+    "summary_full": "This study investigated the molecular effects of spaceflight on energy metabolism and sex hormone signaling in mice and humans. Gene expression analysis revealed that spaceflight significantly altered pathways related to insulin and estrogen signaling in both species. In mice, the liver showed the most pronounced changes, with inhibited insulin and estrogen receptor signaling, leading to hepatic insulin resistance and steatosis. Different muscle types exhibited varying responses to insulin and estrogen signaling pathways based on their metabolic demands. In humans, pathway analysis of astronaut data indicated changes in insulin resistance, estrogen signaling, stress response, and viral infection pathways. The findings suggest that space travel has significant metabolic and endocrinological consequences, highlighting the need for further research to develop countermeasures for long-duration space missions.",
+    "key_findings": [
+        "Spaceflight induces significant changes in gene expression related to insulin and estrogen signaling in both mice and humans.",
+        "In mice, spaceflight leads to inhibited insulin and estrogen receptor signaling in the liver, resulting in hepatic insulin resistance and steatosis.",
+        "Metabolic pathways mediated by insulin and estrogen vary between different muscle types (soleus and EDL) in response to spaceflight.",
+        "Human astronaut data shows spaceflight-induced alterations in pathways related to insulin resistance, estrogen signaling, stress response, and viral infection.",
+        "Proteomics analysis in mice livers also indicated changes in proteins involved in lipid metabolism and insulin signaling.",
+        "Sex differences in gene expression responses to spaceflight were observed in rodent and human skin samples."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Metabolic and reproductive endocrinologic effects of space travel.",
+        "Development of countermeasures for spaceflight-induced metabolic and hormonal changes.",
+        "Investigating the role of sex hormones in spaceflight adaptation.",
+        "Understanding the impact of spaceflight on mitochondrial function and energy metabolism.",
+        "Exploring sex-specific responses to spaceflight in different tissues, particularly skin and reproductive organs.",
+        "Long-term health consequences of spaceflight-induced metabolic and hormonal alterations."
+    ],
+    "related_papers": [
+        "Fundamental biological features of spaceflight: advancing the field to enable deep-space exploration. Cell. 2020",
+        "Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact. Cell. 2020",
+        "NASA GeneLab: interfaces for the exploration of space omics data. Nucleic Acids Res. 2021",
+        "The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight. Science. 2019"
+    ],
+    "conclusions": "Spaceflight significantly alters gene expression profiles related to insulin and estrogen signaling in both rodents and humans, impacting key metabolic pathways in organs like the liver and muscles. These changes suggest potential for developing insulin resistance, hepatic steatosis, and other metabolic dysfunctions. The findings underscore the critical need for further research into the metabolic and endocrinological effects of space travel to ensure the health and success of future interplanetary missions.",
+    "impact_statement": "This study reveals that spaceflight disrupts fundamental metabolic and hormonal signaling pathways in both mice and humans, highlighting potential health risks for astronauts and informing strategies for long-term space exploration."
+}

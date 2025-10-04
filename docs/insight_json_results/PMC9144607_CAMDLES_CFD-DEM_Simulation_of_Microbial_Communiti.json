@@ -1,0 +1,29 @@
+{
+    "document_title": "CAMDLES: CFD-DEM Simulation of Microbial Communities in Spaceflight and Artificial Microgravity",
+    "summary_full": "This paper introduces CAMDLES (CFD-DEM Artificial Microgravity Developments for Living Ecosystem Simulation), a computational tool that extends CFD-DEM modeling to simulate biological flows, growth, and mass transfer of microbial communities in artificial microgravity devices like rotating wall vessel bioreactors (RWVs). The study addresses the significant impact of microgravity on microbes during spaceflight and aims to validate ground-based simulation methods. CAMDLES incorporates agent-based modeling to track inter-species metabolite transport and simultaneously models biological, chemical, and mechanical processes in a rotating reference frame. By correlating mass transfer calculations with Monod dynamic parameters, the model predicts growth rates under different gravity conditions. Simulations of a model community of Escherichia coli and Salmonella enterica revealed that species colocalization in dense aggregates leads to the greatest differences in growth between microgravity, RWV, and 1g conditions. The study also examined the influence of spatial distribution, product yields, and diffusivity on growth, providing a framework for future laboratory experiments and the design of biological experiments using RWVs.",
+    "key_findings": [
+        "Developed CAMDLES, a CFD-DEM model integrating biological, chemical, and mechanical processes for simulating microbial communities in artificial microgravity.",
+        "Simulations showed that dense aggregation of metabolically cooperative microbial species amplifies differences in growth rates between microgravity, RWV, and 1g conditions.",
+        "In microgravity, growth rate is limited by diffusion in solid biofilms beyond a colony size of approximately 500 cells, while in liquid aggregates, product yield becomes the limiting factor.",
+        "Rotating Wall Vessels (RWVs) can increase metabolite utilization rates compared to true microgravity, but the overall effect on growth depends on diffusion parameters, potentially increasing growth in low-diffusion (biofilm-like) conditions and decreasing it in high-diffusion (liquid) conditions.",
+        "In 1g gravity, natural convective flow can increase growth rates in biofilms, though its effect was found to be negligible compared to particle Brownian convection in the simulated conditions.",
+        "The spatial structure of microbial communities significantly influences growth rates, particularly at higher population densities and under challenging growth conditions."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the effects of cell motility, Brownian motion, and cell-cell adhesion on microbial community dynamics in spaceflight.",
+        "Exploring the impact of RWV size and rotation rate on microbial growth and community structure.",
+        "Developing coarse-grained models for CAMDLES to enable longer-timescale simulations of multigenerational evolution and population dynamics.",
+        "Validating CAMDLES simulations with experimental data from spaceflight and artificial microgravity environments.",
+        "Expanding CAMDLES to include more complex metabolic models and the effects of extracellular matrices on diffusion."
+    ],
+    "related_papers": [
+        "CFDEM®Coupling and LIGGGHTS® documentation",
+        "NUFEB: A Massively Parallel Simulator for Individual-Based Modelling of Microbial Communities (Li et al., 2019)",
+        "COMETS (Computation of Microbial Ecosystems in Time and Space) platform (Dukovski et al., 2021)",
+        "Harcombe W. Novel Cooperation Experimentally Evolved Between Species (2010)",
+        "Harcombe et al. Metabolic Resource Allocation in Individual Microbes Determines Ecosystem Interactions and Spatial Dynamics (2014)"
+    ],
+    "conclusions": "CAMDLES provides a novel computational framework for simulating microbial communities in artificial microgravity, integrating fluid dynamics, particle dynamics, and biological growth. The simulations highlight the critical role of the physical environment, particularly spatial organization and mass transfer, in influencing microbial community behavior. While RWVs can alter growth dynamics compared to true microgravity, their precise effect is community-specific and depends on factors like diffusion and product yields. The developed model serves as a basis for hypothesis generation and experimental design, aiming to demystify inconsistencies observed in microbial studies between RWV and spaceflight microgravity conditions.",
+    "impact_statement": "This work develops a computational tool to better understand how microbes behave in space, crucial for human health, life support systems, and resource utilization during long-duration space missions."
+}

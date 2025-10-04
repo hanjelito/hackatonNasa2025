@@ -1,0 +1,30 @@
+{
+    "document_title": "Hindlimb suspension in Wistar rats: Sex‐based differences in muscle response",
+    "summary_full": "This study investigated sex-based differences in muscle response to hindlimb suspension (HLS), a ground-based model simulating microgravity, in Wistar rats. Over 14 days, 28 rats (14 males, 14 females) were subjected to HLS or normal loading (NL). Results showed that females better maintained muscle function, exhibiting less reduction in grip strength and force production compared to males. While both sexes experienced muscle mass loss and reduced myofiber cross-sectional area, males showed greater atrophy in specific muscles like the soleus and tibialis anterior. Histomorphometric analysis revealed preferential atrophy of type 2 and hybrid myofibers in females, and type 1 in males. Females also showed a greater increase in myonuclear density in response to unloading. Hormone analysis indicated a decrease in testosterone in HLS males, while estradiol levels remained relatively stable in females. Gene expression analysis showed no significant differences in catabolic or myogenesis markers, but Ubr5, involved in muscle recovery, was upregulated in HLS females. The findings suggest that females are more resilient to disuse-induced muscle deconditioning than males, highlighting the need for sex-specific countermeasures for spaceflight.",
+    "key_findings": [
+        "Female rats maintained muscle function better than males during 14 days of hindlimb suspension, showing less decline in grip strength and force production.",
+        "Males experienced greater muscle atrophy in the soleus and tibialis anterior muscles compared to females after 14 days of unloading.",
+        "Hindlimb suspension led to preferential atrophy of type 2 and hybrid myofibers in females, and type 1 myofibers in males, in the gastrocnemius muscle.",
+        "Female rats exhibited a greater increase in myonuclear density in response to unloading compared to males.",
+        "Testosterone levels decreased significantly in male rats exposed to HLS, while estradiol levels in females remained relatively stable.",
+        "The gene Ubr5, involved in muscle recovery, was upregulated in female rats under HLS conditions."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the specific molecular mechanisms underlying sex-based differences in muscle response to disuse.",
+        "Exploring the role of sex hormones (testosterone and estradiol) in mitigating muscle atrophy during simulated microgravity.",
+        "Developing and testing sex-specific countermeasures for muscle deconditioning in astronauts.",
+        "Analyzing the long-term effects of hindlimb suspension on muscle function and structure in both sexes.",
+        "Examining the influence of the estrus cycle on muscle response to unloading in female rats."
+    ],
+    "related_papers": [
+        "Physiological Reports, 9, e15042",
+        "10.14814/phy2.15042",
+        "LeBlanc, Lin, et al., 2000",
+        "Fitts et al., 2000",
+        "Deschenes & Leathrum, 2016",
+        "Rosa‐Caldwell & Greene, 2019"
+    ],
+    "conclusions": "Female rats exhibit a greater resilience to disuse-induced muscle deconditioning compared to males, maintaining muscle function and mass more effectively during hindlimb suspension. These sex-based differences in muscle response highlight the necessity of considering sex as a biological variable in spaceflight research and in the development of tailored countermeasures.",
+    "impact_statement": "This study reveals significant sex-based differences in muscle response to simulated microgravity, suggesting that current countermeasures may not be equally effective for male and female astronauts, necessitating sex-specific approaches for maintaining astronaut health."
+}
