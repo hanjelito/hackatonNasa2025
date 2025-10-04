@@ -8,6 +8,7 @@ class Settings(BaseSettings):
 
     # Google AI Configuration
     API_KEY_VERTEXAI: str = "DEFAULT_API_KEY"
+    VERTEXAI_MODEL_NAME: str = "gemini-2.5-flash-lite"
 
     # Load environment variables from a .env file
     model_config = SettingsConfigDict(env_file=".env")
