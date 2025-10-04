@@ -6,6 +6,7 @@ Bucle simple para iterar archivos y probar llm_extraction
 """
 
 import asyncio
+import json
 import sys
 from pathlib import Path
 
@@ -20,8 +21,14 @@ async def main():
     """
     Bucle simple para procesar archivos
     """
-    # Usar ruta absoluta desde el directorio actual del proyecto
-    project_root = Path.cwd()
+    # Encontrar la raíz del proyecto navegando hacia arriba hasta encontrar el docker-compose.yml
+    current_dir = Path.cwd()
+    project_root = current_dir
+    
+    # Si estamos en backend/, subir un nivel
+    if current_dir.name == "backend":
+        project_root = current_dir.parent
+    
     articles_dir = project_root / "docs" / "extracted_articles"
     
     print(f"Buscando archivos en: {articles_dir}")
@@ -50,7 +57,7 @@ async def main():
         print(f"✅ Resultado: {result}")
         
         # Guardar directamente en txt
-        output_file = project_root / f"resultado_{file_path.stem}.txt"
+        output_file = project_root / f"resultado_{file_path.stem}.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(str(result))
         
