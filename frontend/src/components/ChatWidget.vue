@@ -20,7 +20,7 @@
     </div>
 
     <!-- Ventana de chat completa -->
-    <div v-if="chatState === 'open'" class="chat-window">
+    <div v-if="chatState === 'open'" class="chat-window" :class="{ expanded: isExpanded }">
       <div class="chat-header">
         <div class="chat-title">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -29,6 +29,20 @@
           <span>Chat about: {{ truncatedTitle }}</span>
         </div>
         <div class="chat-actions">
+          <button @click="toggleExpand" class="header-btn" :title="isExpanded ? 'Collapse' : 'Expand'">
+            <svg v-if="!isExpanded" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <polyline points="9 21 3 21 3 15"></polyline>
+              <line x1="21" y1="3" x2="14" y2="10"></line>
+              <line x1="3" y1="21" x2="10" y2="14"></line>
+            </svg>
+            <svg v-else width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="4 14 10 14 10 20"></polyline>
+              <polyline points="20 10 14 10 14 4"></polyline>
+              <line x1="14" y1="10" x2="21" y2="3"></line>
+              <line x1="3" y1="21" x2="10" y2="14"></line>
+            </svg>
+          </button>
           <button @click="minimizeChat" class="header-btn" title="Minimize">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -56,7 +70,7 @@
               <span class="typing-dot"></span>
             </template>
             <template v-else>
-              <p>{{ message.text }}</p>
+              <div v-html="renderMarkdown(message.text)" class="markdown-content"></div>
               <span class="message-time">{{ formatTime(message.timestamp) }}</span>
             </template>
           </div>
@@ -84,6 +98,8 @@
 
 <script setup lang="ts">
 import { ref, computed, nextTick } from 'vue'
+import { marked } from 'marked'
+import DOMPurify from 'dompurify'
 
 const props = defineProps<{
   articleTitle: string
@@ -102,6 +118,7 @@ interface Message {
 
 const chatState = ref<ChatState>('closed')
 const inputMessage = ref('')
+const isExpanded = ref(false)
 const messages = ref<Message[]>([
   {
     id: 1,
@@ -134,6 +151,11 @@ const closeChat = () => {
   chatState.value = 'closed'
 }
 
+const toggleExpand = () => {
+  isExpanded.value = !isExpanded.value
+  nextTick(() => scrollToBottom())
+}
+
 const sendMessage = async () => {
   if (!inputMessage.value.trim()) return
 
@@ -145,7 +167,6 @@ const sendMessage = async () => {
     timestamp: new Date()
   })
 
-  const userQuestion = inputMessage.value
   inputMessage.value = ''
   nextTick(() => scrollToBottom())
 
@@ -240,6 +261,11 @@ const scrollToBottom = () => {
 
 const formatTime = (date: Date) => {
   return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
+}
+
+const renderMarkdown = (text: string): string => {
+  const rawHtml = marked(text) as string
+  return DOMPurify.sanitize(rawHtml)
 }
 </script>
 
