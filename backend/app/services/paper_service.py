@@ -1,4 +1,6 @@
+import asyncio
 from app.dto.search_papers_request import SearchPapersRequest
+from app.dto.filter_value import FilterValue
 
 
 def search_papers_similars(search_filters: SearchPapersRequest):
@@ -18,15 +20,32 @@ def search_papers_similars(search_filters: SearchPapersRequest):
 
     return filtered_papers
 
-def obtain_paper_filters_values():
-    # Aquí iría la lógica para obtener los filtros de papers desde la base de datos
-    # Por ahora, devolvemos una lista de ejemplo
-    example_filters = [
-        "Algoritmos",
-        "Inteligencia Artificial",
-        "Redes Neuronales",
-        "Procesamiento de Lenguaje Natural",
-        "Visión por Computadora"
+
+async def obtain_paper_filters_values():
+    await asyncio.sleep(0)
+    # Respuesta de ejemplo con la misma forma que el DTO FilterValue
+    example_filters: list[FilterValue] = [
+        FilterValue(
+            name="organisms",
+            values=[
+                "Human",
+                "Mouse",
+                "Rat",
+                "Zebrafish",
+                "Fruit fly",
+                "Nematode",
+                "Yeast",
+            ],
+        ),
+        FilterValue(
+            name="article_types",
+            values=[
+                "Review",
+                "Research Article",
+                "Short Communication",
+                "Case Report",
+            ],
+        ),
     ]
 
     return example_filters
