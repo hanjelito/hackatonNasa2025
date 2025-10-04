@@ -1,7 +1,8 @@
 from json import loads
 from app.config.vertexai_client import VertexAIClient
-from app.config.settings import settings
 from google.genai.types import GenerateContentConfig
+from app.config.settings import settings
+
 
 vertex_ai_client = VertexAIClient()
 
@@ -28,12 +29,14 @@ async def extract_structured_data(text: str) -> dict:
     """
 
     response = vertex_ai_client.client.models.generate_content(
-        model="cferfrfr",
+        model=settings.VERTEXAI_MODEL_NAME,
         contents=text,
         config=GenerateContentConfig(
             system_instruction=EXTRACTION_PROMPT,
             temperature=0,
-        ),
+            response_mime_type="application/json",
+        )
+        ,
     )
 
     if not response.text:
