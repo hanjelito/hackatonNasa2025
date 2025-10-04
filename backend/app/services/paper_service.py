@@ -1,6 +1,7 @@
 import asyncio
 from app.dto.search_papers_request import SearchPapersRequest
 from app.dto.filter_value import FilterValue
+from app.config.mongodb_client import MongoDbClient
 
 
 def search_papers_similars(search_filters: SearchPapersRequest):
