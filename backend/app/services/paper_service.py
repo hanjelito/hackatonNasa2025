@@ -1,4 +1,4 @@
-from dto.search_papers_request import SearchPapersRequest
+from app.dto.search_papers_request import SearchPapersRequest
 
 
 def search_papers_similars(search_filters: SearchPapersRequest):

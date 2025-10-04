@@ -5,7 +5,7 @@ from app.models.paper import Paper
 
 
 class MongoDbClient:
-    async def __init__(self, url: str, database_name: str = "hackaton_nasa_db"):
+    def __init__(self, url: str, database_name: str = "hackaton_nasa_db"):
         self.models: list[Type[Document]] = [Paper]
         self.client = AsyncMongoClient(url)
         self.database_name = database_name

@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from dto.filter_value import FilterValue
+from app.dto.filter_value import FilterValue
 
 class SearchPapersRequest(BaseModel):
     query: str
