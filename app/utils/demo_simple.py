@@ -19,7 +19,6 @@ def demo_simple():
     
     # Opción 1: Intentar desde URL
     url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC4379453/"
-    print(f"🌐 Intentando desde URL: {url}")
     
     resultado = None
     try:
@@ -27,7 +26,6 @@ def demo_simple():
     except:
         print("⚠️  Sin conexión a internet")
     
-
     # Mostrar resultados
     if resultado:
         # Guardar
@@ -45,4 +43,4 @@ if __name__ == "__main__":
 
     resultado = demo_simple()
     
-    print(f"\n✨ Demo completada. ¡Listo para el hackathon! 🏆")
+    print(f"\n✨ Demo completada")
