@@ -20,7 +20,7 @@ class ChatRequest(BaseModel):
                 "paper_id": "67003efb4c2e3f7a9c2b5a11",
                 "messages": [
                     {
-                        "role": "assistant",
+                        "role": "model",
                         "content": "El paper trata sobre..."
                     },
                     {
