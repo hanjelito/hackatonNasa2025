@@ -1,8 +1,7 @@
 <template>
-  <div v-if="isOpen" class="filter-overlay" @click="$emit('close')"></div>
   <div class="filter-panel" :class="{ 'is-open': isOpen }">
     <div class="panel-header">
-      <h3>Advanced Filters</h3>
+      <h3>Filters</h3>
       <button @click="$emit('close')" class="close-btn">×</button>
     </div>
 

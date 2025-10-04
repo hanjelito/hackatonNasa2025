@@ -2,58 +2,60 @@
   <div class="search-view">
     <NavHeader />
 
-    <div class="search-container">
-      <div class="search-content">
-        <div class="search-input-row">
-          <SearchInput
-            v-model="searchQuery"
-            placeholder="Search NASA data..."
-            @search="handleSearch"
+    <div class="main-layout">
+      <div class="search-container" :class="{ 'with-sidebar': showAdvancedFilters }">
+        <div class="search-content">
+          <div class="search-input-row">
+            <SearchInput
+              v-model="searchQuery"
+              placeholder="Search NASA data..."
+              @search="handleSearch"
+            />
+            <button @click="toggleAdvancedFilters" class="filter-toggle-btn" :class="{ active: showAdvancedFilters }">
+              <FunnelIcon class="w-5 h-5" />
+            </button>
+          </div>
+
+          <SearchButton @click="handleSearch" />
+
+          <SelectedFilterTags
+            :filters="activeFilters"
+            @remove="handleRemoveFilterTag"
           />
-          <button @click="toggleAdvancedFilters" class="filter-toggle-btn" :class="{ active: showAdvancedFilters }">
-            <AdjustmentsHorizontalIcon class="w-5 h-5" />
-          </button>
-        </div>
 
-        <SearchButton @click="handleSearch" />
+          <ActiveFilters
+            :filters="activeFilters"
+            @remove-year="handleRemoveYear"
+            @remove-organism="handleRemoveOrganism"
+            @remove-query="handleRemoveQuery"
+            @clear-all="handleClearAll"
+          />
 
-        <SelectedFilterTags
-          :filters="activeFilters"
-          @remove="handleRemoveFilterTag"
-        />
+          <ArticleList
+            :articles="articles"
+            :selected-ids="selectedArticleIds"
+            :loading="loading"
+            :total="totalResults"
+            @toggle-selection="handleToggleSelection"
+            @filter-year="handleFilterYear"
+            @filter-organism="handleFilterOrganism"
+          />
 
-        <ActiveFilters
-          :filters="activeFilters"
-          @remove-year="handleRemoveYear"
-          @remove-organism="handleRemoveOrganism"
-          @remove-query="handleRemoveQuery"
-          @clear-all="handleClearAll"
-        />
-
-        <ArticleList
-          :articles="articles"
-          :selected-ids="selectedArticleIds"
-          :loading="loading"
-          :total="totalResults"
-          @toggle-selection="handleToggleSelection"
-          @filter-year="handleFilterYear"
-          @filter-organism="handleFilterOrganism"
-        />
-
-        <div v-if="selectedArticleIds.length > 0" class="selected-info">
-          <p>
-            You have selected {{ selectedArticleIds.length }} article{{ selectedArticleIds.length !== 1 ? 's' : '' }}
-          </p>
+          <div v-if="selectedArticleIds.length > 0" class="selected-info">
+            <p>
+              You have selected {{ selectedArticleIds.length }} article{{ selectedArticleIds.length !== 1 ? 's' : '' }}
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <FilterPanel
-      :is-open="showAdvancedFilters"
-      :filters="activeFilters"
-      @close="showAdvancedFilters = false"
-      @update:filters="handleUpdateFilters"
-    />
+      <FilterPanel
+        :is-open="showAdvancedFilters"
+        :filters="activeFilters"
+        @close="showAdvancedFilters = false"
+        @update:filters="handleUpdateFilters"
+      />
+    </div>
   </div>
 </template>
 
@@ -66,7 +68,7 @@ import ArticleList from '../components/ArticleList.vue'
 import ActiveFilters from '../components/ActiveFilters.vue'
 import FilterPanel from '../components/FilterPanel.vue'
 import SelectedFilterTags from '../components/SelectedFilterTags.vue'
-import AdjustmentsHorizontalIcon from '../components/icons/AdjustmentsHorizontalIcon.vue'
+import FunnelIcon from '../components/icons/FunnelIcon.vue'
 import { searchArticles } from '../services/articleService'
 import type { Article, SearchFilters } from '../types/article'
 import mockData from '../data/mockArticles.json'
@@ -237,13 +239,24 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
   background-color: #000000;
 }
 
+.main-layout {
+  display: flex;
+  min-height: calc(100vh - 80px);
+}
+
 .search-container {
-  max-width: 1400px;
-  margin: 0 auto;
+  flex: 1;
   padding: 2rem;
+  transition: margin-right 0.3s ease;
+}
+
+.search-container.with-sidebar {
+  margin-right: 360px;
 }
 
 .search-content {
+  max-width: 1400px;
+  margin: 0 auto;
   background-color: #ffffff;
   border-radius: 12px;
   padding: 2.5rem;
@@ -262,7 +275,7 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
 }
 
 .filter-toggle-btn {
-  padding: 0.5rem;
+  padding: 0.75rem 1rem;
   background-color: #f5f5f5;
   border: 2px solid #e0e0e0;
   border-radius: 0.5rem;
@@ -272,8 +285,8 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 2.75rem;
-  width: 2.75rem;
+  height: 3.25rem;
+  width: 3.25rem;
   flex-shrink: 0;
 }
 
@@ -322,6 +335,10 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
 @media (max-width: 1024px) {
   .search-container {
     padding: 1.5rem;
+  }
+
+  .search-container.with-sidebar {
+    margin-right: 0;
   }
 }
 
