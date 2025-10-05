@@ -16,4 +16,4 @@ async def search_papers(search_filters: SearchPapersRequest):
 
 @paper_router.get("/search/filters", response_model=list[FilterValue])
 async def obtain_filters_values():
-    return await obtain_paper_filters_values()
+    return obtain_paper_filters_values()
