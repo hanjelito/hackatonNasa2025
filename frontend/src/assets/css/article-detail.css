@@ -76,6 +76,42 @@
   border-color: rgba(175, 17, 8, 0.3);
 }
 
+.tag-high {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: #dc2626;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.tag-moderate {
+  background-color: rgba(251, 191, 36, 0.15);
+  color: #d97706;
+  border-color: rgba(251, 191, 36, 0.3);
+}
+
+.tag-low {
+  background-color: rgba(34, 197, 94, 0.15);
+  color: #16a34a;
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.tag-stressor {
+  background-color: rgba(139, 92, 246, 0.15);
+  color: #7c3aed;
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+.tag-mission {
+  background-color: rgba(59, 130, 246, 0.15);
+  color: #2563eb;
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.tag-agency {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #059669;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
 .article-title {
   font-size: 2.5rem;
   font-weight: 700;

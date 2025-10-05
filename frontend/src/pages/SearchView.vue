@@ -71,7 +71,7 @@ import SelectedFilterTags from '../components/SelectedFilterTags.vue'
 import FunnelIcon from '../components/icons/FunnelIcon.vue'
 import { searchArticles } from '../services/articleService'
 import type { Article, SearchFilters } from '../types/article'
-import mockData from '../data/mockArticles.json'
+import mockData from '../data/mockArticleReal.json'
 import { useSearchState } from '../composables/useSearchState'
 
 // Usar el estado compartido
@@ -95,12 +95,16 @@ const showAdvancedFilters = ref(false)
 
 // Get unique years and organisms from mock data
 const availableYears = computed(() => {
-  const years = mockData.articles.map((a: Article) => a.year)
-  return [...new Set(years)].sort((a, b) => b - a)
+  const years = mockData.papers
+    .filter((a: any) => a.publication_date)
+    .map((a: any) => new Date(a.publication_date).getFullYear())
+  return [...new Set(years)].sort((a: number, b: number) => b - a)
 })
 
 const availableOrganisms = computed(() => {
-  const organisms = mockData.articles.map((a: Article) => a.organism)
+  const organisms = mockData.papers
+    .filter((a: any) => a.primary_organisms_studied && a.primary_organisms_studied.length > 0)
+    .flatMap((a: any) => a.primary_organisms_studied)
   return [...new Set(organisms)].sort()
 })
 
@@ -117,16 +121,17 @@ const handleSearch = async (filters?: SearchFilters) => {
   setActiveFilters(searchFilters)
 
   // Build filters array in the required format for console log
-  const filterArray = []
-  if (searchFilters.organisms && searchFilters.organisms.length > 0) {
-    filterArray.push({ name: 'organisms', values: searchFilters.organisms })
-  }
-  if (searchFilters.years && searchFilters.years.length > 0) {
-    filterArray.push({ name: 'years', values: searchFilters.years })
-  }
-  if (searchFilters.sources && searchFilters.sources.length > 0) {
-    filterArray.push({ name: 'sources', values: searchFilters.sources })
-  }
+  const filterArray: { name: string; values: (string | number)[] }[] = []
+
+  // Iterate through all filter properties
+  Object.keys(searchFilters).forEach(key => {
+    if (key !== 'query') {
+      const values = searchFilters[key as keyof SearchFilters]
+      if (Array.isArray(values) && values.length > 0) {
+        filterArray.push({ name: key, values })
+      }
+    }
+  })
 
   const payload = {
     filters: filterArray,
@@ -158,15 +163,21 @@ const handleToggleSelection = (articleId: string) => {
 }
 
 const handleFilterYear = (year: number) => {
+  console.log('Filter by year:', year)
+  console.log('Current filters:', activeFilters.value)
   handleSearch({
     ...activeFilters.value,
+    query: searchQuery.value.trim() || undefined,
     year
   })
 }
 
 const handleFilterOrganism = (organism: string) => {
+  console.log('Filter by organism:', organism)
+  console.log('Current filters:', activeFilters.value)
   handleSearch({
     ...activeFilters.value,
+    query: searchQuery.value.trim() || undefined,
     organism
   })
 }
@@ -215,8 +226,11 @@ const toggleAdvancedFilters = () => {
 }
 
 const handleUpdateFilters = (filters: SearchFilters) => {
-  // Just update the active filters without searching
-  setActiveFilters(filters)
+  // Update filters and trigger search with current query
+  handleSearch({
+    ...filters,
+    query: searchQuery.value.trim() || undefined
+  })
 }
 
 const handleRemoveFilterTag = (filterName: string, value: string | number) => {
@@ -225,7 +239,7 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
 
   if (filterArray && Array.isArray(filterArray)) {
     const updatedArray = filterArray.filter(v => v !== value)
-    setActiveFilters({
+    handleSearch({
       ...currentFilters,
       [filterName]: updatedArray.length > 0 ? updatedArray : undefined
     })

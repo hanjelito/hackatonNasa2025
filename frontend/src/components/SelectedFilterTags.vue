@@ -30,56 +30,48 @@ interface FilterTag {
   filterName: string
 }
 
+const formatLabel = (filterName: string): string => {
+  const labels: Record<string, string> = {
+    organism: 'Organism',
+    organisms: 'Organism',
+    year: 'Year',
+    years: 'Year',
+    sources: 'Source',
+    article_types: 'Article Type'
+  }
+
+  return labels[filterName] || filterName.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())
+}
+
 const filterTags = computed(() => {
   const tags: FilterTag[] = []
 
-  // Process organisms
-  if (props.filters.organisms && props.filters.organisms.length > 0) {
-    props.filters.organisms.forEach(org => {
-      tags.push({
-        key: `organisms-${org}`,
-        label: 'Organization',
-        value: org,
-        filterName: 'organisms'
-      })
-    })
-  }
+  // Iterate through all filter properties dynamically
+  Object.entries(props.filters).forEach(([key, value]) => {
+    // Skip query field and undefined/null values
+    if (key === 'query' || !value) return
 
-  // Process years
-  if (props.filters.years && props.filters.years.length > 0) {
-    props.filters.years.forEach(year => {
-      tags.push({
-        key: `years-${year}`,
-        label: 'Year',
-        value: year,
-        filterName: 'years'
+    // Handle array filters
+    if (Array.isArray(value)) {
+      value.forEach(item => {
+        tags.push({
+          key: `${key}-${item}`,
+          label: formatLabel(key),
+          value: item,
+          filterName: key
+        })
       })
-    })
-  }
-
-  // Process sources
-  if (props.filters.sources && props.filters.sources.length > 0) {
-    props.filters.sources.forEach(source => {
+    }
+    // Handle single value filters (year, organism)
+    else {
       tags.push({
-        key: `sources-${source}`,
-        label: 'Source',
-        value: source,
-        filterName: 'sources'
+        key: `${key}-${value}`,
+        label: formatLabel(key),
+        value: value,
+        filterName: key
       })
-    })
-  }
-
-  // Process article_types
-  if (props.filters.article_types && props.filters.article_types.length > 0) {
-    props.filters.article_types.forEach(type => {
-      tags.push({
-        key: `article_types-${type}`,
-        label: 'Article Type',
-        value: type,
-        filterName: 'article_types'
-      })
-    })
-  }
+    }
+  })
 
   return tags
 })
