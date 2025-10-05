@@ -1,11 +1,26 @@
-from enum import Enum
+from .base_enum import BaseEnum
 
 
-class Organ(Enum):
-    BONE = "BONE"
-    MUSCLE = "MUSCLE"
-    IMMUNE_SYSTEM = "IMMUNE_SYSTEM"
-    NERVOUS_SYSTEM = "NERVOUS_SYSTEM"
-    CARDIOVASCULAR_SYSTEM = "CARDIOVASCULAR_SYSTEM"
-    RESPIRATORY_SYSTEM = "RESPIRATORY_SYSTEM"
-    DIGESTIVE_SYSTEM = "DIGESTIVE_SYSTEM"
+class Organ(BaseEnum):
+    CARDIOVASCULAR_SYSTEM = "Cardiovascular system"
+    CENTRAL_NERVOUS_SYSTEM = "Central nervous system"
+    ENDOCRINE_SYSTEM = "Endocrine system"
+    GASTROINTESTINAL_SYSTEM = "Gastrointestinal system"
+    HEMATOLOGIC_SYSTEM = "Hematologic system"
+    IMMUNE_SYSTEM = "Immune system"
+    INTEGUMENTARY_SYSTEM = "Integumentary system"
+    MUSCULOSKELETAL_SYSTEM = "Musculoskeletal system"
+    RENAL_SYSTEM = "Renal system"
+    REPRODUCTIVE_SYSTEM = "Reproductive system"
+    RESPIRATORY_SYSTEM = "Respiratory system"
+    SENSORY_SYSTEMS = "Sensory systems"
+    SKELETAL_SYSTEM = "Skeletal system"
+    VASCULAR_SYSTEM = "Vascular system"
+    CELLULAR_PROCESSES = "Cellular processes"
+    GENOMIC_STABILITY = "Genomic stability"
+    METABOLIC_PATHWAYS = "Metabolic pathways"
+    PLANT_BIOLOGY = "Plant biology"
+    PHOTOSYNTHESIS = "Photosynthesis"
+    MICROBIOME = "Microbiome"
+    WHOLE_ORGANISM = "Whole organism"
+    NOT_SPECIFIED = "Not specified"

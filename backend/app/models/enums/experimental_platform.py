@@ -1,5 +1,28 @@
-from enum import Enum
+from .base_enum import BaseEnum
 
 
-class ExperimentalPlatform(Enum):
-    ISS = "ISS"
+class ExperimentalPlatform(BaseEnum):
+    SPACEFLIGHT_ISS = "Spaceflight iss"
+    SPACEFLIGHT_ORBITAL_OTHER = "Spaceflight orbital other"
+    SPACEFLIGHT_SUBORBITAL = "Spaceflight suborbital"
+    SPACEFLIGHT_HISTORICAL = "Spaceflight historical"
+    GROUND_SIMULATION_MICROGRAVITY = "Ground simulation microgravity"
+    GROUND_SIMULATION_HYPERGRAVITY = "Ground simulation hypergravity"
+    GROUND_SIMULATION_RADIATION = "Ground simulation radiation"
+    GROUND_SIMULATION_OTHER = "Ground simulation other"
+    GROUND_LABORATORY = "Ground laboratory"
+    GROUND_MODEL_SYSTEM = "Ground model system"
+    GROUND_ANALOG_HABITAT = "Ground analog habitat"
+    GROUND_CLINICAL_TRIAL = "Ground clinical trial"
+    GROUND_COMPUTATIONAL = "Ground computational"
+    GROUND_THEORETICAL = "Ground theoretical"
+    SPACE_VEHICLE_HARDWARE = "Space vehicle hardware"
+    SPACE_VEHICLE_CUBESAT_SMALSAT = "Space vehicle cubesat smalsat"
+    SPACE_VEHICLE_UNMANNED_MISSION = "Space vehicle unmanned mission"
+    IN_VITRO_MODEL = "In vitro model"
+    IN_VIVO_MODEL = "In vivo model"
+    ORGAN_ON_CHIP_MODEL = "Organ on chip model"
+    BIOLOGICAL_SYSTEM_MODEL = "Biological system model"
+    SPECIMEN_TYPE_OTHER = "Specimen type other"
+    NOT_APPLICABLE = "Not applicable"
+    NOT_SPECIFIED = "Not specified"

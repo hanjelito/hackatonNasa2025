@@ -1,6 +1,32 @@
-from enum import Enum
+from .base_enum import BaseEnum
 
 
-class AnalysisLevel(Enum):
-    CELL = "CELL_LEVEL"
-    MOLECULAR = "MOLECULAR_LEVEL"
+class AnalysisLevel(BaseEnum):
+    BIOCHEMICAL = "Biochemical"
+    CELLULAR = "Cellular"
+    CELLULAR_FUNCTION = "Cellular function"
+    CELLULAR_GENETICS = "Cellular genetics"
+    CELLULAR_IMMUNOLOGY = "Cellular immunology"
+    CELLULAR_METABOLISM = "Cellular metabolism"
+    CELLULAR_MORPHOLOGY = "Cellular morphology"
+    CELLULAR_SIGNALING = "Cellular signaling"
+    COMMUNITY = "Community"
+    ECOSYSTEM = "Ecosystem"
+    GENOMIC = "Genomic"
+    METABOLOMIC = "Metabolomic"
+    METAGENOMIC = "Metagenomic"
+    MICROBIAL_COMMUNITY = "Microbial community"
+    MOLECULAR = "Molecular"
+    MOLECULAR_OMICS = "Molecular_omics"
+    ORGAN = "Organ"
+    ORGANELLE = "Organelle"
+    ORGANISM = "Organism"
+    ORGANISMAL_BEHAVIOR = "Organismal_behavior"
+    ORGANISMAL_HEALTH = "Organismal_health"
+    ORGANISMAL_PHYSIOLOGY = "Organismal_physiology"
+    PHENOTYPIC = "Phenotypic"
+    PHYSIOLOGICAL = "Physiological"
+    PROTEIN_STRUCTURE = "Protein structure"
+    SUBCELLULAR = "Subcellular"
+    TISSUE = "Tissue"
+    TISSUE_MORPHOLOGY = "Tissue morphology"
