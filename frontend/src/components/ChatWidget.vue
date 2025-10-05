@@ -120,17 +120,11 @@ interface Message {
 const chatState = ref<ChatState>('closed')
 const inputMessage = ref('')
 const isExpanded = ref(false)
-const messages = ref<Message[]>([
-  {
-    id: 1,
-    type: 'model',
-    text: `Hi! I'm here to help you understand more about "${props.articleTitle}". What would you like to know?`,
-    timestamp: new Date()
-  }
-])
+const messages = ref<Message[]>([])
 const unreadCount = ref(0)
 const messagesContainer = ref<HTMLElement | null>(null)
-let messageIdCounter = 2
+const sessionToken = ref<string | null>(null)
+let messageIdCounter = 1
 
 const truncatedTitle = computed(() => {
   return props.articleTitle.length > 40
@@ -138,9 +132,66 @@ const truncatedTitle = computed(() => {
     : props.articleTitle
 })
 
-const openChat = () => {
+// Función para inicializar o recuperar una sesión
+const initializeSession = async () => {
+  try {
+    // Intentar recuperar token del localStorage
+    const storedToken = localStorage.getItem(`chat_session_${props.paperId}`)
+
+    // Llamar al backend para inicializar/recuperar sesión
+    const url = storedToken
+      ? `/api/chat/session/${props.paperId}?session_token=${storedToken}`
+      : `/api/chat/session/${props.paperId}`
+
+    const response = await fetch(url)
+
+    if (!response.ok) {
+      throw new Error('Failed to initialize session')
+    }
+
+    const data = await response.json()
+
+    // Guardar el token en el estado y localStorage
+    sessionToken.value = data.session_token
+    localStorage.setItem(`chat_session_${props.paperId}`, data.session_token)
+
+    // Si se recuperó una sesión existente, cargar los mensajes
+    if (!data.is_new_session && data.messages && data.messages.length > 0) {
+      messages.value = data.messages.map((msg: any, index: number) => ({
+        id: index + 1,
+        type: msg.role,
+        text: msg.content,
+        timestamp: new Date(msg.timestamp)
+      }))
+      messageIdCounter = messages.value.length + 1
+    } else {
+      // Nueva sesión: agregar mensaje de bienvenida
+      messages.value = [{
+        id: messageIdCounter++,
+        type: 'model',
+        text: `Hi! I'm here to help you understand more about "${props.articleTitle}". What would you like to know?`,
+        timestamp: new Date()
+      }]
+    }
+  } catch (error) {
+    console.error('Error initializing session:', error)
+    // En caso de error, crear una sesión local sin token
+    messages.value = [{
+      id: messageIdCounter++,
+      type: 'model',
+      text: `Hi! I'm here to help you understand more about "${props.articleTitle}". What would you like to know?`,
+      timestamp: new Date()
+    }]
+  }
+}
+
+const openChat = async () => {
   chatState.value = 'open'
   unreadCount.value = 0
+
+  // Inicializar o recuperar sesión
+  await initializeSession()
+
   nextTick(() => scrollToBottom())
 }
 
@@ -160,13 +211,17 @@ const toggleExpand = () => {
 const sendMessage = async () => {
   if (!inputMessage.value.trim()) return
 
+  // Guardar el texto del mensaje antes de limpiar el input
+  const userMessageText = inputMessage.value
+
   // Agregar mensaje del usuario
-  messages.value.push({
+  const userMessage = {
     id: messageIdCounter++,
-    type: 'user',
-    text: inputMessage.value,
+    type: 'user' as MessageType,
+    text: userMessageText,
     timestamp: new Date()
-  })
+  }
+  messages.value.push(userMessage)
 
   inputMessage.value = ''
   nextTick(() => scrollToBottom())
@@ -182,13 +237,16 @@ const sendMessage = async () => {
   nextTick(() => scrollToBottom())
 
   try {
-    // Preparar mensajes para el backend
-    const messagesForBackend = messages.value
-      .filter((msg: Message) => msg.id !== typingMessageId) // Excluir mensaje de "escribiendo"
-      .map((msg: Message) => ({
-        role: msg.type,
-        content: msg.text
-      }))
+    // Verificar que tenemos un token de sesión
+    if (!sessionToken.value) {
+      throw new Error('No session token. Please reopen the chat.')
+    }
+
+    // SOLO enviar el último mensaje del usuario, no todo el historial
+    const messagesForBackend = [{
+      role: userMessage.type,
+      content: userMessage.text
+    }]
 
     // Llamar al backend
     const response = await fetch('/api/chat', {
@@ -198,9 +256,35 @@ const sendMessage = async () => {
       },
       body: JSON.stringify({
         messages: messagesForBackend,
-        paper_id: props.paperId
+        paper_id: props.paperId,
+        session_token: sessionToken.value
       })
     })
+
+    // Si la sesión expiró (410), inicializar nueva sesión
+    if (response.status === 410) {
+      // Limpiar token expirado
+      localStorage.removeItem(`chat_session_${props.paperId}`)
+      sessionToken.value = null
+
+      // Remover mensaje de "escribiendo..."
+      const typingIndex = messages.value.findIndex(msg => msg.id === typingMessageId)
+      if (typingIndex !== -1) {
+        messages.value.splice(typingIndex, 1)
+      }
+
+      // Mostrar mensaje de sesión expirada
+      messages.value.push({
+        id: messageIdCounter++,
+        type: 'model',
+        text: 'Your session has expired due to inactivity. Please send your message again to start a new conversation.',
+        timestamp: new Date()
+      })
+
+      // Reinicializar sesión
+      await initializeSession()
+      return
+    }
 
     if (!response.ok) {
       throw new Error('Failed to get response from chat')
