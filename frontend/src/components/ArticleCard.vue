@@ -1,13 +1,5 @@
 <template>
   <div class="article-card">
-    <div class="article-checkbox">
-      <input
-        type="checkbox"
-        :id="`article-${getArticleId(article)}`"
-        :checked="selected"
-        @change="$emit('toggle', getArticleId(article))"
-      />
-    </div>
     <div class="article-content">
       <div class="article-tags">
         <FilterTag

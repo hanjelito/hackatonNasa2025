@@ -11,12 +11,11 @@
               placeholder="Search NASA data..."
               @search="handleSearch"
             />
+            <SearchButton @click="handleSearch" />
             <button @click="toggleAdvancedFilters" class="filter-toggle-btn" :class="{ active: showAdvancedFilters }">
               <FunnelIcon class="w-5 h-5" />
             </button>
           </div>
-
-          <SearchButton @click="handleSearch" />
 
           <SelectedFilterTags
             :filters="activeFilters"
@@ -254,7 +253,7 @@ onMounted(() => {
 <style scoped>
 .search-view {
   min-height: 100vh;
-  background-color: #000000;
+  background-color: #fff;
 }
 
 .main-layout {

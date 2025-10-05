@@ -10,7 +10,7 @@ export default {
         nasa: {
           blue: '#0b3d91',
           red: '#af1108',
-          black: '#000000',
+          black: '#fff',
           'gray-dark': '#1a1a1a',
           'gray-medium': '#2a2a2a',
           'gray-light': '#959599',

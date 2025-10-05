@@ -56,7 +56,7 @@ const loadFilters = async () => {
   error.value = null
 
   try {
-    const response = await fetch('/api/paper/search/filters')
+    const response = await fetch('https://vd3ujv7kw1.execute-api.eu-north-1.amazonaws.com/paper/search/filters')
     if (!response.ok) {
       throw new Error('Failed to load filters')
     }

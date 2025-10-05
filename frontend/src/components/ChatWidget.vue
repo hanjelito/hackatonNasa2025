@@ -146,8 +146,8 @@ const initializeSession = async () => {
 
     // Llamar al backend para inicializar/recuperar sesión
     const url = storedToken
-      ? `/api/chat/session/${props.paperId}?session_token=${storedToken}`
-      : `/api/chat/session/${props.paperId}`
+      ? `https://vd3ujv7kw1.execute-api.eu-north-1.amazonaws.com/chat/session/${props.paperId}?session_token=${storedToken}`
+      : `https://vd3ujv7kw1.execute-api.eu-north-1.amazonaws.com/chat/session/${props.paperId}`
 
     const response = await fetch(url)
 
@@ -255,7 +255,7 @@ const sendMessage = async () => {
     }]
 
     // Llamar al backend
-    const response = await fetch('/api/chat', {
+    const response = await fetch('https://vd3ujv7kw1.execute-api.eu-north-1.amazonaws.com/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -2,7 +2,7 @@ import type { Article, SearchResponse, SearchFilters } from '../types/article'
 
 export const getArticleById = async (id: string): Promise<Article> => {
   try {
-    const response = await fetch(`/api/paper/${id}`, {
+    const response = await fetch(`https://vd3ujv7kw1.execute-api.eu-north-1.amazonaws.com/paper/${id}`, {
       method: 'GET',
       headers: {
         'accept': 'application/json'
@@ -44,7 +44,7 @@ export const searchArticles = async (filters: SearchFilters): Promise<SearchResp
   }
 
   try {
-    const response = await fetch('/api/paper/search', {
+    const response = await fetch('https://vd3ujv7kw1.execute-api.eu-north-1.amazonaws.com/paper/search', {
       method: 'POST',
       headers: {
         'accept': 'application/json',

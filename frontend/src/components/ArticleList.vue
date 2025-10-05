@@ -10,9 +10,6 @@
 
     <div v-else>
       <div class="list-header">
-        <h2>{{ total }} article{{ total !== 1 ? 's' : '' }} found</h2>
-        <div v-if="selectedCount > 0" class="selected-info">
-          {{ selectedCount }} selected
         </div>
       </div>
 
@@ -21,22 +18,20 @@
           v-for="article in articles"
           :key="article.id"
           :article="article"
-          :selected="isSelected(article._id)"
-          @toggle="handleToggle"
+          :selected=false
+          @toggle="() => {}"
           @filter-year="handleFilterYear"
           @filter-organism="handleFilterOrganism"
         />
       </div>
     </div>
-  </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
 import type { Article } from '../types/article'
 import ArticleCard from './ArticleCard.vue'
 
-const props = defineProps<{
+defineProps<{
   articles: Article[]
   selectedIds: string[]
   loading?: boolean
@@ -44,21 +39,9 @@ const props = defineProps<{
 }>()
 
 const emit = defineEmits<{
-  'toggle-selection': [id: string]
   'filter-year': [year: number]
   'filter-organism': [organism: string]
 }>()
-
-const selectedCount = computed(() => props.selectedIds.length)
-
-const isSelected = (id?: string) => {
-  if (!id) return false
-  return props.selectedIds.includes(id)
-}
-
-const handleToggle = (id: string) => {
-  emit('toggle-selection', id)
-}
 
 const handleFilterYear = (year: number) => {
   emit('filter-year', year)

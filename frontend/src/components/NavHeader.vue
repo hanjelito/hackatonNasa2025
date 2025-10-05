@@ -18,8 +18,8 @@
 
 <style scoped>
 .nav-header {
-  background-color: #000000;
-  border-bottom: 1px solid #2a2a2a;
+  background-color: #fff;
+  border-bottom: 1px solid #0b3d91;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -55,7 +55,7 @@
 .app-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #d1d1d1;
+  color: #0b3d91;
   letter-spacing: 0.5px;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .nav-link {
-  color: #d1d1d1;
+  color: #0b3d91;
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
