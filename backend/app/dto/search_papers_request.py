@@ -22,6 +22,7 @@ class SearchPapersRequest(BaseModel):
                             "name": "study_type",
                             "values": ["Review"]
                         }
-                    ]
+                    ],
+                "limit": 15
             }
         }
