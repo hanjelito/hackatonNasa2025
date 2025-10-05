@@ -51,7 +51,8 @@ const emit = defineEmits<{
 
 const selectedCount = computed(() => props.selectedIds.length)
 
-const isSelected = (id: string) => {
+const isSelected = (id?: string) => {
+  if (!id) return false
   return props.selectedIds.includes(id)
 }
 

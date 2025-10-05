@@ -60,7 +60,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import NavHeader from '../components/NavHeader.vue'
 import SearchInput from '../components/SearchInput.vue'
 import SearchButton from '../components/SearchButton.vue'
@@ -70,8 +70,7 @@ import FilterPanel from '../components/FilterPanel.vue'
 import SelectedFilterTags from '../components/SelectedFilterTags.vue'
 import FunnelIcon from '../components/icons/FunnelIcon.vue'
 import { searchArticles } from '../services/articleService'
-import type { Article, SearchFilters } from '../types/article'
-import mockData from '../data/mockArticleReal.json'
+import type { SearchFilters } from '../types/article'
 import { useSearchState } from '../composables/useSearchState'
 
 // Usar el estado compartido
@@ -90,23 +89,23 @@ const {
 } = useSearchState()
 
 const loading = ref(false)
-const showFilters = ref(false)
+// const showFilters = ref(false)
 const showAdvancedFilters = ref(false)
 
 // Get unique years and organisms from mock data
-const availableYears = computed(() => {
-  const years = mockData.papers
-    .filter((a: any) => a.publication_date)
-    .map((a: any) => new Date(a.publication_date).getFullYear())
-  return [...new Set(years)].sort((a: number, b: number) => b - a)
-})
+// const availableYears = computed(() => {
+//   const years = mockData.papers
+//     .filter((a: any) => a.publication_date)
+//     .map((a: any) => new Date(a.publication_date).getFullYear())
+//   return [...new Set(years)].sort((a: number, b: number) => b - a)
+// })
 
-const availableOrganisms = computed(() => {
-  const organisms = mockData.papers
-    .filter((a: any) => a.primary_organisms_studied && a.primary_organisms_studied.length > 0)
-    .flatMap((a: any) => a.primary_organisms_studied)
-  return [...new Set(organisms)].sort()
-})
+// const availableOrganisms = computed(() => {
+//   const organisms = mockData.papers
+//     .filter((a: any) => a.primary_organisms_studied && a.primary_organisms_studied.length > 0)
+//     .flatMap((a: any) => a.primary_organisms_studied)
+//   return [...new Set(organisms)].sort()
+// })
 
 const handleSearch = async (filters?: SearchFilters) => {
   loading.value = true
@@ -202,24 +201,24 @@ const handleClearAll = () => {
   clearSearchState()
 }
 
-const handleYearFilterChange = (value: string | number | undefined) => {
-  const year = typeof value === 'string' ? parseInt(value) : value
-  handleSearch({
-    ...activeFilters.value,
-    year
-  })
-}
+// const handleYearFilterChange = (value: string | number | undefined) => {
+//   const year = typeof value === 'string' ? parseInt(value) : value
+//   handleSearch({
+//     ...activeFilters.value,
+//     year
+//   })
+// }
 
-const handleOrganismFilterChange = (value: string | number | undefined) => {
-  handleSearch({
-    ...activeFilters.value,
-    organism: value?.toString()
-  })
-}
+// const handleOrganismFilterChange = (value: string | number | undefined) => {
+//   handleSearch({
+//     ...activeFilters.value,
+//     organism: value?.toString()
+//   })
+// }
 
-const toggleFilters = () => {
-  showFilters.value = !showFilters.value
-}
+// const toggleFilters = () => {
+//   showFilters.value = !showFilters.value
+// }
 
 const toggleAdvancedFilters = () => {
   showAdvancedFilters.value = !showAdvancedFilters.value
