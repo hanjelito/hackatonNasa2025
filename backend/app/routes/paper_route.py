@@ -24,7 +24,7 @@ async def obtain_filters_values():
 
 @paper_router.get("/{id}", response_model=Paper)
 async def obtain_detail(id: str):
-    paper = obtain_paper_detail(id)
+    paper = await obtain_paper_detail(id)
     if hasattr(paper, "full_text"):
         delattr(paper, "full_text")
     return paper
