@@ -1,10 +1,11 @@
+from typing import Optional
 from pydantic import BaseModel
 from app.dto.filter_value import FilterValue
 
 class SearchPapersRequest(BaseModel):
-    query: str
-    filters: list[FilterValue]
-    limit: int = 10
+    query: Optional[str] = None
+    filters: Optional[list[FilterValue]] = None
+    limit: Optional[int] = 10
 
     class Config:
         from_attributes = True
@@ -13,12 +14,14 @@ class SearchPapersRequest(BaseModel):
                 "query": "Cancer immunotherapy",
                 "filters":
                     [
-                        {"name": "organisms",
-                         "values": ["Human", "Nematode", "Yeast"]
-                         },
-                        {"name": "article_types",
-                         "values": ["Review", "Research Article"]
-                         }
+                        {
+                            "name": "primary_organisms_studied",
+                            "values": ["Homo sapiens", "Danio rerio", "Mus musculus"]
+                        },
+                        {
+                            "name": "study_type",
+                            "values": ["Review"]
+                        }
                     ]
             }
         }
