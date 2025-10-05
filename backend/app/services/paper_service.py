@@ -1,9 +1,13 @@
-import asyncio
 from typing import List
 from fastapi import HTTPException
 from app.dto.search_papers_request import SearchPapersRequest
 from app.dto.filter_value import FilterValue
 from app.models.paper import Paper
+from app.models.enums.study_type import StudyType
+from app.models.enums.experimental_platform import ExperimentalPlatform
+from app.models.enums.stressor import Stressor
+from app.models.enums.organism import Organism
+from app.models.enums.space_agency import SpaceAgency
 
 
 async def search_papers_similars(search_filters: SearchPapersRequest) -> List[Paper]:
@@ -83,31 +87,28 @@ async def search_papers_similars(search_filters: SearchPapersRequest) -> List[Pa
         raise HTTPException(status_code=500, detail=f"Error searching papers: {str(e)}")
 
 
-async def obtain_paper_filters_values():
-    await asyncio.sleep(0)
-    # Respuesta de ejemplo con la misma forma que el DTO FilterValue
-    example_filters: list[FilterValue] = [
+def obtain_paper_filters_values():
+    filters: list[FilterValue] = [
         FilterValue(
-            name="organisms",
-            values=[
-                "Human",
-                "Mouse",
-                "Rat",
-                "Zebrafish",
-                "Fruit fly",
-                "Nematode",
-                "Yeast",
-            ],
+            name="Study Type",
+            values=[enum_value.value for enum_value in StudyType]
         ),
         FilterValue(
-            name="article_types",
-            values=[
-                "Review",
-                "Research Article",
-                "Short Communication",
-                "Case Report",
-            ],
+            name="Experimental Platform",
+            values=[enum_value.value for enum_value in ExperimentalPlatform]
+        ),
+        FilterValue(
+            name="Space Environment Stressors",
+            values=[enum_value.value for enum_value in Stressor]
+        ),
+        FilterValue(
+            name="Primary Organisms Studied",
+            values=[enum_value.value for enum_value in Organism]
+        ),
+        FilterValue(
+            name="Space Agency Involvement",
+            values=[enum_value.value for enum_value in SpaceAgency]
         ),
     ]
 
-    return example_filters
+    return filters
