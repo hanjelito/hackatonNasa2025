@@ -1,0 +1,28 @@
+{
+    "document_title": "Plasma membrane disruption (PMD) formation and repair in mechanosensitive tissues",
+    "summary_full": "This review explores the formation and repair of plasma membrane disruptions (PMD) in mammalian cells, a crucial mechanism for detecting and responding to mechanical loading. PMD facilitate molecular flux across cell membranes, promoting tissue adaptation and influencing downstream cellular signaling. The review details how PMD occur and are repaired in various mechanosensitive tissues, including skin, lungs, gut, vasculature, eyes, muscles, neurons, and bone cells. It emphasizes the comparison of repair mechanisms and signaling pathways, with a particular focus on skeletal mechanobiology. The implications of PMD-related processes for disease states and potential therapeutic applications are also discussed.",
+    "key_findings": [
+        "Plasma membrane disruptions (PMD) are a fundamental mechanism for mechanosensation in diverse mammalian cell types.",
+        "PMD formation can be triggered by physical deformation, debris, or fluid shear stress.",
+        "PMD facilitate the release of signaling molecules like ATP, NO, and growth factors, initiating mechanotransduction.",
+        "PMD repair is an active, calcium-dependent process involving cytoskeletal remodeling, vesicle exocytosis, and specific protein machinery (e.g., calpains, annexins, ESCRT proteins).",
+        "The rate of PMD repair can modulate downstream cellular signaling and adaptation responses.",
+        "PMD formation and repair are implicated in various physiological processes and disease states, including muscle disorders, neurotrauma, and bone mechanobiology, suggesting potential therapeutic targets."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating PMD as a therapeutic target for diseases involving impaired mechanotransduction.",
+        "Further exploring the role of PMD in skeletal mechanobiology and age-related bone loss.",
+        "Developing strategies to modulate PMD formation and repair for enhanced tissue adaptation and healing.",
+        "Elucidating cell-type specific differences in PMD repair mechanisms and their functional consequences.",
+        "Understanding the interplay between PMD and other mechanosensation pathways."
+    ],
+    "related_papers": [
+        "Cooper ST, and McNeil PL (2015) Membrane Repair: Mechanisms and Pathophysiology. Physiol Rev 95, 1205-1240",
+        "McNeil PL, and Baker MM (2001) Cell surface events during resealing visualized by scanning-electron microscopy. Cell Tissue Res 304, 141-146",
+        "Togo T (2012) Cell membrane disruption stimulates NO/PKG signaling and potentiates cell membrane repair in neighboring cells. PloS one 7, e42885.",
+        "Hagan ML, Yu K, Zhu J, Vinson BN, Roberts RL, Montesinos Cartagena M, Johnson MH, Wang L, Isales CM, Hamrick MW, McNeil PL, and McGee-Lawrence ME (2020) Decreased pericellular matrix production and selection for enhanced cell membrane repair may impair osteocyte responses to mechanical loading in the aging skeleton. Aging Cell 19, e13056."
+    ],
+    "conclusions": "Plasma membrane disruptions (PMD) are a critical and conserved mechanism for mechanosensation across a wide range of mammalian tissues. The formation and subsequent repair of these disruptions are essential for cell survival and play a significant role in tissue adaptation to mechanical loading. Understanding the specific molecular machinery and signaling pathways involved in PMD formation and repair, particularly in tissues like bone, offers new avenues for investigating disease mechanisms and developing therapeutic interventions.",
+    "impact_statement": "This review consolidates current knowledge on plasma membrane disruptions, highlighting their fundamental role in cellular mechanosensation and repair across various tissues, with significant implications for understanding and treating diseases related to mechanical stress and aging."
+}

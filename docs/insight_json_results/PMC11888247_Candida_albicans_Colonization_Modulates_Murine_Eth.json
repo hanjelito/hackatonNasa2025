@@ -1,0 +1,29 @@
+{
+    "document_title": "Candida albicans Colonization Modulates Murine Ethanol Consumption and Behavioral Responses Through Elevation of Serum Prostaglandin E2 and Impact on the Striatal Dopamine System",
+    "summary_full": "This study investigates the impact of Candida albicans (C. albicans) colonization in the gastrointestinal tract on ethanol consumption and behavior in mice. C. albicans is a common commensal yeast that can bloom in individuals with alcohol use disorder (AUD). The researchers found that mice colonized with C. albicans showed reduced ethanol consumption and preference. This reduction was associated with elevated serum prostaglandin E2 (PGE2) levels, and blocking PGE2 receptors reversed the effect. Conversely, injecting mice with a PGE2 derivative decreased their ethanol preference, indicating PGE2's role in this phenotype. Furthermore, C. albicans colonization altered dopamine receptor transcription in the dorsal striatum, leading to faster acquisition of ethanol-induced conditioned taste aversion and increased susceptibility to ethanol's motor coordination impairments. These effects were partially reversed by PGE2 receptor antagonists. The study highlights C. albicans as a fungal microbiome member that influences ethanol preference and demonstrates the involvement of PGE2 signaling in these behaviors, suggesting a link between fungal gut colonization and AUD-related phenotypes.",
+    "key_findings": [
+        "Candida albicans colonization in mice reduces ethanol consumption and preference.",
+        "C. albicans colonization leads to elevated serum Prostaglandin E2 (PGE2) levels.",
+        "Blocking PGE2 receptors reverses the reduction in ethanol preference caused by C. albicans colonization.",
+        "PGE2 signaling influences dopamine receptor expression in the dorsal striatum.",
+        "C. albicans-colonized mice exhibit accelerated acquisition of ethanol-conditioned taste aversion.",
+        "C. albicans-colonized mice are more susceptible to ethanol-induced motor coordination impairment, which can be mitigated by PGE2 receptor antagonists."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the effects of C. albicans colonization in mice chronically exposed to ethanol.",
+        "Exploring the impact of C. albicans colonization on host responses in the context of AUD and chronic stress.",
+        "Determining if reduced DRD2 receptor abundance in humans with C. albicans colonization predisposes them to increased ethanol consumption under stress.",
+        "Further research into the specific mechanisms by which PGE2 affects the blood-brain barrier and ethanol's impact on it.",
+        "Investigating the role of the endocannabinoid system in C. albicans-mediated behavioral changes related to ethanol."
+    ],
+    "related_papers": [
+        "Intestinal fungi contribute to development of alcoholic liver disease (Yang et al., 2017)",
+        "The Candida albicans exotoxin candidalysin promotes alcohol-associated liver disease (Chu et al., 2020)",
+        "Gut Dysbiosis Promotes M2 Macrophage Polarization and Allergic Airway Inflammation via Fungi-Induced PGE2 (Kim et al., 2014)",
+        "Colonization with the commensal fungus Candida albicans perturbs the gut-brain axis through dysregulation of endocannabinoid signaling (Markey et al., 2020)",
+        "Prostaglandin E2 reduces voluntary ethanol consumption in the rat (Ross et al., 1990)"
+    ],
+    "conclusions": "This study demonstrates that gastrointestinal colonization by Candida albicans in mice leads to reduced ethanol consumption and preference, mediated by elevated serum PGE2 levels acting on EP1 and EP2 receptors. These changes are associated with alterations in striatal dopamine receptor expression and increased susceptibility to ethanol's behavioral effects, including conditioned taste aversion and motor impairment. The findings highlight a novel link between fungal gut microbiome composition and alcohol-related behaviors, implicating the gut-brain axis and PGE2 signaling as key players.",
+    "impact_statement": "This research identifies a fungal gut microbe, Candida albicans, as a modulator of ethanol consumption and behavior through prostaglandin E2 signaling, offering potential new therapeutic targets for alcohol use disorder."
+}

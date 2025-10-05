@@ -1,0 +1,28 @@
+{
+    "document_title": "Small changes in thermoregulation influence cancellous bone turnover balance in distal femur metaphysis in growing female mice",
+    "summary_full": "Mice are typically housed at temperatures below their thermoneutral zone, leading to cold stress and potential cancellous bone loss, which can affect experimental outcomes. This study investigated how minor variations in housing temperature (22°C vs. 26°C) and heat loss (individual vs. group housing with nestlets) impact bone in growing female C57BL/6 J mice. Mice housed individually at room temperature (~22°C) experienced significant cancellous bone loss in the distal femur metaphysis. This bone loss was attenuated but not entirely prevented in mice housed individually at 26°C or group housed at 22°C with nestlets. The findings indicate that modest differences in housing conditions, affecting thermogenesis or heat retention, can significantly influence experimental results related to bone metabolism.",
+    "key_findings": [
+        "Mice housed individually at standard room temperature (~22°C) experience significant cancellous bone loss in the distal femur metaphysis.",
+        "Increasing housing temperature by 4°C (to 26°C) for individually housed mice attenuated, but did not prevent, this bone loss.",
+        "Group housing (5 mice/cage) with nestlets at 22°C also attenuated the bone loss observed in individually housed mice at the same temperature.",
+        "Mice housed at 26°C showed lower expression of Ucp1 in brown adipose tissue compared to those housed at 22°C, indicating reduced cold stress.",
+        "Group housing at 22°C also resulted in lower Ucp1 expression, similar to the effect of a 4°C increase in temperature.",
+        "Modest differences in housing conditions can influence bone mass and microarchitecture, potentially affecting experimental results."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the effects of similar temperature variations on male mice.",
+        "Assessing the impact of cold stress and thermoregulation on age-related bone loss in skeletally mature mice.",
+        "Further exploring the role of housing conditions and thermogenesis in bone loss observed in microgravity studies.",
+        "Examining the potential contribution of social stress in single-housed mice to observed bone changes."
+    ],
+    "related_papers": [
+        "Iwaniec et al., 2016: Room temperature housing results in premature cancellous bone loss in growing female mice: implications for the mouse as a preclinical model for age-related bone loss.",
+        "Martin et al., 2019: Thermoneutral housing attenuates premature cancellous bone loss in male C57BL/6J mice.",
+        "Wong et al., 2021: Evidence for increased thermogenesis in female C57BL/6J mice housed aboard the international space station.",
+        "Kunst et al., 2021: Housing temperature influences atypical antipsychotic drug-induced bone loss in female c57bl/6j mice.",
+        "Robbins et al., 2018: Low temperature decreases bone mass in mice: implications for humans."
+    ],
+    "conclusions": "Modest differences in housing conditions, such as a 4°C increase in ambient temperature or group housing with nestlets to reduce heat loss, can significantly attenuate the negative effects of cold stress on bone mass and architecture in growing female mice. These findings highlight the critical importance of controlling thermoregulation in animal housing to ensure the reliability and translatability of experimental results in bone research.",
+    "impact_statement": "This study demonstrates that standard laboratory housing conditions can induce bone loss in mice, impacting research outcomes and suggesting that careful control of environmental temperature is crucial for accurate preclinical studies, particularly those related to bone health and spaceflight."
+}

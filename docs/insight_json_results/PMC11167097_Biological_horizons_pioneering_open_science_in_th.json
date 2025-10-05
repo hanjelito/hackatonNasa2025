@@ -1,0 +1,32 @@
+{
+    "document_title": "Biological horizons: pioneering open science in the cosmos",
+    "summary_full": "This commentary highlights NASA's commitment to Open Science, particularly through the NASA Open Science Data Repository (OSDR), which makes invaluable space-related biological and biomedical data accessible to the public. OSDR standardizes data from various model organisms and human astronauts, covering 'omics, phenotypic, physiological, and behavioral changes. The repository supports advanced analytics, including AI, and has been developed with community input. NASA's 'Transform to Open Science' (TOPS) program aims to train scientists in Open Science practices and promote equity. The OSDR system ensures data is Findable, Accessible, Interoperable, and Reusable (FAIR). A recent Nature portfolio Collection, \"The Second Space Age: Omics, Platforms, and Medicine Across Orbits,\" showcases the utility of OSDR data, including contributions from the SpaceX Inspiration4 mission. The commentary also references related work on AI in deep space research and the integration of Open Science principles with the Human Research Program, emphasizing the terrestrial benefits of space biology insights.",
+    "key_findings": [
+        "NASA's Open Science Data Repository (OSDR) provides accessible, standardized space-related biological and biomedical data.",
+        "The OSDR system ensures data is FAIR (Findable, Accessible, Interoperable, Reusable) through community standardization and AI integration.",
+        "NASA's Transform to Open Science (TOPS) program aims to train 20,000 scientists in Open Science by 2028.",
+        "Insights from space biology, facilitated by Open Science, have direct applications for human health and technology on Earth.",
+        "A Nature portfolio Collection demonstrates the value of OSDR data, including contributions from civilian astronauts."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Further development and application of AI in deep space biological research.",
+        "Enhanced biomonitoring and precision health strategies for astronauts.",
+        "Leveraging space biology insights for terrestrial health advancements.",
+        "Expanding the scope and accessibility of space-related biological datasets.",
+        "Integration of citizen science and community efforts in data analysis and standardization."
+    ],
+    "related_papers": [
+        "NASA GeneLab: interfaces for the exploration of space omics data (DOI: 10.1093/nar/gkaa887)",
+        "Advancing the integration of biosciences data sharing to further enable space exploration (DOI: 10.1016/j.celrep.2020.108441)",
+        "GeneLab: Omics database for spaceflight experiments (DOI: 10.1093/bioinformatics/bty884)",
+        "Fundamental biological features of spaceflight: advancing the field to enable deep-space exploration (DOI: 10.1016/j.cell.2020.10.050)",
+        "Why NASA and federal agencies are declaring this the Year of Open Science (DOI: 10.1038/d41586-023-00019-y)",
+        "FAIRness and usability for open-access omics data systems",
+        "A second space age: omics, platforms, and medicine across orbits",
+        "Biological research and self-driving labs in deep space supported by artificial intelligence (DOI: 10.1038/s42256-023-00618-4)",
+        "Biomonitoring and precision health in deep space supported by artificial intelligence (DOI: 10.1038/s42256-023-00617-5)"
+    ],
+    "conclusions": "The widespread adoption of Open Science principles, exemplified by NASA's OSDR and TOPS program, is crucial for maximizing the value of precious spaceflight data. This approach fosters collaboration, transparency, and reproducibility, enabling groundbreaking discoveries in space biology and health, with significant implications for both space exploration and human well-being on Earth.",
+    "impact_statement": "This work underscores how open data practices in space biology can accelerate scientific discovery and yield tangible benefits for human health and technology on Earth."
+}

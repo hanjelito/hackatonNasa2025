@@ -1,0 +1,20 @@
+{
+    "document_title": "Erratum to: Whole metagenome profiles of particulates collected from the International Space Station",
+    "summary_full": "This document is an erratum correcting a previously published article. The erratum states that the X-axis label was missing from Fig. 4 in the original publication. The corrected Fig. 4, which displays microbial gene pathways observed in whole metagenomes of International Space Station (ISS) and Space Analog Facility (SAF) samples, is provided. The figure shows the assignment of reads to KEGG orthologies based on gene function categories, with read abundance represented on a square-root scale and absolute read counts indicated.",
+    "key_findings": [
+        "The X-axis label was missing from Fig. 4 in the original publication.",
+        "Fig. 4 illustrates microbial gene pathways in ISS and SAF samples using KEGG orthologies.",
+        "Read abundance is presented on a square-root scale with absolute counts provided."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Further analysis of microbial gene pathways on the ISS.",
+        "Comparative studies of microbial communities in space and ground analogs.",
+        "Detailed investigation of microbial functions relevant to closed environments."
+    ],
+    "related_papers": [
+        "10.1186/s40168-017-0292-4"
+    ],
+    "conclusions": "The erratum corrects a graphical error in the original publication, ensuring accurate representation of microbial gene pathway data from ISS and SAF samples.",
+    "impact_statement": "This erratum ensures the accurate presentation of data regarding microbial life on the International Space Station, crucial for understanding human health and system integrity in space environments."
+}

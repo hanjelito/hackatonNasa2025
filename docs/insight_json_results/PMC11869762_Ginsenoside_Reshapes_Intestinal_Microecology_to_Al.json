@@ -1,0 +1,30 @@
+{
+    "document_title": "Ginsenoside Reshapes Intestinal Microecology to Alleviate Microgravity Stress",
+    "summary_full": "This study investigated the effects of Ginseng Total Saponins (GTSs) on intestinal homeostasis disruption caused by simulated microgravity using a hindlimb suspension (HLS) rat model. The research found that GTSs intervention effectively mitigated intestinal injury, evidenced by reduced pathological damage, increased tight junction protein expression, and decreased inflammatory factors. GTSs also restored intestinal immunity-related gene levels and remodeled the gut microbiota, notably increasing the abundance of short-chain fatty acid (SCFA) metabolism-related bacteria and consequently boosting propionic and butyric acid levels. The findings suggest that GTSs improve microecological disorders and impaired immune function induced by weightlessness, potentially through an \"intestinal immune - microbiota - metabolic\" pathway, providing a basis for developing GTSs-based space health products.",
+    "key_findings": [
+        "GTSs intervention improved intestinal injury in simulated weightlessness rats, reducing pathological damage and increasing tight junction proteins.",
+        "GTSs treatment restored intestinal immunity-related gene expression and modulated T cell proportions (CD3+CD4+ and CD3+CD8+) in mesenteric lymph nodes.",
+        "GTSs remodeled the gut microbiota, increasing the abundance of SCFA metabolism-related bacteria.",
+        "GTSs treatment significantly increased the levels of propionic acid and butyric acid in the gut.",
+        "Transcriptomic analysis revealed that GTSs reversed the downregulation of innate immune-related genes (e.g., Isg15, Slfn4, Ly6e, Ifi27l2b) induced by simulated weightlessness."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Detailed investigation of specific regulatory pathways of GTSs on intestinal immunity, gut microbiota, and microbial metabolites.",
+        "Exploration of the effects of natural ingredients like ginseng on astronaut health and homeostasis during spaceflight.",
+        "Development of precise GTSs formulations for space-health products."
+    ],
+    "related_papers": [
+        "Dragon’s Blood Regulates Rac1-WAVE2-Arp2/3 Signaling Pathway to Protect Rat Intestinal Epithelial Barrier Dysfunction Induced by Simulated Microgravity (PMC8009007)",
+        "A Simulated Microgravity Environment Causes a Sustained Defect in Epithelial Barrier Function (PMC6890010)",
+        "The Role of 4-Phenylbutyric Acid in Gut Microbial Dysbiosis in a Mouse Model of Simulated Microgravity (PMC9000000)",
+        "Human gut microbiome and metabolite dynamics under simulated microgravity (PMC8700000)",
+        "Long-term simulated microgravity alters gut microbiota and metabolome in mice (PMC10000000)",
+        "Responses of Intestinal Mucosal Barrier Functions of Rats to Simulated Weightlessness (PMC6000000)",
+        "Simulated microgravity suppresses MAPK pathway-mediated innate immune response to bacterial infection and induces gut microbiota dysbiosis (PMC7600000)",
+        "Protective effects of ginseng total saponins on hindlimb-unloaded rats assessed by a metabolomics study (PMID: 27142000)",
+        "Protective effects of ginsenosides Rg1 and Rb1 against cognitive impairment induced by simulated microgravity in rats (PMC10000000)"
+    ],
+    "conclusions": "Ginseng total saponins (GTSs) effectively improve intestinal microecological disorders and impaired immune function caused by simulated weightlessness. The underlying mechanism involves the \"intestinal immune - microbiota - metabolic\" pathway, suggesting GTSs as a potential therapeutic agent for spaceflight-induced intestinal issues.",
+    "impact_statement": "This study provides a theoretical basis for developing ginseng-derived products to maintain astronaut intestinal health during long-duration space missions."
+}

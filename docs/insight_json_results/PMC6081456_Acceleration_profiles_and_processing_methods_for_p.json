@@ -1,0 +1,30 @@
+{
+    "document_title": "Acceleration profiles and processing methods for parabolic flight",
+    "summary_full": "This paper presents a comprehensive, open-source solution for collecting, analyzing, and classifying the altered gravity environments experienced during parabolic flights. The authors developed a method that is independent of accelerometer orientation and allows for unsupervised classification of all flight phases, providing a consistent approach to quantifying gravito-inertial accelerations (GIA). This solution was validated during a Boeing 727-200F flight with 20 parabolas, and all data and analysis code are freely available. The methodology involves using a small, commercially available accelerometer, filtering the data, and employing change point detection to identify stable g-levels and transitions. The results demonstrate accurate classification of 'parabola', 'hypergravity', and 'other' flight phases, with specific characterizations of g-levels and durations for different types of parabolas (0 g, lunar g, Mars g). The authors emphasize the importance of data availability and validated processing methods for advancing research and planning for future space activities, suggesting their approach could be adapted for other microgravity simulation methods.",
+    "key_findings": [
+        "Developed and validated an orientation-independent, open-source method for analyzing parabolic flight acceleration data.",
+        "Successfully classified all phases of flight (parabola, hypergravity, other) using unsupervised change point detection.",
+        "Quantified specific g-levels and durations for 0 g, lunar g, and Mars g parabolas achieved during a Boeing 727-200F flight.",
+        "Provided freely available raw data and analysis code to facilitate future parabolic flight research.",
+        "Demonstrated the utility of a compact, commercially available accelerometer (Slam Stick X™) for GIA measurement."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Adaptation of the methodology for analyzing data from suborbital flights, drop towers, and launch/landing accelerations.",
+        "Further refinement of classification strategies for analyzing data from multiple flights with varied conditions.",
+        "Integration of the data acquisition solution into diverse experimental designs for local GIA measurement.",
+        "Development of more stringent criteria for identifying high-quality, low-g time periods in parabolic flights.",
+        "Encouraging the release of raw data and processing details by future parabolic flight experimenters."
+    ],
+    "related_papers": [
+        "10.1016/j.actaastro.2008.04.009",
+        "10.1152/japplphysiol.01046.2015",
+        "10.1016/j.actaastro.2016.06.030",
+        "10.1089/space.2017.29009.emu",
+        "10.1016/j.sigpro.2005.01.012",
+        "10.1080/01621459.2012.737745",
+        "Analysis of the quality of parabolic flight. Next-Generation Suborbital Researchers Conference"
+    ],
+    "conclusions": "The developed solution provides a consistent, open-source approach to quantifying gravito-inertial accelerations during parabolic flights, enabling better planning, execution, and analysis of experiments. The availability of data and validated processing methods is crucial for advancing research in simulated space environments and facilitating future space activities.",
+    "impact_statement": "This work democratizes access to reliable parabolic flight data and analysis tools, crucial for advancing microgravity research and preparing for future space missions."
+}

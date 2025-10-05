@@ -20,7 +20,7 @@
     </div>
 
     <!-- Ventana de chat completa -->
-    <div v-if="chatState === 'open'" class="chat-window">
+    <div v-if="chatState === 'open'" class="chat-window" :class="{ expanded: isExpanded }">
       <div class="chat-header">
         <div class="chat-title">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -29,6 +29,20 @@
           <span>Chat about: {{ truncatedTitle }}</span>
         </div>
         <div class="chat-actions">
+          <button @click="toggleExpand" class="header-btn" :title="isExpanded ? 'Collapse' : 'Expand'">
+            <svg v-if="!isExpanded" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <polyline points="9 21 3 21 3 15"></polyline>
+              <line x1="21" y1="3" x2="14" y2="10"></line>
+              <line x1="3" y1="21" x2="10" y2="14"></line>
+            </svg>
+            <svg v-else width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="4 14 10 14 10 20"></polyline>
+              <polyline points="20 10 14 10 14 4"></polyline>
+              <line x1="14" y1="10" x2="21" y2="3"></line>
+              <line x1="3" y1="21" x2="10" y2="14"></line>
+            </svg>
+          </button>
           <button @click="minimizeChat" class="header-btn" title="Minimize">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -49,9 +63,16 @@
             <span v-if="message.type === 'user'">👤</span>
             <span v-else>🤖</span>
           </div>
-          <div class="message-content">
-            <p>{{ message.text }}</p>
-            <span class="message-time">{{ formatTime(message.timestamp) }}</span>
+          <div class="message-content" :class="{ typing: message.text === '...' }">
+            <template v-if="message.text === '...'">
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+            </template>
+            <template v-else>
+              <div v-html="renderMarkdown(message.text)" class="markdown-body"></div>
+              <span class="message-time">{{ formatTime(message.timestamp) }}</span>
+            </template>
           </div>
         </div>
       </div>
@@ -77,6 +98,9 @@
 
 <script setup lang="ts">
 import { ref, computed, nextTick } from 'vue'
+import { marked } from 'marked'
+import DOMPurify from 'dompurify'
+import 'github-markdown-css/github-markdown-dark.css'
 
 const props = defineProps<{
   articleTitle: string
@@ -95,6 +119,7 @@ interface Message {
 
 const chatState = ref<ChatState>('closed')
 const inputMessage = ref('')
+const isExpanded = ref(false)
 const messages = ref<Message[]>([
   {
     id: 1,
@@ -127,6 +152,11 @@ const closeChat = () => {
   chatState.value = 'closed'
 }
 
+const toggleExpand = () => {
+  isExpanded.value = !isExpanded.value
+  nextTick(() => scrollToBottom())
+}
+
 const sendMessage = async () => {
   if (!inputMessage.value.trim()) return
 
@@ -138,19 +168,30 @@ const sendMessage = async () => {
     timestamp: new Date()
   })
 
-  const userQuestion = inputMessage.value
   inputMessage.value = ''
+  nextTick(() => scrollToBottom())
+
+  // Agregar mensaje de "escribiendo..."
+  const typingMessageId = messageIdCounter++
+  messages.value.push({
+    id: typingMessageId,
+    type: 'model',
+    text: '...',
+    timestamp: new Date()
+  })
   nextTick(() => scrollToBottom())
 
   try {
     // Preparar mensajes para el backend
-    const messagesForBackend = messages.value.map((msg: Message) => ({
-      role: msg.type,
-      content: msg.text
-    }))
+    const messagesForBackend = messages.value
+      .filter((msg: Message) => msg.id !== typingMessageId) // Excluir mensaje de "escribiendo"
+      .map((msg: Message) => ({
+        role: msg.type,
+        content: msg.text
+      }))
 
     // Llamar al backend
-    const response = await fetch('/api/chat/', {
+    const response = await fetch('/api/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -167,6 +208,12 @@ const sendMessage = async () => {
 
     const data = await response.json()
 
+    // Remover mensaje de "escribiendo..."
+    const typingIndex = messages.value.findIndex(msg => msg.id === typingMessageId)
+    if (typingIndex !== -1) {
+      messages.value.splice(typingIndex, 1)
+    }
+
     // Agregar respuesta del modelo
     messages.value.push({
       id: messageIdCounter++,
@@ -182,6 +229,13 @@ const sendMessage = async () => {
     nextTick(() => scrollToBottom())
   } catch (error) {
     console.error('Error sending message:', error)
+
+    // Remover mensaje de "escribiendo..."
+    const typingIndex = messages.value.findIndex(msg => msg.id === typingMessageId)
+    if (typingIndex !== -1) {
+      messages.value.splice(typingIndex, 1)
+    }
+
     messages.value.push({
       id: messageIdCounter++,
       type: 'model',
@@ -200,6 +254,23 @@ const scrollToBottom = () => {
 
 const formatTime = (date: Date) => {
   return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
+}
+
+// Configurar marked
+marked.setOptions({
+  gfm: true,
+  breaks: true
+})
+
+const renderMarkdown = (text: string): string => {
+  const rawHtml = marked(text) as string
+  const sanitized = DOMPurify.sanitize(rawHtml)
+
+  // Agregar bullets manualmente para sobrescribir reset de Tailwind
+  const withBullets = sanitized
+    .replace(/<li>/g, '<li style="display: list-item; margin-left: 1.5rem; list-style-type: disc; list-style-position: outside;">')
+
+  return withBullets
 }
 </script>
 

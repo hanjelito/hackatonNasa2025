@@ -1,0 +1,26 @@
+{
+    "document_title": "Mitochondrial sulfide promotes life span and health span through distinct mechanisms in developing versus adult treated Caenorhabditis elegans",
+    "summary_full": "This study investigates the effects of mitochondrion-targeted hydrogen sulfide (H2S) donor, AP39, on lifespan and healthspan in Caenorhabditis elegans. The research compares AP39 with an untargeted H2S donor (NaGYY4137) administered from larval stages or during adulthood. Results show that low doses of AP39 administered from birth extend both lifespan and healthspan, maintaining mitochondrial integrity and neuromuscular function. Notably, AP39 administered during adulthood also significantly extends healthspan, even when aging-related cellular dysfunction is already present. Transcriptomic analysis reveals that adult-onset AP39 treatment rejuvenates aging transcriptomes by preserving mitochondrial, cytoskeletal, and peroxisomal gene expression, regulated by the elt-6/elt-3 transcription factor circuit. The study concludes that mitochondrial sulfide augmentation is a promising therapeutic strategy for healthy aging, particularly when administered in adulthood.",
+    "key_findings": [
+        "Mitochondrion-targeted H2S donor (AP39) extends C. elegans lifespan and healthspan at doses 1000-fold lower than untargeted H2S donors.",
+        "AP39 treatment preserves mitochondrial structure, content, and neuromuscular strength throughout aging.",
+        "Adult-onset AP39 treatment extends healthspan, but not lifespan, by rejuvenating aging transcriptomes.",
+        "Healthspan extension by AP39 requires H2S metabolism and FoxO pathways but not Nrf2 oxidative stress protection.",
+        "Adult-onset AP39 treatment preserves mitochondrial, cytoskeletal, and peroxisomal gene expression via the elt-6/elt-3 transcription factor circuit."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Translating mitochondrial sulfide therapy for healthy aging in mammals.",
+        "Investigating the specific molecular mechanisms linking mitochondrial health to cytoskeletal and peroxisomal function.",
+        "Exploring the role of the elt-6/elt-3 transcription factor circuit in aging and its modulation by therapeutic interventions.",
+        "Further characterization of the dissociation between lifespan and healthspan extension mechanisms.",
+        "Determining the optimal timing and dosage of mitochondrial sulfide donors for therapeutic application in aging."
+    ],
+    "related_papers": [
+        "Mitochondrial hydrogen sulfide supplementation improves health in the C. elegans Duchenne muscular dystrophy model (PMC7850010)",
+        "The mitochondria-targeted hydrogen sulfide donor AP39 stimulates cellular bioenergetics, exerts cytoprotective effects and protects against the loss of mitochondrial DNA integrity in oxidatively stressed endothelial cells in vitro (PMID: 25091817)",
+        "An elt-3/elt-5/elt-6 GATA transcription circuit guides aging in C. elegans (PMID: 18675877)"
+    ],
+    "conclusions": "Mitochondrial sulfide augmentation, particularly with the targeted donor AP39, is a potent strategy for extending healthspan in C. elegans. The mechanisms differ between developmental and adult-onset treatments, with adult administration rejuvenating aging transcriptomes via the elt-6/elt-3 circuit and preserving mitochondrial, cytoskeletal, and peroxisomal functions. These findings suggest mitochondrial sulfide is a viable therapeutic target for promoting healthy aging, with potential for translation to mammals.",
+    "impact_statement": "This study identifies a mitochondrion-targeted sulfide donor as a promising therapeutic for extending healthy lifespan, with potential applications in combating age-related decline."
+}

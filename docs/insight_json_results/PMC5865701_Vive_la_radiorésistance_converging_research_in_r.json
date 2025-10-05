@@ -1,0 +1,32 @@
+{
+    "document_title": "Vive la radiorésistance!: converging research in radiobiology and biogerontology to enhance human radioresistance for deep space exploration and colonization",
+    "summary_full": "This paper proposes a roadmap for enhancing human radioresistance to mitigate the health risks associated with deep space exploration and colonization. It outlines several research directions, including upregulating endogenous repair and radioprotective mechanisms, exploring gene therapy for enhanced radioresistance through exogenous and engineered DNA repair mechanisms, substituting organic molecules with fortified isoforms, and developing methods to slow metabolic activity while preserving cognitive function. The authors highlight the association between radioresistance and longevity, suggesting that enhancing radioresistance could also extend the healthspan of spacefarers. The paper details the threats posed by cosmic radiation, its molecular and cellular effects, and various proposed countermeasures, ranging from medical selection and small molecule interventions to hypostasis, gene therapy, and the utilization of AI for diagnosis and treatment.",
+    "key_findings": [
+        "Deep space missions pose significant radiation risks, exceeding current human dose limits, necessitating enhanced radioresistance.",
+        "Strategies for enhancing radioresistance include genetic modification, gene therapy, use of radioprotective compounds, and metabolic slowdown (hypostasis).",
+        "The paper links radioresistance with longevity, suggesting that efforts to increase radioresistance may also promote healthier aging.",
+        "High-Linear Energy Transfer (HZE) particles in cosmic rays are particularly damaging due to complex DNA lesions.",
+        "Artificial intelligence (AI) can play a role in diagnosing and treating radiation- and aging-induced damage in spacefarers.",
+        "The development of radioresistant humans could also benefit healthspan extension on Earth, addressing the economic burden of aging populations."
+    ],
+    "reproducibility_level": "LOW",
+    "future_research_fields": [
+        "Upregulation of endogenous DNA repair and radioprotective mechanisms.",
+        "Gene therapy for introducing exogenous and engineered DNA repair and radioprotective mechanisms.",
+        "Development of fortified organic molecule isoforms.",
+        "Methods for slowing metabolic activity while preserving cognitive function.",
+        "Investigating the link between radioresistance and longevity for healthspan extension.",
+        "Utilizing AI for diagnosis and treatment of radiation-induced damage.",
+        "Characterizing genetic determinants of high human radioresistance through GWAS and multiplex genetic engineering.",
+        "Experimental evolution to generate and characterize radioresistant organisms/cells.",
+        "Apoptotic and regenerative technologies for eliminating and replacing radiation-damaged cells.",
+        "Investigating the use of deuterated organic compounds and isotope-reinforced food/water for radioprotection."
+    ],
+    "related_papers": [
+        "Chancellor JC, Scott GB, Sutton JP. Space Radiation: The Number One Risk to Astronaut Health beyond Low Earth Orbit. Life (Basel) 2014;4:491-510.",
+        "Cucinotta FA, Kim MH, Chappell LJ, Huff JL. How safe is safe enough? Radiation risk for a human mission to Mars. PLoS One. 2013;8:e74988.",
+        "Hashimoto T, Horikawa DD, Saito Y, Kuwahara H, Kozuka-Hata H, Shin-I T, Minakuchi Y, Ohishi K, Motoyama A, Aizu T, Enomoto A, Kondo K, Tanaka S, et al. Extremotolerant tardigrade genome and improved radiotolerance of human cultured cells by tardigrade-unique protein. Nat Commun. 2016;7:12808."
+    ],
+    "conclusions": "Enhancing human radioresistance is crucial for deep space exploration and colonization. A multi-faceted approach combining genetic engineering, pharmacological interventions, metabolic manipulation, and advanced technologies like AI is necessary. This research not only addresses space exploration challenges but also holds significant potential for extending human healthspan on Earth.",
+    "impact_statement": "This research lays the groundwork for making long-duration human space travel feasible by developing strategies to protect astronauts from harmful radiation, potentially leading to significant advancements in human longevity and health."
+}

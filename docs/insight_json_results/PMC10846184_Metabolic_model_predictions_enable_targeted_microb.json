@@ -1,0 +1,28 @@
+{
+    "document_title": "Metabolic model predictions enable targeted microbiome manipulation through precision prebiotics",
+    "summary_full": "This study introduces the concept of 'precision prebiotics' to selectively modulate the abundance of specific beneficial microbes within a microbiome. The researchers used metabolic modeling to identify compounds that could preferentially increase the growth of the immune-protective bacterium Pseudomonas lurida MYb11 over Ochrobactrum vermis MYb71 in a two-member Caenorhabditis elegans microbiome. They found that unique uptake compounds are rare in microbial communities, necessitating the identification of prebiotics with overlapping metabolic niches. Using constraint-based modeling, they predicted several potential precision prebiotics, and experimentally validated four: L-serine, L-threonine, D-mannitol, and γ-aminobutyric acid (GABA), which specifically increased MYb11 abundance in vitro. Further in vivo experiments in C. elegans confirmed that L-serine could selectively boost MYb11 levels within the host. The findings demonstrate the utility of metabolic modeling for designing targeted microbiome interventions.",
+    "key_findings": [
+        "Metabolic modeling can predict 'precision prebiotics' that selectively enhance the growth of specific microbial species.",
+        "Unique nutrient uptake compounds are generally not sufficient for targeted microbiome manipulation due to overlapping metabolic niches.",
+        "L-serine, L-threonine, D-mannitol, and γ-aminobutyric acid were identified as potential precision prebiotics for Pseudomonas lurida MYb11.",
+        "Experimental validation confirmed that these four compounds specifically increase MYb11 abundance in vitro.",
+        "L-serine supplementation successfully increased MYb11 abundance in vivo within the Caenorhabditis elegans host."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Application of metabolic modeling to more complex microbial communities.",
+        "Development of advanced formulations for targeted delivery and controlled release of precision prebiotics.",
+        "Investigation of potential side effects of precision prebiotics on host physiology.",
+        "Optimization of precision prebiotic concentrations and stability in the host environment.",
+        "Scaling up the approach for potential human therapeutic applications."
+    ],
+    "related_papers": [
+        "Constraint-based models predict metabolic and associated cellular functions (Bordbar et al., 2014)",
+        "gapseq: informed prediction of bacterial metabolic pathways and reconstruction of accurate metabolic models (Zimmermann et al., 2021)",
+        "BacArena: individual-based metabolic modeling of heterogeneous microbes in complex communities (Bauer et al., 2017)",
+        "CeMbio - the Caenorhabditis elegans microbiome resource (Dirksen et al., 2020)",
+        "Host-microbe-drug-nutrient screen identifies bacterial effectors of metformin therapy (Pryor et al., 2019)"
+    ],
+    "conclusions": "Metabolic modeling, combined with experimental validation, is a powerful tool for designing precision prebiotics that can selectively modulate the abundance of beneficial microbes within a host's microbiome. This approach offers a promising avenue for developing targeted microbiome-based therapies.",
+    "impact_statement": "This study presents a computational and experimental framework for designing precision prebiotics, a novel strategy for targeted microbiome manipulation with potential applications in future microbiome-based therapies."
+}

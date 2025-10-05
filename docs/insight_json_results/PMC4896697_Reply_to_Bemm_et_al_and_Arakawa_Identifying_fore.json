@@ -1,0 +1,28 @@
+{
+    "document_title": "Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent Hypsibius dujardini genome assemblies",
+    "summary_full": "This paper is a response to criticisms regarding the discovery of extensive horizontal gene transfer (HGT) in the tardigrade Hypsibius dujardini genome. The authors acknowledge a mistake in uploading an outdated assembly, which may have contributed to discrepancies. They re-evaluate their findings using independent genome assemblies and multiple filtering approaches (HGT index, prokaryotic vs. eukaryotic alignment, Class C genes). These analyses, applied to independent assemblies, still indicate a substantial proportion of foreign genes (3.8-7.1% by HGT index, 164-384 genes by alignment, 2.5-4.6% for Class C genes), which is elevated compared to typical animals. The authors argue that these foreign genes are unlikely to be mere contaminants, as they are often found on scaffolds with tardigrade genes and are supported by multiple sequencing efforts. They also address the argument that lack of expression disproves HGT, citing examples where HGT genes are expressed at low or undetectable levels. While acknowledging that estimates of HGT vary, they conclude that H. dujardini likely possesses an elevated level of foreign genes acquired through HGT, though possibly not as high as initially reported. They anticipate that future research with new technologies will further refine these estimates.",
+    "key_findings": [
+        "Independent analyses of H. dujardini genome assemblies, using multiple methods, still reveal a significant proportion of foreign genes (3.8-7.1% by HGT index, 2.5-4.6% as Class C genes).",
+        "Foreign genes identified in independent assemblies are often located on scaffolds with tardigrade genes and are supported by multiple sequencing datasets, suggesting they are not simple contaminants.",
+        "Lack of gene expression does not preclude horizontal gene transfer, as many HGT genes are known to be expressed at low levels or not at all.",
+        "The proportion of foreign genes in H. dujardini is substantially elevated compared to most other animals, supporting the hypothesis of extensive HGT."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Further refinement of HGT estimates using new sequencing technologies.",
+        "Bioinformatic and phylogenetic approaches to better resolve the proportion and origin of foreign genes.",
+        "Functional assessment of identified foreign genes and their potential role in tardigrade biology.",
+        "Investigating the mechanisms and evolutionary history of HGT in tardigrades."
+    ],
+    "related_papers": [
+        "Boothby TC, et al. Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade. Proc Natl Acad Sci USA. 2015;112(52):15976-15981. doi: 10.1073/pnas.1510461112.",
+        "Bemm F, Weiß CL, Schultz J, Förster F. Genome of a tardigrade: Horizontal gene transfer or bacterial contamination? Proc Natl Acad Sci USA. 2016;113:E3054-E3056. doi: 10.1073/pnas.1525116113.",
+        "Arakawa K. No evidence for extensive horizontal gene transfer from the draft genome of a tardigrade. Proc Natl Acad Sci USA. 2016;113:E3057. doi: 10.1073/pnas.1602711113.",
+        "Delmont TO, Eren AM. Identifying contamination with advanced visualization and analysis practices: Metagenomic approaches for eukaryotic genome assemblies. PeerJ. 2016;4:e1839. doi: 10.7717/peerj.1839.",
+        "Koutsovoulos G, et al. No evidence for extensive horizontal gene transfer in the genome of the tardigrade Hypsibius dujardini. Proc Natl Acad Sci USA. 2016;113(18):5053-5058. doi: 10.1073/pnas.1600338113.",
+        "Eren AM, et al. Anvi'o: An advanced analysis and visualization platform for 'omics data. PeerJ. 2015;3:e1319. doi: 10.7717/peerj.1319.",
+        "Kumar S, Jones M, Koutsovoulos G, Clarke M, Blaxter M. Blobology: Exploring raw genome data for contaminants, symbionts and parasites using taxon-annotated GC-coverage plots. Front Genet. 2013;4:237. doi: 10.3389/fgene.2013.00237."
+    ],
+    "conclusions": "Despite criticisms and the acknowledgment of an initial error in assembly upload, the authors maintain that their findings of extensive horizontal gene transfer in the Hypsibius dujardini genome are robust. Analyses using independent assemblies and multiple metrics consistently show a significant proportion of foreign genes, elevated compared to other animals. While the exact proportion may vary and requires further investigation with advanced techniques, the evidence strongly suggests that H. dujardini has acquired a substantial number of genes through HGT, rather than these being solely artifacts of contamination.",
+    "impact_statement": "This study addresses the significant debate surrounding horizontal gene transfer in tardigrades, providing evidence that supports the acquisition of foreign genes as a notable feature of their genome, which could have implications for their remarkable resilience."
+}

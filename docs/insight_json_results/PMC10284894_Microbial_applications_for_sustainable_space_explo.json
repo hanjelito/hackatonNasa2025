@@ -1,0 +1,31 @@
+{
+    "document_title": "Microbial applications for sustainable space exploration beyond low Earth orbit",
+    "summary_full": "This review explores the multifaceted role of microbes in enabling sustainable human space exploration beyond low Earth orbit, focusing on upcoming missions to the Moon and Mars. It highlights how microbes can be leveraged for bioregenerative life support systems (BLSS), including plant cultivation, water recycling, waste bioconversion, and atmosphere revitalization. The paper also discusses their application in biological in situ resource utilization (bISRU), such as generating electricity via microbial fuel cells and extracting metals through biomining. Furthermore, it examines the potential of bioengineered microbes for producing pharmaceuticals, acting as biosensors, and creating novel biomaterials for construction and manufacturing. While acknowledging the benefits, the review also addresses the negative impacts of microbes, such as increased pathogenicity and biofilm formation, and proposes mitigation strategies. Ultimately, understanding and harnessing microbial capabilities are presented as crucial for ensuring the success and sustainability of long-duration space missions and extraterrestrial habitats.",
+    "key_findings": [
+        "Microbes are essential for bioregenerative life support systems, enabling closed-loop recycling of resources like water, air, and waste.",
+        "Biological in situ resource utilization (bISRU) can be achieved using microbes for energy generation (microbial fuel cells) and resource extraction (biomining).",
+        "Bioengineered microbes offer potential for producing therapeutics, nutrients, and novel biomaterials for space applications.",
+        "Spaceflight conditions can enhance microbial pathogenicity and biofilm formation, posing risks to astronaut health and spacecraft integrity.",
+        "Horizontal gene transfer (HGT) in space can contribute to increased antimicrobial resistance and virulence in microbes.",
+        "Mitigation strategies, including specialized coatings and engineered microbes, are needed to control harmful microbial activities."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Optimization of microbial fuel cells for higher energy output in space environments.",
+        "Development of robust biomining techniques for extracting diverse metals from extraterrestrial regolith.",
+        "Engineering of microbes for on-demand production of complex nutrients and pharmaceuticals.",
+        "In-depth study of microbial adaptation and HGT in simulated and actual spaceflight conditions.",
+        "Development of advanced biofilm detection, prevention, and control strategies for life support systems.",
+        "Testing and validation of bioengineered microbial applications in microgravity and extraterrestrial environments."
+    ],
+    "related_papers": [
+        "NASA's BioHome project for wastewater recycling.",
+        "Soviet space program's Biosphere 3 (BIOS-3) closed system.",
+        "European Space Agency's MELiSSA project for life support.",
+        "Studies on plant growth in simulated Martian and lunar regolith.",
+        "Research on microbial fuel cells for wastewater treatment and energy generation.",
+        "Experiments on biomining rare earth elements and vanadium in microgravity."
+    ],
+    "conclusions": "Microbes offer a powerful and versatile toolkit for overcoming the challenges of long-duration space exploration and establishing sustainable human presence beyond Earth. By leveraging their beneficial properties for life support, resource utilization, and material production, while simultaneously developing strategies to mitigate their detrimental effects, we can pave the way for successful crewed missions to the Moon, Mars, and beyond.",
+    "impact_statement": "This review highlights the critical role of microbiology in enabling sustainable deep space exploration by detailing how microbes can support life, generate resources, and create materials in extraterrestrial environments."
+}

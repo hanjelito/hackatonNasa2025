@@ -1,0 +1,33 @@
+{
+    "document_title": "Draft Genome Sequences of Biosafety Level 2 Opportunistic Pathogens Isolated from the Environmental Surfaces of the International Space Station",
+    "summary_full": "This study presents the draft genome sequences of 20 biosafety level 2 (BSL-2) opportunistic pathogens isolated from environmental surfaces of the International Space Station (ISS). The sequenced strains include Acinetobacter pittii, Enterobacter sp., Pantoea conspicua, Staphylococcus aureus, Staphylococcus haemolyticus, and Staphylococcus hominis. These genomic data are intended to facilitate research into the influence of microgravity on the pathogenicity and virulence of these microorganisms by comparison with Earth-based strains. The genomes were sequenced using an Illumina NextSeq instrument and assembled using the A5 assembly pipeline, with annotation performed by the RAST server. The study provides detailed assembly statistics for each strain, including genome size, contig number, and G+C content.",
+    "key_findings": [
+        "Draft genome sequences of 20 BSL-2 opportunistic pathogens isolated from ISS environmental surfaces have been generated.",
+        "The isolates include Acinetobacter pittii, Enterobacter sp., Pantoea conspicua, and various Staphylococcus species (S. aureus, S. haemolyticus, S. hominis).",
+        "Some isolates exhibited resistance to antibiotics such as cefazolin, cefoxitin, oxacillin, penicillin, rifampin, and erythromycin.",
+        "Specific strains of S. aureus showed resistance to erythromycin and penicillin, with some acquiring rifampin resistance during the study.",
+        "The genomic data will enable comparative studies on the effects of microgravity on microbial pathogenicity and virulence."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Comparative genomics of ISS-isolated pathogens versus Earth strains to understand microgravity effects on virulence.",
+        "Investigating the genetic basis of antibiotic resistance in spaceflight-associated microorganisms.",
+        "Exploring the long-term microbial ecology and potential health risks on the ISS.",
+        "Developing strategies for microbial control and mitigation in closed environments like spacecraft."
+    ],
+    "related_papers": [
+        "10.1128/genomeA.01263-16",
+        "10.1016/j.resmic.2011.02.006",
+        "10.2217/fmb.12.61",
+        "10.1099/ijs.0.017301-0",
+        "10.1128/AEM.01860-08",
+        "10.1086/520289",
+        "10.1371/journal.pone.0061161",
+        "10.1128/JCM.05563-11",
+        "10.1128/AAC.44.6.1549-1555.2000",
+        "10.1371/journal.pone.0042304",
+        "10.1186/1471-2164-9-75"
+    ],
+    "conclusions": "The generation of draft genome sequences for 20 BSL-2 opportunistic pathogens isolated from the ISS provides a foundational resource for understanding how microgravity may influence their pathogenicity and virulence. This data will enable direct comparisons with Earth-based strains, paving the way for future research into microbial adaptation and potential health implications in space environments.",
+    "impact_statement": "This study provides essential genomic data for 20 opportunistic pathogens found on the ISS, crucial for assessing microbial risks and understanding adaptation to spaceflight environments."
+}

@@ -1,0 +1,27 @@
+{
+    "document_title": "Complete Genome Sequence of Carnobacterium gilichinskyi Strain WN1359T (DSM 27470T)",
+    "summary_full": "This paper reports the complete genome sequence of Carnobacterium gilichinskyi strain WN1359, isolated from Siberian permafrost. This strain is notable for its ability to grow under simulated Martian conditions, including cold temperatures (0°C), low pressure (0.7-kPa), and a CO2-dominated anoxic atmosphere. The genome was sequenced using the PacBio SMRT system and assembled into a single circular chromosome of 2,347,813 bp with a GC content of 35.26%. Five plasmids were also identified. The genome contains 2,152 protein-encoding ORFs, with 79% assigned a known function and 86% assigned to COG categories. The sequencing and annotation were performed to investigate the molecular basis of the organism's adaptation to extreme environments.",
+    "key_findings": [
+        "Complete genome sequence of Carnobacterium gilichinskyi strain WN1359T (DSM 27470T) has been determined.",
+        "The genome consists of a 2,347,813 bp circular chromosome and five plasmids.",
+        "The chromosome has a GC content of 35.26%.",
+        "2,152 protein-encoding ORFs were identified, with 79% having assigned functions.",
+        "The organism can grow under simulated Martian conditions (cold, low pressure, CO2-rich anoxic atmosphere)."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the molecular mechanisms of adaptation to cold, low-pressure, and CO2-rich environments.",
+        "Exploring the potential of Carnobacterium gilichinskyi for astrobiological studies and extraterrestrial life detection.",
+        "Comparative genomics of extremophilic bacteria to understand survival strategies in harsh conditions."
+    ],
+    "related_papers": [
+        "Nicholson WL, Krivushin K, Gilichinsky D, Schuerger AC. 2013. Growth of Carnobacterium spp. from permafrost under low pressure, temperature, and anoxic atmosphere has implications for Earth microbes on Mars. Proc. Natl. Acad. Sci. U. S. A. 110:666-671",
+        "Aziz RK, Bartels D, Best AA, DeJongh M, Disz T, Edwards RA, Formsma K, Gerdes S, Glass EM, Kubal M, Meyer F, Olsen GJ, Olson R, Osterman AL, Overbeek RA, McNeil LK, Paarmann D, Paczian T, Parrello B, Pusch GD, Reich C, Stevens R, Vassieva O, Vonstein V, Wilke A, Zagnitko O. 2008. The RAST server: rapid annotations using subsystems technology. BMC Genomics 9:75",
+        "Salzberg SL, Delcher AL, Kasif S, White O. 1998. Microbial gene identification using interpolated Markov models. Nucleic Acids Res. 26:544-548",
+        "Tatusov RL, Galperin MY, Natale DA, Koonin EV. 2000. The COG database: a tool for genome-scale analysis of protein functions and evolution. Nucleic Acids Res. 28:33-36",
+        "Marchler-Bauer A, Bryant SH. 2004. CD-Search: protein domain annotations on the fly. Nucleic Acids Res. 32:W327-W331",
+        "Schattner P, Brooks AN, Lowe TM. 2005. The tRNAscan-SE, snoscan and snoGPS web servers for the detection of tRNAs and snoRNAs. Nucleic Acids Res. 33:W686-W689"
+    ],
+    "conclusions": "The complete genome sequence of Carnobacterium gilichinskyi strain WN1359T provides a foundational resource for understanding the genetic basis of its survival and growth under extreme conditions, including those simulating the Martian atmosphere. This information is crucial for future studies on its adaptation mechanisms and potential role in astrobiology.",
+    "impact_statement": "This study provides the complete genome sequence of a bacterium capable of surviving simulated Martian conditions, offering insights into the potential for life beyond Earth and the adaptation of life to extreme environments."
+}

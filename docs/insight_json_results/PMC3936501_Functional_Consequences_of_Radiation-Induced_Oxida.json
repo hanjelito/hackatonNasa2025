@@ -1,0 +1,28 @@
+{
+    "document_title": "Functional Consequences of Radiation-Induced Oxidative Stress in Cultured Neural Stem Cells and the Brain Exposed to Charged Particle Irradiation",
+    "summary_full": "This study investigates the effects of low-dose charged particle irradiation, relevant to space travel, on neural stem cells and cognitive function. Researchers found that even low doses (<1 Gy) of charged particles induce acute and persistent oxidative stress in neural stem and precursor cells, lasting weeks to months. This oxidative stress was observed even at ion fluences where less than one ion traversed each cell. In whole-body irradiated mice, the brain mounted a temporary compensatory antioxidant response that returned to baseline levels. Crucially, low-dose irradiation significantly impaired novel object recognition in mice at both 2 and 12 weeks post-exposure. The findings suggest that space radiation poses a risk for mission-critical performance decrements and long-term neurocognitive issues for astronauts.",
+    "key_findings": [
+        "Low doses (<1 Gy) of charged particles induce acute and persistent oxidative stress in neural stem and precursor cells.",
+        "Oxidative stress can persist for weeks to months after irradiation, even at very low ion fluences.",
+        "Whole-body irradiation triggers a temporary increase in brain antioxidant capacity.",
+        "Low-dose charged particle irradiation significantly impairs novel object recognition in mice.",
+        "Cognitive impairment was observed 2 and 12 weeks after irradiation, suggesting long-term effects."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the specific molecular mechanisms linking persistent oxidative stress to cognitive impairment.",
+        "Developing countermeasures to mitigate radiation-induced oxidative stress and cognitive deficits in astronauts.",
+        "Exploring the long-term neurocognitive sequelae of space radiation exposure in more detail.",
+        "Assessing the efficacy of antioxidant therapies in protecting against radiation-induced neural damage.",
+        "Further characterizing the differential radiosensitivity of various neural cell populations."
+    ],
+    "related_papers": [
+        "Consequences of ionizing radiation-induced damage in human neural stem cells. (PMID: 20851017)",
+        "Heavy ion track-structure calculations for radial dose in arbitrary materials. (NASA Tech Memo 3497)",
+        "Low-dose ionizing radiation decreases the frequency of neoplastic transformation to a level below the spontaneous rate in C3H 10T1/2 cells. (PMID: 8870010)",
+        "Radiation response of neural precursor cells. (DOI: 10.1016/j.srad.2007.05.004)",
+        "Exposure to heavy ion radiation induces persistent oxidative stress in mouse intestine. (DOI: 10.1371/journal.pone.0042224)"
+    ],
+    "conclusions": "Exposure to low doses of charged particles causes persistent oxidative stress and cognitive impairment over protracted periods. These findings suggest that astronauts exposed to space radiation face an increased risk of mission-critical performance decrements and long-term neurocognitive sequelae.",
+    "impact_statement": "This study highlights the significant risk of long-term cognitive impairment and performance decrements for astronauts due to low-dose space radiation, emphasizing the need for protective measures."
+}

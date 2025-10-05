@@ -1,0 +1,29 @@
+{
+    "document_title": "Microbial Burden Estimation of Food Items, Built Environments, and the International Space Station Using Film Media",
+    "summary_full": "This study compares the performance of film media (Petrifilm and Easy Plates) against traditional agar media for enumerating cultivable microbes from food items, built environments on Earth, and surfaces of the International Space Station (ISS). Film media demonstrated comparable results to agar for bacterial counts in food and built environments (R2 values of 0.94-0.96). Fungal counts showed a lower correlation (R2 values of 0.72-0.73). For ISS samples, which had very low microbial loads, film media (Easy Plates) showed R2 values of 0.80 for bacteria and 0.73 for fungi, with film media being more likely to detect microbes above the detection limit. Species composition of isolates was generally similar between media types, though some differences in isolation of slow-growing or specific yeast species were noted. The study concludes that film media are viable alternatives to agar plates for low-biomass environments and food samples, offering advantages in reduced waste, preparation time, and incubator space, and may be suitable for microgravity applications.",
+    "key_findings": [
+        "Film media (Petrifilm and Easy Plates) perform comparably to traditional agar media for bacterial enumeration in food and built environments (R2 > 0.94).",
+        "Fungal enumeration showed lower correlation between film and agar media (R2 ~0.73) compared to bacterial counts.",
+        "For low-biomass ISS samples, film media detected cultivable microbes more frequently than agar, with R2 values of 0.80 for bacteria and 0.73 for fungi.",
+        "Species composition of isolated microbes was largely similar between film and agar media, with minor differences in the isolation of specific slow-growing or yeast species.",
+        "Film media offer significant advantages in reduced waste, preparation time, and incubator space compared to agar media.",
+        "Film media's reliance on water adhesion/cohesion makes them potentially suitable for future microgravity applications."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Further phylogenetic analysis to confirm differential microbial diversity composition between film and agar media isolates.",
+        "Investigating the performance of film media in other low-biomass or extreme environments.",
+        "Developing and testing film media specifically designed for microgravity applications.",
+        "Exploring automated colony counting methods for film media to address challenges with high bioburden samples.",
+        "Assessing the impact of film media on the isolation of rare or slow-growing microbial species in various contexts."
+    ],
+    "related_papers": [
+        "Microbiome. 2019;7:50. doi: 10.1186/s40168-019-0666-x",
+        "Appl. Environ. Microbiol. 2007;73:2600-2611. doi: 10.1128/AEM.03007-06",
+        "Appl. Environ. Microbiol. 2011;77:2943-2953. doi: 10.1128/AEM.02978-10",
+        "3M Petrifilm Plates Brochure. 2021.",
+        "Kikkoman Corporation Microbial Film Media (Easy Plate)"
+    ],
+    "conclusions": "Film media, specifically Petrifilm and Easy Plates, are effective and viable alternatives to traditional agar media for enumerating cultivable microbes from food items and low-biomass built environments, including the International Space Station. They offer practical advantages in terms of efficiency and resource utilization, and their properties suggest potential for use in microgravity settings.",
+    "impact_statement": "This study validates the use of convenient and efficient film media for microbial monitoring in diverse settings, including space exploration, by demonstrating their comparable performance to traditional methods and highlighting their suitability for low-biomass environments."
+}

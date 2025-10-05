@@ -1,0 +1,26 @@
+{
+    "document_title": "Bioreactor development for skeletal muscle hypertrophy and atrophy by manipulating uniaxial cyclic strain: proof of concept",
+    "summary_full": "This study presents a proof-of-concept for a novel bioreactor system (StrexCell®) designed to simulate skeletal muscle hypertrophy and atrophy, relevant to spaceflight microgravity research. The bioreactor utilizes controlled uniaxial cyclic tensile strain to induce these changes in C2C12 myotubes. Applying cyclic stretch (0.75 Hz, 12% strain, 60 min/day) for 2 or 5 days led to significant myotube hypertrophy, evidenced by increased diameter and elevated anabolic markers like talin and phosphorylated Akt. Conversely, a 3-day cessation of cyclic stretch after 2 days of loading induced myotube atrophy, characterized by reduced myotube diameter, decreased Akt phosphorylation, and increased inflammatory and catabolic markers (IL-1ß, IL-6, NF-kappaB p65, and total FoxO3a). The findings suggest this bioreactor can effectively model the effects of increased loading (hypertrophy) and unloading (atrophy) on skeletal muscle cells, providing a valuable tool for studying spaceflight-induced muscle wasting and testing countermeasures.",
+    "key_findings": [
+        "A bioreactor using uniaxial cyclic strain successfully induced skeletal muscle myotube hypertrophy (up to 94% increase in diameter) and atrophy.",
+        "Hypertrophy was associated with increased talin protein and Akt phosphorylation.",
+        "Atrophy was linked to reduced Akt phosphorylation, increased inflammatory markers (IL-1ß, IL-6, NF-kappaB p65), and elevated catabolic signaling (increased total FoxO3a, decreased p-FoxO3a/total FoxO3a ratio).",
+        "The cessation of cyclic stretch mimicked the effects of mechanical unloading and microgravity on muscle cells.",
+        "The StrexCell system offers a viable alternative to existing bioreactors for simulating spaceflight-related muscle changes."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Testing countermeasures for spaceflight-induced muscle atrophy in this bioreactor model.",
+        "Investigating the role of specific signaling pathways (e.g., Akt, FoxO3a, inflammatory pathways) in more detail.",
+        "Measuring intracellular calcium levels and related markers (SERCA1, SERCA2a) in response to stretch and cessation.",
+        "Exploring the effects of combined microgravity and radiation on skeletal muscle cells using this system.",
+        "Adapting the bioreactor for use with primary muscle cells or more complex tissue models."
+    ],
+    "related_papers": [
+        "Soltow QA, Zeanah EH, Lira VA, Criswell DS. Cessation of cyclic stretch induces atrophy of C2C12 myotubes. Biochem Biophys Res Commun. 2013;434(2):316-321. doi: 10.1016/j.bbrc.2013.03.048",
+        "Lawler JM, et al. Nox2 inhibition regulates stress response and mitigates skeletal muscle fiber atrophy during simulated microgravity. Int J Mol Sci. 2021;22(6):3252. doi: 10.3390/ijms22063252",
+        "Bodine SC, et al. Akt/mTOR pathway is a crucial regulator of skeletal muscle hypertrophy and can prevent muscle atrophy in vivo. Nat Cell Biol. 2001;3(11):1014-1019. doi: 10.1038/ncb1101-1014"
+    ],
+    "conclusions": "The StrexCell uniaxial stretch system effectively induces skeletal muscle myotube hypertrophy with increased tensile loading and atrophy upon cessation of stretch, mimicking physiological responses to overloading and unloading. This bioreactor is a viable tool for studying spaceflight-induced muscle atrophy and for testing potential countermeasures.",
+    "impact_statement": "This study develops a novel bioreactor system that can accurately model skeletal muscle hypertrophy and atrophy, crucial for understanding and mitigating muscle loss during spaceflight."
+}

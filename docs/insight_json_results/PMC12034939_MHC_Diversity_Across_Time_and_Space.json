@@ -1,0 +1,28 @@
+{
+    "document_title": "MHC Diversity Across Time and Space",
+    "summary_full": "This review explores the geographic and temporal patterns of Major Histocompatibility Complex (MHC) diversity in wild populations, focusing on how selective and demographic processes shape these patterns. It discusses MHC diversity along latitudinal and altitudinal gradients, relating it to the Latitude Diversity Gradient and Central Marginal Theories, and notes that diversity is often lower at species distribution edges. The review highlights the threat of reduced immunogenetic diversity to wildlife populations facing climate change and emerging parasites, proposing the integration of immunogenetic, environmental, and parasite data for conservation and coevolutionary studies. It also touches upon the challenges in MHC characterization and suggests future research directions involving multidisciplinary data integration and advanced sequencing technologies.",
+    "key_findings": [
+        "MHC diversity is crucial for individual and population resistance to infectious diseases.",
+        "MHC diversity often decreases at higher latitudes and altitudes, and at the edges of species' geographic ranges.",
+        "Habitat fragmentation can lead to a loss of MHC diversity, increasing disease susceptibility.",
+        "Climate change and the spread of emerging parasites pose a significant threat to wildlife populations with low immunogenetic diversity.",
+        "Integrating immunogenetic, environmental, and parasite data is proposed as a method to better understand host-parasite coevolution and inform conservation efforts."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Developing standardized, multidisciplinary databases integrating environmental, genomic, and host-parasite data.",
+        "Utilizing advanced sequencing technologies (e.g., long-read sequencing) for more accurate MHC characterization.",
+        "Investigating the impact of climate change on MHC allele frequencies and host-parasite interactions across diverse taxa and geographic regions.",
+        "Testing hypotheses regarding the relative contributions of different selective pressures (e.g., heterozygosity advantage, rare allele advantage, fluctuating selection) on MHC diversity.",
+        "Expanding studies to include temporal dynamics of MHC diversity and its association with disease prevalence in wild populations."
+    ],
+    "related_papers": [
+        "Allentoft and O'Brien 2010. Global Amphibian Declines, Loss of Genetic Diversity and Fitness: A Review.",
+        "Alberto et al. 2013. Potential for Evolutionary Responses to Climate Change-Evidence From Tree Populations.",
+        "Frankham 2010. Where Are We in Conservation Genetics and Where Do We Need to Go?",
+        "Pauls et al. 2013. The Impact of Global Climate Change on Genetic Diversity Within Populations and Species.",
+        "Sommer 2005. The Importance of Immune Gene Variability (MHC) in Evolutionary Ecology and Conservation."
+    ],
+    "conclusions": "Understanding the mechanisms that maintain genetic diversity, particularly MHC diversity, is vital for comprehending local adaptation and resistance to infectious diseases. Future research should focus on characterizing complete MHC loci, analyzing allele frequency changes over broad spatial and temporal scales, and integrating multidisciplinary data to disentangle evolutionary forces. Improving accessibility to centralized, multidisciplinary datasets is crucial for advancing knowledge on adaptive genetic variability in wild animals. Conservation efforts should monitor MHC diversity in vulnerable populations to ensure long-term species survival amidst climate change and emerging diseases.",
+    "impact_statement": "This review highlights the critical role of MHC genetic diversity in wildlife health and survival, emphasizing its vulnerability to climate change and habitat degradation, and proposes integrated data approaches for conservation and understanding host-parasite coevolution."
+}

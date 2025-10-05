@@ -1,0 +1,26 @@
+{
+    "document_title": "Three-Dimensional Kidney-on-a-Chip Assessment of Contrast-Induced Kidney Injury: Osmolality and Viscosity",
+    "summary_full": "This study investigates the effects of contrast media (CM) viscosity on contrast-induced nephropathy (CIN) using a three-dimensional kidney-on-a-chip model. Renal proximal tubule epithelial cells (RPTEC) were cultured under fluid shear stress and treated with low-osmolar contrast media (LOCM) and iso-osmolar contrast media (IOCM). While LOCM showed higher cytotoxicity under static and low-shear conditions, IOCM's high viscosity led to reduced flow rates and increased shear stress, resulting in comparable cytotoxicity to LOCM under high-shear conditions. The findings suggest that viscosity plays a crucial role in CIN, particularly under high shear stress, and that the kidney-on-a-chip model can better reflect in vivo conditions than conventional in vitro methods.",
+    "key_findings": [
+        "High viscosity of iso-osmolar contrast media (IOCM) significantly slows fluid flow and increases shear stress in a kidney-on-a-chip model.",
+        "Low-osmolar contrast media (LOCM) exhibits higher cytotoxicity than IOCM under static and low-to-moderate shear stress conditions.",
+        "Under high shear stress conditions, the cytotoxicity of IOCM becomes comparable to that of LOCM.",
+        "Cytotoxic effects of contrast media are pronounced at mean shear stress of 1 dyn/cm2 or higher.",
+        "The kidney-on-a-chip model provides a more relevant in vitro assessment of CIN compared to static culture methods."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the detailed molecular mechanisms of viscosity-induced tubular injury.",
+        "Developing more sophisticated microfluidic models that combine vascular and tubular compartments.",
+        "Exploring the role of cell stretching and altered shear stress in CIN pathogenesis.",
+        "Further validation of the kidney-on-a-chip model for predicting CIN in diverse patient populations."
+    ],
+    "related_papers": [
+        "Contrast-induced nephropathy: Mechanisms, risk factors, and prevention. Eur. Heart J. 2012;33:2007-2015.",
+        "Nephrotoxicity related to contrast media. Scand. J. Urol. Nephrol. 2000;34:317-322.",
+        "Kidney on chips. Methods Cell Biol. 2018;146:85-104.",
+        "Viscosity of iodinated contrast agents during renal excretion. Eur. J. Radiol. 2011;80:373-377."
+    ],
+    "conclusions": "The study successfully applied a 3D kidney-on-a-chip model to assess physicochemical factors of contrast media in CIN. The findings highlight the significant role of viscosity-induced nephrotoxicity under high shear stress, differing from conventional in vitro studies. While LOCM showed higher cytotoxicity under physiological shear stress, IOCM's high viscosity led to comparable damage under high shear stress due to prolonged exposure and increased shear stress, suggesting that CIN risk may not differ between IOCM and LOCM in patients with compromised renal function.",
+    "impact_statement": "This research introduces a more physiologically relevant kidney-on-a-chip model for evaluating contrast-induced nephropathy, revealing the critical impact of contrast media viscosity under high shear stress, which has implications for understanding and potentially mitigating kidney injury in clinical settings."
+}

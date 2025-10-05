@@ -1,0 +1,32 @@
+{
+    "document_title": "Intrauterine exposure to maternal stress alters Bdnf IV DNA methylation and telomere length in the brain of adult rat offspring",
+    "summary_full": "This study investigated the long-term molecular effects of unpredictable, variable prenatal stress (UVPS) on adult rat offspring. Researchers exposed pregnant rats to a daily regimen of unpredictable stressors and then examined DNA methylation of the Brain-derived neurotrophic factor (Bdnf) gene and telomere length in the brains of their adult offspring. Findings revealed that male offspring exposed to prenatal stress exhibited increased Bdnf IV DNA methylation in the medial prefrontal cortex (mPFC) compared to non-stressed males and stressed females. Furthermore, prenatally stressed animals, regardless of sex, had shorter telomeres in the mPFC. These results suggest that maternal stress during gestation can lead to lasting changes in brain DNA methylation and telomere biology, with potential implications for behavioral and health outcomes in offspring.",
+    "key_findings": [
+        "Prenatal stress in rats leads to increased Bdnf IV DNA methylation in the medial prefrontal cortex (mPFC) of adult male offspring.",
+        "This increased methylation in the mPFC was observed in males exposed to prenatal stress compared to both non-stressed males and stressed females.",
+        "Adult offspring exposed to prenatal stress exhibited shorter telomere lengths in the mPFC.",
+        "No significant changes in Bdnf IV DNA methylation were found in the dorsal hippocampus, ventral hippocampus, or amygdala.",
+        "Telomere length was not significantly altered in the hippocampus or amygdala following prenatal stress."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the functional consequences of altered Bdnf IV DNA methylation and telomere length in the mPFC on specific behaviors.",
+        "Exploring the sex-specific mechanisms underlying the observed molecular changes in the brain following prenatal stress.",
+        "Determining the role of different cell types (neurons vs. glia) in the observed telomere shortening in the mPFC.",
+        "Examining the potential for therapeutic interventions to mitigate the long-term effects of prenatal stress on brain epigenetics and telomere biology.",
+        "Comparing the effects of different types and timings of prenatal stress paradigms on offspring brain development and molecular profiles."
+    ],
+    "related_papers": [
+        "Painter et al., 2008 (Dutch Famine effects)",
+        "Roseboom et al., 2011 (Dutch Famine effects)",
+        "Hoek et al., 1996 (Prenatal famine and schizophrenia)",
+        "Malaspina et al., 2008 (Maternal stress and schizophrenia risk)",
+        "Boersma et al., 2014 (Prenatal stress and Bdnf methylation)",
+        "Dong et al., 2015 (Prenatal stress and Bdnf methylation)",
+        "St-Cyr and McGowan, 2015 (Predator stress and Bdnf methylation)",
+        "Entringer et al., 2011 (Prenatal stress and peripheral telomere length)",
+        "Asok et al., 2014 (Infant-caregiver experiences and telomere length)"
+    ],
+    "conclusions": "Intrauterine exposure to unpredictable, variable stress can induce lasting epigenetic (Bdnf IV DNA methylation) and telomeric (telomere length) changes in specific brain regions, particularly the medial prefrontal cortex, of adult rat offspring. These changes are sex-specific in terms of methylation patterns and highlight the profound impact of early-life stress on brain development and potential long-term health outcomes.",
+    "impact_statement": "This study provides evidence for molecular mechanisms by which prenatal stress can program long-term changes in the offspring's brain, offering insights into the developmental origins of stress-related disorders."
+}

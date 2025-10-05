@@ -101,6 +101,12 @@
   flex-direction: column;
   overflow: hidden;
   animation: slideUp 0.3s ease-out;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.chat-window.expanded {
+  width: 600px;
+  height: 700px;
 }
 
 @keyframes slideUp {
@@ -211,6 +217,7 @@
   border-radius: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.05);
+  overflow: visible;
 }
 
 .message.user .message-content {
@@ -290,6 +297,157 @@
 .send-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+/* Indicador de escribiendo */
+.message-content.typing {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.typing-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #6b7280;
+  border-radius: 50%;
+  animation: typingDot 1.4s infinite;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typingDot {
+  0%, 60%, 100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Markdown styles - Override github-markdown-css */
+.markdown-body {
+  background-color: transparent !important;
+  color: inherit !important;
+  font-size: 0.875rem !important;
+  line-height: 1.6 !important;
+}
+
+.markdown-body p {
+  margin-top: 0 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.markdown-body p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.message-content .markdown-body ul,
+.message-content .markdown-body ol {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  padding-left: 2rem !important;
+  list-style-position: outside !important;
+}
+
+.message-content .markdown-body ul {
+  list-style-type: disc !important;
+  list-style: disc outside !important;
+}
+
+.message-content .markdown-body ol {
+  list-style-type: decimal !important;
+  list-style: decimal outside !important;
+}
+
+.message-content .markdown-body li {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+  margin-left: 1rem !important;
+  display: list-item !important;
+}
+
+.message-content .markdown-body li::marker {
+  color: #ffffff !important;
+  font-size: 0.875rem !important;
+}
+
+.markdown-body strong {
+  font-weight: 700 !important;
+  color: #ffffff !important;
+}
+
+.markdown-body em {
+  font-style: italic !important;
+  color: #e0e0e0 !important;
+}
+
+.markdown-body code {
+  background: rgba(110, 118, 129, 0.4) !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 6px !important;
+  font-size: 85% !important;
+  color: #f0f0f0 !important;
+}
+
+.markdown-body pre {
+  background: rgba(110, 118, 129, 0.4) !important;
+  padding: 16px !important;
+  border-radius: 6px !important;
+  margin: 0.5rem 0 !important;
+}
+
+.markdown-body pre code {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+}
+
+.markdown-body h1 {
+  font-size: 1.5rem !important;
+}
+
+.markdown-body h2 {
+  font-size: 1.25rem !important;
+}
+
+.markdown-body h3 {
+  font-size: 1.125rem !important;
+}
+
+.markdown-body blockquote {
+  border-left: 4px solid #0b3d91 !important;
+  padding-left: 1rem !important;
+  color: #b0b0b0 !important;
+}
+
+.markdown-body a {
+  color: #58a6ff !important;
+  text-decoration: none !important;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline !important;
 }
 
 @media (max-width: 640px) {

@@ -1,0 +1,24 @@
+{
+    "document_title": "Draft genome sequence of Sphingomonas paucimobilis strain Sph5, isolated from tap water filtration membrane",
+    "summary_full": "This study reports the draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane. Sphingomonadaceae are known for colonizing membranes and forming biofilms in drinking water systems. The whole genome sequencing and de novo assembly confirmed the isolate as Sphingomonas paucimobilis, distinguishing it from Sphingomonas sanguinis. The genome sequence provides a basis for understanding strain-specific traits related to membrane biofouling. The genome was assembled using Illumina short-read sequencing and SPADES, with annotations predicted by Prokka. The data is available under accession numbers JAMRJL000000000 and SRR25337554.",
+    "key_findings": [
+        "The draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane, has been determined.",
+        "Whole genome sequencing and average nucleotide identity analysis confirmed the isolate as Sphingomonas paucimobilis, with ANI scores ranging from 99.77%-99.95% against S. paucimobilis references.",
+        "The genome assembly resulted in a genome size of 4,680,620 bp with an N50 of 4,016,723 bp and a mean coverage of 1,089×.",
+        "The genome contains 4,321 predicted coding sequences (CDS), of which 3,342 are functionally annotated.",
+        "Phylogenetic analysis using Orthofinder confirmed Sph5 is closest to S. paucimobilis."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating strain-specific traits of Sphingomonas paucimobilis Sph5 related to membrane biofouling.",
+        "Comparative genomics of Sphingomonas strains to understand adaptation to drinking water environments.",
+        "Exploring the genetic basis for biofilm formation and persistence on filtration membranes."
+    ],
+    "related_papers": [
+        "Isolation and characterization of Sphingomonadaceae from fouled membranes. NPJ Biofilms Microbiomes 5:6.",
+        "Characterization of Sphingomonas isolates from Finnish and Swedish drinking water distribution systems. J Appl Microbiol 89:687-696.",
+        "Biofilm formation on reverse osmosis membranes is initiated and dominated by Sphingomonas spp. Appl Environ Microbiol 76:2623-2632."
+    ],
+    "conclusions": "The whole genome sequencing and assembly of Sphingomonas strain Sph5 provides a valuable resource for understanding the genetic makeup of this bacterium, which is a common colonizer of drinking water filtration membranes. The data confirms its identity as Sphingomonas paucimobilis and lays the groundwork for future studies into its role in biofouling.",
+    "impact_statement": "This genome sequence provides a foundational resource for understanding microbial communities in drinking water systems and developing strategies to mitigate biofouling on filtration membranes."
+}

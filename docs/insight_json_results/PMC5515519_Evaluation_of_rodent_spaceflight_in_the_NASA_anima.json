@@ -1,0 +1,26 @@
+{
+    "document_title": "Evaluation of rodent spaceflight in the NASA animal enclosure module for an extended operational period (up to 35 days)",
+    "summary_full": "This study evaluated the NASA Animal Enclosure Module (AEM) for its capability to support Sprague-Dawley rats and C57BL/6 mice for up to 35 days, a duration extended beyond its original design for shuttle missions. The AEM's performance was assessed by comparing health, growth, body and organ masses, and consumption patterns of AEM-housed animals to vivarium-housed controls. The results confirmed that the AEM could support 12 female mice for 35 days with self-contained food and water. For 5 male rats, the AEM could also support them for 35 days with external replenishment of diet and water. Minor hardware modifications were sufficient for this extended operational period. The study demonstrated the AEM's flexibility and capability for longer-duration spaceflight research on the International Space Station and other platforms.",
+    "key_findings": [
+        "The NASA Animal Enclosure Module (AEM) can successfully support 12 female C57BL/6 mice for up to 35 days with self-contained food and water.",
+        "The AEM can support 5 male Sprague-Dawley rats for up to 35 days when diet and water are externally replenished.",
+        "Animal health, growth, and organ masses in the AEM were comparable to vivarium controls, with observed variations falling within normal biological ranges.",
+        "Environmental parameters within the AEM, such as CO2 and ammonia levels, remained well within acceptable limits throughout the 35-day study.",
+        "The AEM's life support systems (waste handling, ventilation, lighting) functioned adequately for the extended duration, indicating hardware durability with minor modifications."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the long-term nutritional adequacy of the NuRFB diet for spaceflight studies exceeding 35 days.",
+        "Further research into the observed minor variations in organ masses (kidneys, adrenals, thymus, spleen) and blood parameters in AEM-housed animals to understand their biological significance.",
+        "Exploring the potential impact of AEM housing on immune system function, particularly regarding thymic involution.",
+        "Extending AEM operational studies to durations of up to 90 days, as desired for next-generation NASA rodent studies.",
+        "Evaluating the AEM's performance with other rodent strains or species for spaceflight research."
+    ],
+    "related_papers": [
+        "Ballard, R. & Connolly, J. US/USSR joint research in space biology and medicine on Cosmos biosatellites.",
+        "Evaluation of NASA Foodbars as a standard diet for use in short-term rodent space flight studies.",
+        "The past, present, and future of National Aeronautics and Space Administration spaceflight diet in support of microgravity rodent experiments."
+    ],
+    "conclusions": "The NASA Animal Enclosure Module (AEM), with minor hardware modifications, is capable of supporting both mice and rats for extended durations of up to 35 days in spaceflight. While some minor physiological variations were observed in AEM-housed animals compared to vivarium controls, these were generally within normal biological ranges and did not indicate significant health issues. The primary limiting factor for longer-duration studies is the successful replenishment of food and water, rather than hardware failures in life support systems. This study validates the AEM's suitability for longer missions on the ISS and other platforms, paving the way for future research up to 90 days.",
+    "impact_statement": "This study validates the NASA Animal Enclosure Module (AEM) for extended rodent spaceflight missions, enabling longer-duration research critical for understanding human adaptation to space and developing countermeasures."
+}

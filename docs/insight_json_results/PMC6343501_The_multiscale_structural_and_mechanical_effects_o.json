@@ -1,0 +1,27 @@
+{
+    "document_title": "The multiscale structural and mechanical effects of mouse supraspinatus muscle unloading on the mature enthesis",
+    "summary_full": "This study investigated the effects of unloading on the enthesis, the bone-tendon interface, in adult mouse shoulders. After 21 days of paralysis induced by botulinum toxin A, unloading significantly increased mechanical failure and caused structural changes across multiple scales. At the millimeter scale, bone loss was observed. At the micrometer scale, bioapatite crystal size and crystallographic alignment decreased. At the nanometer scale, compositional changes stiffened the bioapatite/collagen composite. Mathematical modeling and mechanical testing indicated that these combined factors increased local stress and reduced the tissue's energy absorption capacity, thereby increasing injury risk. These findings highlight the hierarchical features of structure and composition that contribute to enthesis resilience and provide insights into developing targeted therapeutic approaches.",
+    "key_findings": [
+        "Unloading for 21 days significantly increased the extent of mechanical failure at the enthesis.",
+        "Millimeter-scale unloading caused bone loss in the humeral head adjacent to the enthesis.",
+        "Micrometer-scale unloading decreased bioapatite crystal size and crystallographic alignment.",
+        "Nanometer-scale compositional changes stiffened the bioapatite/collagen composite.",
+        "These multiscale changes increased local stress and reduced energy absorption, increasing injury risk.",
+        "Elastic properties (stiffness, maximum force) of the enthesis were largely unaffected by unloading."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Developing targeted therapeutic approaches to mitigate the effects of unloading on enthesis structure and function.",
+        "Investigating the long-term effects of unloading on enthesis integrity and potential for recovery.",
+        "Exploring the role of specific mineral-collagen interactions in enthesis mechanics under different loading conditions.",
+        "Translating these findings to human conditions involving disuse, paralysis, or spaceflight."
+    ],
+    "related_papers": [
+        "The role of muscle loading on bone (Re)modeling at the developing enthesis",
+        "Muscle loading is necessary for the formation of a functional tendon enthesis",
+        "Allometry of the Tendon Enthesis: Mechanisms of Load Transfer Between Tendon and Bone",
+        "Functional grading of mineral and collagen in the attachment of tendon to bone"
+    ],
+    "conclusions": "Even short-term unloading of the adult enthesis leads to significant structural changes across multiple hierarchical scales, compromising its mechanical integrity and increasing the risk and extent of failure. These changes include bone loss, altered mineral crystal structure and composition, and reduced energy absorption capacity. Understanding these multiscale effects is crucial for developing effective treatments for injuries related to disuse, paralysis, and spaceflight.",
+    "impact_statement": "This study reveals how unloading compromises the structural integrity of the bone-tendon interface at multiple scales, providing critical insights for preventing and treating injuries common in conditions like paralysis and spaceflight."
+}

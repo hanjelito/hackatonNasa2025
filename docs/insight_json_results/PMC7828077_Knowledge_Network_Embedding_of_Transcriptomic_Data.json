@@ -1,0 +1,27 @@
+{
+    "document_title": "Knowledge Network Embedding of Transcriptomic Data from Spaceflown Mice Uncovers Signs and Symptoms Associated with Terrestrial Diseases",
+    "summary_full": "This study integrates transcriptomic data from spaceflown mice with a comprehensive knowledge graph (SPOKE) to identify phenotypic changes relevant to human health during spaceflight. By analyzing six NASA GeneLab datasets from various missions and tissues (thymus, liver, spleen), the researchers used a novel method called Fold-Change Enhanced Propagated SPOKE Entry Vectors (PSEVs) to link gene expression changes to higher-order biological concepts and symptoms. This approach successfully identified known spaceflight-related symptoms and physiological changes, such as motion sickness and alterations in blood vessel diameter, and provided a proof-of-concept for using knowledge graphs to bridge the gap between molecular data and observable health effects in space. The findings suggest that this method can help predict potential health risks for astronauts and identify targets for countermeasures.",
+    "key_findings": [
+        "Integration of mouse transcriptomic data with the SPOKE knowledge graph identified critical symptoms and physiological changes associated with spaceflight.",
+        "The method successfully highlighted nodes relevant to space travel, including space motion sickness, regulation of blood vessel diameter, and sympathetic nervous system activity.",
+        "Analysis revealed conserved biological changes across different spaceflight missions and tissues, such as apoptosis, cell metabolic process, and cell membrane integrity.",
+        "The study demonstrates the potential of knowledge graphs to infer higher-order phenotypes (symptoms, diseases) from molecular data, bridging a gap in current transcriptomic analysis.",
+        "The approach provides a framework for identifying potential drug targets and developing countermeasures for spaceflight-induced health issues."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Expanding the SPOKE system to include murine phenotypical, pathophysiological, and biochemical non-omics data.",
+        "Utilizing the SPOKE system for human spaceflight research data related to astronauts.",
+        "Developing personalized risk profiles for astronauts using individual subject data.",
+        "Validating predicted signatures from spaceflight experiments with archived samples.",
+        "Comparing spaceflight-induced phenotypes with terrestrial diseases for potential therapeutic repurposing."
+    ],
+    "related_papers": [
+        "Afshinnekoo E., et al. Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration. Cell. 2020.",
+        "Berrios D.C., et al. NASA GeneLab: Interfaces for the exploration of space omics data. Nucleic Acids Res. 2021.",
+        "Himmelstein D.S., et al. Systematic integration of biomedical knowledge prioritizes drugs for repurposing. Elife. 2017.",
+        "Barabasi A.L., et al. Network medicine: A network-based approach to human disease. Nat. Rev. Genet. 2011."
+    ],
+    "conclusions": "Integrating mouse transcriptomic data with the SPOKE knowledge graph allows for the inference of higher-order phenotypic changes, including symptoms and physiological alterations, relevant to human health during spaceflight. This approach successfully identified known spaceflight-associated health issues and provides a proof-of-concept for bridging the gap between molecular data and observable health effects, paving the way for better prediction of risks and development of countermeasures.",
+    "impact_statement": "This study advances space biology by using a knowledge graph to link molecular changes in spaceflown mice to human-relevant symptoms, offering a new strategy for predicting and mitigating health risks during space missions."
+}

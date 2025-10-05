@@ -1,0 +1,28 @@
+{
+    "document_title": "Behavioral and multiomics analysis of 3D clinostat simulated microgravity effect in mice focusing on the central nervous system",
+    "summary_full": "This study investigated the effects of simulated microgravity using a 3D clinostat on mice, focusing on the central nervous system. Mice exposed to the 3D clinostat showed decreased activity, altered gait, and enhanced fear memory, alongside bone loss and changes in brain transcriptome, serum metabolomics, and gut microbiota. The 3D clinostat model demonstrated a closer resemblance to spaceflight-induced transcriptome changes compared to the hindlimb unloading model, suggesting its utility in studying microgravity-related neurological alterations and highlighting the need to consider emotional changes during space travel.",
+    "key_findings": [
+        "Simulated microgravity via 3D clinostat reduced mouse activity and exploratory behavior.",
+        "Mice exposed to 3D clinostat exhibited enhanced fear memory and altered gait.",
+        "Significant bone loss was observed in both survival box and clinostat groups, with a trend towards aggravation in the clinostat group.",
+        "Brain transcriptome analysis revealed alterations in immune and endocrine-related signaling pathways.",
+        "Serum metabolomics showed significant changes in pathways like ABC transporters and Sphingolipid signaling.",
+        "Gut microbiota composition was altered, with reduced Bacteroides and Turicibacter in clinostat-treated mice."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the specific neural circuits underlying enhanced fear memory and attenuated fear extinction in microgravity.",
+        "Exploring gender-specific responses to simulated microgravity.",
+        "Analyzing the synergistic effects of microgravity, social isolation, and spatial confinement.",
+        "Developing targeted interventions to mitigate microgravity-induced neurological and physiological changes.",
+        "Further validation of the 3D clinostat model for spaceflight research, including studies on specific brain regions and molecular pathways."
+    ],
+    "related_papers": [
+        "10.1016/j.heliyon.2023.e19355",
+        "10.1038/s41526-021-00133-z",
+        "10.1016/j.bbr.2021.113682",
+        "10.1038/s41598-025-90212-y"
+    ],
+    "conclusions": "The 3D clinostat model effectively simulates microgravity effects on mice, inducing significant changes in behavior, bone metabolism, brain transcriptome, serum metabolomics, and gut microbiome. This model shows greater similarity to spaceflight-induced brain transcriptome changes than the hindlimb unloading model, making it a valuable tool for studying microgravity-related neurological alterations and emphasizing the importance of addressing emotional changes in astronauts.",
+    "impact_statement": "This study validates a 3D clinostat model for simulating microgravity, revealing its significant impact on the central nervous system and providing a more accurate ground-based tool for understanding spaceflight-related health risks, particularly concerning neurological and emotional well-being."
+}

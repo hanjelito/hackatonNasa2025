@@ -1,0 +1,29 @@
+{
+    "document_title": "Real-time In Vivo Recording of Arabidopsis Calcium Signals During Insect Feeding Using a Fluorescent Biosensor",
+    "summary_full": "This protocol describes a method to visualize calcium (Ca2+) signaling in real-time within living Arabidopsis plants during feeding by hemipteran pests, specifically the green peach aphid (Myzus persicae). By expressing a GFP-based calcium biosensor (GCaMP3) in Arabidopsis, researchers can use fluorescence microscopy to observe cytosolic calcium dynamics with high spatial and temporal resolution. The assay involves using detached leaves from GCaMP3-expressing plants, allowing for continuous measurement of calcium signals before, during, and after aphid feeding. The results show a rapid, highly localized elevation of calcium around the aphid feeding site within minutes, while systemic signals are not detected. This method offers a robust and repeatable way to study plant responses to biotic stress, distinct from wounding responses, and can be adapted for other insect species or biotic stresses. The use of Arabidopsis facilitates further molecular analysis through its genetic resources.",
+    "key_findings": [
+        "A localized, rapid elevation of cytosolic calcium occurs around the aphid feeding site within minutes of feeding initiation.",
+        "No significant systemic calcium signals are detected in the leaf midrib or lateral tissues during aphid feeding.",
+        "The developed protocol allows for real-time, in vivo imaging of calcium dynamics during insect feeding using a fluorescent biosensor (GCaMP3) on a stereomicroscope.",
+        "The method is robust and repeatable, with approximately 73% of samples showing a detectable calcium elevation upon aphid settling.",
+        "Aphid feeding site calcium signals spread at approximately 6 µm/s and cover an area of about 110 µm²."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Molecular and physiological characterization of aphid-induced calcium signals using Arabidopsis mutants.",
+        "Adaptation of the protocol for studying other insect species, nematodes, or microbial pathogens.",
+        "Application of the technique to investigate responses to abiotic stresses.",
+        "Modification of the microscopy to image other plant tissues or whole plants.",
+        "Genetic encoding of the GCaMP3 biosensor in additional plant species."
+    ],
+    "related_papers": [
+        "Sanders D, Pelloux J, Brownlee C, Harper JF. Calcium at the crossroads of signaling. Plant Cell. 2002;14:S401-S417.",
+        "Dodd AN, Kudla J, Sanders D. The language of calcium signaling. Annu Rev Plant Biol. 2010;61:593-620.",
+        "Blume B, Nurnberger T, Nass N, Scheel D. Receptor-mediated increase in cytoplasmic free calcium required for activation of pathogen defense in parsley. Plant Cell. 2000;12(8):1425-1440.",
+        "Verrillo F, Occhipinti A, Kanchiswamy CN, Maffei ME. Quantitative analysis of herbivore-induced cytosolic calcium by using a cameleon (YC 3.6) calcium sensor in Arabidopsis thaliana. J Plant Physiol. 2014;171(2):136-139.",
+        "Kiep V. Systemic cytosolic Ca(2+) elevation is activated upon wounding and herbivory in Arabidopsis. New Phytol. 2015;207(4):996-1004.",
+        "Miyawaki A, et al. Fluorescent indicators for Ca2+ based on green fluorescent proteins and calmodulin. Nature. 1997;388(6645):882-887."
+    ],
+    "conclusions": "The developed protocol successfully demonstrates a localized, rapid calcium elevation in Arabidopsis leaves in response to aphid feeding, providing a novel tool to study plant-insect interactions and calcium signaling during biotic stress. This method, utilizing a GCaMP3 biosensor, allows for real-time visualization and quantitative analysis of these signals, paving the way for further molecular investigations into the mechanisms underlying plant defense responses.",
+    "impact_statement": "This study provides a crucial method for visualizing plant calcium signaling during insect feeding, advancing our understanding of plant-insect interactions and defense mechanisms."
+}

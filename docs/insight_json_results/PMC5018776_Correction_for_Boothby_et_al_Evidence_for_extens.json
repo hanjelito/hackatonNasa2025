@@ -1,0 +1,18 @@
+{
+    "document_title": "Correction for Boothby et al., Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade",
+    "summary_full": "This document is a correction to a previously published paper titled \"Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade.\" The correction addresses an issue with the data deposition footnote, which linked to an outdated version of the genome assembly. The authors provide a new, updated link to the correct version of the assembly used in their paper, which has been uploaded to GitHub.",
+    "key_findings": [
+        "The original genome assembly used in the paper is available at a new GitHub repository.",
+        "The previous data deposition footnote contained a link to an outdated assembly version."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Tardigrade genome assembly and analysis",
+        "Horizontal gene transfer in invertebrates"
+    ],
+    "related_papers": [
+        "Boothby et al., Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade (10.1073/pnas.1510461112)"
+    ],
+    "conclusions": "The authors have corrected a data accessibility issue by providing an updated link to the genome assembly used in their study, ensuring the reproducibility of their findings on horizontal gene transfer in tardigrades.",
+    "impact_statement": "This correction ensures the scientific community has access to the correct data for verifying and building upon research into tardigrade genomics and horizontal gene transfer."
+}

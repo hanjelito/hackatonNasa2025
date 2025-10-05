@@ -1,0 +1,24 @@
+{
+    "document_title": "Draft Genome Sequences of Two Fusarium oxysporum Isolates Cultured from Infected Zinnia hybrida Plants Grown on the International Space Station",
+    "summary_full": "This paper presents the draft whole-genome sequences of two Fusarium oxysporum isolates (VEG-01C1 and VEG-01C2) obtained from Zinnia hybrida plants infected with the fungus during the 'Veggie' project on the International Space Station (ISS). The isolates were cultured from leaf and root tissues. The genomes were sequenced using Illumina HiSeq, with reads processed by Trimmomatic and assembled using ABySS. The resulting draft genomes have sizes of approximately 49.3 Mb and 48.9 Mb, respectively. Phylogenetic analysis based on 10 informative loci and effector protein presence/absence revealed that these ISS isolates are closely related to F. oxysporum IMV-00293 (originally isolated after the Chernobyl disaster) and the clinical strain FOSC 3-a. This comparative genomics approach could offer insights into genes related to extreme environment adaptation, such as radiation resistance.",
+    "key_findings": [
+        "Draft genome sequences of two Fusarium oxysporum isolates (VEG-01C1 and VEG-01C2) from Zinnia plants grown on the ISS are presented.",
+        "The ISS isolates are phylogenetically closely related to a strain isolated after the Chernobyl disaster and a clinical strain causing human infections.",
+        "Comparative genomics of these strains may reveal genes involved in adaptation to extreme environments, including radiation resistance."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating genes responsible for radiation resistance in Fusarium oxysporum.",
+        "Comparative genomic studies of fungal isolates from extreme environments (space, Chernobyl).",
+        "Exploring the potential of Fusarium oxysporum for producing beneficial bioactive compounds.",
+        "Understanding the adaptation mechanisms of plant pathogens in microgravity and space environments."
+    ],
+    "related_papers": [
+        "Gordon TR. 2017. Fusarium oxysporum and the Fusarium wilt syndrome.",
+        "O'Donnell K, et al. 2004. Genetic diversity of human pathogenic members of the Fusarium oxysporum complex.",
+        "Singh NK, et al. 2017. Draft genome sequences of several fungal strains selected for exposure to microgravity at the International Space Station.",
+        "Simpson JT, et al. 2009. ABySS: a parallel assembler for short read sequence data."
+    ],
+    "conclusions": "The draft genome sequences of two Fusarium oxysporum isolates from the ISS provide a valuable resource for comparative genomics. The close relationship between these space-derived isolates, a Chernobyl isolate, and a clinical strain suggests potential for studying adaptation to extreme environments and identifying genes related to radiation resistance.",
+    "impact_statement": "This study provides genomic data for fungal pathogens from spaceflight, enabling research into adaptation to extreme environments and potential biotechnological applications."
+}

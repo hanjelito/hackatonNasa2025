@@ -1,0 +1,25 @@
+{
+    "document_title": "Thermoneutral housing attenuates premature cancellous bone loss in male C57BL/6J mice",
+    "summary_full": "This study investigated whether housing male mice at thermoneutral temperatures (32°C) could prevent the premature loss of cancellous bone observed in mice housed at standard room temperature (22°C). The researchers found that male C57BL/6J mice housed at 32°C from 5 to 16 weeks of age maintained cancellous bone volume in the femur and lumbar vertebrae, whereas those housed at 22°C showed significant reductions. Thermoneutral housing was associated with increased bone formation (higher osteocalcin, increased osteoblast activity) and decreased bone resorption (lower CTX-1). While thermoneutral housing led to increased abdominal white adipose tissue and serum leptin, it did not affect bone marrow adiposity. The magnitude of bone loss in males was comparable to that previously observed in females, suggesting that housing temperature is a critical, sex-independent variable in mouse models of bone aging.",
+    "key_findings": [
+        "Housing male mice at thermoneutral temperature (32°C) prevented premature cancellous bone loss in the distal femur and lumbar vertebrae.",
+        "Thermoneutral housing increased bone formation markers (serum osteocalcin, osteoblast perimeter, mineralizing perimeter) and decreased bone resorption markers (serum CTX-1).",
+        "The protective effect of thermoneutral housing on bone was similar in both male and female mice.",
+        "Thermoneutral housing increased abdominal white adipose tissue and serum leptin but did not affect bone marrow adiposity.",
+        "Standard room temperature (22°C) housing in male mice led to reduced cancellous bone volume fraction and altered microarchitecture."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the precise neuroendocrine mechanisms linking housing temperature, sympathetic signaling, and bone metabolism.",
+        "Exploring the role of other hormones (glucocorticoids, thyroid hormone) in mediating the effects of housing temperature on bone.",
+        "Determining the long-term effects of thermoneutral housing on bone health throughout the lifespan.",
+        "Further elucidating the complex role of bone marrow adiposity in skeletal health and its interaction with environmental factors."
+    ],
+    "related_papers": [
+        "Iwaniec UT, Philbrick KA, Wong CP, et al. Room temperature housing results in premature cancellous bone loss in growing female mice: implications for the mouse as a preclinical model for age-related bone loss. Osteoporos Int. 2016;27(10):3091-3101. doi:10.1007/s00198-016-3634-3",
+        "Fischer AW, Cannon B, Nedergaard J. Optimal housing temperatures for mice to mimic the thermal environment of humans: an experimental study. Mol Metab. 2018;11:161-170. doi:10.1016/j.molmet.2017.10.009",
+        "Giles DA, Moreno-Fernandez ME, Stankiewicz TE, et al. Thermoneutral housing exacerbates nonalcoholic fatty liver disease in mice and allows for sex-independent disease modeling. Nat Med. 2017;23(7):829-838. doi:10.1038/nm.4346"
+    ],
+    "conclusions": "Housing male C57BL/6J mice at thermoneutral temperature (32°C) from 5 to 16 weeks of age prevents the premature cancellous bone loss observed at standard room temperature (22°C). This protective effect is mediated by increased bone formation and decreased bone resorption, and is similar in magnitude between sexes. Housing temperature is a critical experimental variable that significantly impacts bone metabolism in mice.",
+    "impact_statement": "This study identifies housing temperature as a crucial, often overlooked, factor influencing bone metabolism in mouse models, with implications for the translation of research findings to human bone health."
+}

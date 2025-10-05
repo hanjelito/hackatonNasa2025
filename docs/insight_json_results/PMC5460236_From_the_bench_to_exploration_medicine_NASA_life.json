@@ -1,0 +1,30 @@
+{
+    "document_title": "From the bench to exploration medicine: NASA life sciences translational research for human exploration and habitation missions",
+    "summary_full": "This paper advocates for and outlines a path forward for translational research at NASA, aiming to accelerate the development of countermeasures for human spaceflight. It highlights the need for bi-directional information flow between basic and applied life sciences and medical operations to address health and safety challenges in exploration missions beyond low-Earth orbit. The paper draws parallels with the National Institutes of Health's (NIH) translational science model and proposes a two-phased approach: basic-to-applied and applied-to-operational. It provides examples of early-stage translational research in areas such as immune response, microbe-host interactions, oxidative stress, and visual impairment, demonstrating synergy between NASA's Space Biology and Human Research Programs. The authors recommend building partnerships, fostering new collaborations, embracing open science, and enhancing education and advocacy to catalyze translational research and support NASA's goals for human space exploration.",
+    "key_findings": [
+        "Translational research is crucial for NASA to develop effective countermeasures for human spaceflight health and safety risks.",
+        "A two-phased approach (basic-to-applied and applied-to-operational) is proposed, mirroring successful models like NIH's.",
+        "Synergies between NASA's Space Biology and Human Research Programs can accelerate countermeasure development.",
+        "Specific research areas like immune response, microbe-host interactions, oxidative stress, and visual impairment show promise for translational research.",
+        "Enhanced collaboration, open science, and partnerships are recommended to catalyze translational research efforts."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Developing specific countermeasures for spaceflight-induced immune dysregulation.",
+        "Investigating and mitigating increased microbial virulence in the spaceflight environment.",
+        "Understanding and counteracting oxidative stress in astronauts.",
+        "Addressing the causes and potential treatments for spaceflight-associated visual impairment.",
+        "Exploring artificial gravity as a multi-system countermeasure.",
+        "Further integrating animal and human studies for translational insights.",
+        "Leveraging big data analytics and open science for faster discovery and translation."
+    ],
+    "related_papers": [
+        "Recapturing a Future for Space Exploration: Life and Physical Sciences Research for a New Era (Decadal Survey)",
+        "NIH Roadmap",
+        "Human Research Program: Human Research Roadmap",
+        "NASA Space Biology Science Plan 2016-2025",
+        "International workshop on research and operational considerations for artificial gravity countermeasures"
+    ],
+    "conclusions": "Translational research is essential for NASA to effectively address the health and safety risks associated with long-duration human space exploration. By fostering collaboration between basic and applied science, leveraging existing programs, and adopting a structured, bi-directional approach, NASA can accelerate the development and implementation of countermeasures, ultimately enabling successful human missions beyond Earth orbit. Continued emphasis on partnerships, open science, and interdisciplinary efforts will be key to achieving these goals.",
+    "impact_statement": "This paper provides a strategic framework for NASA's life sciences research, directly impacting the development of countermeasures necessary for the health and safety of astronauts on future deep space exploration missions."
+}

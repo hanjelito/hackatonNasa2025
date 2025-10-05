@@ -1,0 +1,26 @@
+{
+    "document_title": "Detection of Target Genes for Drug Repurposing to Treat Skeletal Muscle Atrophy in Mice Flown in Spaceflight",
+    "summary_full": "This study investigates skeletal muscle atrophy, a condition exacerbated by aging, diabetes, and spaceflight microgravity. The researchers employed multi-modal gene disease and disease drug networks, utilizing link prediction algorithms to identify drugs for repurposing. Transcriptomic datasets from mice flown in spaceflight, obtained from NASA's GeneLab, were analyzed using graph theoretic network analysis to detect key target genes responsible for muscle atrophy in various leg muscles. Machine learning methods, including Pearson correlation and Bayesian Markov blanket, identified top gene regulators. Knowledge graphs were constructed using the Scalable Precision Medicine Knowledge Engine. Graph convolutional networks (GCNs), graph neural networks (GNNs), random forest, and gradient boosting were trained to predict links and rank gene-disease associations. The GCN method demonstrated superior performance in link prediction. Key genes identified were linked to metabolic and neurodegenerative diseases. The repurposed drugs suggested by the GCN method include nutrients, corticosteroids, anti-inflammatory medications, and insulin-related drugs.",
+    "key_findings": [
+        "Identified 473 significantly regulated genes associated with skeletal muscle atrophy in spaceflight mice using graph-theoretic network analysis and machine learning.",
+        "Constructed Gene Disease Knowledge Graphs (GDKG) and Disease Drug Knowledge Graphs (DDKG) to model relationships.",
+        "Graph Convolutional Network (GCN) achieved the highest accuracy (96.11% for GDKG, 99.19% for DDKG) in predicting gene-disease and disease-drug links.",
+        "Identified key genes involved in muscle atrophy that are also associated with metabolic and neurodegenerative diseases.",
+        "Proposed several drugs for repurposing, including L-carnitine, thiamine, corticosteroids (e.g., hydrocortisone), anti-inflammatory drugs, and insulin-related medications."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Further validation of the identified repurposable drugs in preclinical and clinical settings for skeletal muscle atrophy.",
+        "Expansion of the knowledge graphs to include more datasets, genes, and drugs for enhanced drug discovery.",
+        "Investigating the specific molecular mechanisms by which the identified key genes contribute to muscle atrophy.",
+        "Exploring the combined effects of microgravity and radiation on skeletal muscle atrophy and potential therapeutic interventions.",
+        "Developing personalized therapeutic strategies based on individual genetic profiles for muscle atrophy treatment."
+    ],
+    "related_papers": [
+        "Manian V., Orozco-Sandoval J., Diaz-Martinez V. An Integrative Network Science and Artificial Intelligence Drug Repurposing Approach for Muscle Atrophy in Spaceflight Microgravity. Front. Cell Dev. Biol. 2021;9:2434.",
+        "Allen D.L., Bandstra E.R., Harrison B.C., Thorng S., Stodieck L.S., Kostenuik P.J., Morony S., Lacey D.L., Hammond T.G., Leinwand L.L., et al. Effects of spaceflight on murine skeletal muscle gene expression. J. Appl. Physiol. 2009;106:582-592.",
+        "Kipf T.N., Welling M. Semi-supervised classification with graph convolutional networks; Proceedings of the 5th International Conference on Learning Representations; Toulon, France. 22 February 2017."
+    ],
+    "conclusions": "This study successfully identified key genes regulating skeletal muscle atrophy in spaceflight conditions and proposed several drugs for repurposing using advanced machine learning and knowledge graph methodologies. The GCN model demonstrated superior performance in predicting gene-disease and disease-drug associations, highlighting its potential for accelerating the discovery of therapeutic interventions for muscle atrophy, particularly in the context of long-duration spaceflights.",
+    "impact_statement": "This research provides a computational framework for identifying potential drug repurposing candidates to combat skeletal muscle atrophy, a critical health concern for astronauts and aging populations."
+}

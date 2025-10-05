@@ -1,0 +1,30 @@
+{
+    "document_title": "Crewmember microbiome may influence microbial composition of ISS habitable surfaces",
+    "summary_full": "This study investigated the relationship between a single crewmember's microbiome and the microbial composition of International Space Station (ISS) surfaces using shotgun metagenomic sequencing. Samples were collected from the crewmember's body (skin, nose, ear, mouth, saliva) at multiple time points pre-, during, and post-flight, alongside environmental surface samples from two different flights. The analysis revealed that the crewmember's skin, nostril, and ear microbiomes were more similar to ISS surfaces than mouth and saliva samples. Notably, skin samples from the crewmember were more closely related to surface samples collected during the same flight. Saliva samples showed a decrease in species diversity during flight, which partially recovered post-flight. SourceTracker analysis indicated that the crewmember's microbiome contributed significantly to the ISS surface microbiome, suggesting an exchange of microbial communities between the crew and their environment. These findings highlight the importance of monitoring crew and ISS microbiomes for long-term space missions.",
+    "key_findings": [
+        "Crewmember skin, nostril, and ear microbiomes are more similar to ISS surface microbiomes than mouth and saliva microbiomes.",
+        "Crewmember skin microbiome composition is more closely related to ISS surface samples collected during the same flight.",
+        "Species diversity in crewmember saliva samples decreased during spaceflight and partially recovered upon return to Earth.",
+        "The crewmember's microbiome contributed significantly to the ISS surface microbiome composition (average 56% for Flight 4, 42% for Flight 5).",
+        "Propionibacterium acnes and Staphylococcus epidermidis were prevalent on both crewmember skin and ISS surfaces."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Investigating the functional components (metabolic, virulence, antibiotic resistance genes) of the crew and ISS microbiomes.",
+        "Analyzing samples from additional crewmembers to increase statistical significance and confirm observed trends.",
+        "Developing targeted biosurveillance markers for in-flight microbial monitoring.",
+        "Exploring the impact of spaceflight conditions (microgravity, radiation) on human microbiome composition and potential dysbiosis.",
+        "Developing preventive measures and technologies to manage microbial exchange in spacecraft habitats."
+    ],
+    "related_papers": [
+        "Lax S, Smith DP, Hampton-Marcell J, et al. Longitudinal analysis of microbial interaction between humans and the indoor environment. Science. 2014.",
+        "Hospodsky D, Yamamoto N, Nazaroff W, et al. Characterizing airborne fungal and bacterial concentrations and emission rates in six occupied children’s classrooms. Indoor air. 2015.",
+        "Voorhies AA, Lorenzi HA. The Challenge of Maintaining a Healthy Microbiome during Long-Duration Space Missions. Frontiers in Astronomy and Space Sciences. 2016.",
+        "Singh NK, Wood JM, Karouia F, et al. Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces. Microbiome. 2018.",
+        "Checinska Sielaff A, Urbaniak C, Mohan GBM, et al. Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces. Microbiome. 2019.",
+        "Voorhies AA, Mark Ott C, Mehta S, et al. Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome. Scientific Reports. 2019.",
+        "Garrett-Bakelman FE, Darshi M, Green SJ, et al. The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight. Science. 2019."
+    ],
+    "conclusions": "The study demonstrates a significant interplay between a crewmember's microbiome and the microbial composition of ISS habitable surfaces, with evidence suggesting microbial exchange. Skin and other body sites of the crewmember harbor microbes similar to those found on ISS surfaces, and the crewmember's microbiome contributes substantially to the surface microbiome. Changes in saliva microbiome diversity during flight warrant further investigation for potential health implications. These findings underscore the need for continued microbial surveillance and the development of mitigation strategies for long-duration space missions.",
+    "impact_statement": "This research provides crucial insights into the dynamic relationship between astronauts and their microbial environment on the ISS, informing strategies for maintaining crew health and mission success during extended space travel."
+}

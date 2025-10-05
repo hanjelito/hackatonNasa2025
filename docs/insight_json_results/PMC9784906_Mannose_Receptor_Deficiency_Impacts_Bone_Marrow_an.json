@@ -1,0 +1,27 @@
+{
+    "document_title": "Mannose Receptor Deficiency Impacts Bone Marrow and Circulating Immune Cells during High Fat Diet Induced Obesity",
+    "summary_full": "This study investigates the role of the mannose receptor (Mrc1) in bone marrow (BM) cell reprogramming and metabolic profiles during diet-induced obesity. Researchers fed Mrc1-deficient (Mrc1−/−) mice and wild-type (WT) littermates a high-fat diet (HFD) for 20 weeks. Mrc1−/− mice exhibited impaired medullary hematopoiesis with reduced myeloid progenitors and mature cells, alongside an increase in BM adipocytes. Consequently, circulating neutrophils and pro-inflammatory monocytes decreased in Mrc1−/− mice. These mice also showed reduced macrophage infiltration in visceral adipose tissue and the liver, decreased liver steatosis, and improved glucose and insulin tolerance, with reduced weight gain compared to WT controls. The findings suggest that Mrc1 deficiency impacts BM and circulating immune cell subsets, leading to reduced systemic inflammation and resistance to obesity development.",
+    "key_findings": [
+        "Mrc1 deficiency in mice fed a high-fat diet leads to impaired bone marrow hematopoiesis, characterized by reduced myeloid progenitors and mature cells.",
+        "Mrc1 deficiency is associated with an increase in bone marrow adipocytes.",
+        "Mrc1-deficient mice show decreased circulating neutrophils and pro-inflammatory monocytes.",
+        "Reduced infiltration of macrophages into visceral adipose tissue and liver was observed in Mrc1-deficient mice.",
+        "Mrc1 deficiency results in decreased liver steatosis and improved glucose and insulin tolerance.",
+        "Mrc1-deficient mice exhibit reduced weight gain during high-fat diet feeding."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Investigating the role of Mrc1 in leukocyte trafficking via lymphatic vessels.",
+        "Exploring the specific contributions of different cell types expressing Mrc1 to the observed phenotype.",
+        "Further analysis of other tissues affected by Mrc1 deficiency during obesity.",
+        "Elucidating the mechanisms by which increased bone marrow adipocytes influence hematopoiesis in the context of Mrc1 deficiency."
+    ],
+    "related_papers": [
+        "Embgenbroich M., et al. Soluble mannose receptor induces proinflammatory macrophage activation and metaflammation. Proc. Natl. Acad. Sci. USA. 2021;118:e2103304118.",
+        "Hoyer F.F., et al. Bone marrow endothelial cells regulate myelopoiesis in diabetes mellitus. Circulation. 2020;142:244-258.",
+        "Bonacina F., et al. Pentraxin 3 deficiency protects from the metabolic inflammation associated to diet-induced obesity. Cardiovasc. Res. 2019;115:1861-1872.",
+        "Nawaz A., et al. CD206+ M2-like macrophages regulate systemic glucose metabolism by inhibiting proliferation of adipocyte progenitors. Nat. Commun. 2017;8:286."
+    ],
+    "conclusions": "The mannose receptor (Mrc1) plays a significant role in modulating bone marrow hematopoiesis and immune cell profiles during high-fat diet-induced obesity. Mrc1 deficiency leads to a rewiring of the bone marrow environment, characterized by reduced myelopoiesis and increased adiposity, which in turn dampens systemic inflammation and confers resistance to obesity and its associated metabolic dysfunctions.",
+    "impact_statement": "This study reveals that targeting the mannose receptor could be a therapeutic strategy to mitigate obesity and its related inflammatory complications by modulating bone marrow immune cell populations and reducing systemic inflammation."
+}

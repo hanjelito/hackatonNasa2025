@@ -1,0 +1,28 @@
+{
+    "document_title": "Manipulating the permeation of charged compounds through the MscL nanovalve",
+    "summary_full": "The mechanosensitive channel of large conductance (MscL) acts as a biological emergency release valve in bacteria, opening under osmotic downshock to release cytoplasmic solutes. Its properties make it suitable for triggered nanovalves in drug-release devices. Previous work showed that introducing charges into the MscL pore can gate the channel without membrane tension, enabling the engineering of nanoswitches responsive to stimuli like light or pH. This study investigates how pore charges affect the permeation of charged compounds. Using in vivo efflux assays and electrophysiological approaches, the researchers demonstrated that introducing charges into the MscL pore lumen influences the permeation of charged molecules. These effects were more pronounced for larger compounds and surprisingly dependent on the orientation of the MscL channel in the membrane. The findings have implications for the efficiency of drug-release devices.",
+    "key_findings": [
+        "Wild-type MscL exhibits an anionic preference, which can be modulated by mutations within the TM1 domain.",
+        "Post-translational modification of MscL with charged sulfhydryl reagents (MTSET+ and MTSES−) alters its ionic preference.",
+        "Introduction of charges into the MscL pore significantly influences the permeation of large charged molecules, with like charges inhibiting flux and opposite charges increasing flux.",
+        "The effect of pore charges on the permeation of charged compounds is dependent on the orientation of the MscL channel within the membrane.",
+        "In vivo efflux assays showed that charged modifications to MscL affect the release of osmolytes like K+ and glutamate−, with larger molecules being more sensitive to pore charge."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Engineering MscL-based nanovalves with controlled orientation for enhanced drug release efficiency.",
+        "Investigating the precise molecular mechanisms underlying charge-dependent permeation in MscL.",
+        "Developing MscL-based nanoswitches for targeted drug delivery in specific physiological environments (e.g., cancer tissues).",
+        "Exploring the use of PEGylation or other modifications to control MscL orientation in liposomal systems."
+    ],
+    "related_papers": [
+        "10.1096/fj.10-170076",
+        "Science 282, 2220-2226 (MscL structure)",
+        "Proc. Natl. Acad. Sci. U. S. A. 101, 10161-10165 (in vivo assay for MscL gating)",
+        "Biophys. J. 91, 3684-3691 (functional changes upon pore modification)",
+        "Science 309, 755-758 (light-actuated nanovalve)",
+        "Angew. Chem. 45, 3126-3130 (pH-sensory valve)"
+    ],
+    "conclusions": "Charges introduced into the MscL pore lumen, either through mutation or post-translational modification, can significantly alter the channel's ionic preference and drastically influence the permeation of large charged compounds. This influence is dependent on the nature of the charge, the size and charge of the permeating molecule, and the orientation of the MscL channel within the membrane. These findings are crucial for the rational design of MscL-based nanovalves for targeted drug delivery.",
+    "impact_statement": "This study reveals how manipulating charges within the MscL channel pore can control the passage of charged molecules, providing critical insights for developing more efficient and targeted nanovalve systems for drug delivery."
+}

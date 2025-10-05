@@ -1,0 +1,27 @@
+{
+    "document_title": "Inhibition of Cytomegalovirus by Pentacta pygmaea Fucosylated Chondroitin Sulfate Depends on Its Molecular Weight",
+    "summary_full": "This study investigates the potential of fucosylated chondroitin sulfate (PpFucCS) from the sea cucumber Pentacta pygmaea as an inhibitor of human cytomegalovirus (HCMV) entry into host cells. HCMV, like many viruses, utilizes cell surface proteoglycans containing heparan sulfate (HS) for initial attachment. The researchers found that native PpFucCS effectively blocks HCMV entry into human foreskin fibroblasts (HFFs). When PpFucCS was broken down into smaller molecular weight (LMW) fractions, its inhibitory activity decreased proportionally to the chain length, indicating that higher molecular weight is crucial for maximal antiviral effect. The study also confirmed that PpFucCS and its derivatives are not cytotoxic to HFF cells and can protect them from virus-induced cell death. These findings suggest that PpFucCS is a promising candidate for development into a prophylactic and therapeutic antiviral agent against HCMV infections.",
+    "key_findings": [
+        "Native fucosylated chondroitin sulfate (PpFucCS) from Pentacta pygmaea potently inhibits human cytomegalovirus (HCMV) entry into human foreskin fibroblasts.",
+        "The antiviral activity of PpFucCS against HCMV is dependent on its molecular weight; smaller molecular weight fractions exhibit reduced inhibitory efficacy.",
+        "PpFucCS and its derivatives show no significant cytotoxicity to host cells.",
+        "PpFucCS treatment protects infected cells from virus-induced lytic cell death.",
+        "The high molecular weight of PpFucCS is a critical structural element for its maximal anti-HCMV effect."
+    ],
+    "reproducibility_level": "HIGH",
+    "future_research_fields": [
+        "Development of PpFucCS as a prophylactic and therapeutic antiviral agent for HCMV.",
+        "Further investigation into the specific molecular mechanisms by which PpFucCS inhibits HCMV entry.",
+        "Structure-activity relationship studies to optimize PpFucCS for enhanced antiviral efficacy and reduced molecular weight dependence.",
+        "Evaluation of PpFucCS against other herpesviruses or viruses that utilize heparan sulfate for entry.",
+        "Clinical trials to assess the safety and efficacy of PpFucCS in human subjects."
+    ],
+    "related_papers": [
+        "Inhibition of SARS-CoV-2 Entry by Heparin and Enoxaparin Derivatives (J. Virol. 2021)",
+        "Structural and kinetic analyses of holothurian sulfated glycans suggest potential treatment for SARS-CoV-2 infection (J. Biol. Chem. 2021)",
+        "Anti-SARS-CoV-2 and anticoagulant properties of Pentacta pygmaea fucosylated chondroitin sulfate depend on high molecular weight structures (Glycobiology. 2023)",
+        "Antiviral activities of four marine sulfated glycans against adenovirus and human cytomegalovirus (Antivir. Res. 2021)"
+    ],
+    "conclusions": "Fucosylated chondroitin sulfate (PpFucCS) from Pentacta pygmaea exhibits significant antiviral activity against human cytomegalovirus (HCMV) by specifically inhibiting its entry into host cells. The high molecular weight of PpFucCS is essential for its maximal inhibitory effect, with activity decreasing as the molecule is fragmented. PpFucCS is non-cytotoxic and protective against virus-induced cell death, making it a promising candidate for further development as an antiviral agent.",
+    "impact_statement": "This research identifies a novel marine-derived glycan, PpFucCS, as a potent inhibitor of HCMV entry, offering a potential new therapeutic strategy against a significant human pathogen."
+}

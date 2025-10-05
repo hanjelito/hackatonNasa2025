@@ -1,0 +1,29 @@
+{
+    "document_title": "Modeling Host-Pathogen Interactions in the Context of the Microenvironment: Three-Dimensional Cell Culture Comes of Age",
+    "summary_full": "This review discusses the limitations of traditional 2D cell culture models for studying host-pathogen interactions and highlights the advancements and applications of three-dimensional (3D) cell culture models. These 3D models, including rotating wall vessel (RWV) bioreactors, organoids, and organ-on-a-chip (OAC) systems, better recapitulate the complex microenvironment of native tissues, incorporating 3D architecture, multicellular complexity, and physiological forces. The review details how these models have been used to study various pathogens, providing more physiologically relevant and predictive frameworks for understanding infection mechanisms and developing antimicrobial therapies. It also addresses the limitations and future directions for each model type, emphasizing the need for continued development to better mimic in vivo conditions.",
+    "key_findings": [
+        "Traditional 2D cell culture models lack essential features of the native host microenvironment, limiting their accuracy in studying host-pathogen interactions.",
+        "Three-dimensional (3D) cell culture models (RWV, organoids, OAC) offer a more physiologically relevant and predictive framework for infectious disease research.",
+        "These 3D models can recapitulate tissue architecture, multicellular complexity, and biomechanical forces, leading to more accurate insights into infection mechanisms.",
+        "RWV models have been instrumental in studying Salmonella pathogenesis, revealing mechanisms not observed in 2D cultures.",
+        "Organoid models, derived from stem cells, provide a powerful tool for studying host-microbe interactions and have led to patient-specific applications.",
+        "Organ-on-a-chip (OAC) models, utilizing microfluidics, allow for the recreation of dynamic tissue interfaces and the application of physiological forces, enhancing their predictive capabilities."
+    ],
+    "reproducibility_level": "MID",
+    "future_research_fields": [
+        "Development of more complex 3D models incorporating vascularization, innervation, and patient-specific immune cells and microbiota.",
+        "Integration of multiple organ-on-a-chip systems to create 'humans-on-chips' for systemic disease modeling.",
+        "Further exploration of the role of biomechanical forces in regulating host-pathogen interactions.",
+        "Application of 3D models for personalized medicine, including predicting drug responses and developing novel therapeutic strategies.",
+        "Utilizing 3D models to study host-microbe interactions in the context of spaceflight and other extreme environments."
+    ],
+    "related_papers": [
+        "Modeling tissue morphogenesis and cancer in 3D (Yamada KM, Cukierman E. 2007)",
+        "Organoids: a historical perspective of thinking in three dimensions (Simian M, Bissell MJ. 2017)",
+        "Three-dimensional organotypic models of human colonic epithelium to study the early stages of enteric salmonellosis (Höner zu Bentrup K et al. 2006)",
+        "Human gut-on-a-chip inhabited by microbial flora that experiences intestinal peristalsis-like motions and flow (Kim HJ, Ingber DE. 2012)",
+        "Replication of human noroviruses in stem cell-derived human enteroids (Ettayebi K et al. 2016)"
+    ],
+    "conclusions": "Three-dimensional cell culture models have significantly advanced the study of host-pathogen interactions by better mimicking the in vivo microenvironment. These models offer more predictive platforms for understanding infection mechanisms, discovering biomarkers, and screening antimicrobial therapies, ushering in a new era for infectious disease research.",
+    "impact_statement": "The development and application of advanced 3D cell culture models are revolutionizing infectious disease research by providing more accurate and predictive platforms for studying host-pathogen interactions, leading to improved understanding and development of novel treatments."
+}
