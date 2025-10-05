@@ -3,22 +3,31 @@ from app.dto.chat_message import ChatMessage
 from app.config.vertexai_client import VertexAIClient
 from app.config.settings import settings
 from app.utils.prompt_loader import PromptLoader
+from app.models.paper import Paper
+from beanie import PydanticObjectId
 from google.genai import types
 from google.genai.types import GenerateContentConfig
 from fastapi import HTTPException
 
 
 async def chat(request: ChatRequest) -> ChatMessage:
-    client = VertexAIClient().client
-    prompr_loader = PromptLoader()
-    # Cargar prompt de sistema y renderizar con el texto del paper (mock por ahora)
+    # Obtener el paper y validar que tiene full_text
+    try:
+        paper_id = PydanticObjectId(request.paper_id)
+    except Exception:
+        raise HTTPException(status_code=400, detail="paper_id inválido")
 
-    # TODO: Obtener el texto real del paper por request.paper_id desde la base de datos o servicio
-    mock_paper_text = (
-        "De momento actua como un experto en biología molecular que ha leído el siguiente paper: Biology in the 21st Century."
-        f"paper_id={request.paper_id}"
-    )
-    system_prompt = prompr_loader.render("chat_system_biology_paper_expert", {"paper_text": mock_paper_text})
+    paper = await Paper.get(paper_id)
+    if paper is None:
+        raise HTTPException(status_code=404, detail="Paper no encontrado")
+
+    paper_text = (paper.full_text or "").strip()
+    if not paper_text:
+        raise HTTPException(status_code=422, detail="El paper no tiene full_text disponible")
+
+    # Cargar prompt de sistema y renderizar con el texto del paper
+    loader = PromptLoader()
+    system_prompt = loader.render("chat_system_biology_paper_expert", {"paper_text": paper_text})
 
     # Construye los contenidos usando los objetos oficiales de la SDK (types.Content/Part)
     contents = [
@@ -29,6 +38,7 @@ async def chat(request: ChatRequest) -> ChatMessage:
         for m in request.messages
     ]
 
+    client = VertexAIClient().client
     response = client.models.generate_content(
         model=settings.VERTEXAI_MODEL_NAME,
         contents=contents,
@@ -37,6 +47,7 @@ async def chat(request: ChatRequest) -> ChatMessage:
         ),
     )
 
+    # Extraer el texto de la respuesta y validar que no esté vacío
     content = getattr(response, "text", None)
     if not content or not str(content).strip():
         raise HTTPException(status_code=502, detail="Vertex AI no devolvió contenido.")
