@@ -8,7 +8,7 @@ from app.models.enums.experimental_platform import ExperimentalPlatform
 from app.models.enums.stressor import Stressor
 from app.models.enums.organism import Organism
 from app.models.enums.space_agency import SpaceAgency
-
+from beanie import PydanticObjectId
 
 async def search_papers_similars(search_filters: SearchPapersRequest) -> List[Paper]:
     """
@@ -86,6 +86,12 @@ async def search_papers_similars(search_filters: SearchPapersRequest) -> List[Pa
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error searching papers: {str(e)}")
 
+async def obtain_paper_detail(id: str) -> Paper:
+    try:
+        paper = await Paper.get(PydanticObjectId(id))
+        return Paper.model_validate(paper)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error retrieving paper: {str(e)}")
 
 def obtain_paper_filters_values():
     filters: list[FilterValue] = [
