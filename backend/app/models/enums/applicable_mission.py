@@ -1,0 +1,28 @@
+from .base_enum import BaseEnum
+
+
+class ApplicableMission(BaseEnum):
+    HISTORIC_HUMAN_SPACEFLIGHT = "Historic human spaceflight"
+    CURRENT_HUMAN_SPACEFLIGHT = "Current human spaceflight"
+    FUTURE_HUMAN_SPACEFLIGHT = "Future human spaceflight"
+    COMMERCIAL_SPACEFLIGHT = "Commercial human spaceflight"
+    SPACE_TOURISM = "Space human spaceflight"
+    LOW_EARTH_ORBIT_MISSIONS = "Low human spaceflight"
+    ISS_AND_DERIVATIVES = "Iss and derivatives"
+    COMMERCIAL_SPACE_STATIONS = "Commercial space stations"
+    LUNAR_MISSIONS = "Lunar missions"
+    FUTURE_LUNAR_MISSIONS = "Future lunar missions"
+    DEEP_SPACE_MISSIONS = "Deep space missions"
+    INTERPLANETARY_MISSIONS = "Interplanetary missions"
+    MISSIONS_TO_ICY_MOONS = "Missions to icy moons"
+    MARS_MISSIONS = "Mars missions"
+    FUTURE_MARS_MISSIONS = "Future Mars missions"
+    ASTEROID_MISSIONS = "Asteroid missions"
+    ORBITAL_MISSIONS = "Orbital missions"
+    SUBORBITAL_MISSIONS = "Suborbital missions"
+    UNMANNED_MISSIONS = "Unmanned missions"
+    HUMAN_SPACEFLIGHT_PROGRAMS = "Human spaceflight programs"
+    SPACE_HABITATION = "Space habitation"
+    SPACE_STATIONS = "Space stations"
+    CUBESATS = "Cubesats"
+    SPACEFLIGHT_EXPERIMENTS = "Spaceflight experiments"

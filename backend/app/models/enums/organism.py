@@ -1,13 +1,70 @@
-from enum import Enum
+from .base_enum import BaseEnum
 
 
-class Organism(Enum):
-    RAT = "RAT"
-    MOUSE = "MOUSE"
-    HUMAN = "HUMAN"
-    HUMAN_CELLS = "HUMAN_CELLS"
-    PLANT = "PLANT"
-    INSECT = "INSECT"
-    NEMATODE = "NEMATODE"
-    MICROORGANISM = "MICROORGANISM"
-    OTHER = "OTHER"
+class Organism(BaseEnum):
+    # Vertebrados / invertebrados modelo
+    HOMO_SAPIENS = "Homo sapiens"
+    MUS_MUSCULUS = "Mus musculus"
+    RATTUS_NORVEGICUS = "Rattus norvegicus"
+    MACACA_SPP = "Macaca spp."
+    DANIO_RERIO = "Danio rerio"
+    ORYZIAS_LATIPES = "Oryzias latipes"
+    DROSOPHILA_MELANOGASTER = "Drosophila melanogaster"
+    CAENORHABDITIS_ELEGANS = "Caenorhabditis elegans"
+    XENOPUS_LAEVIS = "Xenopus laevis"
+    EUPRYMNA_SCOLOPES = "Euprymna scolopes"
+    TARDIGRADA = "Tardigrada"
+
+    # Bacterias clave
+    ESCHERICHIA_COLI = "Escherichia coli"
+    BACILLUS_SUBTILIS = "Bacillus subtilis"
+    STAPHYLOCOCCUS_AUREUS = "Staphylococcus aureus"
+    PSEUDOMONAS_AERUGINOSA = "Pseudomonas aeruginosa"
+    KLEBSIELLA_PNEUMONIAE = "Klebsiella pneumoniae"
+    SALMONELLA_ENTERICA = "Salmonella enterica"
+    MYCOBACTERIUM_TUBERCULOSIS = "Mycobacterium tuberculosis"
+    VIBRIO_FISCHERI = "Vibrio fischeri"
+    ACINETOBACTER_SPP = "Acinetobacter spp."
+    ENTEROBACTER_SPP = "Enterobacter spp."
+    ENTEROCOCCUS_SPP = "Enterococcus spp."
+    CITROBACTER_SPP = "Citrobacter spp."
+    PROTEUS_MIRABILIS = "Proteus mirabilis"
+    PAENIBACILLUS_SPP = "Paenibacillus spp."
+    DEINOCOCCUS_RADIODURANS = "Deinococcus radiodurans"
+    METHYLOBACTERIUM_METHYLORUBRUM_SPP = "Methylobacterium/Methylorubrum spp."
+    SPHINGOMONAS_SPP = "Sphingomonas spp."
+    RHIZOBIUM_ENSIFER_SPP = "Rhizobium/Ensifer spp."
+
+    # Hongos/levaduras
+    SACCHAROMYCES_CEREVISIAE = "Saccharomyces cerevisiae"
+    CANDIDA_ALBICANS = "Candida albicans"
+    ASPERGILLUS_FUMIGATUS = "Aspergillus fumigatus"
+    ASPERGILLUS_NIDULANS = "Aspergillus nidulans"
+    FUSARIUM_OXYSPORUM = "Fusarium oxysporum"
+    PENICILLIUM_SPP = "Penicillium spp."
+    AUREOBASIDIUM_PULLULANS = "Aureobasidium pullulans"
+    RHODOTORULA_MUCILAGINOSA = "Rhodotorula mucilaginosa"
+    NAGANISHIA_SPP = "Naganishia spp."
+
+    # Plantas / algas
+    ARABIDOPSIS_THALIANA = "Arabidopsis thaliana"
+    ORYZA_SATIVA = "Oryza sativa"
+    ZEA_MAYS = "Zea mays"
+    NICOTIANA_TABACUM = "Nicotiana tabacum"
+    NICOTIANA_BENTHAMIANA = "Nicotiana benthamiana"
+    BRASSICA_RAPA = "Brassica rapa"
+    BRASSICA_OLERACEA = "Brassica oleracea"
+    BRASSICA_NAPUS = "Brassica napus"
+    BRACHYPODIUM_DISTACHYON = "Brachypodium distachyon"
+    MEDICAGO_TRUNCATULA = "Medicago truncatula"
+    POPULUS_SPP = "Populus spp."
+    CHLAMYDOMONAS_REINHARDTII = "Chlamydomonas reinhardtii"
+    CHLORELLA_VULGARIS = "Chlorella vulgaris"
+    CIANOBACTERIAS = "Cyanobacteria"
+
+    # Grupos genéricos (fallbacks)
+    BACTERIA_NO_ESPECIFICADA = "Bacteria (no especificada)"
+    HONGOS_NO_ESPECIFICADOS = "Fungi (no especificado)"
+    PLANTAS_NO_ESPECIFICADAS = "Planta (no especificada)"
+    ANIMALES_NO_ESPECIFICADOS = "Animal (no especificado)"
+    MICROORGANISMOS_NO_ESPECIFICADOS = "Microorganismo (no especificado)"
