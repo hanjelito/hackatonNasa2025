@@ -12,7 +12,11 @@ paper_router = APIRouter(
 
 @paper_router.post("/search", response_model=list[Paper])
 async def search_papers(search_filters: SearchPapersRequest):
-    return await search_papers_similars(search_filters)
+    papers = await search_papers_similars(search_filters)
+    for paper in papers:
+        if hasattr(paper, "full_text"):
+            delattr(paper, "full_text")
+    return papers
 
 @paper_router.get("/search/filters", response_model=list[FilterValue])
 async def obtain_filters_values():
@@ -20,4 +24,7 @@ async def obtain_filters_values():
 
 @paper_router.get("/{id}", response_model=Paper)
 async def obtain_detail(id: str):
-    return await obtain_paper_detail(id)
+    paper = obtain_paper_detail(id)
+    if hasattr(paper, "full_text"):
+        delattr(paper, "full_text")
+    return paper
