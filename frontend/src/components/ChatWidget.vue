@@ -78,13 +78,19 @@
       </div>
 
       <div class="chat-input-area">
-        <input
-          v-model="inputMessage"
-          type="text"
-          placeholder="Ask about this article..."
-          @keyup.enter="sendMessage"
-          class="chat-input"
-        />
+        <div class="input-wrapper">
+          <input
+            v-model="inputMessage"
+            type="text"
+            placeholder="Ask about this article..."
+            @keyup.enter="sendMessage"
+            maxlength="500"
+            class="chat-input"
+          />
+          <span class="char-counter" :class="{ 'near-limit': inputMessage.length > 450 }">
+            {{ inputMessage.length }}/500
+          </span>
+        </div>
         <button @click="sendMessage" class="send-btn" :disabled="!inputMessage.trim()">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="22" y1="2" x2="11" y2="13"></line>

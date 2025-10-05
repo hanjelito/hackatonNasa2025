@@ -252,9 +252,16 @@
   gap: 0.5rem;
 }
 
+.input-wrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .chat-input {
   flex: 1;
-  padding: 0.625rem 1rem;
+  padding: 0.625rem 4rem 0.625rem 1rem;
   background-color: #2a2a2a;
   border: 2px solid #2a2a2a;
   border-radius: 1.5rem;
@@ -262,6 +269,20 @@
   color: #d1d1d1;
   outline: none;
   transition: all 0.2s;
+}
+
+.char-counter {
+  position: absolute;
+  right: 1rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+  pointer-events: none;
+  transition: color 0.2s;
+}
+
+.char-counter.near-limit {
+  color: #ef4444;
+  font-weight: 600;
 }
 
 .chat-input:focus {
