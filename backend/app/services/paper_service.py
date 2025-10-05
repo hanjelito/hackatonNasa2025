@@ -37,10 +37,9 @@ async def search_papers_similars(search_filters: SearchPapersRequest) -> List[Pa
     for filter_item in search_filters.filters:
         if filter_item.values and len(filter_item.values) > 0:
             # El nombre del filtro coincide con el nombre del campo en el modelo
-            field_name = filter_item.name
+            field_name = filter_item.name.lower().replace(" ", "_")
 
             # Usar el operador 'in' para manejar uno o más valores
-            # TODO: Crear índices específicos para estos campos chat gpt (Documentación MongoDB compound)
             filter_clauses.append({
                 "in": {
                     "path": field_name,
