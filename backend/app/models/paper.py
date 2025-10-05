@@ -16,7 +16,7 @@ from .enums.applicable_mission import ApplicableMission
 
 class Paper(Document):
     # Identificación básica del paper
-    title: str # HECHO
+    title: str
     pmcid: str = "" 
     doi: str = ""
     pubmed_url: str = ""
@@ -27,44 +27,44 @@ class Paper(Document):
     # Contenido del paper
     abstract: str = ""
     full_text: str = ""
-    conclusion: str = "" # HECHO
+    conclusion: str = ""
     
     # Autoría y procedencia
-    authors: List[str] = [] # PEDIR
-    author_affiliations: List[str] = [] # PEDIR
+    authors: List[str] = []
+    author_affiliations: List[str] = []
     
     # Resumen semántico (para búsquedas)
-    ai_generated_summary: str = "" # HECHO
-    key_findings: str = "" # HECHO
-    future_research_fields: str = "" # HECHO
-    impact_statement: str = ""  # HECHO
+    ai_generated_summary: str = ""
+    key_findings: str = ""
+    future_research_fields: str = ""
+    impact_statement: str = "" 
     
     # Clasificación del estudio
-    study_type: Optional[StudyType] = None # PEDIR
-    experimental_platform: Optional[ExperimentalPlatform] = None # PEDIR
-    space_environment_stressors: List[Stressor] = [] # PEDIR
-    related_papers: List[str] = []  # HECHO
+    study_type: Optional[StudyType] = None
+    experimental_platform: Optional[ExperimentalPlatform] = None
+    space_environment_stressors: List[Stressor] = []
+    related_papers: List[str] = [] 
 
     # Sujetos de estudio biológico
-    primary_organisms_studied: List[Organism] = [] # PEDIR
-    affected_organ_systems: List[Organ] = []  # PEDIR
-    biological_analysis_level: List[AnalysisLevel] = []  # PEDIR
+    primary_organisms_studied: List[Organism] = []
+    affected_organ_systems: List[Organ] = []
+    biological_analysis_level: List[AnalysisLevel] = []
     
     # Metodología
-    experimental_duration_days: Optional[int] = None  # PEDIR
-    sample_size: Optional[int] = None   # PEDIR
-    sampling_methodology: Optional[SamplingMethod] = None # PEDIR
+    experimental_duration_days: Optional[int] = None
+    sample_size: Optional[int] = None 
+    sampling_methodology: Optional[SamplingMethod] = None
     
     # Resultados y relevancia espacial
-    demonstrates_space_adaptation: bool = False  # PEDIR
-    identifies_countermeasures: bool = False  # PEDIR
-    relevant_for_long_duration_missions: bool = False  # PEDIR
-    health_implications_severity: Optional[HealthImplicationsSeverity] = None # PEDIR
-    reproducibility_level: Optional[str] = None # HECHO 
+    demonstrates_space_adaptation: bool = False
+    identifies_countermeasures: bool = False
+    relevant_for_long_duration_missions: bool = False
+    health_implications_severity: Optional[HealthImplicationsSeverity] = None
+    reproducibility_level: Optional[str] = None 
 
     # Misiones y aplicabilidad
-    applicable_to_missions: List[ApplicableMission] = []  # PEDIR
-    space_agency_involvement: List[SpaceAgency] = []  # PEDIR
+    applicable_to_missions: List[ApplicableMission] = []
+    space_agency_involvement: List[SpaceAgency] = []
     
     class Settings:
         name = "papers"
