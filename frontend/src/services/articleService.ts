@@ -1,43 +1,73 @@
 import type { Article, SearchResponse, SearchFilters } from '../types/article'
-import mockData from '../data/mockArticleReal.json'
+
+export const getArticleById = async (id: string): Promise<Article> => {
+  try {
+    const response = await fetch(`/api/paper/${id}`, {
+      method: 'GET',
+      headers: {
+        'accept': 'application/json'
+      }
+    })
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`)
+    }
+
+    const article: Article = await response.json()
+    return article
+  } catch (error) {
+    console.error('Error fetching article by ID:', error)
+    throw error
+  }
+}
 
 export const searchArticles = async (filters: SearchFilters): Promise<SearchResponse> => {
-  // Simular un delay de red
-  await new Promise(resolve => setTimeout(resolve, 500))
+  // Build filters array in the required format
+  const filterArray: { name: string; values: (string | number)[] }[] = []
 
-  let filteredArticles = mockData.papers as Article[]
-
-  // Filtrar por query de búsqueda
-  if (filters.query && filters.query.trim()) {
-    filteredArticles = filteredArticles.filter((article: Article) =>
-      article.title.toLowerCase().includes(filters.query!.toLowerCase()) ||
-      (article.abstract || '').toLowerCase().includes(filters.query!.toLowerCase())
-    )
-  }
-
-  // Filtrar por año (usando publication_date)
-  if (filters.year) {
-    filteredArticles = filteredArticles.filter((article: Article) => {
-      if (article.publication_date) {
-        const year = new Date(article.publication_date).getFullYear()
-        return year === filters.year
+  // Iterate through all filter properties
+  Object.keys(filters).forEach(key => {
+    if (key !== 'query') {
+      const values = filters[key as keyof SearchFilters]
+      if (Array.isArray(values) && values.length > 0) {
+        // Normalize filter names: lowercase and replace spaces with underscores
+        const normalizedName = key.toLowerCase().replace(/\s+/g, '_')
+        filterArray.push({ name: normalizedName, values })
       }
-      return false
+    }
+  })
+
+  const payload = {
+    filters: filterArray,
+    query: filters.query || ''
+  }
+
+  try {
+    const response = await fetch('/api/paper/search', {
+      method: 'POST',
+      headers: {
+        'accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
     })
-  }
 
-  // Filtrar por organismo
-  if (filters.organism) {
-    filteredArticles = filteredArticles.filter((article: Article) =>
-      article.primary_organisms_studied?.some(org =>
-        org.toLowerCase().includes(filters.organism!.toLowerCase())
-      )
-    )
-  }
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`)
+    }
 
-  return {
-    query: filters.query || '',
-    total: filteredArticles.length,
-    articles: filteredArticles
+    const articles: Article[] = await response.json()
+
+    // Remove full_text field from each article
+    const cleanedArticles = articles.map(({ full_text, ...article }) => article)
+
+    return {
+      query: filters.query || '',
+      total: cleanedArticles.length,
+      articles: cleanedArticles
+    }
+  } catch (error) {
+    console.error('Error fetching articles from API:', error)
+    throw error
   }
 }

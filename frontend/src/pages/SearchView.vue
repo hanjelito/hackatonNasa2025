@@ -60,7 +60,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import NavHeader from '../components/NavHeader.vue'
 import SearchInput from '../components/SearchInput.vue'
 import SearchButton from '../components/SearchButton.vue'
@@ -245,6 +245,11 @@ const handleRemoveFilterTag = (filterName: string, value: string | number) => {
     })
   }
 }
+
+// Load initial results on mount
+onMounted(() => {
+  handleSearch()
+})
 </script>
 
 <style scoped>

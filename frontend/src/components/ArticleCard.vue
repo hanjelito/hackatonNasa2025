@@ -30,7 +30,7 @@
           {{ article.title }}
         </router-link>
       </h3>
-      <p class="article-description">{{ article.abstract || article.ai_generated_summary || 'No description available' }}</p>
+      <p class="article-description">{{ article.ai_generated_summary || 'No description available' }}</p>
       <div class="article-meta">
         <span v-if="article.publication_date" class="article-date">
           <CalendarIcon class="w-4 h-4" />

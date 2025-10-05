@@ -21,7 +21,7 @@
           v-for="article in articles"
           :key="article.id"
           :article="article"
-          :selected="isSelected(article.id)"
+          :selected="isSelected(article._id)"
           @toggle="handleToggle"
           @filter-year="handleFilterYear"
           @filter-organism="handleFilterOrganism"

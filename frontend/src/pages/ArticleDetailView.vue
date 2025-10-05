@@ -195,7 +195,7 @@ import { ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import NavHeader from '../components/NavHeader.vue'
 import type { Article } from '../types/article'
-import mockData from '../data/mockArticleReal.json'
+import { getArticleById } from '../services/articleService'
 import ChatWidget from '../components/ChatWidget.vue'
 import CalendarIcon from '../components/icons/CalendarIcon.vue'
 import DocumentTextIcon from '../components/icons/DocumentTextIcon.vue'
@@ -206,13 +206,12 @@ const route = useRoute()
 const router = useRouter()
 const article = ref<Article | null>(null)
 
-onMounted(() => {
+onMounted(async () => {
   const articleId = route.params.id as string
-  const foundArticle = mockData.papers.find((a: any) =>
-    a._id === articleId || a.id === articleId || a.pmcid === articleId
-  )
-  if (foundArticle) {
-    article.value = foundArticle as Article
+  try {
+    article.value = await getArticleById(articleId)
+  } catch (error) {
+    console.error('Error loading article:', error)
   }
 })
 
