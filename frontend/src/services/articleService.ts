@@ -39,7 +39,8 @@ export const searchArticles = async (filters: SearchFilters): Promise<SearchResp
 
   const payload = {
     filters: filterArray,
-    query: filters.query || ''
+    query: filters.query || '',
+    limit: 10
   }
 
   try {
