@@ -3,7 +3,7 @@
     <div class="nav-container">
       <router-link to="/" class="logo-link">
         <img src="../assets/images/nasa-logo.svg" alt="NASA" class="nasa-logo" />
-        <span class="app-title">Challenge 2025</span>
+        <span class="app-title">PaperHub</span>
       </router-link>
 
       <nav class="nav-links">
